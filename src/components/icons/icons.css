@@ -1,0 +1,42 @@
+.flag-container {
+    width: max-content;
+    max-width: 25px;
+    border-radius: 100%;
+    border: white 1px solid;
+}
+
+.es-yellow {
+    fill:#FFDA44;
+}
+
+.es-red {
+    fill:#D80027;
+}
+
+.es-blue {
+    fill:#0052B4;
+}
+
+.en-white {
+    fill:#F0F0F0;
+}
+
+.en-red {
+    fill:#D80027;
+}
+
+.en-blue {
+    fill:#0052B4;
+}
+
+.fr-white {
+    fill:#F0F0F0;
+}
+
+.fr-red {
+    fill:#D80027;
+}
+
+.fr-blue {
+    fill:#0052B4;
+}

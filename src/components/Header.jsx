@@ -4,12 +4,14 @@ import Styled from '@emotion/styled';
 import HamburguerMenu from './HamburguerMenu';
 import { useTranslation } from 'react-i18next';
 import Logo from './icons/logo';
-import coLogo from './icons/colombia.svg';
-import usLogo from './icons/estados-unidos.svg';
-import frLogo from './icons/francia.svg';
+import Es from './icons/Es';
+import En from './icons/En';
+import Fr from './icons/Fr';
 import { Nav, NavDropdown, Navbar, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const StyledHeader = Styled.div`
     background-color: rgba(18, 18, 18, 0.75);
@@ -34,7 +36,7 @@ const StyledHeader = Styled.div`
                 color: #f61c1c;
             }
             .show{
-                background-color: #000;
+                background-color: transparent;
             }
         }  
     }
@@ -46,10 +48,10 @@ const StyledHeader = Styled.div`
     svg {
         width: 100%;
         height: 100%;
-        /* display: block; */
         margin: 0 auto;
-        /* fill: black; */
         color: white;
+        /* display: inline; */
+        /* fill: black; */
     }
 `;
 
@@ -65,63 +67,41 @@ const Header = () => {
     return (
         <Headroom>
             <StyledHeader>
-                <Navbar className="justify-content-between" collapseOnSelect expand="lg" sticky="top" variant="dark">
-                    <Navbar.Brand href="#home" className="container-logo align-items-center">
-                        <Logo/>
-                        {' '}
-                        Joel
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" as={() => {return(<HamburguerMenu />)}}/>
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        
-                        <Nav className="" activeKey="/home">
-                            <NavDropdown title={t('selectLanguage')} id="collasible-nav-dropdown">
-                                <NavDropdown.Item className="align-items-center" href="#" onClick={() => ChangeLanguage('es')}>
-                                    <img
-                                        alt=""
-                                        src={coLogo}
-                                        width="25"
-                                        height="25"
-                                        className="d-inline-block align-top"
-                                    />{' '}
-                                    Español
-                                </NavDropdown.Item>
-                                <NavDropdown.Item className="align-items-center" href="#" onClick={() => ChangeLanguage('en')}>
-                                    <img
-                                        alt=""
-                                        src={usLogo}
-                                        width="25"
-                                        height="25"
-                                        className="d-inline-block align-top"
-                                    />{' '}
-                                    English
-                                </NavDropdown.Item>
-                                <NavDropdown.Item className="align-items-center" href="#" onClick={() => ChangeLanguage('fr')}>
-                                    <img
-                                        alt=""
-                                        src={frLogo}
-                                        width="25"
-                                        height="25"
-                                        className="d-inline-block align-top"
-                                    />{' '}
-                                    Français
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <Nav.Item>
-                            <Nav.Link href="/home">{t('home')}</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                            <Nav.Link eventKey="link-1">{t('aboutMe')}</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                            <Nav.Link eventKey="link-2">{t('work')}</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                            <Nav.Link eventKey="link-3">{t('contact')}</Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
+                <nav className="navbar navbar-expand-lg navbar-dark">
+                    <div className="container-logo">
+                        <a className="navbar-brand" href="#">
+                            <Logo/>
+                        </a>
+                    </div>
+                    <button className="navbar-toggler col-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <HamburguerMenu></HamburguerMenu>
+                    </button>
+                    <div className="container-fluid"></div>
+                    <div className="collapse navbar-collapse col-lg-5" id="navbarTogglerDemo02">
+                        <div className="navbar-nav">
+                            <div class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {t('selectLanguage')}
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#" onClick={() => ChangeLanguage('es')}>
+                                        <Es /> {' '} Español
+                                    </a>
+                                    <a class="dropdown-item" href="#" onClick={() => ChangeLanguage('en')}>
+                                        <En /> {' '} English
+                                    </a>
+                                    <a class="dropdown-item" href="#" onClick={() => ChangeLanguage('fr')}>
+                                        <Fr /> {' '} Français
+                                    </a>
+                                </div>
+                            </div>
+                            <a className="nav-link active" href="#">{t('home')}<span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#">{t('aboutMe')}</a>
+                            <a className="nav-link" href="#">{t('work')}</a>
+                            <a className="nav-link" href="#">{t('contact')}</a>
+                        </div>
+                    </div>
+                </nav>
             </StyledHeader>
         </Headroom>
      );

@@ -5,7 +5,6 @@ import img from './icons/img.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import HamburguerMenu from './HamburguerMenu';
-import HamburguerIcon from './icons/HamburguerIcon';
 
 const StyledMain = Styled.div`
     h1 {
@@ -34,7 +33,6 @@ const Main = () => {
                         <h2>{t('information')}</h2>
                     </Col>
                 </Row>
-                <HamburguerMenu></HamburguerMenu>
             </Container>
         </StyledMain>
      );
