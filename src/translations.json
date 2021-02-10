@@ -1,0 +1,32 @@
+{
+  "en": {
+    "translation": {
+      "selectLanguage" : "Language",
+      "home" : "Home",
+      "aboutMe" : "About me",
+      "work" : "Work",
+      "contact" : "Contact",
+      "information" : "I'm a communist, passionate and creative web developer."
+    }
+  },
+  "fr": {
+    "translation": {
+        "selectLanguage" : "Langue",
+        "home" : "Nouveau",
+        "aboutMe" : "Sur moi",
+        "work" : "Travaille",
+        "contact" : "Contact"
+
+    }
+  },
+  "es": {
+    "translation": {
+        "selectLanguage" : "Idioma",
+        "home" : "Inicio",
+        "aboutMe" : "Sobre mí",
+        "work" : "Trabajos",
+        "contact" : "Contacto",
+        "information" : "Soy un desarrollador web mamerto, apasionado y creativo."
+    }
+  }
+}
