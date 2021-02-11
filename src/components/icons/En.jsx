@@ -1,4 +1,5 @@
 import React from 'react';
+import './icons.css';
 
 const En = () => (
 <svg className="flag-container"version="1.1" id="Layer_1" x="0px" y="0px"

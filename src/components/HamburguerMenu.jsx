@@ -8,10 +8,13 @@ const HamburguerMenu = () => {
     const [menuAnimation, changeMenuAnimation] = useState(false);
 
     return (
-        <button 
-            className={menuAnimation ? "menu opened" : "menu"}
-            id="idMenu" 
+        <button
+            className={menuAnimation ? "menu navbar-toggler opened" : "menu navbar-toggler"}
+            id="idMenu"
             onClick={() => changeMenuAnimation(!menuAnimation)}  
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
             aria-label="Main Menu">
             <HamburguerIcon/>
         </button>

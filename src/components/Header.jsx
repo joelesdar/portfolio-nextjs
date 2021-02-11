@@ -3,7 +3,7 @@ import Headroom from 'react-headroom';
 import Styled from '@emotion/styled';
 import HamburguerMenu from './HamburguerMenu';
 import { useTranslation } from 'react-i18next';
-import Logo from './icons/logo';
+import Logo from './icons/Logo';
 import Es from './icons/Es';
 import En from './icons/En';
 import Fr from './icons/Fr';
@@ -69,29 +69,25 @@ const Header = () => {
             <StyledHeader>
                 <nav className="navbar navbar-expand-lg navbar-dark">
                     <div className="container-logo">
-                        <a className="navbar-brand" href="#">
-                            <Logo/>
-                        </a>
+                        <Logo />
                     </div>
-                    <button className="navbar-toggler col-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <HamburguerMenu></HamburguerMenu>
-                    </button>
+                    <HamburguerMenu></HamburguerMenu>
                     <div className="container-fluid"></div>
                     <div className="collapse navbar-collapse col-lg-5" id="navbarTogglerDemo02">
                         <div className="navbar-nav">
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {t('selectLanguage')}
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#" onClick={() => ChangeLanguage('es')}>
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a className="dropdown-item" href="#" onClick={() => ChangeLanguage('es')}>
                                         <Es /> {' '} Español
                                     </a>
-                                    <a class="dropdown-item" href="#" onClick={() => ChangeLanguage('en')}>
+                                    <a className="dropdown-item" href="#" onClick={() => ChangeLanguage('en')}>
                                         <En /> {' '} English
                                     </a>
-                                    <a class="dropdown-item" href="#" onClick={() => ChangeLanguage('fr')}>
-                                        <Fr /> {' '} Français
+                                    <a className="dropdown-item" href="#" onClick={() => ChangeLanguage('fr')}>
+                                        <Fr /> {' '} Francais
                                     </a>
                                 </div>
                             </div>
