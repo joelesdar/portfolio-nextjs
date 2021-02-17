@@ -4,7 +4,7 @@ import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const StyledName = Styled.div`
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:400,800,900'); */
 
 .styled-name-container {
     
@@ -54,17 +54,10 @@ const StyledName = Styled.div`
 
 const Name = () => {
 
-    $(document).ready(function(){
-        var mouseX, mouseY;
-        var traX, traY;
-        $(document).mousemove(function(e){
-            mouseX = e.pageX;
-            mouseY = e.pageY;
-            traX = ((4 * mouseX) / 570) + 40;
-            traY = ((4 * mouseY) / 570) + 50;
-            console.log(traX);
-            $(".title").css({"background-position": traX + "%" + traY + "%"});
-        });
+    window.addEventListener("scroll", function(e) {
+        var positionX = window.scrollY / 10;
+        var positionY = window.scrollY / 10;
+        $(".title").css({"background-position": positionX + "%" + positionY + "%"});
     });
 
     return (

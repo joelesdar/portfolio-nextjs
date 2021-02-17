@@ -3,30 +3,33 @@
     "translation": {
       "selectLanguage" : "Language",
       "home" : "Home",
-      "aboutMe" : "About me",
+      "aboutMe" : "About",
       "work" : "Work",
       "contact" : "Contact",
-      "information" : "I'm a communist, passionate and creative web developer."
+      "information" : "I'm a communist, passionate and creative web developer.",
+      "description" : "I'm a communist, passionate and creative web developer."
     }
   },
   "fr": {
     "translation": {
         "selectLanguage" : "Langue",
         "home" : "Nouveau",
-        "aboutMe" : "Sur moi",
+        "aboutMe" : "Informations",
         "work" : "Travaille",
-        "contact" : "Contact"
-
+        "contact" : "Contact",
+        "information" : "Soy un desarrollador web mamerto, apasionado y creativo.",
+        "description" : "Soy un desarrollador web mamerto, apasionado y creativo."
     }
   },
   "es": {
     "translation": {
         "selectLanguage" : "Idioma",
         "home" : "Inicio",
-        "aboutMe" : "Sobre mí",
+        "aboutMe" : "Información",
         "work" : "Trabajos",
         "contact" : "Contacto",
-        "information" : "Soy un desarrollador web mamerto, apasionado y creativo."
+        "information" : "Soy un desarrollador web mamerto, apasionado y creativo.",
+        "description" : "Soy un desarrollador web mamerto, apasionado y creativo."
     }
   }
 }

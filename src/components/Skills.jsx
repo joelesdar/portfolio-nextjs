@@ -8,7 +8,6 @@ const StyledSkills = Styled.div`
 .skills-container {
     background-color : white;
     /* position: relative; */
-    height: 100vh;
     color: black;
 }
 
@@ -27,7 +26,32 @@ const Skills = () => {
                             <h2>Buena</h2>
                         </div>
                         <div className="col-10 col-md-6">
-                            <h3>La rata</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
+                            <h3>{t('contact')}</h3>
                         </div>
                     </div>
                 </div>

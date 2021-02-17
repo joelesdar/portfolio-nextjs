@@ -7,33 +7,32 @@ import Logo from './icons/Logo';
 import Es from './icons/Es';
 import En from './icons/En';
 import Fr from './icons/Fr';
-import { Nav, NavDropdown, Navbar, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const StyledHeader = Styled.div`
     background-color: rgba(18, 18, 18, 0.75);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
     font-size: 1.2rem;
     fill: none;
+    min-height: 5rem;
     /* border-bottom: 1px solid #fff; */
     .navbar {
         padding: 1rem;
         margin: 0 2rem;
         a {
-            color: #8b3131;
+            color: white;
         }
         .navbar-nav {
             a {
-                color: #8b3131;
+                color: white;
+                text-align: center;
                 &:hover {
-                color: #f61c1c;
+                color: #1c82f6;
                 }
             }
             .active {
-                color: #f61c1c;
+                color: #1c82f6;
             }
             .show{
                 background-color: transparent;
@@ -67,34 +66,34 @@ const Header = () => {
     return (
         <Headroom>
             <StyledHeader>
-                <nav className="navbar navbar-expand-lg navbar-dark">
+                <nav className="navbar navbar-expand-md navbar-dark">
                     <div className="container-logo">
                         <Logo />
                     </div>
                     <HamburguerMenu></HamburguerMenu>
                     <div className="container-fluid"></div>
-                    <div className="collapse navbar-collapse col-lg-5" id="navbarTogglerDemo02">
+                    <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <div className="navbar-nav">
+                            <a className="nav-link active" href="#!">{t('home')}<span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#!">{t('aboutMe')}</a>
+                            <a className="nav-link" href="#!">{t('work')}</a>
+                            <a className="nav-link" href="#!">{t('contact')}</a>
                             <div className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {t('selectLanguage')}
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#" onClick={() => ChangeLanguage('es')}>
+                                    <a className="dropdown-item" href="#!" onClick={() => ChangeLanguage('es')}>
                                         <Es /> {' '} Español
                                     </a>
-                                    <a className="dropdown-item" href="#" onClick={() => ChangeLanguage('en')}>
+                                    <a className="dropdown-item" href="#!" onClick={() => ChangeLanguage('en')}>
                                         <En /> {' '} English
                                     </a>
-                                    <a className="dropdown-item" href="#" onClick={() => ChangeLanguage('fr')}>
+                                    <a className="dropdown-item" href="#!" onClick={() => ChangeLanguage('fr')}>
                                         <Fr /> {' '} Francais
                                     </a>
                                 </div>
                             </div>
-                            <a className="nav-link active" href="#">{t('home')}<span className="sr-only">(current)</span></a>
-                            <a className="nav-link" href="#">{t('aboutMe')}</a>
-                            <a className="nav-link" href="#">{t('work')}</a>
-                            <a className="nav-link" href="#">{t('contact')}</a>
                         </div>
                     </div>
                 </nav>

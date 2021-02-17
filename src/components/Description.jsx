@@ -8,7 +8,6 @@ const StyledDescription = Styled.div`
 
 .description-container {
     background-color : black;
-    height: 100vh;
 }
 
 .image {
@@ -18,7 +17,6 @@ const StyledDescription = Styled.div`
 }
 
 `;
-
 
 const Description = () => {
 
@@ -33,7 +31,7 @@ const Description = () => {
                             <img src={img} alt=""/>
                         </div>
                         <div className="personal-description col-10 col-md-6">
-                            <h3>Soy un estudiante super sensual y bien parecido.</h3>
+                            <h3>{t('description')}</h3>
                         </div>
                     </div>
                 </div>

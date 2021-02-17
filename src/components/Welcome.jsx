@@ -4,6 +4,7 @@ import Styled from '@emotion/styled';
 
 const StyledWelcome = Styled.div`
 .stars-container {
+  margin-top: -5rem;
   min-height: 100vh;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
