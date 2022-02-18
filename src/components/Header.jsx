@@ -3,7 +3,8 @@ import Headroom from 'react-headroom';
 import Styled from '@emotion/styled';
 import HamburguerMenu from './HamburguerMenu';
 import { useTranslation } from 'react-i18next';
-import Logo from './icons/Logo';
+import img from './icons/logo.png';
+// import Logo from './icons/Logo';
 import Es from './icons/Es';
 import En from './icons/En';
 import Fr from './icons/Fr';
@@ -43,9 +44,11 @@ const StyledHeader = Styled.div`
         }  
     }
     .container-logo {
-        width: max-content;
-        max-width: 2.6rem;
-        color: white;
+        max-width: 50px;
+        img {
+            margin: 0 auto;
+            width: 100%;
+        }
     }
     svg {
         width: 100%;
@@ -73,7 +76,7 @@ const Header = ({language, setLanguage}) => {
             <StyledHeader>
                 <nav className="navbar navbar-expand-md navbar-dark">
                     <div className="container-logo">
-                        <Logo />
+                        <img src={img} alt="Logo" />
                     </div>
                     <HamburguerMenu></HamburguerMenu>
                     <div className="container-fluid"></div>
