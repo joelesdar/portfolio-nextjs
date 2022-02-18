@@ -19,7 +19,7 @@ const StyledHeader = Styled.div`
     /* border-bottom: 1px solid #fff; */
     .navbar {
         padding: 1rem;
-        margin: 0 2rem;
+        margin: 0 3rem;
         a {
             color: white;
         }
@@ -37,30 +37,35 @@ const StyledHeader = Styled.div`
             .show{
                 background-color: transparent;
             }
+            .dropdown-menu {
+                left: -25%;
+            }
         }  
     }
     .container-logo {
         width: max-content;
-        max-width: 45px;
+        max-width: 2.6rem;
         color: white;
     }
     svg {
         width: 100%;
         height: 100%;
         margin: 0 auto;
-        color: white;
+        color: #1c82f6;
         /* display: inline; */
         /* fill: black; */
     }
 `;
 
 
-const Header = () => {
+const Header = ({language, setLanguage}) => {
 
     const { t, i18n } = useTranslation();
 
     const ChangeLanguage = lang => {
-        i18n.changeLanguage(lang);
+        setLanguage(lang);
+        window.location.reload();
+        console.log("Cambio");
     }
 
     return (
@@ -83,13 +88,13 @@ const Header = () => {
                                 {t('selectLanguage')}
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a className="dropdown-item" href="#!" onClick={() => ChangeLanguage('es')}>
+                                    <a className="dropdown-item" href="" onClick={() => ChangeLanguage('es')}>
                                         <Es /> {' '} Español
                                     </a>
-                                    <a className="dropdown-item" href="#!" onClick={() => ChangeLanguage('en')}>
+                                    <a className="dropdown-item" href="" onClick={() => ChangeLanguage('en')}>
                                         <En /> {' '} English
                                     </a>
-                                    <a className="dropdown-item" href="#!" onClick={() => ChangeLanguage('fr')}>
+                                    <a className="dropdown-item" href="" onClick={() => ChangeLanguage('fr')}>
                                         <Fr /> {' '} Francais
                                     </a>
                                 </div>

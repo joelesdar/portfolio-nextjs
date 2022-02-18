@@ -1,5 +1,7 @@
 import React from 'react';
 import Styled from '@emotion/styled';
+import { useTranslation } from 'react-i18next';
+import Fade from 'react-reveal/Fade';
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +19,8 @@ const StyledName = Styled.div`
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Rubik', sans-serif;
+    /* font-family: "Raleway", sans-serif; */
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -31,7 +34,7 @@ const StyledName = Styled.div`
 }
 
 .title {
-    font-weight: 700;
+    font-weight: 600;
     color: transparent;
     font-size: 5rem;
     background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
@@ -60,12 +63,18 @@ const Name = () => {
         $(".title").css({"background-position": positionX + "%" + positionY + "%"});
     });
 
+    const { t } = useTranslation();
+
     return (
         <StyledName>
             <div className="styled-name-container">
                 <div className="name-container">
-                    <div className="title">Joel Esteban Diaz Arévalo</div>
-                    <div className="subtitle"> Desarrollador Web Mamerto </div>
+                    <Fade top duration={2000}>
+                        <div className="title">Joel Esteban Diaz Arévalo</div>
+                    </Fade>
+                    <Fade bottom duration={2000}>  
+                        <div className="subtitle">{t('subtitle')}</div>
+                    </Fade>
                 </div>
             </div>
         </StyledName>
