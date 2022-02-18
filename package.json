@@ -1,7 +1,12 @@
 {
   "name": "sitiopersonal",
   "version": "0.1.0",
+  "description": "Personal Portfolio",
   "private": true,
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -9,6 +14,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.1",
+    "express": "^4.17.3",
     "i18next": "^19.9.2",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
