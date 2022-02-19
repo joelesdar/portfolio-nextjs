@@ -22,13 +22,13 @@ const Projects = () => {
         <StyledProjects>
             <h2>{t('title-projects')}</h2>
             <div className="row justify-content-center">
-                <div className="col-10 col-md-4 col-lg-6">
+                <div className="col-12 col-md-4 col-lg-6">
                     <Project />
                 </div>
-                <div className="col-10 col-md-4 col-lg-6">
+                <div className="col-12 col-md-4 col-lg-6">
                     <Project />
                 </div>
-                <div className="col-10 col-md-4 col-lg-6">
+                <div className="col-12 col-md-4 col-lg-6">
                     <Project />
                 </div>
             </div>
