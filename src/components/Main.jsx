@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Welcome from './Welcome';
 import Description from './Description';
 import Skills from './Skills';
+import Contact from './Contact';
 
 const StyledMain = Styled.div`
     
@@ -17,6 +18,7 @@ const Main = () => {
             <Welcome />
             <Description />
             <Skills />
+            <Contact />
         </StyledMain>
      );
 }

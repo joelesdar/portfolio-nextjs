@@ -4,7 +4,6 @@ import Styled from '@emotion/styled';
 import HamburguerMenu from './HamburguerMenu';
 import { useTranslation } from 'react-i18next';
 import img from './icons/logo.png';
-// import Logo from './icons/Logo';
 import Es from './icons/Es';
 import En from './icons/En';
 import Fr from './icons/Fr';
