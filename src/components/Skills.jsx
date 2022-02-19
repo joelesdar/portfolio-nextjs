@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Technologies from './Technologies';
 import Languages from './Languages';
+import Studies from './Studies';
 import Experience from './Experience';
 import Projects from './Projects';
 
@@ -38,6 +39,9 @@ const Skills = () => {
                         </div>
                         <div className="col-10 block-container">
                             <Languages />
+                        </div>
+                        <div className="col-10 block-container">
+                            <Studies />
                         </div>
                         <div className="col-10 block-container">
                             <Experience />

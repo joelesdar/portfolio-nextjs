@@ -6,6 +6,7 @@ import Welcome from './Welcome';
 import Description from './Description';
 import Skills from './Skills';
 import Contact from './Contact';
+import SocialBar from './SocialBar';
 
 const StyledMain = Styled.div`
     
@@ -19,6 +20,7 @@ const Main = () => {
             <Description />
             <Skills />
             <Contact />
+            <SocialBar />
         </StyledMain>
      );
 }

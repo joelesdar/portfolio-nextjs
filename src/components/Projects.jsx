@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Fade from 'react-reveal/Fade';
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Project from './Project';
 
 const StyledProjects = Styled.div`
 
@@ -21,8 +22,14 @@ const Projects = () => {
         <StyledProjects>
             <h2>{t('title-projects')}</h2>
             <div className="row">
-                <div className="col-12">
-                    
+                <div className="col-4">
+                    <Project />
+                </div>
+                <div className="col-4">
+                    <Project />
+                </div>
+                <div className="col-4">
+                    <Project />
                 </div>
             </div>
 

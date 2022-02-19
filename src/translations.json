@@ -12,6 +12,7 @@
       "subtitle" : "Web Developer",
       "description" : "I'm a passionate and creative web developer.",
       "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+      "title-studies" : "Education",
       "title-experience" : "Experience",
       "title-projects" : "My Projects",
       "title-contact" : "Contact"
@@ -30,6 +31,7 @@
         "subtitle" : "Développeur Web",
         "description" : "Je suis un jolie développeur web.",
         "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+        "title-studies" : "Éducation",
         "title-experience" : "Expérience",
         "title-projects" : "Mes Projets",
         "title-contact" : "Contact"
@@ -48,6 +50,7 @@
         "subtitle" : "Desarrollador Web",
         "description" : "Soy un desarrollador web mamerto, apasionado y creativo.",
         "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+        "title-studies" : "Estudios",
         "title-experience" : "Experiencia",
         "title-projects" : "Mis Proyectos",
         "title-contact" : "Contacto"
