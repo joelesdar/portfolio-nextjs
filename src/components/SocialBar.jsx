@@ -12,8 +12,12 @@ const SocialBar = () => {
 
   return (
     <StyledSocialBar>
+      {/* <FontAwesomeIcon icon="fa-brands fa-twitter" />
+    <FontAwesomeIcon icon="fa-brands fa-font-awesome" /> */}
         {/* <p>Como jueeeeeee</p> */}
-        <FontAwesomeIcon icon="fa-brands fa-linkedin-in" border />
+        <FontAwesomeIcon icon={['fab', 'github']} color='#94B43B' />
+        <FontAwesomeIcon icon={['fab', 'linkedin-in']} color='#94B43B' />
+        <FontAwesomeIcon icon={['fab', 'instagram']} color='#94B43B' />
       {/* <FontAwesomeIcon icon={solid("user-secret")} />
       <FontAwesomeIcon icon={regular("coffee")} />
       <FontAwesomeIcon icon={brands("twitter")} /> */}

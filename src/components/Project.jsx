@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import img from "./icons/img.jpg";
 
 const StyledProject = Styled.div`
@@ -52,6 +53,12 @@ const Project = () => {
           </p>
           <a href="#!" class="btn btn-primary">
             Go somewhere
+          </a>
+          <a href="#!">
+            <FontAwesomeIcon icon={["fab", "github"]} color="#0FF3F5" size="xl" />
+          </a>
+          <a href="#!">
+            <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} color="#0FF3F5" size="xl" />
           </a>
         </div>
       </div>
