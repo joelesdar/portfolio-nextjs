@@ -9,6 +9,7 @@ import En from './icons/En';
 import Fr from './icons/Fr';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Cookies from 'universal-cookie';
 
 const StyledHeader = Styled.div`
     background-color: rgba(18, 18, 18, 0.75);
@@ -62,12 +63,14 @@ const StyledHeader = Styled.div`
 
 const Header = ({language, setLanguage}) => {
 
+    const cookies = new Cookies();
+    
     const { t, i18n } = useTranslation();
-
+    
     const ChangeLanguage = lang => {
-        setLanguage(lang);
+        // setLanguage(lang);
+        cookies.set('cookieLang', lang, {path: '/'});
         window.location.reload();
-        console.log("Cambio");
     }
 
     return (

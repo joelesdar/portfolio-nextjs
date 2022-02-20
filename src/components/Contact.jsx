@@ -23,7 +23,7 @@ const Contact = () => {
 
     return (
         <StyledContact>
-                <h2>{t('title-contact')}</h2>
+            <h2>{t('title-contact')}</h2>
             <div className="row ">
                 <div className="col-12">
                     
