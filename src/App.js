@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import './App.css';
 import Cookies from 'universal-cookie';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         setLanguage = {setLanguage}
       />
       <Main />
+      <Footer />
     </div>
   );
 }

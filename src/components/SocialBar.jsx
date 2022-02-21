@@ -6,32 +6,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import social from "./icons/constants";
 
 const StyledSocialBar = Styled.div`
-  /* width: 80px; */
+
   position: fixed;
   float: right;
   top: 45%;
   right: 0;
   z-index: 1;
   padding: 5px;
-  background: var(--dark-blue);
+  background: var(--black);
   opacity: .75;
   backdrop-filter: blur(4px);
   overflow-x: hidden;
-  border-radius: 5px;
+  border-radius: 8px 0px 0px 8px;
   
   .social-icon {
     display: inline-block;
     width: 100%;
-    padding: 5px 0;
+    padding: 8px 0px;
   }
   
   .social-icon:hover {
     color: white;
   }
-  `;
+  
+`;
 
 const SocialBar = () => {
-  // const instagram = COLORS.instagram;
   return (
     <StyledSocialBar>
       <a href={social.github}>

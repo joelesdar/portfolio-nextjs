@@ -41,6 +41,10 @@ const StyledDescription = Styled.div`
     border-radius: 20px;
 }
 
+.title-description {
+  padding: 8px 0px 0px 8px;
+}
+
 .description {
     padding: 8px;
 }
@@ -54,7 +58,7 @@ const Description = () => {
     <StyledDescription>
       <div className="description-container">
         <div className="container">
-          <div className="row align-items-center justify-content-between">
+          <div className="row align-items-center justify-content-around">
             <Fade left duration={1700}>
               <div className="image col-10 col-md-6">
                 <img src={photo} alt="Foto Joel" />

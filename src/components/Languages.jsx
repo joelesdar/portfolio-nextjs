@@ -22,6 +22,13 @@ const StyledLanguages = Styled.div`
   color: #1C82F6;
 }
 
+/* .language-logo {
+  svg {
+
+    width: 100%;
+  }
+} */
+
 `;
 
 const Languages = () => {
@@ -31,22 +38,22 @@ const Languages = () => {
     <StyledLanguages>
       <div className="row align-items-center justify-content-center">
         <div className="col-12">
-          <h2 className="title">Languages</h2>
+          <h2 className="title">{t("title-language")}</h2>
         </div>
       </div>
-      <div className="row align-items-center justify-content-between">
+      <div className="row align-items-center justify-content-around">
         <div className="col-4 language-name">
-          <En />
+          <En className="language-logo"/>
           <h4>{t("language-en")}</h4>
           <h3 className="level">B2+</h3>
         </div>
         <div className="col-4">
-          <Es />
+          <Es className="language-logo"/>
           <h4>{t("language-es")}</h4>
           <h3 className="level">C2</h3>
         </div>
         <div className="col-4">
-          <Fr />
+          <Fr className="language-logo"/>
           <h4>{t("language-fr")}</h4>
           <h3 className="level">A2</h3>
         </div>

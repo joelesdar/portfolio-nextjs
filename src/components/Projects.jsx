@@ -21,7 +21,7 @@ const Projects = () => {
     return (
         <StyledProjects>
             <h2>{t('title-projects')}</h2>
-            <div className="row justify-content-center">
+            <div className="row justify-content-around">
                 <div className="col-12 col-md-4 col-lg-6">
                     <Project />
                 </div>
