@@ -25,16 +25,16 @@ const StyledProject = Styled.div`
 }
 
 .card-title {
-    color: #0FF3F5;
+    color: var(--green-blue);
 }
 
 .btn {
-   background:#061C36;
+   background: var(--dark-blue);
 }
 
 .btn:hover {
-    background:#0FF3F5;
-    color: #061C36;
+    background:var(--green-blue);
+    color: var(--dark-blue);
 }
 `;
 
@@ -55,10 +55,10 @@ const Project = () => {
             Go somewhere
           </a>
           <a href="#!">
-            <FontAwesomeIcon icon={["fab", "github"]} color="#0FF3F5" size="xl" />
+            <FontAwesomeIcon icon={["fab", "github"]} color="var(--green-blue)" size="xl" />
           </a>
           <a href="#!">
-            <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} color="#0FF3F5" size="xl" />
+            <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} color="var(--green-blue)" size="xl" />
           </a>
         </div>
       </div>

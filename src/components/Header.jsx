@@ -17,7 +17,6 @@ const StyledHeader = Styled.div`
     font-size: 1.2rem;
     fill: none;
     min-height: 5rem;
-    /* border-bottom: 1px solid #fff; */
     .navbar {
         padding: 1rem;
         margin: 0 3rem;
@@ -29,11 +28,11 @@ const StyledHeader = Styled.div`
                 color: white;
                 text-align: center;
                 &:hover {
-                color: #1c82f6;
+                color: var(--main-blue);
                 }
             }
             .active {
-                color: #1c82f6;
+                color: var(--main-blue);
             }
             .show{
                 background-color: transparent;
@@ -54,9 +53,7 @@ const StyledHeader = Styled.div`
         width: 100%;
         height: 100%;
         margin: 0 auto;
-        color: #1c82f6;
-        /* display: inline; */
-        /* fill: black; */
+        var(--main-blue);
     }
 `;
 
