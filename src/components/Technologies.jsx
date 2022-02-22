@@ -13,6 +13,7 @@ const StyledTechnologies = Styled.div`
   .orbit {
   float: left;
   width: 100%;
+  overflow: hidden;
   /* min-width: 100vw; */
   /* min-height: 100vh; */
 }
