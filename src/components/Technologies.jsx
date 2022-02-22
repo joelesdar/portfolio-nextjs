@@ -193,7 +193,7 @@ ul[class^=ring] li {
   height: 1.8em;
   line-height: 1.8em;
   text-align: center;
-  background: hotpink;
+  background: var(--main-blue);
   border-radius: 50%;
 }
 .orbit-center:hover .orbit-center__icon {
@@ -253,6 +253,17 @@ animations
 @media (max-width: 576px) {
   .orbit-wrap {
     font-size: 1em;
+  }
+
+  .orbit-center {
+    /* width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em; */
+    font-size: 25px;
+  }
+
+  .orbit-icon {
+    font-size: 18px;
   }
 }
 
