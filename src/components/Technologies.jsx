@@ -31,14 +31,15 @@ const StyledTechnologies = Styled.div`
 }
 
 .orbit-wrap {
-  height: 40em;
+  height: 20em;
   list-style: none;
   font-size: 1.3em;
+  overflow: hidden;
 }
 .orbit-wrap > li {
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 40%;
   transform: translate(-50%, -50%);
 }
 .orbit-wrap > li:hover ul {
