@@ -249,6 +249,13 @@ animations
   }
 }
 
+/* Media queries */
+@media (max-width: 576px) {
+  .orbit-wrap {
+    font-size: 1em;
+  }
+}
+
 /* icons */
 
 /* ring 3 */

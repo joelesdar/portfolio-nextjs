@@ -9,7 +9,7 @@ import Contact from './Contact';
 import SocialBar from './SocialBar';
 
 const StyledMain = Styled.div`
-    
+    overflow: hidden;
 `;
 
 const Main = () => {
