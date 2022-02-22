@@ -9,13 +9,26 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const StyledTechnologies = Styled.div`
 
   background: #0E141B;
-  
-  .orbit {
+ 
+.icons-container {
+  padding: 0 !important;
+  margin: 0 !important;
+} 
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  .col,
+  [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.orbit {
   float: left;
   width: 100%;
-  overflow: hidden;
-  /* min-width: 100vw; */
-  /* min-height: 100vh; */
 }
 
 .orbit-icon {
@@ -33,10 +46,12 @@ const StyledTechnologies = Styled.div`
 .orbit-wrap {
   height: 20em;
   list-style: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   overflow: hidden;
+  margin: 0px;
 }
 .orbit-wrap > li {
+  /* overflow: hidden; */
   position: absolute;
   left: 50%;
   top: 40%;
@@ -312,8 +327,10 @@ const Technologies = () => {
 
   return (
     <StyledTechnologies>
-      <div className="row justify-content-around">
-        <div className="col-12 col-md-6 icons-container">
+      <div className="row no-gutters justify-content-start align-items-center">
+        <div className="col col-md-6 icons-container">
+          <div className="container-fluid">
+
           <div class="orbit">
             <ul class="orbit-wrap">
               <li class="orbit-center">
@@ -347,6 +364,7 @@ const Technologies = () => {
 
             </ul>
             
+          </div>
           </div>
         </div>
         <div className="col-12 col-md-6">

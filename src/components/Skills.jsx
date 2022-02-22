@@ -35,7 +35,7 @@ const Skills = () => {
     <StyledSkills>
       <div className="skills-container">
         <div className="container-fluid dark">
-          <div className="col-12 block-container">
+          <div className="block-container">
             <Technologies />
           </div>
         </div>
