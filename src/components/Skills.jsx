@@ -35,17 +35,12 @@ const Skills = () => {
     <StyledSkills>
       <div className="skills-container">
         <div className="container-fluid dark">
-            <div className="container">
-                
-            <div className="col-10 block-container">
-              <Technologies />
-            </div>
-            </div>
-          <div className="row align-items-center justify-content-center">
+          <div className="col-12 block-container">
+            <Technologies />
           </div>
         </div>
         <div className="container">
-          <div className="row align-items-center justify-content-center">
+          <div className="row align-items-center justify-content-around">
             <div className="col-10 block-container">
               <Languages />
             </div>

@@ -8,45 +8,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const StyledTechnologies = Styled.div`
 
-    background: #0E141B;
-    /* display:flex; */
-  /* justify-content:center; */
-  /* align-items:center; */
-
-    /* .tech-icon {
-      border: 1px solid white;
-      padding: 8px;
-      border-radius: 100%;
-      position:absolute;
-    }
-
-.react-icon {
-  margin-top: -50px;
-  position: absolute;
-}
-
-    .icons-container {
-  position:relative;
-  right:0px;
-  bottom:0px;
-  align-self:flex-start;
-  animation-name:spin;
-  animation-duration:9s;
-  animation-delay:0s;
-  animation-iteration-count:infinite;
-  /* box-shadow:0px 0px 15px 1px blueviolet; */
-    /* }
-
-    @keyframes spin{
-  0%{
-    transform:rotate(0deg);
-  }
-  100%{
-    transform:rotate(-360deg);
-  } */ 
+  background: #0E141B;
   
   .orbit {
-  /* background: #090c29; */
   float: left;
   width: 100%;
   /* min-width: 100vw; */
@@ -57,7 +21,7 @@ const StyledTechnologies = Styled.div`
   width: 2em;
   height: 2em;
   line-height: 2em;
-  font-size: 1.2em;
+  font-size: 20px;
   border-radius: 50%;
   background: #ccc;
   color: #fff;
@@ -73,7 +37,7 @@ const StyledTechnologies = Styled.div`
 .orbit-wrap > li {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 25%;
   transform: translate(-50%, -50%);
 }
 .orbit-wrap > li:hover ul {
@@ -95,8 +59,8 @@ ul[class^=ring] li {
 }
 
 .ring-1 {
-  width: 24em;
-  height: 24em;
+  width: 19em;
+  height: 19em;
   -webkit-animation: clockwiseRotate 30s linear infinite;
           animation: clockwiseRotate 30s linear infinite;
 }
@@ -106,20 +70,20 @@ ul[class^=ring] li {
 }
 
 .ring-1 > *:nth-of-type(1) {
-  transform: rotate(126.6666666667deg) translate(12em) rotate(-126.6666666667deg);
+  transform: rotate(126.6666666667deg) translate(9.5em) rotate(-126.6666666667deg);
 }
 
 .ring-1 > *:nth-of-type(2) {
-  transform: rotate(253.3333333333deg) translate(12em) rotate(-253.3333333333deg);
+  transform: rotate(253.3333333333deg) translate(9.5em) rotate(-253.3333333333deg);
 }
 
 .ring-1 > *:nth-of-type(3) {
-  transform: rotate(380deg) translate(12em) rotate(-380deg);
+  transform: rotate(380deg) translate(9.5em) rotate(-380deg);
 }
 
 .ring-2 {
-  width: 18em;
-  height: 18em;
+  width: 13em;
+  height: 13em;
   -webkit-animation: clockwiseRotate 25s linear infinite;
           animation: clockwiseRotate 25s linear infinite;
 }
@@ -129,40 +93,40 @@ ul[class^=ring] li {
 }
 
 .ring-2 > *:nth-of-type(1) {
-  transform: rotate(47.5deg) translate(9em) rotate(-47.5deg);
+  transform: rotate(47.5deg) translate(6.5em) rotate(-47.5deg);
 }
 
 .ring-2 > *:nth-of-type(2) {
-  transform: rotate(95deg) translate(9em) rotate(-95deg);
+  transform: rotate(95deg) translate(6.5em) rotate(-95deg);
 }
 
 .ring-2 > *:nth-of-type(3) {
-  transform: rotate(142.5deg) translate(9em) rotate(-142.5deg);
+  transform: rotate(142.5deg) translate(6.5em) rotate(-142.5deg);
 }
 
 .ring-2 > *:nth-of-type(4) {
-  transform: rotate(190deg) translate(9em) rotate(-190deg);
+  transform: rotate(190deg) translate(6.5em) rotate(-190deg);
 }
 
 .ring-2 > *:nth-of-type(5) {
-  transform: rotate(237.5deg) translate(9em) rotate(-237.5deg);
+  transform: rotate(237.5deg) translate(6.5em) rotate(-237.5deg);
 }
 
 .ring-2 > *:nth-of-type(6) {
-  transform: rotate(285deg) translate(9em) rotate(-285deg);
+  transform: rotate(285deg) translate(6.5em) rotate(-285deg);
 }
 
 .ring-2 > *:nth-of-type(7) {
-  transform: rotate(332.5deg) translate(9em) rotate(-332.5deg);
+  transform: rotate(332.5deg) translate(6.5em) rotate(-332.5deg);
 }
 
 .ring-2 > *:nth-of-type(8) {
-  transform: rotate(380deg) translate(9em) rotate(-380deg);
+  transform: rotate(380deg) translate(6.5em) rotate(-380deg);
 }
 
 .ring-3 {
-  width: 10em;
-  height: 10em;
+  width: 7em;
+  height: 7em;
   -webkit-animation: clockwiseRotate 20s linear infinite;
           animation: clockwiseRotate 20s linear infinite;
 }
@@ -172,15 +136,15 @@ ul[class^=ring] li {
 }
 
 .ring-3 > *:nth-of-type(1) {
-  transform: rotate(126.6666666667deg) translate(5em) rotate(-126.6666666667deg);
+  transform: rotate(126.6666666667deg) translate(3.5em) rotate(-126.6666666667deg);
 }
 
 .ring-3 > *:nth-of-type(2) {
-  transform: rotate(253.3333333333deg) translate(5em) rotate(-253.3333333333deg);
+  transform: rotate(253.3333333333deg) translate(3.5em) rotate(-253.3333333333deg);
 }
 
 .ring-3 > *:nth-of-type(3) {
-  transform: rotate(380deg) translate(5em) rotate(-380deg);
+  transform: rotate(380deg) translate(3.5em) rotate(-380deg);
 }
 
 ul[class^=ring] {
@@ -207,7 +171,7 @@ ul[class^=ring] li {
 */
 .orbit-center {
   z-index: 5;
-  font-size: 2em;
+  font-size: 35px;
   width: 1.8em;
   height: 1.8em;
   line-height: 1.8em;
@@ -267,9 +231,8 @@ animations
     transform: rotate(-360deg);
   }
 }
-/* 
-icons 
-*/
+
+/* icons */
 
 /* ring 3 */
 .css-icon {
@@ -349,42 +312,40 @@ const Technologies = () => {
     <StyledTechnologies>
       <div className="row justify-content-around">
         <div className="col-12 col-md-6 icons-container">
-        <div class="orbit">
-  
-  <ul class="orbit-wrap">
-    
-    <li class="orbit-center">
-      <i class="orbit-center__icon fa fa-code"><FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" title="LinkedIn" /></i>
-    </li>
-    <li>
-      <ul class="ring-1">
-      <li><i class="orbit-icon fa cloud-icon"><FontAwesomeIcon icon={["fas", "cloud"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-      <li><i class="orbit-icon fa windows-icon"><FontAwesomeIcon icon={["fab", "windows"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-      <li><i class="orbit-icon fa dialogflow-icon"><FontAwesomeIcon icon={["fab", "bots"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-      </ul>
-    </li>
-    <li>
-      <ul class="ring-2">
-        <li><i class="orbit-icon fa react-icon"><FontAwesomeIcon icon={["fab", "react"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa js-icon"><FontAwesomeIcon icon={["fab", "js-square"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa php-icon"><FontAwesomeIcon icon={["fab", "php"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa java-icon"><FontAwesomeIcon icon={["fab", "java"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa git-icon"><FontAwesomeIcon icon={["fab", "git-alt"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa database-icon"><FontAwesomeIcon icon={["fas", "database"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa wordpress-icon"><FontAwesomeIcon icon={["fab", "wordpress"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-      </ul>
-    </li>
-    <li>
-      <ul class="ring-3">
-        <li><i class="orbit-icon fa css-icon"><FontAwesomeIcon icon={["fab", "css3"]} className="tech-icon"  size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa html-icon"><FontAwesomeIcon icon={["fab", "html5"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-        <li><i class="orbit-icon fa bootstrap-icon"><FontAwesomeIcon icon={["fab", "bootstrap"]} className="tech-icon" size="md" title="LinkedIn" /></i></li>
-      </ul>
-    </li>
+          <div class="orbit">
+            <ul class="orbit-wrap">
+              <li class="orbit-center">
+                <i class="orbit-center__icon fa fa-code"><FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" /></i>
+              </li>
+              <li>
+                <ul class="ring-1">
+                <li><i class="orbit-icon fa cloud-icon"><FontAwesomeIcon icon={["fas", "cloud"]} className="tech-icon" size="md" /></i></li>
+                <li><i class="orbit-icon fa windows-icon"><FontAwesomeIcon icon={["fab", "windows"]} className="tech-icon" size="md" /></i></li>
+                <li><i class="orbit-icon fa dialogflow-icon"><FontAwesomeIcon icon={["fab", "bots"]} className="tech-icon" size="md" /></i></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="ring-2">
+                  <li><i class="orbit-icon fa react-icon"><FontAwesomeIcon icon={["fab", "react"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa js-icon"><FontAwesomeIcon icon={["fab", "js-square"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa php-icon"><FontAwesomeIcon icon={["fab", "php"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa java-icon"><FontAwesomeIcon icon={["fab", "java"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa git-icon"><FontAwesomeIcon icon={["fab", "git-alt"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa database-icon"><FontAwesomeIcon icon={["fas", "database"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa wordpress-icon"><FontAwesomeIcon icon={["fab", "wordpress"]} className="tech-icon" size="md" /></i></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="ring-3">
+                  <li><i class="orbit-icon fa css-icon"><FontAwesomeIcon icon={["fab", "css3"]} className="tech-icon"  size="md" /></i></li>
+                  <li><i class="orbit-icon fa html-icon"><FontAwesomeIcon icon={["fab", "html5"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon fa bootstrap-icon"><FontAwesomeIcon icon={["fab", "bootstrap"]} className="tech-icon" size="md" /></i></li>
+                </ul>
+              </li>
 
-  </ul>
-  
-</div>
+            </ul>
+            
+          </div>
         </div>
         <div className="col-12 col-md-6">
           <p>{t("technologies")}</p>
