@@ -1,6 +1,5 @@
 import React from "react";
 import Styled from "@emotion/styled";
-import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import social from "./icons/constants";
@@ -33,7 +32,7 @@ const StyledSocialBar = Styled.div`
 
 const SocialBar = () => {
   return (
-    <StyledSocialBar>
+    <StyledSocialBar className="d-none d-sm-block">
       <a href={social.github}>
         <FontAwesomeIcon
           icon={["fab", "github"]}

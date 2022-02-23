@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from "./icons/logo-mini.png";
+import logo from "./icons/logo.png";
 
 const StyledTechnologies = Styled.div`
 
