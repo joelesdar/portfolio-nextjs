@@ -174,10 +174,10 @@ ul[class^=ring] li {
   font-size: 35px;
   width: 1.8em;
   height: 1.8em;
-  line-height: 1.8em;
   text-align: center;
-  background: var(--main-blue);
+  background: var(--dark-blue);
   border-radius: 50%;
+  border: 1px solid var(--main-blue);
 }
 
 .orbit-center:hover .orbit-center__icon {
@@ -324,12 +324,9 @@ ul[class^=ring] li {
 
 .logo {
   svg {
-          width: 100%;
-          height: 100%;
-          margin: 0 auto;
-          fill: white;
-          stroke: red;
-          color: white;
+          width: 80%;
+          height: 80%;
+          margin-top: -1px;
   }
 }
 
@@ -346,9 +343,9 @@ const Technologies = () => {
           <div class="orbit">
             <ul class="orbit-wrap">
               <li class="orbit-center">
-                <i class="orbit-center__icon">
+                <i class="orbit-center__icon logo">
                   {/* <FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" /> */}
-                  <svg className="Logo" src={Logo}></svg>
+                  <Logo/>
                   </i>
               </li>
               <li>

@@ -66,7 +66,7 @@ const Description = () => {
             </Fade>
             <Fade right duration={1700}>
               <div className="personal-description col-10 col-md-6">
-                <h2 className="title-description">{t("title-description")} 👋🏽</h2>
+                <h2 className="title-description">{t("title-description")} 👋🏽 @Joelesdar</h2>
                 <p className="description">{t("description")}</p>
               </div>
             </Fade>
