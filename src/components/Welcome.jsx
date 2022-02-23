@@ -82,6 +82,13 @@ const StyledWelcome = Styled.div`
   -webkit-text-fill-color: transparent;
 } */
 
+@media (max-width: 576px) {
+    #title {
+        top: 40%;
+        letter-spacing: 8px;
+    }
+}
+
 @keyframes animStar {
   from {
     transform: translateY(0px);

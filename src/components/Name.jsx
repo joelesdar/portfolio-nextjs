@@ -53,7 +53,18 @@ const StyledName = Styled.div`
     padding-top: 10px;
     font-size: 30px;
 }
+
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 4rem;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+}
 `;
+
 
 const Name = () => {
 

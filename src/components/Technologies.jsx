@@ -8,23 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const StyledTechnologies = Styled.div`
 
-  background: #0E141B;
- 
-.icons-container {
-  padding: 0 !important;
-  margin: 0 !important;
-} 
-
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  .col,
-  [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
+background: #0E141B;
 
 .orbit {
   float: left;
@@ -46,15 +30,13 @@ const StyledTechnologies = Styled.div`
 .orbit-wrap {
   height: 20em;
   list-style: none;
-  font-size: 1.1em;
-  overflow: hidden;
+  font-size: 1.3em;
   margin: 0px;
 }
 .orbit-wrap > li {
-  /* overflow: hidden; */
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 45%;
   transform: translate(-50%, -50%);
 }
 .orbit-wrap > li:hover ul {
@@ -196,6 +178,7 @@ ul[class^=ring] li {
   background: var(--main-blue);
   border-radius: 50%;
 }
+
 .orbit-center:hover .orbit-center__icon {
   transform: rotateZ(0deg);
 }
@@ -213,9 +196,7 @@ ul[class^=ring] li {
   transform: translate(0, 0);
 }
 
-/* 
-animations 
-*/
+/* animations */
 @-webkit-keyframes clockwiseRotate {
   from {
     transform: rotate(0deg);
@@ -250,15 +231,14 @@ animations
 }
 
 /* Media queries */
+
+/* Small */
 @media (max-width: 576px) {
   .orbit-wrap {
     font-size: 1em;
   }
 
   .orbit-center {
-    /* width: 1.5em;
-    height: 1.5em;
-    line-height: 1.5em; */
     font-size: 25px;
   }
 
@@ -345,47 +325,42 @@ const Technologies = () => {
 
   return (
     <StyledTechnologies>
-      <div className="row no-gutters justify-content-start align-items-center">
-        <div className="col col-md-6 icons-container">
-          <div className="container-fluid">
-
+      <div className="row justify-content-around align-items-center">
+        <div className="col-12 col-md-7 col-lg-6">
           <div class="orbit">
             <ul class="orbit-wrap">
               <li class="orbit-center">
-                <i class="orbit-center__icon fa fa-code"><FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" /></i>
+                <i class="orbit-center__icon"><FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" /></i>
               </li>
               <li>
                 <ul class="ring-1">
-                <li><i class="orbit-icon fa cloud-icon"><FontAwesomeIcon icon={["fas", "cloud"]} className="tech-icon" size="md" /></i></li>
-                <li><i class="orbit-icon fa windows-icon"><FontAwesomeIcon icon={["fab", "windows"]} className="tech-icon" size="md" /></i></li>
-                <li><i class="orbit-icon fa dialogflow-icon"><FontAwesomeIcon icon={["fab", "bots"]} className="tech-icon" size="md" /></i></li>
+                <li><i class="orbit-icon cloud-icon"><FontAwesomeIcon icon={["fas", "cloud"]} className="tech-icon" size="lg" /></i></li>
+                <li><i class="orbit-icon windows-icon"><FontAwesomeIcon icon={["fab", "windows"]} className="tech-icon" size="lg" /></i></li>
+                <li><i class="orbit-icon dialogflow-icon"><FontAwesomeIcon icon={["fab", "bots"]} className="tech-icon" size="lg" /></i></li>
                 </ul>
               </li>
               <li>
                 <ul class="ring-2">
-                  <li><i class="orbit-icon fa react-icon"><FontAwesomeIcon icon={["fab", "react"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa js-icon"><FontAwesomeIcon icon={["fab", "js-square"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa php-icon"><FontAwesomeIcon icon={["fab", "php"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa java-icon"><FontAwesomeIcon icon={["fab", "java"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa git-icon"><FontAwesomeIcon icon={["fab", "git-alt"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa database-icon"><FontAwesomeIcon icon={["fas", "database"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa wordpress-icon"><FontAwesomeIcon icon={["fab", "wordpress"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon react-icon"><FontAwesomeIcon icon={["fab", "react"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon js-icon"><FontAwesomeIcon icon={["fab", "js-square"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon php-icon"><FontAwesomeIcon icon={["fab", "php"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon java-icon"><FontAwesomeIcon icon={["fab", "java"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon git-icon"><FontAwesomeIcon icon={["fab", "git-alt"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon database-icon"><FontAwesomeIcon icon={["fas", "database"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon wordpress-icon"><FontAwesomeIcon icon={["fab", "wordpress"]} className="tech-icon" size="lg" /></i></li>
                 </ul>
               </li>
               <li>
                 <ul class="ring-3">
-                  <li><i class="orbit-icon fa css-icon"><FontAwesomeIcon icon={["fab", "css3"]} className="tech-icon"  size="md" /></i></li>
-                  <li><i class="orbit-icon fa html-icon"><FontAwesomeIcon icon={["fab", "html5"]} className="tech-icon" size="md" /></i></li>
-                  <li><i class="orbit-icon fa bootstrap-icon"><FontAwesomeIcon icon={["fab", "bootstrap"]} className="tech-icon" size="md" /></i></li>
+                  <li><i class="orbit-icon css-icon"><FontAwesomeIcon icon={["fab", "css3"]} className="tech-icon"  size="lg" /></i></li>
+                  <li><i class="orbit-icon html-icon"><FontAwesomeIcon icon={["fab", "html5"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon bootstrap-icon"><FontAwesomeIcon icon={["fab", "bootstrap"]} className="tech-icon" size="lg" /></i></li>
                 </ul>
               </li>
-
             </ul>
-            
-          </div>
           </div>
         </div>
-        <div className="col-12 col-md-6">
+        <div className="col-12 col-md-5 col-lg-6">
           <p>{t("technologies")}</p>
         </div>
       </div>
