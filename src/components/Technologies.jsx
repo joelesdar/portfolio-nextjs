@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "./icons/Logo";
 
 const StyledTechnologies = Styled.div`
 
@@ -317,6 +318,21 @@ ul[class^=ring] li {
   color: white;
 }
 
+.title-technologies {
+  color: var(--main-blue);
+}
+
+.logo {
+  svg {
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+          fill: white;
+          stroke: red;
+          color: white;
+  }
+}
+
 }
 `;
 
@@ -330,7 +346,10 @@ const Technologies = () => {
           <div class="orbit">
             <ul class="orbit-wrap">
               <li class="orbit-center">
-                <i class="orbit-center__icon"><FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" /></i>
+                <i class="orbit-center__icon">
+                  {/* <FontAwesomeIcon icon={["fas", "code"]} className="tech-icon" size="md" /> */}
+                  <svg className="Logo" src={Logo}></svg>
+                  </i>
               </li>
               <li>
                 <ul class="ring-1">
@@ -361,6 +380,7 @@ const Technologies = () => {
           </div>
         </div>
         <div className="col-12 col-md-5 col-lg-6">
+          <h2 className="title-technologies">{t("title-technologies")}</h2>
           <p>{t("technologies")}</p>
         </div>
       </div>
