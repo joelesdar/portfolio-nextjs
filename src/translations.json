@@ -11,13 +11,55 @@
       "contact" : "Contact",
       "subtitle" : "Web Developer",
       "title-description" : "Hi! I'm Joel",
-      "description" : "I'm a passionate and creative web developer.",
+      "description" : "I'm a passionate and creative web developer.✨",
       "title-technologies" : "Technical Skills",
       "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
       "title-language" : "Languages",
       "title-studies" : "Education",
       "title-experience" : "Experience",
       "title-projects" : "My Projects",
+      "projects" : {
+        "project1" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project2" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project3" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project4" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project5" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project6" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project7" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project8" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project9" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        },
+        "project10" : {
+          "title": "Breaking Bad quote generator",
+          "description" : "Project description"
+        }
+      },
       "title-contact" : "Contact"
     }
   },
@@ -33,13 +75,55 @@
         "contact" : "Contact",
         "subtitle" : "Développeur Web",
         "title-description" : "Salut ! Je suis Joel",
-        "description" : "Je suis un jolie développeur web.",
+        "description" : "Je suis un jolie développeur web.✨",
         "title-technologies" : "Habilites",
         "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
         "title-language" : "Langues",
         "title-studies" : "Éducation",
         "title-experience" : "Expérience",
         "title-projects" : "Mes Projets",
+        "projects" : {
+          "project1" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project2" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project3" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project4" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project5" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project6" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project7" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project8" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project9" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project10" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          }
+        },
         "title-contact" : "Contact"
     }
   },
@@ -55,13 +139,55 @@
         "contact" : "Contacto",
         "subtitle" : "Desarrollador Web",
         "title-description" : "!Hola! Soy Joel",
-        "description" : "Soy un desarrollador web mamerto, apasionado y creativo.",
+        "description" : "Soy un desarrollador web apasionado y creativo. Amante de las ciencias y la educación✨",
         "title-technologies" : "Tecnologias",
         "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet.",
         "title-language" : "Idiomas",
         "title-studies" : "Estudios",
         "title-experience" : "Experiencia",
         "title-projects" : "Mis Proyectos",
+        "projects": {
+          "project1" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project2" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project3" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project4" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project5" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project6" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project7" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project8" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project9" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          },
+          "project10" : {
+            "title": "Breaking Bad quote generator",
+            "description" : "Project description"
+          }
+        },
         "title-contact" : "Contacto"
     }
   }
