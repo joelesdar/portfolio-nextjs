@@ -31,6 +31,7 @@ const Projects = () => {
               title={t("projects.project1.title")}
               description={t("projects.project1.description")}
               cover={cover1}
+              libraries={'React Bootstrap API'}
             />
           </Fade>
         </div>
@@ -40,6 +41,7 @@ const Projects = () => {
               title={t("projects.project2.title")}
               description={t("projects.project2.description")}
               cover={cover2}
+              libraries={'React Bootstrap'}
             />
           </Fade>
         </div>
@@ -49,6 +51,7 @@ const Projects = () => {
               title={t("projects.project3.title")}
               description={t("projects.project3.description")}
               cover={cover3}
+              libraries={'React Bootstrap'}
             />
           </Fade>
         </div>
@@ -58,6 +61,7 @@ const Projects = () => {
               title={t("projects.project4.title")}
               description={t("projects.project4.description")}
               cover={cover4}
+              libraries={'React Bootstrap'}
             />
           </Fade>
         </div>

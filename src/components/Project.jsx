@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const StyledProject = Styled.div`
 
-padding: 20px 0;
+padding: 16px 0;
 
 .card {
     background: #0C0936;
@@ -37,9 +37,21 @@ padding: 20px 0;
     color: var(--green-blue);
 }
 
+.libraries {
+  color: var(--main-blue);
+}
+
+.icon {
+  padding-left: 16px;
+}
+
+.icon:hover {
+  color: white;
+}
+
 `;
 
-const Project = ( {title, description, cover} ) => {
+const Project = ( {title, description, cover, libraries} ) => {
   const { t } = useTranslation();
 
   return (
@@ -49,12 +61,19 @@ const Project = ( {title, description, cover} ) => {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
-          <a href="#!">
-            <FontAwesomeIcon icon={["fab", "github"]} color="var(--green-blue)" size="xl" />
-          </a>
-          <a href="#!">
-            <FontAwesomeIcon icon={["fas", "arrow-up-right-from-square"]} color="var(--green-blue)" size="xl" />
-          </a>
+          <div className="row justify-content-between">
+            <div className="libraries col-auto">
+              <p>{libraries}</p>
+            </div>
+            <div className="col-auto">
+            <a href="#!">
+              <FontAwesomeIcon className="icon" icon={["fab", "github"]} color="var(--green-blue)" size="xl" />
+            </a>
+            <a href="#!">
+              <FontAwesomeIcon className="icon" icon={["fas", "arrow-up-right-from-square"]} color="var(--green-blue)" size="xl" />
+            </a>
+            </div>
+          </div>
         </div>
       </div>
     </StyledProject>

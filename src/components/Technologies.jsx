@@ -1,7 +1,7 @@
 import React from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
-import Fade from "react-reveal/Fade";
+import { Rotate, Fade } from "react-reveal";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -336,50 +336,54 @@ const Technologies = () => {
   return (
     <StyledTechnologies>
       <div className="row justify-content-around align-items-center">
-        <div className="col-12 col-md-7 col-lg-6">
-          <div class="orbit">
-            <ul class="orbit-wrap">
-              <li class="orbit-center">
-                <i class="orbit-center__icon logo">
-                  <img src={logo} alt="Logo" />
-                  </i>
-              </li>
-              <li>
-                <ul class="ring-1">
-                <li><i class="orbit-icon cloud-icon"><FontAwesomeIcon icon={["fas", "cloud"]} className="tech-icon" size="lg" /></i></li>
-                <li><i class="orbit-icon windows-icon"><FontAwesomeIcon icon={["fab", "windows"]} className="tech-icon" size="lg" /></i></li>
-                <li><i class="orbit-icon dialogflow-icon"><FontAwesomeIcon icon={["fab", "bots"]} className="tech-icon" size="lg" /></i></li>
-                </ul>
-              </li>
-              <li>
-                <ul class="ring-2">
-                  <li><i class="orbit-icon react-icon"><FontAwesomeIcon icon={["fab", "react"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon js-icon"><FontAwesomeIcon icon={["fab", "js-square"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon php-icon"><FontAwesomeIcon icon={["fab", "php"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon java-icon"><FontAwesomeIcon icon={["fab", "java"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon git-icon"><FontAwesomeIcon icon={["fab", "git-alt"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon database-icon"><FontAwesomeIcon icon={["fas", "database"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon wordpress-icon"><FontAwesomeIcon icon={["fab", "wordpress"]} className="tech-icon" size="lg" /></i></li>
-                </ul>
-              </li>
-              <li>
-                <ul class="ring-3">
-                  <li><i class="orbit-icon css-icon"><FontAwesomeIcon icon={["fab", "css3"]} className="tech-icon"  size="lg" /></i></li>
-                  <li><i class="orbit-icon html-icon"><FontAwesomeIcon icon={["fab", "html5"]} className="tech-icon" size="lg" /></i></li>
-                  <li><i class="orbit-icon bootstrap-icon"><FontAwesomeIcon icon={["fab", "bootstrap"]} className="tech-icon" size="lg" /></i></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-12 col-md-5 col-lg-6">
-          <div className="row justify-content-center">
-            <div className="col-10">
-              <h2 className="title-technologies">{t("title-technologies")}</h2>
-              <p>{t("technologies")}</p>
+        <Rotate>
+          <div className="col-12 col-md-7 col-lg-6">
+            <div class="orbit">
+              <ul class="orbit-wrap">
+                <li class="orbit-center">
+                  <i class="orbit-center__icon logo">
+                    <img src={logo} alt="Logo" />
+                    </i>
+                </li>
+                <li>
+                  <ul class="ring-1">
+                  <li><i class="orbit-icon cloud-icon"><FontAwesomeIcon icon={["fas", "cloud"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon windows-icon"><FontAwesomeIcon icon={["fab", "windows"]} className="tech-icon" size="lg" /></i></li>
+                  <li><i class="orbit-icon dialogflow-icon"><FontAwesomeIcon icon={["fab", "bots"]} className="tech-icon" size="lg" /></i></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="ring-2">
+                    <li><i class="orbit-icon react-icon"><FontAwesomeIcon icon={["fab", "react"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon js-icon"><FontAwesomeIcon icon={["fab", "js-square"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon php-icon"><FontAwesomeIcon icon={["fab", "php"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon java-icon"><FontAwesomeIcon icon={["fab", "java"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon git-icon"><FontAwesomeIcon icon={["fab", "git-alt"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon database-icon"><FontAwesomeIcon icon={["fas", "database"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon wordpress-icon"><FontAwesomeIcon icon={["fab", "wordpress"]} className="tech-icon" size="lg" /></i></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="ring-3">
+                    <li><i class="orbit-icon css-icon"><FontAwesomeIcon icon={["fab", "css3"]} className="tech-icon"  size="lg" /></i></li>
+                    <li><i class="orbit-icon html-icon"><FontAwesomeIcon icon={["fab", "html5"]} className="tech-icon" size="lg" /></i></li>
+                    <li><i class="orbit-icon bootstrap-icon"><FontAwesomeIcon icon={["fab", "bootstrap"]} className="tech-icon" size="lg" /></i></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
+        </Rotate>
+        <Fade right>
+          <div className="col-12 col-md-5 col-lg-6">
+            <div className="row justify-content-center">
+              <div className="col-10">
+                <h2 className="title-technologies">{t("title-technologies")}</h2>
+                <p>{t("technologies")}</p>
+              </div>
+            </div>
+          </div>
+        </Fade>
       </div>
     </StyledTechnologies>
   );
