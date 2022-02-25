@@ -9,6 +9,9 @@ import Fr from "./icons/Fr";
 
 const StyledLanguages = Styled.div`
 
+padding: 48px 0;
+background: var(--black);
+
 .title {
   color: #3694FF;
   text-align: center;
@@ -33,33 +36,39 @@ const Languages = () => {
 
   return (
     <StyledLanguages>
-      <div className="row">
-        <div className="col-12">
-          <h2 className="title">{t("title-language")}</h2>
-        </div>
-      </div>
-      <div className="languages row align-items-center justify-content-around">
-        <Bounce bottom duration='1000'>
-        <div className="col-4 language">
-          <En className="language-logo" />
-          <h4>{t("language-en")}</h4>
-          <h3 className="level">B2+</h3>
-        </div>
-        </Bounce>
-        <Bounce top duration='1000'>
-        <div className="language col-4">
-          <Es className="language-logo" />
-          <h4>{t("language-es")}</h4>
-          <h3 className="level">C2</h3>
-        </div>
-        </Bounce>
-        <Bounce bottom duration='1000'>
-          <div className="language col-4">
-            <Fr className="language-logo" />
-            <h4>{t("language-fr")}</h4>
-            <h3 className="level">A2</h3>
+      <div className="container">
+        <div className="row align-items-center justify-content-around">
+          <div className="col-10">
+            <div className="row">
+              <div className="col-12">
+                <h2 className="title">{t("title-language")}</h2>
+              </div>
+            </div>
+            <div className="languages row align-items-center justify-content-around">
+              <Bounce bottom duration="1000">
+                <div className="col-4 language">
+                  <En className="language-logo" />
+                  <h4>{t("language-en")}</h4>
+                  <h3 className="level">B2+</h3>
+                </div>
+              </Bounce>
+              <Bounce top duration="1000">
+                <div className="language col-4">
+                  <Es className="language-logo" />
+                  <h4>{t("language-es")}</h4>
+                  <h3 className="level">C2</h3>
+                </div>
+              </Bounce>
+              <Bounce bottom duration="1000">
+                <div className="language col-4">
+                  <Fr className="language-logo" />
+                  <h4>{t("language-fr")}</h4>
+                  <h3 className="level">A2</h3>
+                </div>
+              </Bounce>
+            </div>
           </div>
-        </Bounce>
+        </div>
       </div>
     </StyledLanguages>
   );

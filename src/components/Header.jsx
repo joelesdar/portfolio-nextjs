@@ -24,21 +24,22 @@ const StyledHeader = Styled.div`
             color: white;
         }
         .navbar-nav {
-            a {
-                color: white;
-                text-align: center;
-                &:hover {
-                color: var(--main-blue);
-                }
+          a {
+            color: white;
+            text-align: center;
+            &:hover {
+              color: var(--main-blue);
             }
-            .active {
-                color: var(--main-blue);
-            }
-            .show{
-                background-color: transparent;
-            }
-            .dropdown-menu {
-                left: -25%;
+          }
+          .active {
+            color: var(--main-blue);
+          }
+          .show{
+            background-color: transparent;
+          }
+          .dropdown-menu {
+              left: -25%;
+              background: rgba(18, 18, 18, 0.75);
             }
         }  
     }
@@ -50,10 +51,8 @@ const StyledHeader = Styled.div`
         }
     }
     svg {
-        width: 100%;
-        height: 100%;
+        width: 25px;
         margin: 0 auto;
-        var(--main-blue);
     }
 `;
 

@@ -14,6 +14,8 @@
       "description" : "I'm a passionate and creative web developer.✨",
       "title-technologies" : "Technical Skills",
       "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+      "title-softskills" : "Soft Skills",
+      "description-softskills" : "Description",
       "title-language" : "Languages",
       "title-studies" : "Education",
       "title-experience" : "Experience",
@@ -61,7 +63,10 @@
         }
       },
       "title-contact" : "Contact",
-      "message-footer" : "Made in react with love"
+      "message-footer" : {
+        "first-part" : "Made with ",
+        "second-part" : " using "
+      }
     }
   },
   "fr": {
@@ -79,6 +84,8 @@
         "description" : "Je suis un jolie développeur web.✨",
         "title-technologies" : "Habilites",
         "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+        "title-softskills" : "Soft Skills",
+        "description-softskills" : "Description",
         "title-language" : "Langues",
         "title-studies" : "Éducation",
         "title-experience" : "Expérience",
@@ -126,7 +133,10 @@
           }
         },
         "title-contact" : "Contact",
-        "message-footer" : "Made in react with love"
+        "message-footer" : {
+          "first-part" : "Built using ",
+          "second-part" : " with "
+        }
     }
   },
   "es": {
@@ -144,6 +154,8 @@
         "description" : "Soy un desarrollador web apasionado y creativo. Amante de las ciencias y la educación✨",
         "title-technologies" : "Tecnologias",
         "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet.",
+        "title-softskills" : "Soft Skills",
+        "description-softskills" : "Description",
         "title-language" : "Idiomas",
         "title-studies" : "Estudios",
         "title-experience" : "Experiencia",
@@ -191,7 +203,10 @@
           }
         },
         "title-contact" : "Contacto",
-        "message-footer" : "Made in react with love"
+        "message-footer" : {
+          "first-part" : "Hecho con ",
+          "second-part" : " usando "
+        }
     }
   }
 }

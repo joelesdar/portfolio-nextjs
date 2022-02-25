@@ -7,12 +7,12 @@ import Languages from "./Languages";
 import Studies from "./Studies";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import SoftSkills from "./SoftSkills";
 
 const StyledSkills = Styled.div`
 
 .skills-container {
     background-color : var(--dark-blue);
-    /* position: relative; */
     color: #fff;
 }
 
@@ -23,7 +23,7 @@ const StyledSkills = Styled.div`
 }
 
 .block-container {
-    padding: 50px 0;
+    padding: 56px 0;
 }
 
 `;
@@ -42,6 +42,9 @@ const Skills = () => {
         <div className="container">
           <div className="row align-items-center justify-content-around">
             <div className="col-10 block-container">
+              <SoftSkills />
+            </div>
+            <div className="col-10 block-container dark">
               <Languages />
             </div>
             <div className="col-10 block-container">

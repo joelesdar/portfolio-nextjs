@@ -1,6 +1,6 @@
 .flag-container {
     width: max-content;
-    max-width: 52px;
+    max-width: 64px;
     border-radius: 100%;
     border: white 1px solid;
 }

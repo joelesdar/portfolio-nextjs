@@ -5,27 +5,32 @@ import Fade from "react-reveal/Fade";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const StyledExperience = Styled.div`
+const StyledSoftSkills = Styled.div`
 
+background: var(--dark-blue);
 padding: 48px 0;
-background: var(--black);
+
+.contact-container {
+
+}
 
 `;
 
-const Experience = () => {
+const SoftSkills = () => {
   const { t } = useTranslation();
 
   return (
-    <StyledExperience>
+    <StyledSoftSkills>
       <div className="container">
-        <div className="row align-items-center justify-content-around">
+        <div className="row justify-content-around">
           <div className="col-10">
-            <h2>{t("title-experience")}</h2>
+            <h2>{t("title-softskills")}</h2>
+            <p>{t("description-softskills")}</p>
           </div>
         </div>
       </div>
-    </StyledExperience>
+    </StyledSoftSkills>
   );
 };
 
-export default Experience;
+export default SoftSkills;

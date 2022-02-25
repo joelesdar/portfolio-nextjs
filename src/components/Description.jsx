@@ -8,8 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const StyledDescription = Styled.div`
 
 .description-container {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 48px 0;
     background-color: var(--dark-blue);
     font-family: 'Rubik', sans-serif;
 }
