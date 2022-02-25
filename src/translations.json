@@ -60,7 +60,8 @@
           "description" : "Project description"
         }
       },
-      "title-contact" : "Contact"
+      "title-contact" : "Contact",
+      "message-footer" : "Made in react with love"
     }
   },
   "fr": {
@@ -124,7 +125,8 @@
             "description" : "Project description"
           }
         },
-        "title-contact" : "Contact"
+        "title-contact" : "Contact",
+        "message-footer" : "Made in react with love"
     }
   },
   "es": {
@@ -188,7 +190,8 @@
             "description" : "Project description"
           }
         },
-        "title-contact" : "Contacto"
+        "title-contact" : "Contacto",
+        "message-footer" : "Made in react with love"
     }
   }
 }
