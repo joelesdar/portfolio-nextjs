@@ -51,7 +51,7 @@ padding: 16px 0;
 
 `;
 
-const Project = ( {title, description, cover, libraries} ) => {
+const Project = ( {title, description, cover, libraries, github, link} ) => {
   const { t } = useTranslation();
 
   return (
@@ -66,10 +66,10 @@ const Project = ( {title, description, cover, libraries} ) => {
               <p>{libraries}</p>
             </div>
             <div className="col-auto">
-            <a href="#!">
+            <a href={github} target="_blank">
               <FontAwesomeIcon className="icon" icon={["fab", "github"]} color="var(--green-blue)" size="xl" />
             </a>
-            <a href="#!">
+            <a href={link} target="_blank">
               <FontAwesomeIcon className="icon" icon={["fas", "arrow-up-right-from-square"]} color="var(--green-blue)" size="xl" />
             </a>
             </div>

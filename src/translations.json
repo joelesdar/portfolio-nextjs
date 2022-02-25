@@ -18,6 +18,9 @@
       "description-softskills" : "Description",
       "title-language" : "Languages",
       "title-studies" : "Education",
+      "title-university" : "National University of Colombia",
+      "description-university" : "description",
+      "description-platzi" : "description",
       "title-experience" : "Experience",
       "title-projects" : "My Projects",
       "projects" : {
@@ -88,6 +91,10 @@
         "description-softskills" : "Description",
         "title-language" : "Langues",
         "title-studies" : "Éducation",
+        "title-university" : "National University of Colombia",
+
+
+"description-platzi" : "description",        "description-university" : "description",
         "title-experience" : "Expérience",
         "title-projects" : "Mes Projets",
         "projects" : {
@@ -158,6 +165,10 @@
         "description-softskills" : "Description",
         "title-language" : "Idiomas",
         "title-studies" : "Estudios",
+        "title-university" : "Universidad Nacional de Colombia",
+
+
+"description-platzi" : "description",        "description-university" : "description",
         "title-experience" : "Experiencia",
         "title-projects" : "Mis Proyectos",
         "projects": {

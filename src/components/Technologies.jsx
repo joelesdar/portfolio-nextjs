@@ -2,7 +2,6 @@ import React from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
 import { Rotate, Fade } from "react-reveal";
-import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "./icons/logo.png";
@@ -338,7 +337,7 @@ const Technologies = () => {
     <StyledTechnologies>
       <div className="container-fluid">
         <div className="row justify-content-around align-items-center">
-          <Rotate>
+          <Rotate duration='2000'>
             <div className="col-12 col-md-7 col-lg-6">
               <div class="orbit">
                 <ul class="orbit-wrap">
@@ -480,7 +479,7 @@ const Technologies = () => {
               </div>
             </div>
           </Rotate>
-          <Fade right>
+          <Fade right duration='2000'>
             <div className="col-12 col-md-5 col-lg-6">
               <div className="row justify-content-center">
                 <div className="col-10">

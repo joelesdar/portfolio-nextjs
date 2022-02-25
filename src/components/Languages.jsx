@@ -1,7 +1,7 @@
 import React from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
-import Bounce from "react-reveal";
+import { Fade, Bounce } from "react-reveal";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Es from "./icons/Es";
 import En from "./icons/En";
@@ -40,9 +40,11 @@ const Languages = () => {
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             <div className="row">
-              <div className="col-12">
-                <h2 className="title">{t("title-language")}</h2>
-              </div>
+              <Fade duration='1500'>
+                <div className="col-12">
+                  <h2 className="title">{t("title-language")}</h2>
+                </div>
+              </Fade>
             </div>
             <div className="languages row align-items-center justify-content-around">
               <Bounce bottom duration="1000">
