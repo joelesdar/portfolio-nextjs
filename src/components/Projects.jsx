@@ -36,6 +36,7 @@ const Projects = () => {
             <Fade duration='1500'>
               <h2 className="title">{t("title-projects")}</h2>
             </Fade>
+            <h3>Proyectos destacados</h3>
             <div className="row justify-content-around">
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
@@ -85,6 +86,9 @@ const Projects = () => {
                   />
                 </Fade>
               </div>
+            </div>
+            <a className="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Otros proyectos</a>
+            <div className="collapse row justify-content-around" id="collapseExample">
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
                   <Project
