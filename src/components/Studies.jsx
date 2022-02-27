@@ -21,11 +21,19 @@ const Studies = () => {
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             <h2>{t("title-studies")}</h2>
-            <div className="col-12 col-md-6">
-                <h3>{t("title-university")}</h3>
-                <p>{t("description-university")}</p>
+            <div className="row">
+
+              <div className="col-12 col-md-6">
+                  <h3>{t("title-career")}</h3>
+                  <p>{t("description-university")}</p>
+                  <h5>{t("title-university")}</h5>
+              </div>
+              <div className="col-12 col-md-6">
+                  <h3>{t("title-career")}</h3>
+                  <p>{t("description-university")}</p>
+                  <h5>{t("title-university")}</h5>
+              </div>
             </div>
-            <div className="col-12 col-md-6"></div>
           </div>
         </div>
       </div>

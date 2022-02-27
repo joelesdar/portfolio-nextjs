@@ -10,6 +10,11 @@ const StyledContact = Styled.div`
 padding: 48px 0;
 background: var(--black);
 
+.title {
+  color: var(--green-blue);
+  text-align: center;
+}
+
 `;
 
 const Contact = () => {
@@ -20,7 +25,7 @@ const Contact = () => {
       <div className="container">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
-            <h2>{t("title-contact")}</h2>
+            <h2 className="title">{t("title-contact")}</h2>
             <div className="row ">
               <div className="col-12"></div>
             </div>
