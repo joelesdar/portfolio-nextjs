@@ -43,9 +43,12 @@ const StyledDescription = Styled.div`
 .title-description {
   padding: 8px 0px 0px 8px;
 }
+.title-hello {
+  color: var(--yellow);
+}
 
 .description {
-    padding: 8px;
+  padding: 8px;
 }
 
 `;
@@ -65,7 +68,7 @@ const Description = () => {
             </Fade>
             <Fade right duration={1700}>
               <div className="personal-description col-10 col-md-6">
-                <h2 className="title-description">{t("title-description")} 👋🏽</h2>
+                <h2 className="title-description"><span className="title-hello">{t("title-hello")}</span>{t("title-name")} 👋🏽</h2>
                 <p className="description">{t("description")}</p>
               </div>
             </Fade>

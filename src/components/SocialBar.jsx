@@ -34,7 +34,7 @@ const StyledSocialBar = Styled.div`
 const SocialBar = () => {
   return (
     <StyledSocialBar className="d-none d-sm-block">
-      <a href={social.github}>
+      <a href={social.github} target="_blank">
         <FontAwesomeIcon
           icon={["fab", "github"]}
           className="social-icon"
@@ -43,7 +43,7 @@ const SocialBar = () => {
           title="GitHub"
         />
       </a>
-      <a href={social.linkedin}>
+      <a href={social.linkedin} target="_blank">
         <FontAwesomeIcon
           icon={["fab", "linkedin-in"]}
           className="social-icon"
@@ -52,7 +52,7 @@ const SocialBar = () => {
           title="LinkedIn"
         />
       </a>
-      <a href={social.instagram}>
+      <a href={social.instagram} target="_blank">
         <FontAwesomeIcon
           icon={["fab", "instagram"]}
           className="social-icon"
