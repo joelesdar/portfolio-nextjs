@@ -82,7 +82,7 @@ const StyledWelcome = Styled.div`
   -webkit-text-fill-color: transparent;
 } */
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     #title {
         top: 40%;
         letter-spacing: 8px;

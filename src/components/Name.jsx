@@ -55,7 +55,7 @@ const StyledName = Styled.div`
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .title {
         font-size: 4rem;
     }

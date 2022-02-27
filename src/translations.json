@@ -22,6 +22,36 @@
       "description-university" : "description",
       "description-platzi" : "description",
       "title-experience" : "Experience",
+      "experiencies" : {
+        "experience1": {
+          "position" : "Desarrollador Web",
+          "date" : "date",
+          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+        },
+        "experience2": {
+          "position" : "Lider de desarrollo",
+          "date" : "date",
+          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+        },
+        "experience3": {
+          "position" : "Educador en física",
+          "date" : "date",
+          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+        },
+        "experience4": {
+          "position" : "Desarrollador Junior",
+          "date" : "date",
+          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+        }
+      },
       "title-projects" : "My Projects",
       "projects" : {
         "project1" : {
@@ -92,10 +122,39 @@
         "title-language" : "Langues",
         "title-studies" : "Éducation",
         "title-university" : "National University of Colombia",
-
-
-"description-platzi" : "description",        "description-university" : "description",
+        "description-platzi" : "description",
+        "description-university" : "description",
         "title-experience" : "Expérience",
+        "experiencies" : {
+          "experience1": {
+            "position" : "Desarrollador Web",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          },
+          "experience2": {
+            "position" : "Lider de desarrollo",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          },
+          "experience3": {
+            "position" : "Educador en física",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          },
+          "experience4": {
+            "position" : "Desarrollador Junior",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          }
+        },
         "title-projects" : "Mes Projets",
         "projects" : {
           "project1" : {
@@ -166,10 +225,39 @@
         "title-language" : "Idiomas",
         "title-studies" : "Estudios",
         "title-university" : "Universidad Nacional de Colombia",
-
-
-"description-platzi" : "description",        "description-university" : "description",
+        "description-platzi" : "description",
+        "description-university" : "description",
         "title-experience" : "Experiencia",
+        "experiencies" : {
+          "experience1": {
+            "position" : "Desarrollador Web",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          },
+          "experience2": {
+            "position" : "Lider de desarrollo",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          },
+          "experience3": {
+            "position" : "Educador en física",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          },
+          "experience4": {
+            "position" : "Desarrollador Junior",
+            "date" : "date",
+            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          }
+        },
         "title-projects" : "Mis Proyectos",
         "projects": {
           "project1" : {

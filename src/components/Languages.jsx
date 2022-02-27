@@ -13,12 +13,12 @@ padding: 48px 0;
 background: var(--black);
 
 .title {
-  color: #3694FF;
+  color: var(--main-blue);
   text-align: center;
 }
 
 .level {
-  color: #0FF3F5;
+  color: var(--green-blue);
 }
 
 .languages {
