@@ -78,17 +78,59 @@ const Header = ({ language, setLanguage }) => {
           <div className="container-fluid"></div>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <div className="navbar-nav">
-              <a className="nav-link active" href="#!">
+              <a className="nav-link active" href="">
                 {t("home")}
                 <span className="sr-only">(current)</span>
               </a>
-              <a className="nav-link" href="#!">
-                {t("aboutMe")}
+              <div className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="#!"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  {t("about-me")}
+                </a>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    className="dropdown-item"
+                    href="#technologies"
+                  >
+                    {t("technologies")}
+                  </a>
+                  <a
+                    className="dropdown-item"
+                    href="#skills"
+                  >
+                    {t("skills")}
+                  </a>
+                  <a
+                    className="dropdown-item"
+                    href="#languages"
+                  >
+                    {t("languages")}
+                  </a>
+                  <a
+                    className="dropdown-item"
+                    href="#studies"
+                  >
+                    {t("studies")}
+                  </a>
+                  <a
+                    className="dropdown-item"
+                    href="#experience"
+                  >
+                    {t("experience")}
+                  </a>
+                </div>
+              </div>
+              <a className="nav-link" href="#projects">
+                {t("personal-projects")}
               </a>
-              <a className="nav-link" href="#!">
-                {t("work")}
-              </a>
-              <a className="nav-link" href="#!">
+              <a className="nav-link" href="#contact">
                 {t("contact")}
               </a>
               <div className="nav-item dropdown">
@@ -123,7 +165,7 @@ const Header = ({ language, setLanguage }) => {
                     href=""
                     onClick={() => ChangeLanguage("fr")}
                   >
-                    <Fr /> Francais
+                    <Fr /> Français
                   </a>
                 </div>
               </div>

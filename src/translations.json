@@ -6,16 +6,21 @@
       "language-fr" : "French",
       "language-es" : "Spanish",
       "home" : "Home",
-      "aboutMe" : "About",
-      "work" : "Work",
+      "about-me" : "Information",
+      "technologies" : "Technologies",
+      "skills" : "Skills",
+      "languages" : "Languages",
+      "studies" : "Education",
+      "experience" : "Experience",
+      "personal-projects" : "Projects",
       "contact" : "Contact",
       "subtitle" : "Web Developer",
       "title-hello" : "Hi!",
       "title-name" : " I'm Joel",
       "description" : "I'm a passionate and creative web developer.✨",
-      "title-technologies" : "Technical Skills",
-      "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
-      "title-softskills" : "Soft Skills",
+      "title-technologies" : "Technologies",
+      "description-technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+      "title-softskills" : "Skills",
       "description-softskills" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
       "title-language" : "Languages",
       "title-studies" : "Education",
@@ -27,40 +32,42 @@
       "experiencies" : {
         "experience1": {
           "position" : "Lead developer",
-          "description" : "",
+          "description" : "Led the product development and support team of the company.",
           "date" : "August 2021 - February 2022",
-          "responsability1" : "Leaded and co-ordinated teams to develop Web site graphics, content, capacity and interactivity.",
-          "responsability2" : "Consulted with clients to develop and document Web site requirements.",
-          "responsability3" : "Prepared mock-ups and prototypes.",
-          "responsability4" : "Planned, designed, writed, modified, integrated and tested Web site related .",
-          "responsability5" : "Created and optimized content for the Web site using a variety of graphics, database, animation and other software."
+          "responsability1" : "Lead and co-ordinate teams to develop Web site graphics, content, capacity and interactivity.",
+          "responsability2" : "Consult with clients to develop and document Web site requirements.",
+          "responsability3" : "Prepare mock-ups and prototypes.",
+          "responsability4" : "Plan, design, write, modify, integrate and test Web site related code.",
+          "responsability5" : "Create and optimize content for the Web site using a variety of graphics, database, animation and other software."
         },
         "experience2": {
           "position" : "Freelance Web Developer",
-          "description" : "",
+          "description" : "I have worked as a freelance developer creating and developing websites.",
           "date" : "date",
-          "responsability2" : "Consulted with clients to develop and document Web site requirements.",
-          "responsability3" : "Prepared mock-ups and prototypes.",
-          "responsability4" : "Planned, designed, writed, modified, integrated and tested Web site related ."
+          "responsability1" : "Consulted with clients to develop and document Web site requirements.",
+          "responsability2" : "Prepared mock-ups and prototypes.",
+          "responsability3" : "Planned, designed, writed, modified, integrated and tested Web site related code.",
+          "responsability4" : "Create and optimize content for the Web site using a variety of graphics, database, animation and other software."
         },
         "experience3": {
           "position" : "Volunteer community physics educator",
-          "description" : "",
-          "date" : "date",
+          "description" : "I had the opportunity to participate as an educator in the area of ​​physics in the Sotavento popular education group, giving and supporting classes for young people and adults who aspired to access higher education.",
+          "date" : "March - August 2021",
           "responsability1" : "Prepare subject material for presentation to students.",
-          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          "responsability2" : "Dictate and support classes to large groups of students, according to their needs.",
+          "responsability3" : "Propose and carry out scientific experiments and interactive activities for students."
         },
         "experience4": {
           "position" : "Junior Developer",
-          "description" : "",
-          "date" : "Julio 2017 - Noviembre 2017",
+          "description" : "I worked on the design and development of cross-platform Chatbots with Dialogflow from Google Cloud.",
+          "date" : "July - November 2017",
           "responsability1" : "Prepared mock-ups and prototypes.",
           "responsability2" : "Plan, design, write, modify, integrate and test code for the development of Chatbots.",
           "responsability3" : "Conduct tests and perform security, usability and quality controls."
         }
       },
       "title-projects" : "My Projects",
+      "subtitle-projects" : "Featured projects",
       "projects" : {
         "project1" : {
           "title": "Breaking Bad quote generator",
@@ -103,7 +110,7 @@
           "description" : "Project description"
         }
       },
-      "title-contact" : "Contact",
+      "title-contact" : "Find me at:",
       "message-footer" : {
         "first-part" : "Made with ",
         "second-part" : " using "
@@ -117,16 +124,21 @@
         "language-fr" : "Français",
         "language-es" : "Espagnol",
         "home" : "Nouveau",
-        "aboutMe" : "Informations",
-        "work" : "Travaille",
+        "about-me" : "Information",
+        "technologies" : "Technologies",
+        "skills" : "Habilidades",
+        "languages" : "Langues",
+        "studies" : "Éducation",
+        "experience" : "Expérience",
+        "personal-projects" : "Projets",
         "contact" : "Contact",
         "subtitle" : "Développeur Web",
         "title-hello" : "Salut !",
         "title-name" : " Je suis Joel",
         "description" : "Je suis un jolie développeur web.✨",
         "title-technologies" : "Habilites",
-        "technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
-        "title-softskills" : "Soft Skills",
+        "description-technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
+        "title-softskills" : "Habiletés",
         "description-softskills" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
         "title-language" : "Langues",
         "title-studies" : "Éducation",
@@ -138,7 +150,7 @@
         "experiencies" : {
           "experience1": {
             "position" : "Développeur principal",
-            "description" : "",
+            "description" : "J'ai dirigé l'équipe de développement de produits et de support de l'entreprise.",
             "date" : "Agosto 2021 - Febrero 2022",
             "responsability1" : "Diriger et coordonner des équipes pour développer les graphiques et les contenus du site Web ainsi que ses capacités et son interactivité.",
             "responsability2" : "Déterminer et documenter avec leurs clients les exigences du site Web.",
@@ -148,30 +160,32 @@
           },
           "experience2": {
             "position" : "Développeur Web Indépendant",
-            "description" : "",
-            "date" : "Agosto 2021 - Febrero 2022",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "description" : "J'ai travaillé en tant que développeur indépendant en créant et en développant des sites Web.",
+            "date" : "Août 2021 - Fevrier 2022",
+            "responsability1" : "Déterminer et documenter avec leurs clients les exigences du site Web.",
+            "responsability2" : "Préparer des maquettes et des prototypes.",
+            "responsability3" : "Planifier, concevoir, écrire, modifier, intégrer et mettre à l'essai et effectuer des contrôles de qualité et de sécurite.",
+            "responsability4" : "Créer et optimiser le contenu du site Web en utilisant nombre de graphiques, bases de données, animations, ainsi que d'autres logiciels."
           },
           "experience3": {
             "position" : "Éducateur Communautaire Bénévole en Physique",
-            "description" : "",
-            "date" : "Marzo 2021 - Agosto 2021",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "description" : "J'ai eu l'opportunité de participer en tant qu'éducateur dans le domaine de la physique au groupe d'éducation populaire de Sotavento, en donnant et en soutenant des cours pour les jeunes et les adultes qui aspiraient à accéder à l'enseignement supérieur.",
+            "date" : "Mars - Août 2021",
+            "responsability1" : "Préparer et concevoir du matériel d'étude pour les étudiants.",
+            "responsability2" : "Dicter et soutenir les cours à de grands groupes d'élèves, selon leurs besoins.",
+            "responsability3" : "Proposer et réaliser des expériences scientifiques et des activités interactives pour les élèves."
           },
           "experience4": {
             "position" : "Développeur Junior",
-            "description" : "",
-            "date" : "Julio 2017 - Noviembre 2017",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "description" : "Préparer des maquettes et des prototypes.",
+            "date" : "Juillet - Novembre 2017",
+            "responsability1" : "Préparer des maquettes et des prototypes.",
+            "responsability2" : "Planifier, concevoir, écrire, modifier, intégrer et mettre à l'essai les codes informatiques pour les sites Web.",
+            "responsability3" : "Mettre à l'essai et effectuer des contrôles de qualité, de sécurité et d'utilisabilité."
           }
         },
         "title-projects" : "Mes Projets",
+        "subtitle-projects" : "Projets en vedette",
         "projects" : {
           "project1" : {
             "title": "Breaking Bad quote generator",
@@ -214,10 +228,10 @@
             "description" : "Project description"
           }
         },
-        "title-contact" : "Contact",
+        "title-contact" : "Trouve-moi comme:",
         "message-footer" : {
-          "first-part" : "Built using ",
-          "second-part" : " with "
+          "first-part" : "Fait avec ",
+          "second-part" : " en utilisant "
         }
     }
   },
@@ -228,16 +242,21 @@
         "language-fr" : "Francés",
         "language-es" : "Español",
         "home" : "Inicio",
-        "aboutMe" : "Información",
-        "work" : "Trabajos",
+        "about-me" : "Información",
+        "technologies" : "Tecnologías",
+        "skills" : "Habilidades",
+        "languages" : "Idiomas",
+        "studies" : "Estudios",
+        "experience" : "Experiencia",
+        "personal-projects" : "Proyectos",
         "contact" : "Contacto",
         "subtitle" : "Desarrollador Web",
         "title-hello" : "!Hola!",
         "title-name" : "  Soy Joel",
         "description" : "Soy un desarrollador web apasionado y creativo. Amante de las ciencias y la educación✨",
         "title-technologies" : "Tecnologias",
-        "technologies" : "Como desarrollador he trabajado con diferentes tecnologias.",
-        "title-softskills" : "Soft Skills",
+        "description-technologies" : "Como desarrollador he trabajado con diferentes tecnologias.",
+        "title-softskills" : "Habilidades",
         "description-softskills" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
         "title-language" : "Idiomas",
         "title-studies" : "Estudios",
@@ -249,7 +268,7 @@
         "experiencies" : {
           "experience1": {
             "position" : "Lider de desarrollo",
-            "description" : "",
+            "description" : "Lideré el equipo de desarrollo de producto y soporte de la empresa.",
             "date" : "Agosto 2021 - Febrero 2022",
             "responsability1" : "Liderar y coordinar equipos para el desarrollo de sitios web.",
             "responsability2" : "Consultar con clientes para desarrollar y documentar los requerimientos de cada proyecto.",
@@ -259,34 +278,36 @@
           },
           "experience2": {
             "position" : "Desarrollador Web Freelance",
-            "description" : "",
+            "description" : "He trabajado como desarrollador independiente en la creación y desarrollo de sitios web.",
             "date" : "date",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "responsability1" : "Consultar con clientes para desarrollar y documentar los requerimientos de cada proyecto.",
+            "responsability2" : "Preparar y diseñar mock-ups y prototipos de producto.",
+            "responsability3" : "Planear, diseñar, escribir, integrar y testear el código para cada sitio web.",
+            "responsability4" : "Crear y optimizar el contenido para el sitio web."
           },
           "experience3": {
             "position" : "Educador popular voluntario de física",
-            "description" : "",
-            "date" : "Marzo 2021 - Agosto 2021",
-            "responsability1" : "Preparar y diseñar material de estudio para los estudiantes",
+            "description" : "Tuve la oportunidad de participar como educador en el área de física en el colectivo de educación popular Sotavento,  dando y apoyando clases para jóvenes y adultos que aspiraban a acceder a la educación superior.",
+            "date" : "Marzo - Agosto 2021",
+            "responsability1" : "Preparar y diseñar material de estudio para los estudiantes.",
             "responsability2" : "Dictar y apoyar clases a grupos grandes de estudiantes, de acuerdo a sus necesidades.",
             "responsability3" : "Proponer y realizar experimentos científicos y actividades interactivas para los estudiantes."
           },
           "experience4": {
             "position" : "Desarrollador Junior",
-            "description" : "Participé en el desarrollo de Chatbots",
-            "date" : "Julio 2017 - Noviembre 2017",
+            "description" : "Trabajé en el diseño y desarrollo de Chatbots multiplataforma con Dialogflow de Google Cloud.",
+            "date" : "Julio - Noviembre 2017",
             "responsability1" : "Preparar y diseñar mock-ups y prototipos de producto.",
             "responsability2" : "Planear, diseñar, escribir, integrar y testear el código para el desarrollo de Chatbots.",
             "responsability3" : "Llevar a cabo test de calidad, seguridad y usabilidad."
           }
         },
         "title-projects" : "Mis Proyectos",
+        "subtitle-projects" : "Proyectos destacados",
         "projects": {
           "project1" : {
             "title": "Generador de frases celebres de Breaking Bad",
-            "description" : "Project description"
+            "description" : "Generador aleatorio de frases celebres de la serie Breaking Bad usando un API."
           },
           "project2" : {
             "title": "Breaking Bad quote generator",
@@ -325,7 +346,7 @@
             "description" : "Project description"
           }
         },
-        "title-contact" : "Contacto",
+        "title-contact" : "Encuentrame como:",
         "message-footer" : {
           "first-part" : "Hecho con ",
           "second-part" : " usando "

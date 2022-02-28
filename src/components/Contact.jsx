@@ -43,13 +43,13 @@ const Contact = () => {
 
   return (
     <StyledContact>
-      <div className="container">
+      <div className="container" id="contact">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             {/* <h2 className="title">{t("title-contact")}</h2> */}
             <div className="social row justify-content-center">
               <div className="find-me col-12">
-                <p>Encuentrame en: </p>
+                <p>{t("title-contact")}</p>
                 <p className="at">✨@Joelesdar</p>
               </div>
                 <div className="col-2">

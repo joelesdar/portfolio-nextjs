@@ -39,9 +39,29 @@ background: var(--black);
 .job-title {
   color: var(--green-blue);
 }
-/* .date-subtitle {
+.date-subtitle {
   color: var(--main-blue);
-} */
+}
+
+ul.resp-list {
+li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 16px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--main-blue);
+    transform: rotate(90deg);
+  }
+}
+}
 
 @media (max-width: 767px) {
   .list-group {
@@ -69,7 +89,7 @@ const Experience = () => {
 
   return (
     <StyledExperience>
-      <div className="container">
+      <div className="container" id="experience">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             <Fade>
@@ -79,8 +99,8 @@ const Experience = () => {
               <Fade>
                 <div className="col-12 col-md-2">
                   <div className="list-group" id="list-tab" role="tablist">
-                    <a className="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                    <a className="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Jenial Software</a>
+                    <a className="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Jenial Software</a>
+                    <a className="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Freelance</a>
                     <a className="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Sotavento</a>
                     <a className="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Lavenir</a>
                   </div>
@@ -91,29 +111,32 @@ const Experience = () => {
                   <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                     <Fade>
                       <h4 className="job-title">{t("experiencies.experience1.position")}</h4>
+                      <p>{t("experiencies.experience1.description")}</p>
                       <p className="date-subtitle">{t("experiencies.experience1.date")}</p>
                     </Fade>
-                    <ul>
+                    <ul className="resp-list">
                       <Fade bottom><li>{t("experiencies.experience1.responsability1")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience1.responsability2")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience1.responsability3")}</li></Fade>
+                      <Fade bottom><li>{t("experiencies.experience1.responsability4")}</li></Fade>
+                      <Fade bottom><li>{t("experiencies.experience1.responsability5")}</li></Fade>
                     </ul>
                   </div>
                   <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                     <h4 className="job-title">{t("experiencies.experience2.position")}</h4>
-                    <p className="date-subtitle">{t("experiencies.experience2.date")}</p>
-                    <ul>
+                    <p>{t("experiencies.experience2.description")}</p>
+                    <ul className="resp-list">
                       <Fade bottom><li>{t("experiencies.experience2.responsability1")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience2.responsability2")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience2.responsability3")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience2.responsability4")}</li></Fade>
-                      <Fade bottom><li>{t("experiencies.experience2.responsability5")}</li></Fade>
                     </ul>
                   </div>
                   <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                     <h4 className="job-title">{t("experiencies.experience3.position")}</h4>
+                    <p>{t("experiencies.experience3.description")}</p>
                     <p className="date-subtitle">{t("experiencies.experience3.date")}</p>
-                    <ul>
+                    <ul className="resp-list">
                       <Fade bottom><li>{t("experiencies.experience3.responsability1")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience3.responsability2")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience3.responsability3")}</li></Fade>
@@ -121,8 +144,9 @@ const Experience = () => {
                   </div>
                   <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
                     <h4 className="job-title">{t("experiencies.experience4.position")}</h4>
+                    <p>{t("experiencies.experience4.description")}</p>
                     <p className="date-subtitle">{t("experiencies.experience4.date")}</p>
-                    <ul>
+                    <ul className="resp-list">
                       <Fade bottom><li>{t("experiencies.experience4.responsability1")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience4.responsability2")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience4.responsability3")}</li></Fade>

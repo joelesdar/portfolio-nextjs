@@ -21,7 +21,7 @@ const SoftSkills = () => {
 
   return (
     <StyledSoftSkills>
-      <div className="container">
+      <div className="container" id="skills">
         <div className="row justify-content-around">
           <div className="col-10">
             <h2>{t("title-softskills")}</h2>

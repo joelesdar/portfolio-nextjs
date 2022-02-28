@@ -36,7 +36,7 @@ const Languages = () => {
 
   return (
     <StyledLanguages>
-      <div className="container">
+      <div className="container" id="languages">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             <div className="row">

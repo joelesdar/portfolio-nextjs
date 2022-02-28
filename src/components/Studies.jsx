@@ -42,7 +42,7 @@ const Studies = () => {
 
   return (
     <StyledStudies>
-      <div className="container">
+      <div className="container" id="studies">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             <h2>{t("title-studies")}</h2>

@@ -356,7 +356,7 @@ const Technologies = () => {
 
   return (
     <StyledTechnologies>
-      <div className="container-fluid">
+      <div className="container-fluid" id="technologies">
         <div className="row justify-content-around align-items-center">
           <Rotate duration='2000'>
             <div className="col-12 col-md-7 col-lg-6">
@@ -507,7 +507,7 @@ const Technologies = () => {
                   <h2 className="title-technologies">
                     {t("title-technologies")}
                   </h2>
-                  <p>{t("technologies")}</p>
+                  <p>{t("description-technologies")}</p>
                 </div>
                 <div className="col-5">
                   <p>Me he especializado en:</p>

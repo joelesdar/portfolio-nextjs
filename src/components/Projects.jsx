@@ -30,13 +30,13 @@ const Projects = () => {
 
   return (
     <StyledProjects>
-      <div className="container">
+      <div className="container" id="projects">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
             <Fade duration='1500'>
               <h2 className="title">{t("title-projects")}</h2>
             </Fade>
-            <h3>Proyectos destacados</h3>
+            <h3>{t("subtitle-projects")}</h3>
             <div className="row justify-content-around">
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
