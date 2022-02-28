@@ -46,7 +46,7 @@ const Contact = () => {
       <div className="container">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
-            <h2 className="title">{t("title-contact")}</h2>
+            {/* <h2 className="title">{t("title-contact")}</h2> */}
             <div className="social row justify-content-center">
               <div className="find-me col-12">
                 <p>Encuentrame en: </p>
@@ -57,7 +57,7 @@ const Contact = () => {
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       className="social-icon"
-                      color="var(--green-blue)"
+                      color="var(--main-blue)"
                       size="2xl"
                       title="GitHub"
                     />
@@ -68,7 +68,7 @@ const Contact = () => {
                     <FontAwesomeIcon
                       icon={["fab", "linkedin-in"]}
                       className="social-icon"
-                      color="var(--green-blue)"
+                      color="var(--main-blue)"
                       size="2xl"
                       title="LinkedIn"
                     />
@@ -79,7 +79,7 @@ const Contact = () => {
                     <FontAwesomeIcon
                       icon={["fab", "instagram"]}
                       className="social-icon"
-                      color="var(--green-blue)"
+                      color="var(--main-blue)"
                       size="2xl"
                       title="Instagram"
                     />

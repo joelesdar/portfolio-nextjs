@@ -4,11 +4,36 @@ import { useTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
+import unal from "./icons/unal.png";
+import logounal from "./icons/logounal.png";
+import platzi from "./icons/platzi.png";
 
 const StyledStudies = Styled.div`
 
 padding: 48px 0;
 background: var(--dark-blue);
+
+.study-block {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.career-title {
+  color: var(--main-blue);
+}
+
+.institution {
+  /* color: var(--main-blue); */
+}
+
+.logo {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.logo-university {
+  max-height: 8rem;
+}
 
 `;
 
@@ -22,16 +47,23 @@ const Studies = () => {
           <div className="col-10">
             <h2>{t("title-studies")}</h2>
             <div className="row">
-
-              <div className="col-12 col-md-6">
-                  <h3>{t("title-career")}</h3>
+              <div className="study-block col-12 col-md-6">
+                  <h4 className="career-title">{t("title-career")}</h4>
                   <p>{t("description-university")}</p>
-                  <h5>{t("title-university")}</h5>
+                  <h5 className="institution">{t("title-university")}</h5>
+                  <div className="logo">
+                    <img className="logo-university" src={logounal} alt="Universidad Nacional de Colombia" title="Universidad Nacional de Colombia"/>
+                  </div>
+                  {/* <a href="https://unal.edu.c4/" target="_blank">Sitio oficial</a> */}
               </div>
-              <div className="col-12 col-md-6">
-                  <h3>{t("title-career")}</h3>
+              <div className="study-block col-12 col-md-6">
+                  <h4 className="career-title">{t("title-career")}</h4>
                   <p>{t("description-university")}</p>
-                  <h5>{t("title-university")}</h5>
+                  <h5 className="institution">Platzi</h5>
+                  <div className="logo">
+                    <img className="logo-university" src={platzi} alt="Platzi" title="Platzi"/>
+                  </div>
+                  {/* <a href="https://platzi.com/" target="_blank">Sitio oficial</a> */}
               </div>
             </div>
           </div>

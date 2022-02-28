@@ -317,14 +317,35 @@ ul[class^=ring] li {
   color: white;
 }
 
-.title-technologies {
-  color: var(--main-blue);
-}
-
 .logo {
   img {
     width: 100%;
   }
+}
+
+.title-technologies {
+  color: var(--main-blue);
+}
+
+ul.tech-list {
+
+	li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 16px;
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 10px;
+			width: 0;
+			height: 0;
+			border-left: 4px solid transparent;
+			border-right: 4px solid transparent;
+			border-bottom: 6px solid var(--main-blue);
+			transform: rotate(90deg);
+		}
+	}
 }
 
 }
@@ -487,6 +508,28 @@ const Technologies = () => {
                     {t("title-technologies")}
                   </h2>
                   <p>{t("technologies")}</p>
+                </div>
+                <div className="col-5">
+                  <p>Me he especializado en:</p>
+                  <ul className="tech-list">
+                    <li>Git, Github</li>
+                    <li>HTML5, CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Wordpress</li>
+                    <li>Dialogflow</li>
+                    <li>React.js</li>
+                  </ul>
+                </div>
+                <div className="col-5">
+                  <p>También he trabajado con:</p>
+                  <ul className="tech-list">
+                    <li>MySQL, SQL</li>
+                    <li>PHP</li>
+                    <li>Google Cloud</li>
+                    <li>Microsoft Office</li>
+                  </ul>
                 </div>
               </div>
             </div>
