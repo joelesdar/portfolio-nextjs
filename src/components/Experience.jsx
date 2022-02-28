@@ -106,6 +106,8 @@ const Experience = () => {
                       <Fade bottom><li>{t("experiencies.experience2.responsability1")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience2.responsability2")}</li></Fade>
                       <Fade bottom><li>{t("experiencies.experience2.responsability3")}</li></Fade>
+                      <Fade bottom><li>{t("experiencies.experience2.responsability4")}</li></Fade>
+                      <Fade bottom><li>{t("experiencies.experience2.responsability5")}</li></Fade>
                     </ul>
                   </div>
                   <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">

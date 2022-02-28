@@ -26,32 +26,38 @@
       "title-experience" : "Experience",
       "experiencies" : {
         "experience1": {
-          "position" : "Desarrollador Web",
-          "date" : "date",
-          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          "position" : "Lead developer",
+          "description" : "",
+          "date" : "August 2021 - February 2022",
+          "responsability1" : "Leaded and co-ordinated teams to develop Web site graphics, content, capacity and interactivity.",
+          "responsability2" : "Consulted with clients to develop and document Web site requirements.",
+          "responsability3" : "Prepared mock-ups and prototypes.",
+          "responsability4" : "Planned, designed, writed, modified, integrated and tested Web site related .",
+          "responsability5" : "Created and optimized content for the Web site using a variety of graphics, database, animation and other software."
         },
         "experience2": {
-          "position" : "Lider de desarrollo",
+          "position" : "Freelance Web Developer",
+          "description" : "",
           "date" : "date",
-          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          "responsability2" : "Consulted with clients to develop and document Web site requirements.",
+          "responsability3" : "Prepared mock-ups and prototypes.",
+          "responsability4" : "Planned, designed, writed, modified, integrated and tested Web site related ."
         },
         "experience3": {
-          "position" : "Educador en física",
+          "position" : "Volunteer community physics educator",
+          "description" : "",
           "date" : "date",
-          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
+          "responsability1" : "Prepare subject material for presentation to students.",
           "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
           "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
         },
         "experience4": {
-          "position" : "Desarrollador Junior",
-          "date" : "date",
-          "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-          "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+          "position" : "Junior Developer",
+          "description" : "",
+          "date" : "Julio 2017 - Noviembre 2017",
+          "responsability1" : "Prepared mock-ups and prototypes.",
+          "responsability2" : "Plan, design, write, modify, integrate and test code for the development of Chatbots.",
+          "responsability3" : "Conduct tests and perform security, usability and quality controls."
         }
       },
       "title-projects" : "My Projects",
@@ -131,29 +137,35 @@
         "title-experience" : "Expérience",
         "experiencies" : {
           "experience1": {
-            "position" : "Desarrollador Web",
-            "date" : "date",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "position" : "Développeur principal",
+            "description" : "",
+            "date" : "Agosto 2021 - Febrero 2022",
+            "responsability1" : "Diriger et coordonner des équipes pour développer les graphiques et les contenus du site Web ainsi que ses capacités et son interactivité.",
+            "responsability2" : "Déterminer et documenter avec leurs clients les exigences du site Web.",
+            "responsability3" : "Préparer des maquettes et des prototypes.",
+            "responsability4" : "Planifier, concevoir, écrire, modifier, intégrer et mettre à l'essai et effectuer des contrôles de qualité et de sécurite.",
+            "responsability5" : "Créer et optimiser le contenu du site Web en utilisant nombre de graphiques, bases de données, animations, ainsi que d'autres logiciels."
           },
           "experience2": {
-            "position" : "Lider de desarrollo",
-            "date" : "date",
+            "position" : "Développeur Web Indépendant",
+            "description" : "",
+            "date" : "Agosto 2021 - Febrero 2022",
             "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
           },
           "experience3": {
-            "position" : "Educador en física",
-            "date" : "date",
+            "position" : "Éducateur Communautaire Bénévole en Physique",
+            "description" : "",
+            "date" : "Marzo 2021 - Agosto 2021",
             "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
           },
           "experience4": {
-            "position" : "Desarrollador Junior",
-            "date" : "date",
+            "position" : "Développeur Junior",
+            "description" : "",
+            "date" : "Julio 2017 - Noviembre 2017",
             "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
@@ -236,38 +248,44 @@
         "title-experience" : "Experiencia",
         "experiencies" : {
           "experience1": {
-            "position" : "Desarrollador Web",
-            "date" : "date",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "position" : "Lider de desarrollo",
+            "description" : "",
+            "date" : "Agosto 2021 - Febrero 2022",
+            "responsability1" : "Liderar y coordinar equipos para el desarrollo de sitios web.",
+            "responsability2" : "Consultar con clientes para desarrollar y documentar los requerimientos de cada proyecto.",
+            "responsability3" : "Preparar y diseñar mock-ups y prototipos de producto.",
+            "responsability4" : "Planear, diseñar, escribir, integrar y testear el código para cada sitio web.",
+            "responsability5" : "Crear y optimizar el contenido para el sitio web."
           },
           "experience2": {
-            "position" : "Lider de desarrollo",
+            "position" : "Desarrollador Web Freelance",
+            "description" : "",
             "date" : "date",
             "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
             "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
           },
           "experience3": {
-            "position" : "Educador en física",
-            "date" : "date",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "position" : "Educador popular voluntario de física",
+            "description" : "",
+            "date" : "Marzo 2021 - Agosto 2021",
+            "responsability1" : "Preparar y diseñar material de estudio para los estudiantes",
+            "responsability2" : "Dictar y apoyar clases a grupos grandes de estudiantes, de acuerdo a sus necesidades.",
+            "responsability3" : "Proponer y realizar experimentos científicos y actividades interactivas para los estudiantes."
           },
           "experience4": {
             "position" : "Desarrollador Junior",
-            "date" : "date",
-            "responsability1" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability2" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
-            "responsability3" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex."
+            "description" : "Participé en el desarrollo de Chatbots",
+            "date" : "Julio 2017 - Noviembre 2017",
+            "responsability1" : "Preparar y diseñar mock-ups y prototipos de producto.",
+            "responsability2" : "Planear, diseñar, escribir, integrar y testear el código para el desarrollo de Chatbots.",
+            "responsability3" : "Llevar a cabo test de calidad, seguridad y usabilidad."
           }
         },
         "title-projects" : "Mis Proyectos",
         "projects": {
           "project1" : {
-            "title": "Breaking Bad quote generator",
+            "title": "Generador de frases celebres de Breaking Bad",
             "description" : "Project description"
           },
           "project2" : {
