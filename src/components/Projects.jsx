@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
@@ -27,16 +27,24 @@ background: var(--dark-blue);
 
 const Projects = () => {
   const { t } = useTranslation();
+  const [showMessage, changeMessage] = useState(t("show-more-projects"));
+
+  const updateMessage = () => {
+    showMessage === t("show-more-projects") ? changeMessage(t("show-less-projects")) : changeMessage(t("show-more-projects"));
+  };
+
 
   return (
     <StyledProjects>
       <div className="container" id="projects">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
-            <Fade duration='1500'>
+            <Fade duration="1500">
               <h2 className="title">{t("title-projects")}</h2>
             </Fade>
-            <h3>{t("subtitle-projects")}</h3>
+            <Fade duration="1500">
+              <h3>{t("subtitle-projects")}</h3>
+            </Fade>
             <div className="row justify-content-around">
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
@@ -45,8 +53,8 @@ const Projects = () => {
                     description={t("projects.project1.description")}
                     cover={cover1}
                     libraries={"React Bootstrap API"}
-                    github={''}
-                    link={''}
+                    github={""}
+                    link={""}
                   />
                 </Fade>
               </div>
@@ -57,8 +65,8 @@ const Projects = () => {
                     description={t("projects.project2.description")}
                     cover={cover2}
                     libraries={"React Bootstrap"}
-                    github={''}
-                    link={''}
+                    github={""}
+                    link={""}
                   />
                 </Fade>
               </div>
@@ -69,8 +77,8 @@ const Projects = () => {
                     description={t("projects.project3.description")}
                     cover={cover3}
                     libraries={"React Bootstrap"}
-                    github={''}
-                    link={''}
+                    github={""}
+                    link={""}
                   />
                 </Fade>
               </div>
@@ -81,14 +89,27 @@ const Projects = () => {
                     description={t("projects.project4.description")}
                     cover={cover4}
                     libraries={"React Bootstrap"}
-                    github={''}
-                    link={''}
+                    github={""}
+                    link={""}
                   />
                 </Fade>
               </div>
             </div>
-            <a className="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Otros proyectos</a>
-            <div className="collapse row justify-content-around" id="collapseExample">
+            <a
+              className="btn btn-primary"
+              data-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+              onClick={() => updateMessage()}
+            >
+              {showMessage}
+            </a>
+            <div
+              className="collapse row justify-content-around"
+              id="collapseExample"
+            >
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
                   <Project
@@ -96,8 +117,8 @@ const Projects = () => {
                     description={t("projects.project5.description")}
                     cover={cover5}
                     libraries={"JavaScript"}
-                    github={'https://github.com/joelesdar/Tarjeta-Portafolio'}
-                    link={'https://joelesdar.github.io/Tarjeta-Portafolio/'}
+                    github={"https://github.com/joelesdar/Tarjeta-Portafolio"}
+                    link={"https://joelesdar.github.io/Tarjeta-Portafolio/"}
                   />
                 </Fade>
               </div>
@@ -108,8 +129,8 @@ const Projects = () => {
                     description={t("projects.project6.description")}
                     cover={cover6}
                     libraries={"HTML5 CSS3"}
-                    github={'https://github.com/joelesdar/HackersPros.com'}
-                    link={'https://joelesdar.github.io/HackersPros.com/'}
+                    github={"https://github.com/joelesdar/HackersPros.com"}
+                    link={"https://joelesdar.github.io/HackersPros.com/"}
                   />
                 </Fade>
               </div>
@@ -120,8 +141,8 @@ const Projects = () => {
                     description={t("projects.project7.description")}
                     cover={cover7}
                     libraries={"JavaScript"}
-                    github={'https://github.com/joelesdar/Parallax-iPhone-6S'}
-                    link={'https://joelesdar.github.io/Parallax-iPhone-6S/'}
+                    github={"https://github.com/joelesdar/Parallax-iPhone-6S"}
+                    link={"https://joelesdar.github.io/Parallax-iPhone-6S/"}
                   />
                 </Fade>
               </div>
@@ -132,8 +153,8 @@ const Projects = () => {
                     description={t("projects.project8.description")}
                     cover={cover8}
                     libraries={"JavaScript"}
-                    github={'https://github.com/joelesdar/Xilofono-JavaScript'}
-                    link={'https://joelesdar.github.io/Xilofono-JavaScript/'}
+                    github={"https://github.com/joelesdar/Xilofono-JavaScript"}
+                    link={"https://joelesdar.github.io/Xilofono-JavaScript/"}
                   />
                 </Fade>
               </div>

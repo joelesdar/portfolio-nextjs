@@ -59,7 +59,7 @@ const StyledHeader = Styled.div`
 const Header = ({ language, setLanguage }) => {
   const cookies = new Cookies();
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const ChangeLanguage = (lang) => {
     // setLanguage(lang);

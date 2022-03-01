@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 import $ from "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import unal from "./icons/unal.png";
-import logounal from "./icons/logounal.png";
 import platzi from "./icons/platzi.png";
 
 const StyledStudies = Styled.div`
@@ -45,26 +44,32 @@ const Studies = () => {
       <div className="container" id="studies">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
-            <h2>{t("title-studies")}</h2>
+            <Fade duration="1500">
+              <h2>{t("title-studies")}</h2>
+            </Fade>
             <div className="row">
+              <Fade left>
               <div className="study-block col-12 col-md-6">
                   <h4 className="career-title">{t("title-career")}</h4>
                   <p>{t("description-university")}</p>
                   <h5 className="institution">{t("title-university")}</h5>
                   <div className="logo">
-                    <img className="logo-university" src={logounal} alt="Universidad Nacional de Colombia" title="Universidad Nacional de Colombia"/>
+                    <img className="logo-university" src={unal} alt="Universidad Nacional de Colombia" title="Universidad Nacional de Colombia"/>
                   </div>
                   {/* <a href="https://unal.edu.c4/" target="_blank">Sitio oficial</a> */}
               </div>
-              <div className="study-block col-12 col-md-6">
-                  <h4 className="career-title">{t("title-career")}</h4>
-                  <p>{t("description-university")}</p>
-                  <h5 className="institution">Platzi</h5>
-                  <div className="logo">
-                    <img className="logo-university" src={platzi} alt="Platzi" title="Platzi"/>
-                  </div>
-                  {/* <a href="https://platzi.com/" target="_blank">Sitio oficial</a> */}
-              </div>
+              </Fade>
+              <Fade right>
+                <div className="study-block col-12 col-md-6">
+                    <h4 className="career-title">{t("title-career")}</h4>
+                    <p>{t("description-university")}</p>
+                    <h5 className="institution">Platzi</h5>
+                    <div className="logo">
+                      <img className="logo-university" src={platzi} alt="Platzi" title="Platzi"/>
+                    </div>
+                    {/* <a href="https://platzi.com/" target="_blank">Sitio oficial</a> */}
+                </div>
+              </Fade>
             </div>
           </div>
         </div>

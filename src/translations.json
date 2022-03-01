@@ -68,6 +68,8 @@
       },
       "title-projects" : "My Projects",
       "subtitle-projects" : "Featured projects",
+      "show-more-projects" : "Show More",
+      "show-less-projects" : "Show Less",
       "projects" : {
         "project1" : {
           "title": "Breaking Bad quote generator",
@@ -186,6 +188,8 @@
         },
         "title-projects" : "Mes Projets",
         "subtitle-projects" : "Projets en vedette",
+        "show-more-projects" : "Montrer Plus",
+        "show-less-projects" : "Montrer Moins",
         "projects" : {
           "project1" : {
             "title": "Breaking Bad quote generator",
@@ -304,6 +308,8 @@
         },
         "title-projects" : "Mis Proyectos",
         "subtitle-projects" : "Proyectos destacados",
+        "show-more-projects" : "Ver Más",
+        "show-less-projects" : "Ver Menos",
         "projects": {
           "project1" : {
             "title": "Generador de frases celebres de Breaking Bad",
