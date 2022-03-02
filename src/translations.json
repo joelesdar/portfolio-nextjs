@@ -68,6 +68,7 @@
       },
       "title-projects" : "My Projects",
       "subtitle-projects" : "Featured projects",
+      "subtitle-more-projects" : "Other projects",
       "show-more-projects" : "Show More",
       "show-less-projects" : "Show Less",
       "projects" : {
@@ -113,6 +114,7 @@
         }
       },
       "title-contact" : "Find me at:",
+      "link-contact" : "Contact",
       "message-footer" : {
         "first-part" : "Made with ",
         "second-part" : " using "
@@ -125,7 +127,7 @@
         "language-en" : "Anglais",
         "language-fr" : "Français",
         "language-es" : "Espagnol",
-        "home" : "Nouveau",
+        "home" : "Accueil",
         "about-me" : "Information",
         "technologies" : "Technologies",
         "skills" : "Habilidades",
@@ -188,6 +190,7 @@
         },
         "title-projects" : "Mes Projets",
         "subtitle-projects" : "Projets en vedette",
+        "subtitle-more-projects" : "Autres projects",
         "show-more-projects" : "Montrer Plus",
         "show-less-projects" : "Montrer Moins",
         "projects" : {
@@ -233,6 +236,7 @@
           }
         },
         "title-contact" : "Trouve-moi comme:",
+        "link-contact" : "Contacter",
         "message-footer" : {
           "first-part" : "Fait avec ",
           "second-part" : " en utilisant "
@@ -308,6 +312,7 @@
         },
         "title-projects" : "Mis Proyectos",
         "subtitle-projects" : "Proyectos destacados",
+        "subtitle-more-projects" : "Otros proyectos",
         "show-more-projects" : "Ver Más",
         "show-less-projects" : "Ver Menos",
         "projects": {
@@ -353,6 +358,7 @@
           }
         },
         "title-contact" : "Encuentrame como:",
+        "link-contact" : "Contactar",
         "message-footer" : {
           "first-part" : "Hecho con ",
           "second-part" : " usando "

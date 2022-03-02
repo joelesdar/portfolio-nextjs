@@ -1,6 +1,6 @@
 const social = {
     github: 'https://github.com/joelesdar',
-    linkedin: 'https://www.linkedin.com/in/joel-esteban-diaz-ar%C3%A9valo-435aab1a9/',
+    linkedin: 'https://www.linkedin.com/in/joelesdar/',
     instagram: 'https://www.instagram.com/joelesdar/'
   };
 

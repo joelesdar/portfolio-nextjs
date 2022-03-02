@@ -13,7 +13,7 @@ padding: 48px 0;
 background: var(--black);
 
 .title {
-  color: var(--main-blue);
+  color: var(--green-blue);
   text-align: center;
 }
 .social {
@@ -36,6 +36,27 @@ background: var(--black);
   font-size: 2rem;
 }
 
+.btn-primary {
+  background-color: var(--black);
+  /* padding: 8px; */
+  border-radius: 8px;
+  color: var(--green-blue);
+  margin: 24px 8px;
+  border: 1px solid var(--green-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--green-blue);
+  border-radius: 8px;
+  border: 1px solid var(--main-blue);
+  color: var(--black);
+  margin: 24px 8px;
+}
+
+.mail {
+  color: var(--green-blue);
+}
+
 `;
 
 const Contact = () => {
@@ -46,10 +67,9 @@ const Contact = () => {
       <div className="container" id="contact">
         <div className="row align-items-center justify-content-around">
           <div className="col-10">
-            {/* <h2 className="title">{t("title-contact")}</h2> */}
             <div className="social row justify-content-center">
               <div className="find-me col-12">
-                <p>{t("title-contact")}</p>
+                <p className="title">{t("title-contact")}</p>
                 <p className="at">✨@Joelesdar</p>
               </div>
                 <div className="col-2">
@@ -57,7 +77,7 @@ const Contact = () => {
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       className="social-icon"
-                      color="var(--main-blue)"
+                      color="var(--green-blue)"
                       size="2xl"
                       title="GitHub"
                     />
@@ -68,7 +88,7 @@ const Contact = () => {
                     <FontAwesomeIcon
                       icon={["fab", "linkedin-in"]}
                       className="social-icon"
-                      color="var(--main-blue)"
+                      color="var(--green-blue)"
                       size="2xl"
                       title="LinkedIn"
                     />
@@ -79,14 +99,22 @@ const Contact = () => {
                     <FontAwesomeIcon
                       icon={["fab", "instagram"]}
                       className="social-icon"
-                      color="var(--main-blue)"
+                      color="var(--green-blue)"
                       size="2xl"
                       title="Instagram"
                     />
                   </a>
                 </div>
                 <div className="col-12">
-                  <p>Joelesdar@gmail.com</p>
+                  <a className="btn btn-primary" href="mailto:jodiazare@gmail.com">{t("link-contact")}</a>
+                  
+                  <p className="mail"><FontAwesomeIcon
+                      icon={["fas", "envelope"]}
+                      className="social-icon"
+                      color="var(--green-blue)"
+                      size="md"
+                      title="mail"
+                    /> Jodiazare@gmail.com</p>
                 </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
@@ -23,6 +23,23 @@ background: var(--dark-blue);
     text-align: center;
 }
 
+.btn-primary {
+  background-color: var(--intense-blue);
+  /* padding: 8px; */
+  border-radius: 8px;
+  color: var(--green-blue);
+  margin: 24px 8px;
+  border: 1px solid var(--green-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--green-blue);
+  border-radius: 8px;
+  border: 1px solid var(--main-blue);
+  color: var(--intense-blue);
+  margin: 24px 8px;
+}
+
 `;
 
 const Projects = () => {
@@ -30,9 +47,10 @@ const Projects = () => {
   const [showMessage, changeMessage] = useState(t("show-more-projects"));
 
   const updateMessage = () => {
-    showMessage === t("show-more-projects") ? changeMessage(t("show-less-projects")) : changeMessage(t("show-more-projects"));
+    showMessage === t("show-more-projects")
+      ? changeMessage(t("show-less-projects"))
+      : changeMessage(t("show-more-projects"));
   };
-
 
   return (
     <StyledProjects>
@@ -110,6 +128,11 @@ const Projects = () => {
               className="collapse row justify-content-around"
               id="collapseExample"
             >
+              <div className="col-12">
+                <Fade duration="1500">
+                  <h3>{t("subtitle-more-projects")}</h3>
+                </Fade>
+              </div>
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
                   <Project
