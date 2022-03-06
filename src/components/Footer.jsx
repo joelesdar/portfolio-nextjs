@@ -24,7 +24,7 @@ const StyledFooter = Styled.div`
         .heart-icon {
             color: var(--green-blue);
         }
-        .copy-icon {
+        .copyright {
             color: var(--green-blue);
 
         }
@@ -56,8 +56,12 @@ const Footer = () => {
           className="bootstrap-icon"
           size="lg"
         />
-        <p className="copy-icon"> &copy;</p>
-        <span id="year" className="copy-icon">{date}</span>
+        <div>
+          <p className="copyright"> &copy;</p>
+          <span className="copyright" id="year">{date}</span>
+          <p> <span className="copyright">joelesdar.com</span> - {t("rights")}</p>
+        </div>
+
       </div>
     </StyledFooter>
   );

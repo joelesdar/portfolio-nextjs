@@ -12,7 +12,7 @@ const StyledSocialBar = Styled.div`
   right: 0;
   transform: translate(0, -50%);
   z-index: 1;
-  padding: 5px;
+  padding: 4px 0px;
   background: var(--black);
   opacity: .75;
   backdrop-filter: blur(4px);
@@ -34,7 +34,7 @@ const StyledSocialBar = Styled.div`
 const SocialBar = () => {
   return (
     <StyledSocialBar className="d-none d-sm-block">
-      <a href={social.github} target="_blank">
+      <a href={social.github} target="_blank" rel="noreferrer">
         <FontAwesomeIcon
           icon={["fab", "github"]}
           className="social-icon"
@@ -43,7 +43,7 @@ const SocialBar = () => {
           title="GitHub"
         />
       </a>
-      <a href={social.linkedin} target="_blank">
+      <a href={social.linkedin} target="_blank" rel="noreferrer">
         <FontAwesomeIcon
           icon={["fab", "linkedin-in"]}
           className="social-icon"
@@ -52,13 +52,22 @@ const SocialBar = () => {
           title="LinkedIn"
         />
       </a>
-      <a href={social.instagram} target="_blank">
+      <a href={social.instagram} target="_blank" rel="noreferrer">
         <FontAwesomeIcon
           icon={["fab", "instagram"]}
           className="social-icon"
           color="var(--green-blue)"
           size="lg"
           title="Instagram"
+        />
+      </a>
+      <a href={social.behance} target="_blank" rel="noreferrer">
+        <FontAwesomeIcon
+          icon={["fab", "behance"]}
+          className="social-icon"
+          color="var(--green-blue)"
+          size="lg"
+          title="Behance"
         />
       </a>
     </StyledSocialBar>

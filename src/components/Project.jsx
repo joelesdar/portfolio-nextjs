@@ -1,6 +1,5 @@
 import React from "react";
 import Styled from "@emotion/styled";
-import { useTranslation } from "react-i18next";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -52,7 +51,6 @@ padding: 16px 0;
 `;
 
 const Project = ( {title, description, cover, libraries, github, link} ) => {
-  const { t } = useTranslation();
 
   return (
     <StyledProject>
@@ -66,10 +64,10 @@ const Project = ( {title, description, cover, libraries, github, link} ) => {
               <p>{libraries}</p>
             </div>
             <div className="col-auto">
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noreferrer">
               <FontAwesomeIcon className="icon" icon={["fab", "github"]} color="var(--green-blue)" size="xl" />
             </a>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               <FontAwesomeIcon className="icon" icon={["fas", "arrow-up-right-from-square"]} color="var(--green-blue)" size="xl" />
             </a>
             </div>

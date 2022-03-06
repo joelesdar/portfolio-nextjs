@@ -1,8 +1,6 @@
 import React from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
-import Fade from "react-reveal/Fade";
-import $ from "jquery";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import social from "./icons/constants";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -73,7 +71,7 @@ const Contact = () => {
                 <p className="at">✨@Joelesdar</p>
               </div>
                 <div className="col-2">
-                  <a href={social.github} target="_blank">
+                  <a href={social.github} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       className="social-icon"
@@ -84,7 +82,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="col-2">
-                  <a href={social.linkedin} target="_blank">
+                  <a href={social.linkedin} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon
                       icon={["fab", "linkedin-in"]}
                       className="social-icon"
@@ -95,13 +93,24 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="col-2">
-                  <a href={social.instagram} target="_blank">
+                  <a href={social.instagram} target="_blank" rel="noreferrer">
                     <FontAwesomeIcon
                       icon={["fab", "instagram"]}
                       className="social-icon"
                       color="var(--green-blue)"
                       size="2xl"
                       title="Instagram"
+                    />
+                  </a>
+                </div>
+                <div className="col-2">
+                  <a href={social.behance} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon
+                      icon={["fab", "behance"]}
+                      className="social-icon"
+                      color="var(--green-blue)"
+                      size="2xl"
+                      title="Behance"
                     />
                   </a>
                 </div>

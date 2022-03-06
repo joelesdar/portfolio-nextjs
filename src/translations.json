@@ -66,7 +66,7 @@
           "responsability3" : "Conduct tests and perform security, usability and quality controls."
         }
       },
-      "title-projects" : "My Projects",
+      "title-projects" : "Some of my projects",
       "subtitle-projects" : "Featured projects",
       "subtitle-more-projects" : "Other projects",
       "show-more-projects" : "Show More",
@@ -74,43 +74,43 @@
       "projects" : {
         "project1" : {
           "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "description" : "Random generator of famous quotes from Breaking Bad using an API."
         },
         "project2" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Insurance app",
+          "description" : "Car insurance calculator simulator."
         },
         "project3" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Budget App",
+          "description" : "Administration and management personal budget app."
         },
         "project4" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Pets",
+          "description" : "Vet appointment manager for your beloved pets."
         },
         "project5" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Business card",
+          "description" : "Animated business card with sliders."
         },
         "project6" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "HackersPros web",
+          "description" : "Website with a Hackers and Anonymous theme."
         },
         "project7" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Portfolio website",
+          "description" : "Website with a portfolio design for developpers and designers."
         },
         "project8" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Xylophone JS",
+          "description" : "Interactive xylophone made with JS."
         },
         "project9" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Gokubos",
+          "description" : "Windows app developed in Visual Studio, with a Dragon Ball design, that teaches users to learn how to solve the Rubik's cube."
         },
         "project10" : {
-          "title": "Breaking Bad quote generator",
-          "description" : "Project description"
+          "title": "Invie",
+          "description" : "Find your Invie-sible guitar."
         }
       },
       "title-contact" : "Find me at:",
@@ -118,7 +118,8 @@
       "message-footer" : {
         "first-part" : "Made with ",
         "second-part" : " using "
-      }
+      },
+      "rights" : "All right reserved."
     }
   },
   "fr": {
@@ -240,7 +241,8 @@
         "message-footer" : {
           "first-part" : "Fait avec ",
           "second-part" : " en utilisant "
-        }
+        },
+        "rights" : "Tous les droits réservés."
     }
   },
   "es": {
@@ -262,8 +264,8 @@
         "title-hello" : "!Hola!",
         "title-name" : "  Soy Joel",
         "description" : "Soy un desarrollador web apasionado y creativo. Amante de las ciencias y la educación✨",
-        "title-technologies" : "Tecnologias",
-        "description-technologies" : "Como desarrollador he trabajado con diferentes tecnologias.",
+        "title-technologies" : "Tecnologías",
+        "description-technologies" : "Como desarrollador he trabajado con diferentes tecnologías.",
         "title-softskills" : "Habilidades",
         "description-softskills" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor massa eu turpis maximus, a sollicitudin dolor finibus. Integer consectetur vestibulum ex.",
         "title-language" : "Idiomas",
@@ -321,40 +323,40 @@
             "description" : "Generador aleatorio de frases celebres de la serie Breaking Bad usando un API."
           },
           "project2" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "CotizApp",
+            "description" : "Simulador de calculadora de seguros para autos."
           },
           "project3" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "App de Presupuesto",
+            "description" : "Aplicación para administrar y gestionar tu presupuesto personal."
           },
           "project4" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Mascotas",
+            "description" : "Gestor de citas de veterinaria para tus queridas mascotas."
           },
           "project5" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Tarjeta de presentación",
+            "description" : "Tarjeta tipo portafolio de presentación con controles deslizantes."
           },
           "project6" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Web HackersPros",
+            "description" : "Web con tema y diseño de Hackers y Anonymous."
           },
           "project7" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Web portafolio de presentación",
+            "description" : "Web con diseño de portafolio para desarrolladores y diseñadores."
           },
           "project8" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Xilófono JS",
+            "description" : "Xilófono interactivo hecho en JS."
           },
           "project9" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Proyecto Gokubos",
+            "description" : "Aplicación para Windows desarrollada en Visual Studio, con diseño de Dragon Ball, que enseña al usuario a aprender a armar el cubo de Rubik"
           },
           "project10" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Invie",
+            "description" : "Encuentra tu guitarra Invie-sible."
           }
         },
         "title-contact" : "Encuentrame como:",
@@ -362,7 +364,8 @@
         "message-footer" : {
           "first-part" : "Hecho con ",
           "second-part" : " usando "
-        }
+        },
+        "rights" : "Todos los derechos reservados."
     }
   }
 }

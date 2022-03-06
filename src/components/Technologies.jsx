@@ -70,17 +70,24 @@ ul[class^=ring] li {
 }
 
 .ring-1 > *:nth-of-type(1) {
-  transform: rotate(126.6666666667deg) translate(9.5em) rotate(-126.6666666667deg);
+  transform: rotate(76deg) translate(9.5em) rotate(-76deg);
 }
 
 .ring-1 > *:nth-of-type(2) {
-  transform: rotate(253.3333333333deg) translate(9.5em) rotate(-253.3333333333deg);
+  transform: rotate(152deg) translate(9.5em) rotate(-152deg);
 }
 
 .ring-1 > *:nth-of-type(3) {
-  transform: rotate(380deg) translate(9.5em) rotate(-380deg);
+  transform: rotate(228deg) translate(9.5em) rotate(-228deg);
 }
 
+.ring-1 > *:nth-of-type(4) {
+  transform: rotate(304deg) translate(9.5em) rotate(-304deg);
+}
+
+.ring-1 > *:nth-of-type(5) {
+  transform: rotate(380deg) translate(9.5em) rotate(-380deg);
+}
 .ring-2 {
   width: 13em;
   height: 13em;
@@ -317,6 +324,24 @@ ul[class^=ring] li {
   color: white;
 }
 
+.figma-icon {
+  background: #1E1E1E;
+  color: white;
+  line-height: 1.8em;
+  img {
+    width: 70%;
+  }
+}
+
+.photoshop-icon {
+  background: #001C24;
+  color: white;
+  line-height: 1.8em;
+  img {
+    width: 80%;
+  }
+}
+
 .logo {
   img {
     width: 100%;
@@ -373,7 +398,6 @@ const Technologies = () => {
                         <i class="orbit-icon cloud-icon">
                           <FontAwesomeIcon
                             icon={["fas", "cloud"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -382,7 +406,6 @@ const Technologies = () => {
                         <i class="orbit-icon windows-icon">
                           <FontAwesomeIcon
                             icon={["fab", "windows"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -391,9 +414,18 @@ const Technologies = () => {
                         <i class="orbit-icon dialogflow-icon">
                           <FontAwesomeIcon
                             icon={["fab", "bots"]}
-                            className="tech-icon"
                             size="lg"
                           />
+                        </i>
+                      </li>
+                      <li>
+                        <i class="orbit-icon figma-icon">
+                          <img src="https://img.icons8.com/color/48/000000/figma--v1.png"/>
+                        </i>
+                      </li>
+                      <li>
+                        <i class="orbit-icon photoshop-icon">
+                          <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
                         </i>
                       </li>
                     </ul>
@@ -404,7 +436,6 @@ const Technologies = () => {
                         <i class="orbit-icon react-icon">
                           <FontAwesomeIcon
                             icon={["fab", "react"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -413,7 +444,6 @@ const Technologies = () => {
                         <i class="orbit-icon js-icon">
                           <FontAwesomeIcon
                             icon={["fab", "js-square"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -422,7 +452,6 @@ const Technologies = () => {
                         <i class="orbit-icon php-icon">
                           <FontAwesomeIcon
                             icon={["fab", "php"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -431,7 +460,6 @@ const Technologies = () => {
                         <i class="orbit-icon java-icon">
                           <FontAwesomeIcon
                             icon={["fab", "java"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -440,7 +468,6 @@ const Technologies = () => {
                         <i class="orbit-icon git-icon">
                           <FontAwesomeIcon
                             icon={["fab", "git-alt"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -449,7 +476,6 @@ const Technologies = () => {
                         <i class="orbit-icon database-icon">
                           <FontAwesomeIcon
                             icon={["fas", "database"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -458,7 +484,6 @@ const Technologies = () => {
                         <i class="orbit-icon wordpress-icon">
                           <FontAwesomeIcon
                             icon={["fab", "wordpress"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -471,7 +496,6 @@ const Technologies = () => {
                         <i class="orbit-icon css-icon">
                           <FontAwesomeIcon
                             icon={["fab", "css3"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -480,7 +504,6 @@ const Technologies = () => {
                         <i class="orbit-icon html-icon">
                           <FontAwesomeIcon
                             icon={["fab", "html5"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -489,7 +512,6 @@ const Technologies = () => {
                         <i class="orbit-icon bootstrap-icon">
                           <FontAwesomeIcon
                             icon={["fab", "bootstrap"]}
-                            className="tech-icon"
                             size="lg"
                           />
                         </i>
@@ -520,6 +542,8 @@ const Technologies = () => {
                     <li>Wordpress</li>
                     <li>Dialogflow</li>
                     <li>React.js</li>
+                    <li>Photoshop</li>
+                    <li>Figma</li>
                   </ul>
                 </div>
                 <div className="col-5">
@@ -527,6 +551,7 @@ const Technologies = () => {
                   <ul className="tech-list">
                     <li>MySQL, SQL</li>
                     <li>PHP</li>
+                    <li>C#</li>
                     <li>Google Cloud</li>
                     <li>Microsoft Office</li>
                   </ul>
