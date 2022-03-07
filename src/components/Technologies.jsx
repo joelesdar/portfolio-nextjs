@@ -532,7 +532,7 @@ const Technologies = () => {
                   <p>{t("description-technologies")}</p>
                 </div>
                 <div className="col-5">
-                  <p>Me he especializado en:</p>
+                  <p>{t("description-specialized-technologies")}</p>
                   <ul className="tech-list">
                     <li>Git, Github</li>
                     <li>HTML5, CSS3</li>
@@ -547,7 +547,7 @@ const Technologies = () => {
                   </ul>
                 </div>
                 <div className="col-5">
-                  <p>También he trabajado con:</p>
+                  <p>{t("description-more-technologies")}</p>
                   <ul className="tech-list">
                     <li>MySQL, SQL</li>
                     <li>PHP</li>

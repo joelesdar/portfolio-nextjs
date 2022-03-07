@@ -124,6 +124,13 @@ const Contact = () => {
                       size="md"
                       title="mail"
                     /> Jodiazare@gmail.com</p>
+                  <p className="mail"><FontAwesomeIcon
+                      icon={["fas", "phone"]}
+                      className="social-icon"
+                      color="var(--green-blue)"
+                      size="md"
+                      title="mail"
+                    /> +57 1 3225504022</p>
                 </div>
             </div>
           </div>

@@ -55,18 +55,16 @@ const Studies = () => {
                   <div className="logo">
                     <img className="logo-university" src={unal} alt="Universidad Nacional de Colombia" title="Universidad Nacional de Colombia"/>
                   </div>
-                  {/* <a href="https://unal.edu.c4/" target="_blank">Sitio oficial</a> */}
               </div>
               </Fade>
               <Fade right>
                 <div className="study-block col-12 col-md-6">
                     <h4 className="career-title">{t("title-career")}</h4>
-                    <p>{t("description-university")}</p>
+                    <p>{t("description-platzi")}</p>
                     <h5 className="institution">Platzi</h5>
                     <div className="logo">
                       <img className="logo-university" src={platzi} alt="Platzi" title="Platzi"/>
                     </div>
-                    {/* <a href="https://platzi.com/" target="_blank">Sitio oficial</a> */}
                 </div>
               </Fade>
             </div>
