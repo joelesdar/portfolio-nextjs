@@ -21,15 +21,16 @@
       "title-technologies" : "Technologies",
       "description-technologies" : "Throughout my career as a developer, I've worked with different technologies, in wich:",
       "description-specialized-technologies" : "I've specialized in::",
-        "description-more-technologies" : "And I've also worked with:",
+      "description-more-technologies" : "And I've also worked with:",
       "title-softskills" : "About Me",
       "description-softskills" : "Hello, my name is Joel. I am a martial artist, educator, dancer and passionate about science, technology and education. I deeply believe in never stopping learning and growing, finding new ways to meet new challenges.",
       "title-language" : "Languages",
       "title-studies" : "Education",
       "title-university" : "National University of Colombia",
       "title-career" : "Computer Ingineering",
+      "title-career-platzi" : "Complementary Education",
       "description-university" : "I am currently in the eighth semester at one of the top Universities in Latin America.",
-      "description-platzi" : "description",
+      "description-platzi" : "I am a student in the best online education platform in Latin America, expanding my knowledge in databases and soft skills.",
       "title-experience" : "Experience",
       "experiencies" : {
         "experience1": {
@@ -142,19 +143,20 @@
         "subtitle" : "Développeur Web",
         "title-hello" : "Salut !",
         "title-name" : " Je suis Joel",
-        "description" : "Je suis un jolie développeur web.✨",
-        "title-technologies" : "Habilites",
-        "description-technologies" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis facilisis vestibulum metus, id tincidunt dolor. Duis vel venenatis nisi. Integer suscipit semper massa, ac aliquam orci imperdiet id. Proin ex turpis, luctus sit amet massa sed, ornare ultrices sapien. Nullam at tincidunt leo. Mauris malesuada et elit in venenatis. Cras sit amet tortor eget erat fermentum ornare. Nullam quis urna nec leo hendrerit imperdiet. Praesent et mauris quis magna porttitor iaculis vitae sit amet leo. Maecenas nec lacus sit amet purus sollicitudin aliquet. Vestibulum id turpis ac metus feugiat rhoncus. Fusce placerat neque ac magna tristique, sit amet interdum urna finibus. Nulla maximus condimentum eros non vestibulum.",
-        "description-specialized-technologies" : "Me he especializdo en:",
-        "description-more-technologies" : "Y también he trabajado con:",
-        "title-softskills" : "Habiletés",
-        "description-softskills" : "Initiative; Effective interpersonal skills; Team player; Excellent oral communication; Excellent written communication; Client focus; Organized;",
+        "description" : "Je suis un développeur web passionné et créatif et un étudiant en ingénierie informatique. J'adore créer des produits en mettant l'accent sur l'expérience humaine et le souci du détail.✨",
+        "title-technologies" : "Technologies",
+        "description-technologies" : "Tout au long de ma carrière de développeur, j'ai pu apprendre et travailler avec différentes technologies. Desquelles :",
+        "description-specialized-technologies" : "Je me suis spécialisé dans :",
+        "description-more-technologies" : "Et j'ai aussi travaillé avec :",
+        "title-softskills" : "À propos de moi",
+        "description-softskills" : "Bonjour, je m'appelle Joel. Je suis un artiste martial, éducateur, danseur et passionné par la science, la technologie et l'éducation. Je crois profondément qu'il ne faut jamais cesser d'apprendre et de grandir, trouver de nouvelles façons de relever de nouveaux défis.",
         "title-language" : "Langues",
         "title-studies" : "Éducation",
         "title-university" : "Université Nationale de Colombie",
         "title-career" : "Ingénierie Informatique",
-        "description-platzi" : "description",
-        "description-university" : "description",
+        "title-career-platzi" : "Éducation complémentaire",
+        "description-platzi" : "Je suis un étudiant de la meilleure plateforme d'éducation en ligne d'Amérique latine, élargissant mes connaissances dans les bases de données et les compétences générales.",
+        "description-university" : "Je suis actuellement au huitième semestre dans l'une des meilleures universités d'Amérique latine.",
         "title-experience" : "Expérience",
         "experiencies" : {
           "experience1": {
@@ -200,44 +202,44 @@
         "show-less-projects" : "Montrer Moins",
         "projects" : {
           "project1" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Générateur de devis de Breaking Bad",
+            "description" : "Générateur aléatoire de citations célèbres de la série Breaking Bad à l'aide d'une API."
           },
           "project2" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "App d'assurance",
+            "description" : "Simulateur de calculateur d'assurance automobile."
           },
           "project3" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "App budgétaire",
+            "description" : "Application pour administrer et gérer votre budget personnel."
           },
           "project4" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Animaux de compaigne App",
+            "description" : "Gestionnaire de rendez-vous vétérinaire pour vos animaux de compagnie bien-aimés."
           },
           "project5" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Fiche de présentation",
+            "description" : "Fiche de portefeuille de présentation avec curseurs."
           },
           "project6" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Site HackersPros",
+            "description" : "Site web avec design des hackers et Anonymous."
           },
           "project7" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Site portfolio de présentation",
+            "description" : "Web avec conception de portefeuille pour les développeurs et les concepteurs."
           },
           "project8" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Xylophone JS",
+            "description" : "Xylophone interactif en utilisant JS."
           },
           "project9" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Gokubos",
+            "description" : "Application Windows développée dans Visual Studio, avec un design de Dragon Ball, qui apprend aux utilisateurs à apprendre à résoudre le cube de Rubik."
           },
           "project10" : {
-            "title": "Breaking Bad quote generator",
-            "description" : "Project description"
+            "title": "Invie",
+            "description" : "Trouvez votre guitare Invie-sible"
           }
         },
         "title-contact" : "Trouve-moi comme:",
@@ -278,8 +280,9 @@
         "title-studies" : "Estudios",
         "title-university" : "Universidad Nacional de Colombia",
         "title-career" : "Ingeniería de Sistemas y Computación",
-        "description-platzi" : "description",
-        "description-university" : "Actualmente me encuentro cursando octavo semestre.",
+        "title-career-platzi" : "Educación Complementaria",
+        "description-platzi" : "Soy estudiante de la mejor plataforma de educación online en Latinoamérica, expandiendo mis conocimientos en bases de datos y habilidades blandas.",
+        "description-university" : "Actualmente me encuentro cursando octavo semestre en una de las mejores universidades de Latinoamérica.",
         "title-experience" : "Experiencia",
         "experiencies" : {
           "experience1": {

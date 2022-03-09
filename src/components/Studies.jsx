@@ -59,7 +59,7 @@ const Studies = () => {
               </Fade>
               <Fade right>
                 <div className="study-block col-12 col-md-6">
-                    <h4 className="career-title">{t("title-career")}</h4>
+                    <h4 className="career-title">{t("title-career-platzi")}</h4>
                     <p>{t("description-platzi")}</p>
                     <h5 className="institution">Platzi</h5>
                     <div className="logo">
