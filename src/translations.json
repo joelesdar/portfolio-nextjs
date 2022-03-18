@@ -122,7 +122,7 @@
         "first-part" : "Made with ",
         "second-part" : " using "
       },
-      "rights" : "All right reserved."
+      "rights" : "All rights reserved."
     }
   },
   "fr": {
@@ -145,11 +145,11 @@
         "title-name" : " Je suis Joel",
         "description" : "Je suis un développeur web passionné et créatif et un étudiant en ingénierie informatique. J'adore créer des produits en mettant l'accent sur l'expérience humaine et le souci du détail.✨",
         "title-technologies" : "Technologies",
-        "description-technologies" : "Tout au long de ma carrière de développeur, j'ai pu apprendre et travailler avec différentes technologies. Desquelles :",
-        "description-specialized-technologies" : "Je me suis spécialisé dans :",
+        "description-technologies" : "Tout au long de ma carrière de développeur, j'ai pu apprendre et travailler avec différentes technologies, dans lesquelles :",
+        "description-specialized-technologies" : "Je me suis spécialisé :",
         "description-more-technologies" : "Et j'ai aussi travaillé avec :",
         "title-softskills" : "À propos de moi",
-        "description-softskills" : "Bonjour, je m'appelle Joel. Je suis un artiste martial, éducateur, danseur et passionné par la science, la technologie et l'éducation. Je crois profondément qu'il ne faut jamais cesser d'apprendre et de grandir, trouver de nouvelles façons de relever de nouveaux défis.",
+        "description-softskills" : "Bonjour, je m'appelle Joel. Je fais des arts martiaux, et suis un éducateur, danseur et passionné par la science, la technologie et l'éducation. Je crois profondément qu'il ne faut jamais cesser d'apprendre, de grandir, et de trouver de nouvelles façons de relever de nouveaux défis.",
         "title-language" : "Langues",
         "title-studies" : "Éducation",
         "title-university" : "Université Nationale de Colombie",
@@ -242,7 +242,7 @@
             "description" : "Trouvez votre guitare Invie-sible"
           }
         },
-        "title-contact" : "Trouve-moi comme:",
+        "title-contact" : "Trouvez-moi à:",
         "link-contact" : "Contacter",
         "message-footer" : {
           "first-part" : "Fait avec ",
