@@ -9,7 +9,7 @@ import cover2 from "./icons/project2.png";
 import cover3 from "./icons/project3.png";
 import cover4 from "./icons/project4.png";
 import cover5 from "./icons/project5.png";
-import cover6 from "./icons/project6.png";
+import cover6 from "./icons/project6.jpg";
 import cover7 from "./icons/project7.png";
 import cover8 from "./icons/project8.png";
 import cover9 from "./icons/project91.jpg";
@@ -68,6 +68,17 @@ const Projects = () => {
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
                   <Project
+                    title={t("projects.project6.title")}
+                    description={t("projects.project6.description")}
+                    cover={cover6}
+                    libraries={"WordPress"}
+                    link={"https://redhus.org/"}
+                  />
+                </Fade>
+              </div>
+              <div className="col-12 col-md-6">
+                <Fade bottom duration="2000">
+                  <Project
                     title={t("projects.project1.title")}
                     description={t("projects.project1.description")}
                     cover={cover1}
@@ -101,18 +112,6 @@ const Projects = () => {
                   />
                 </Fade>
               </div>
-              <div className="col-12 col-md-6">
-                <Fade bottom duration="2000">
-                  <Project
-                    title={t("projects.project4.title")}
-                    description={t("projects.project4.description")}
-                    cover={cover4}
-                    libraries={"React Bootstrap"}
-                    github={"https://github.com/joelesdar/citas-veterinaria"}
-                    link={"https://naughty-meitner-fb09b8.netlify.app/"}
-                  />
-                </Fade>
-              </div>
             </div>
             <a
               className="btn btn-primary"
@@ -133,6 +132,18 @@ const Projects = () => {
                 <Fade duration="1500">
                   <h3>{t("subtitle-more-projects")}</h3>
                 </Fade>
+              <div className="col-12 col-md-6">
+                <Fade bottom duration="2000">
+                  <Project
+                    title={t("projects.project4.title")}
+                    description={t("projects.project4.description")}
+                    cover={cover4}
+                    libraries={"React Bootstrap"}
+                    github={"https://github.com/joelesdar/citas-veterinaria"}
+                    link={"https://naughty-meitner-fb09b8.netlify.app/"}
+                  />
+                </Fade>
+              </div>
               </div>
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
@@ -167,18 +178,6 @@ const Projects = () => {
                     libraries={"React Bootstrap"}
                     github={"https://github.com/joelesdar/presupuesto"}
                     link={"https://epic-wright-64d8a7.netlify.app/"}
-                  />
-                </Fade>
-              </div>
-              <div className="col-12 col-md-6">
-                <Fade bottom duration="2000">
-                  <Project
-                    title={t("projects.project6.title")}
-                    description={t("projects.project6.description")}
-                    cover={cover6}
-                    libraries={"HTML5 CSS3"}
-                    github={"https://github.com/joelesdar/HackersPros.com"}
-                    link={"https://joelesdar.github.io/HackersPros.com/"}
                   />
                 </Fade>
               </div>
