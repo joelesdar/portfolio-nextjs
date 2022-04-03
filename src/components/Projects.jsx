@@ -132,6 +132,7 @@ const Projects = () => {
                 <Fade duration="1500">
                   <h3>{t("subtitle-more-projects")}</h3>
                 </Fade>
+              </div>
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
                   <Project
@@ -143,7 +144,6 @@ const Projects = () => {
                     link={"https://naughty-meitner-fb09b8.netlify.app/"}
                   />
                 </Fade>
-              </div>
               </div>
               <div className="col-12 col-md-6">
                 <Fade bottom duration="2000">
