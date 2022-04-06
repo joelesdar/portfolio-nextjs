@@ -22,13 +22,16 @@ function App() {
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1" />
         <title>Joel Esteban Diaz Arévalo</title>
         <link rel="canonical" href="https://joelesdar.com/" />
         <meta name="description" content="Portafolio Personal" />
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
       </Helmet>
       <Header language={language} setLanguage={setLanguage} />
       <Main />
       <Footer />
+
     </div>
   );
 }

@@ -16,3 +16,9 @@ h2 {
     --black: #121212;
     --yellow: #F5CE02;
 }
+
+df-messenger {
+    --df-messenger-button-titlebar-color: #1c82f6;
+    --df-messenger-user-message: #0FF3F5;
+
+}
