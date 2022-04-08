@@ -130,7 +130,7 @@ const Contact = () => {
                       color="var(--green-blue)"
                       size="md"
                       title="mail"
-                    /> +57 1 3225504022</p>
+                    /> +57 3225504022</p>
                 </div>
             </div>
           </div>
