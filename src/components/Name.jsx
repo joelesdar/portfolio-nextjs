@@ -81,7 +81,7 @@ const Name = () => {
             <div className="styled-name-container">
                 <div className="name-container">
                     <Fade top duration={2000}>
-                        <div className="title">Joel Esteban Diaz Arévalo</div>
+                        <div className="title">Joel Diaz Arévalo</div>
                     </Fade>
                     <Fade bottom duration={2000}>  
                         <div className="subtitle">{t('subtitle')}</div>
