@@ -2,7 +2,7 @@ import React from "react";
 import Styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
 import Fade from "react-reveal/Fade";
-import photo from "./icons/img.jpg";
+import photo from "./icons/profile.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const StyledDescription = Styled.div`

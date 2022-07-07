@@ -10,6 +10,8 @@ const StyledSocialBar = Styled.div`
   float: right;
   top: 50%;
   right: 0;
+  -webkit-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
   transform: translate(0, -50%);
   z-index: 1;
   padding: 4px 0px;

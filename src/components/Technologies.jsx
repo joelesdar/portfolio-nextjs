@@ -70,23 +70,23 @@ ul[class^=ring] li {
 }
 
 .ring-1 > *:nth-of-type(1) {
-  transform: rotate(76deg) translate(9.5em) rotate(-76deg);
+  transform: rotate(72deg) translate(9.5em) rotate(-72deg);
 }
 
 .ring-1 > *:nth-of-type(2) {
-  transform: rotate(152deg) translate(9.5em) rotate(-152deg);
+  transform: rotate(144deg) translate(9.5em) rotate(-144deg);
 }
 
 .ring-1 > *:nth-of-type(3) {
-  transform: rotate(228deg) translate(9.5em) rotate(-228deg);
+  transform: rotate(216deg) translate(9.5em) rotate(-216deg);
 }
 
 .ring-1 > *:nth-of-type(4) {
-  transform: rotate(304deg) translate(9.5em) rotate(-304deg);
+  transform: rotate(288deg) translate(9.5em) rotate(-288deg);
 }
 
 .ring-1 > *:nth-of-type(5) {
-  transform: rotate(380deg) translate(9.5em) rotate(-380deg);
+  transform: rotate(360deg) translate(9.5em) rotate(-360deg);
 }
 .ring-2 {
   width: 13em;
@@ -100,35 +100,27 @@ ul[class^=ring] li {
 }
 
 .ring-2 > *:nth-of-type(1) {
-  transform: rotate(47.5deg) translate(6.5em) rotate(-47.5deg);
+  transform: rotate(60deg) translate(6.5em) rotate(-60deg);
 }
 
 .ring-2 > *:nth-of-type(2) {
-  transform: rotate(95deg) translate(6.5em) rotate(-95deg);
+  transform: rotate(120deg) translate(6.5em) rotate(-120deg);
 }
 
 .ring-2 > *:nth-of-type(3) {
-  transform: rotate(142.5deg) translate(6.5em) rotate(-142.5deg);
+  transform: rotate(180deg) translate(6.5em) rotate(-180deg);
 }
 
 .ring-2 > *:nth-of-type(4) {
-  transform: rotate(190deg) translate(6.5em) rotate(-190deg);
+  transform: rotate(240deg) translate(6.5em) rotate(-240deg);
 }
 
 .ring-2 > *:nth-of-type(5) {
-  transform: rotate(237.5deg) translate(6.5em) rotate(-237.5deg);
+  transform: rotate(300deg) translate(6.5em) rotate(-300deg);
 }
 
 .ring-2 > *:nth-of-type(6) {
-  transform: rotate(285deg) translate(6.5em) rotate(-285deg);
-}
-
-.ring-2 > *:nth-of-type(7) {
-  transform: rotate(332.5deg) translate(6.5em) rotate(-332.5deg);
-}
-
-.ring-2 > *:nth-of-type(8) {
-  transform: rotate(380deg) translate(6.5em) rotate(-380deg);
+  transform: rotate(360deg) translate(6.5em) rotate(-360deg);
 }
 
 .ring-3 {
@@ -449,14 +441,6 @@ const Technologies = () => {
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon php-icon">
-                          <FontAwesomeIcon
-                            icon={["fab", "php"]}
-                            size="lg"
-                          />
-                        </i>
-                      </li>
-                      <li>
                         <i class="orbit-icon java-icon">
                           <FontAwesomeIcon
                             icon={["fab", "java"]}
@@ -550,7 +534,6 @@ const Technologies = () => {
                   <p>{t("description-more-technologies")}</p>
                   <ul className="tech-list">
                     <li>MySQL, SQL</li>
-                    <li>PHP</li>
                     <li>C#</li>
                     <li>Google Cloud</li>
                     <li>Microsoft Office</li>
