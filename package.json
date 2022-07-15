@@ -1,6 +1,6 @@
 {
   "name": "sitiopersonal",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Personal Portfolio",
   "private": true,
   "engines": {
@@ -29,7 +29,8 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.15.4",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^4.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^2.1.3",
     "universal-cookie": "^4.0.4",
     "web-vitals": "^0.2.4"
   },

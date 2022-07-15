@@ -15,8 +15,6 @@ padding: 16px 0;
     border-radius: 20px;
     img {
         border-radius: 20px 20px 0 0;
-        /* width: 80%;
-        padding-top: 20px; */
         margin: 0 auto;
         object-fit: cover;
         opacity: 0.6;

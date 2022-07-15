@@ -534,7 +534,6 @@ const Technologies = () => {
                   <p>{t("description-more-technologies")}</p>
                   <ul className="tech-list">
                     <li>MySQL, SQL</li>
-                    <li>C#</li>
                     <li>Google Cloud</li>
                     <li>Microsoft Office</li>
                   </ul>
