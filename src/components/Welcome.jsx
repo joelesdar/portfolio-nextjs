@@ -1,6 +1,6 @@
-import React from 'react';
-import Name from './Name';
-import Styled from '@emotion/styled';
+import React from 'react'
+import Name from './Name'
+import Styled from '@emotion/styled'
 
 const StyledWelcome = Styled.div`
 .stars-container {
@@ -98,21 +98,21 @@ const StyledWelcome = Styled.div`
   }
 }
 
-`;
+`
 
 const Welcome = () => {
-    return ( 
-        <StyledWelcome>
-          <div className="stars-container">
-            <div id='stars'></div>
-            <div id='stars2'></div>
-            <div id='stars3'></div>
-            <div id='title'>
-                <Name />
-            </div>
-          </div>
-        </StyledWelcome>
-     );
+  return (
+    <StyledWelcome>
+      <div className='stars-container'>
+        <div id='stars' />
+        <div id='stars2' />
+        <div id='stars3' />
+        <div id='title'>
+          <Name />
+        </div>
+      </div>
+    </StyledWelcome>
+  )
 }
- 
-export default Welcome;
+
+export default Welcome

@@ -1,10 +1,10 @@
-import React from "react";
-import Styled from "@emotion/styled";
-import { useTranslation } from "react-i18next";
-import { Rotate, Fade } from "react-reveal";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import logo from "./icons/logo.png";
+import React from 'react'
+import Styled from '@emotion/styled'
+import { useTranslation } from 'react-i18next'
+import { Rotate, Fade } from 'react-reveal'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import logo from './icons/logo.png'
 
 const StyledTechnologies = Styled.div`
 
@@ -366,137 +366,137 @@ ul.tech-list {
 }
 
 }
-`;
+`
 
 const Technologies = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation()
 
   return (
     <StyledTechnologies>
-      <div className="container-fluid" id="technologies">
-        <div className="row justify-content-around align-items-center">
+      <div className='container-fluid' id='technologies'>
+        <div className='row justify-content-around align-items-center'>
           <Rotate duration='2000'>
-            <div className="col-12 col-md-7 col-lg-6">
-              <div class="orbit">
-                <ul class="orbit-wrap">
-                  <li class="orbit-center">
-                    <i class="orbit-center__icon logo">
-                      <img src={logo} alt="Logo" />
+            <div className='col-12 col-md-7 col-lg-6'>
+              <div class='orbit'>
+                <ul class='orbit-wrap'>
+                  <li class='orbit-center'>
+                    <i class='orbit-center__icon logo'>
+                      <img src={logo} alt='Logo' />
                     </i>
                   </li>
                   <li>
-                    <ul class="ring-1">
+                    <ul class='ring-1'>
                       <li>
-                        <i class="orbit-icon cloud-icon">
+                        <i class='orbit-icon cloud-icon'>
                           <FontAwesomeIcon
-                            icon={["fas", "cloud"]}
-                            size="lg"
+                            icon={['fas', 'cloud']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon windows-icon">
+                        <i class='orbit-icon windows-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "windows"]}
-                            size="lg"
+                            icon={['fab', 'windows']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon dialogflow-icon">
+                        <i class='orbit-icon dialogflow-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "bots"]}
-                            size="lg"
+                            icon={['fab', 'bots']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon figma-icon">
-                          <img src="https://img.icons8.com/color/48/000000/figma--v1.png"/>
+                        <i class='orbit-icon figma-icon'>
+                          <img src='https://img.icons8.com/color/48/000000/figma--v1.png' />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon photoshop-icon">
-                          <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"/>
+                        <i class='orbit-icon photoshop-icon'>
+                          <img src='https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png' />
                         </i>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <ul class="ring-2">
+                    <ul class='ring-2'>
                       <li>
-                        <i class="orbit-icon react-icon">
+                        <i class='orbit-icon react-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "react"]}
-                            size="lg"
+                            icon={['fab', 'react']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon js-icon">
+                        <i class='orbit-icon js-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "js-square"]}
-                            size="lg"
+                            icon={['fab', 'js-square']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon java-icon">
+                        <i class='orbit-icon java-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "java"]}
-                            size="lg"
+                            icon={['fab', 'java']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon git-icon">
+                        <i class='orbit-icon git-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "git-alt"]}
-                            size="lg"
+                            icon={['fab', 'git-alt']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon database-icon">
+                        <i class='orbit-icon database-icon'>
                           <FontAwesomeIcon
-                            icon={["fas", "database"]}
-                            size="lg"
+                            icon={['fas', 'database']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon wordpress-icon">
+                        <i class='orbit-icon wordpress-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "wordpress"]}
-                            size="lg"
+                            icon={['fab', 'wordpress']}
+                            size='lg'
                           />
                         </i>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <ul class="ring-3">
+                    <ul class='ring-3'>
                       <li>
-                        <i class="orbit-icon css-icon">
+                        <i class='orbit-icon css-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "css3"]}
-                            size="lg"
+                            icon={['fab', 'css3']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon html-icon">
+                        <i class='orbit-icon html-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "html5"]}
-                            size="lg"
+                            icon={['fab', 'html5']}
+                            size='lg'
                           />
                         </i>
                       </li>
                       <li>
-                        <i class="orbit-icon bootstrap-icon">
+                        <i class='orbit-icon bootstrap-icon'>
                           <FontAwesomeIcon
-                            icon={["fab", "bootstrap"]}
-                            size="lg"
+                            icon={['fab', 'bootstrap']}
+                            size='lg'
                           />
                         </i>
                       </li>
@@ -507,17 +507,17 @@ const Technologies = () => {
             </div>
           </Rotate>
           <Fade right duration='2000'>
-            <div className="col-12 col-md-5 col-lg-6">
-              <div className="row justify-content-center">
-                <div className="col-10">
-                  <h2 className="title-technologies">
-                    {t("title-technologies")}
+            <div className='col-12 col-md-5 col-lg-6'>
+              <div className='row justify-content-center'>
+                <div className='col-10'>
+                  <h2 className='title-technologies'>
+                    {t('title-technologies')}
                   </h2>
-                  <p>{t("description-technologies")}</p>
+                  <p>{t('description-technologies')}</p>
                 </div>
-                <div className="col-5">
-                  <p>{t("description-specialized-technologies")}</p>
-                  <ul className="tech-list">
+                <div className='col-5'>
+                  <p>{t('description-specialized-technologies')}</p>
+                  <ul className='tech-list'>
                     <li>Git, Github</li>
                     <li>HTML5, CSS3</li>
                     <li>Bootstrap</li>
@@ -530,9 +530,9 @@ const Technologies = () => {
                     <li>Figma</li>
                   </ul>
                 </div>
-                <div className="col-5">
-                  <p>{t("description-more-technologies")}</p>
-                  <ul className="tech-list">
+                <div className='col-5'>
+                  <p>{t('description-more-technologies')}</p>
+                  <ul className='tech-list'>
                     <li>MySQL, SQL</li>
                     <li>Google Cloud</li>
                     <li>Microsoft Office</li>
@@ -544,7 +544,7 @@ const Technologies = () => {
         </div>
       </div>
     </StyledTechnologies>
-  );
-};
+  )
+}
 
-export default Technologies;
+export default Technologies
