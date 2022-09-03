@@ -10,7 +10,7 @@ import Helmet from 'react-helmet'
 function App () {
   const cookies = new Cookies()
   const [language, setLanguage] = useState(cookies.get('cookieLang'))
-  const { t, i18n } = useTranslation()
+  const { i18n } = useTranslation()
 
   if (language === '') {
     i18n.changeLanguage('en')

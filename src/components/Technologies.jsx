@@ -345,24 +345,23 @@ ul[class^=ring] li {
 }
 
 ul.tech-list {
-
-	li {
-    list-style: none;
-    position: relative;
-    padding: 0 0 0 16px;
-		&::before {
-			content: "";
-			position: absolute;
-			left: 0;
-			top: 10px;
-			width: 0;
-			height: 0;
-			border-left: 4px solid transparent;
-			border-right: 4px solid transparent;
-			border-bottom: 6px solid var(--main-blue);
-			transform: rotate(90deg);
-		}
-	}
+li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 16px;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--main-blue);
+    transform: rotate(90deg);
+  }
+}
 }
 
 }
