@@ -11,7 +11,7 @@ import Languages from './Languages'
 import Studies from './Studies'
 import Experience from './Experience'
 import Projects from './Projects'
-import { BlogBanner } from './BlogBanner'
+// import { BlogBanner } from './BlogBanner'
 
 const StyledMain = Styled.div`
     overflow: hidden;
@@ -22,7 +22,7 @@ const Main = () => {
     <StyledMain>
       <Welcome />
       <Description />
-      <BlogBanner />
+      {/* <BlogBanner /> */}
       <Technologies />
       <SoftSkills />
       <Languages />
