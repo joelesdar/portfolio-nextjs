@@ -521,10 +521,9 @@ const Technologies = () => {
                     <li>HTML5, CSS3</li>
                     <li>Bootstrap</li>
                     <li>JavaScript</li>
-                    <li>Java</li>
                     <li>Wordpress</li>
-                    <li>Dialogflow</li>
                     <li>React.js</li>
+                    <li>Solidity</li>
                     <li>Photoshop</li>
                     <li>Figma</li>
                   </ul>
