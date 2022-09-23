@@ -520,8 +520,8 @@ const Technologies = () => {
                     <li>Git, Github</li>
                     <li>HTML5, CSS3</li>
                     <li>Bootstrap</li>
-                    <li>JavaScript</li>
                     <li>Wordpress</li>
+                    <li>JavaScript</li>
                     <li>React.js</li>
                     <li>Solidity</li>
                     <li>Photoshop</li>
@@ -531,7 +531,6 @@ const Technologies = () => {
                 <div className='col-5'>
                   <p>{t('description-more-technologies')}</p>
                   <ul className='tech-list'>
-                    <li>MySQL, SQL</li>
                     <li>Google Cloud</li>
                     <li>Microsoft Office</li>
                   </ul>

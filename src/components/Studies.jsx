@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import unal from './icons/unal.png'
 import platzi from './icons/platzi.png'
+import Certificate from './icons/certificate.jpg'
 
 const StyledStudies = Styled.div`
 
@@ -31,6 +32,36 @@ background: var(--dark-blue);
 
 .logo-university {
   max-height: 8rem;
+}
+
+.blockchain-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+/* .certificate-section {
+  /* padding: 2rem 0; */
+} */
+
+.image {
+  margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+  background: var(--main-blue);
+  overflow: hidden;
+  padding: 0;
+  border: 3px solid var(--main-blue);
+  border-radius: 20px;
+  img {
+      width: 100%;
+      object-fit: cover;
+      opacity: 0.8;
+  }
+
+  img:hover {
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out;
+  }
 }
 
 `
@@ -67,6 +98,23 @@ const Studies = () => {
                   </div>
                 </div>
               </Fade>
+            </div>
+            <div className='row blockchain-section'>
+              <Fade duration='1500'>
+                <div className='col-12'>
+                  <h2>Blockchain Development</h2>
+                </div>
+              </Fade>
+              <div className='certificate-section'>
+                <div className='col-10 col-md-8'>
+                  <h5>Hice parte del Ethereum Developer program</h5>
+                </div>
+                <Fade>
+                  <div className='col-10 col-md-8 image'>
+                    <img src={Certificate} alt='Certificate' />
+                  </div>
+                </Fade>
+              </div>
             </div>
           </div>
         </div>
