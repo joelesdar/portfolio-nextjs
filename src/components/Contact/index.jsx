@@ -41,6 +41,17 @@ export const Contact = () => {
                 </a>
               </div>
               <div className='col-2'>
+                <a href={social.twitter} target='_blank' rel='noreferrer'>
+                  <FontAwesomeIcon
+                    icon={['fab', 'twitter']}
+                    className='social-icon'
+                    color='var(--green-blue)'
+                    size='2xl'
+                    title='Twitter'
+                  />
+                </a>
+              </div>
+              <div className='col-2'>
                 <a href={social.instagram} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
                     icon={['fab', 'instagram']}

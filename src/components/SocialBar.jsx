@@ -55,6 +55,15 @@ const SocialBar = () => {
           title='LinkedIn'
         />
       </a>
+      <a href={social.twitter} target='_blank' rel='noreferrer'>
+        <FontAwesomeIcon
+          icon={['fab', 'twitter']}
+          className='social-icon'
+          color='var(--green-blue)'
+          size='lg'
+          title='Twitter'
+        />
+      </a>
       <a href={social.instagram} target='_blank' rel='noreferrer'>
         <FontAwesomeIcon
           icon={['fab', 'instagram']}

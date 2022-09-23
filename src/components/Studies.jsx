@@ -35,13 +35,9 @@ background: var(--dark-blue);
 }
 
 .blockchain-section {
-  padding: 4rem 0;
+  padding: 4rem auto;
   text-align: center;
-}
-
-/* .certificate-section {
-  /* padding: 2rem 0; */
-} */
+}                                                                
 
 .image {
   margin: 0 auto;
@@ -105,16 +101,14 @@ const Studies = () => {
                   <h2>Blockchain Development</h2>
                 </div>
               </Fade>
-              <div className='certificate-section'>
-                <div className='col-10 col-md-8'>
-                  <h5>Hice parte del Ethereum Developer program</h5>
-                </div>
-                <Fade>
-                  <div className='col-10 col-md-8 image'>
-                    <img src={Certificate} alt='Certificate' />
-                  </div>
-                </Fade>
+              <div className='col-10 col-md-4'>
+                <h5>Hice parte del Ethereum Developer program donde estuve reloco papi reloco</h5>
               </div>
+              <Fade>
+                <div className='col-10 col-md-8 image'>
+                  <img src={Certificate} alt='Certificate' />
+                </div>
+              </Fade>
             </div>
           </div>
         </div>
