@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from './components/Header'
-import { Home } from './pages/Home'
+import Home from './pages/Home'
 import { SocialBar } from './components/SocialBar'
 import { Contact } from './components/Contact'
 import './App.css'
@@ -10,6 +10,8 @@ import Cookies from 'universal-cookie'
 import { Footer } from './components/Footer'
 import Helmet from 'react-helmet'
 import { ProjectsPage } from './pages/ProjectsPage'
+import { NotFound } from './pages/NotFound'
+import { Blog } from './pages/Blog'
 
 function App () {
   const cookies = new Cookies()
@@ -37,6 +39,8 @@ function App () {
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/projects' element={<ProjectsPage />} />
+          <Route exact path='/blog' element={<Blog />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <SocialBar />
         <Contact />

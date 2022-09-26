@@ -1,7 +1,9 @@
+import { Projects } from '../components/Projects'
+
 export const ProjectsPage = () => {
   return (
     <>
-      <h1>Hola</h1>
+      <Projects />
     </>
   )
 }

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Welcome } from '../components/Welcome'
 import { Description } from '../components/Description'
@@ -10,9 +9,7 @@ import { Experience } from '../components/Experience'
 import { Projects } from '../components/Projects'
 // import { BlogBanner } from './BlogBanner'
 
-export const Home = () => {
-  const [numProjects, setNumProjects] = useState(0)
-
+const Home = () => {
   return (
     <>
       <Welcome />
@@ -23,7 +20,9 @@ export const Home = () => {
       <Languages />
       <Studies />
       <Experience />
-      <Projects numProjects={numProjects} setNumProjects={setNumProjects} />
+      <Projects numProjects={0} />
     </>
   )
 }
+
+export default Home

@@ -14,6 +14,7 @@ import cover7 from '../../assets/project7.png'
 import cover8 from '../../assets/project8.png'
 import cover9 from '../../assets/project9.jpg'
 import cover10 from '../../assets/project10.png'
+import { NavLink } from 'react-router-dom'
 
 export const Projects = ({ numProjects }) => {
   const { t } = useTranslation()
@@ -96,6 +97,7 @@ export const Projects = ({ numProjects }) => {
             >
               {showMessage}
             </a>
+            <NavLink to='/projects'><p>Hola</p></NavLink>
             <div
               className='collapse row justify-content-around'
               id='collapseExample'

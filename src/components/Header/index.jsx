@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import Cookies from 'universal-cookie'
 import { StyledHeader } from './styles'
+import { NavLink } from 'react-router-dom'
 
 export const Header = ({ language, setLanguage }) => {
   const cookies = new Cookies()
@@ -55,6 +56,7 @@ export const Header = ({ language, setLanguage }) => {
                   >
                     {t('technologies')}
                   </a>
+                  <NavLink to='/blog'>Blog</NavLink>
                   <a
                     className='dropdown-item'
                     href='#skills'
