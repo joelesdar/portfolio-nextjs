@@ -1,49 +1,21 @@
-import React, { useState } from 'react'
-import Styled from '@emotion/styled'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Project from './Project'
-import cover1 from './icons/project1.png'
-import cover2 from './icons/project2.png'
-import cover3 from './icons/project3.png'
-import cover4 from './icons/project4.png'
-import cover5 from './icons/project5.png'
-import cover6 from './icons/project6.jpg'
-import cover7 from './icons/project7.png'
-import cover8 from './icons/project8.png'
-import cover9 from './icons/project91.jpg'
-import cover10 from './icons/project10.png'
+import { Project } from '../Project'
+import { StyledProjects } from './styles'
+import cover1 from '../../assets/project1.png'
+import cover2 from '../../assets/project2.png'
+import cover3 from '../../assets/project3.png'
+import cover4 from '../../assets/project4.png'
+import cover5 from '../../assets/project5.png'
+import cover6 from '../../assets/project6.jpg'
+import cover7 from '../../assets/project7.png'
+import cover8 from '../../assets/project8.png'
+import cover9 from '../../assets/project9.jpg'
+import cover10 from '../../assets/project10.png'
 
-const StyledProjects = Styled.div`
-
-padding: 48px 0;
-background: var(--dark-blue);
-
-.title {
-    text-align: center;
-}
-
-.btn-primary {
-  background-color: var(--intense-blue);
-  /* padding: 8px; */
-  border-radius: 8px;
-  color: var(--green-blue);
-  margin: 24px 8px;
-  border: 1px solid var(--green-blue);
-}
-
-.btn-primary:hover {
-  background-color: var(--green-blue);
-  border-radius: 8px;
-  border: 1px solid var(--main-blue);
-  color: var(--intense-blue);
-  margin: 24px 8px;
-}
-
-`
-
-const Projects = () => {
+export const Projects = ({ numProjects }) => {
   const { t } = useTranslation()
   const [showMessage, changeMessage] = useState(t('show-more-projects'))
 
@@ -212,5 +184,3 @@ const Projects = () => {
     </StyledProjects>
   )
 }
-
-export default Projects

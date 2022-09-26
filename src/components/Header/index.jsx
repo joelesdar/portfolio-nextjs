@@ -1,62 +1,16 @@
-import React from 'react'
 import Headroom from 'react-headroom'
-import Styled from '@emotion/styled'
-import HamburguerMenu from './HamburguerMenu'
+import HamburguerMenu from '../HamburguerMenu'
 import { useTranslation } from 'react-i18next'
-import img from './icons/logo.png'
-import Es from './icons/Es'
-import En from './icons/En'
-import Fr from './icons/Fr'
+import img from '../../assets/logo.png'
+import Es from '../../assets/Es'
+import En from '../../assets/En'
+import Fr from '../../assets/Fr'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import Cookies from 'universal-cookie'
+import { StyledHeader } from './styles'
 
-const StyledHeader = Styled.div`
-    background-color: rgba(18, 18, 18, 0.75);
-    backdrop-filter: blur(4px);
-    font-size: 1.2rem;
-    fill: none;
-    min-height: 5rem;
-    .navbar {
-        padding: 1rem;
-        margin: 0 3rem;
-        a {
-            color: white;
-        }
-        .navbar-nav {
-          a {
-            color: white;
-            text-align: center;
-            &:hover {
-              color: var(--main-blue);
-            }
-          }
-          .active {
-            color: var(--main-blue);
-          }
-          .show{
-            background-color: transparent;
-          }
-          .dropdown-menu {
-              left: -25%;
-              background: rgba(18, 18, 18, 0.75);
-            }
-        }  
-    }
-    .container-logo {
-        max-width: 50px;
-        img {
-            margin: 0 auto;
-            width: 100%;
-        }
-    }
-    svg {
-        width: 25px;
-        margin: 0 auto;
-    }
-`
-
-const Header = ({ language, setLanguage }) => {
+export const Header = ({ language, setLanguage }) => {
   const cookies = new Cookies()
 
   const { t } = useTranslation()
@@ -176,5 +130,3 @@ const Header = ({ language, setLanguage }) => {
     </Headroom>
   )
 }
-
-export default Header

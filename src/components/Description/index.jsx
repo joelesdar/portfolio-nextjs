@@ -1,7 +1,6 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import Fade from 'react-reveal/Fade'
-import photo from '../icons/profile.jpg'
+import photo from '../../assets/profile.jpg'
 import { DescriptionContainer } from './styles'
 import 'bootstrap/dist/css/bootstrap.min.css'
 

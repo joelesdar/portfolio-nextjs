@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import HamburguerIcon from './icons/HamburguerIcon'
+import { useState } from 'react'
+import HamburguerIcon from '../assets/HamburguerIcon'
 import './HamburguerMenu.css'
 
 const HamburguerMenu = () => {

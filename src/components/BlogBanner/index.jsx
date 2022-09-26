@@ -1,4 +1,3 @@
-import React from 'react'
 import { Banner } from './styles'
 import Fade from 'react-reveal/Fade'
 import { useTranslation } from 'react-i18next'

@@ -1,27 +1,10 @@
-import React from 'react'
-import Styled from '@emotion/styled'
 import { useTranslation } from 'react-i18next'
 import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import logo from './icons/logo.png'
+import logo from '../../assets/logo.png'
+import { StyledSoftSkills } from './styles'
 
-const StyledSoftSkills = Styled.div`
-
-background: var(--dark-blue);
-padding: 48px 0;
-
-.description {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.logo {
-  max-width: 100%;
-}
-
-`
-
-const SoftSkills = () => {
+export const SoftSkills = () => {
   const { t } = useTranslation()
 
   return (
@@ -46,5 +29,3 @@ const SoftSkills = () => {
     </StyledSoftSkills>
   )
 }
-
-export default SoftSkills

@@ -1,68 +1,13 @@
 import React from 'react'
-import Styled from '@emotion/styled'
 import { useTranslation } from 'react-i18next'
 import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import unal from './icons/unal.png'
-import platzi from './icons/platzi.png'
-import Certificate from './icons/certificate.jpg'
+import unal from '../../assets/unal.png'
+import platzi from '../../assets/platzi.png'
+import Certificate from '../../assets/certificate.jpg'
+import { StyledStudies } from './styles'
 
-const StyledStudies = Styled.div`
-
-padding: 48px 0;
-background: var(--dark-blue);
-
-.study-block {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.career-title {
-  color: var(--main-blue);
-}
-
-.institution {
-  /* color: var(--main-blue); */
-}
-
-.logo {
-  padding-top: 16px;
-  text-align: center;
-}
-
-.logo-university {
-  max-height: 8rem;
-}
-
-.blockchain-section {
-  padding: 4rem auto;
-  text-align: center;
-}                                                                
-
-.image {
-  margin: 0 auto;
-  position: relative;
-  max-width: 800px;
-  background: var(--main-blue);
-  overflow: hidden;
-  padding: 0;
-  border: 3px solid var(--main-blue);
-  border-radius: 20px;
-  img {
-      width: 100%;
-      object-fit: cover;
-      opacity: 0.8;
-  }
-
-  img:hover {
-      opacity: 1;
-      transition: opacity 0.5s ease-in-out;
-  }
-}
-
-`
-
-const Studies = () => {
+export const Studies = () => {
   const { t } = useTranslation()
 
   return (
@@ -95,20 +40,22 @@ const Studies = () => {
                 </div>
               </Fade>
             </div>
-            <div className='row blockchain-section'>
-              <Fade duration='1500'>
-                <div className='col-12'>
-                  <h2>Blockchain Development</h2>
-                </div>
-              </Fade>
-              <div className='col-10 col-md-4'>
-                <h5>Hice parte del Ethereum Developer program donde estuve reloco papi reloco</h5>
+            <Fade duration='1500'>
+              <div className='col-12'>
+                <h2>Blockchain Development</h2>
               </div>
-              <Fade>
-                <div className='col-10 col-md-8 image'>
-                  <img src={Certificate} alt='Certificate' />
+            </Fade>
+            <div className='container'>
+              <div className='row align-items-center justify-content-center study-block'>
+                <div className='col-12 col-md-5'>
+                  <h5>Hice parte del Ethereum Developer program donde estuve reloco papi reloco</h5>
                 </div>
-              </Fade>
+                <Fade>
+                  <div className='col-10 col-md-7 image'>
+                    <img src={Certificate} alt='Certificate' />
+                  </div>
+                </Fade>
+              </div>
             </div>
           </div>
         </div>
@@ -116,5 +63,3 @@ const Studies = () => {
     </StyledStudies>
   )
 }
-
-export default Studies

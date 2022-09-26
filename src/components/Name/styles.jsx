@@ -1,11 +1,6 @@
-import React from 'react'
 import Styled from '@emotion/styled'
-import { useTranslation } from 'react-i18next'
-import Fade from 'react-reveal/Fade'
-import $ from 'jquery'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
-const StyledName = Styled.div`
+export const StyledName = Styled.div`
 /* @import url('https://fonts.googleapis.com/css?family=Raleway:400,800,900'); */
 
 .styled-name-container {
@@ -64,30 +59,3 @@ const StyledName = Styled.div`
     }
 }
 `
-
-const Name = () => {
-  window.addEventListener('scroll', function (e) {
-    const positionX = window.scrollY / 10
-    const positionY = window.scrollY / 10
-    $('.title').css({ 'background-position': positionX + '%' + positionY + '%' })
-  })
-
-  const { t } = useTranslation()
-
-  return (
-    <StyledName>
-      <div className='styled-name-container'>
-        <div className='name-container'>
-          <Fade top duration={2000}>
-            <div className='title'>Joel Diaz Arévalo</div>
-          </Fade>
-          <Fade bottom duration={2000}>
-            <div className='subtitle'>{t('subtitle')}</div>
-          </Fade>
-        </div>
-      </div>
-    </StyledName>
-  )
-}
-
-export default Name

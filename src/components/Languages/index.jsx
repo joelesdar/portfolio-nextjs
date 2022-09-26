@@ -1,37 +1,12 @@
-import React from 'react'
-import Styled from '@emotion/styled'
 import { useTranslation } from 'react-i18next'
 import { Fade, Bounce } from 'react-reveal'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Es from './icons/Es'
-import En from './icons/En'
-import Fr from './icons/Fr'
+import Es from '../../assets/Es'
+import En from '../../assets/En'
+import Fr from '../../assets/Fr'
+import { StyledLanguages } from './styles'
 
-const StyledLanguages = Styled.div`
-
-padding: 48px 0;
-background: var(--black);
-
-.title {
-  color: var(--main-blue);
-  text-align: center;
-}
-
-.level {
-  color: var(--green-blue);
-}
-
-.languages {
-  padding-top: 24px;
-}
-
-.language {
-  text-align: center;
-}
-
-`
-
-const Languages = () => {
+export const Languages = () => {
   const { t } = useTranslation()
 
   return (
@@ -75,5 +50,3 @@ const Languages = () => {
     </StyledLanguages>
   )
 }
-
-export default Languages

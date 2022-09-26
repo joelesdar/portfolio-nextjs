@@ -1,38 +1,9 @@
-import React from 'react'
-import Styled from '@emotion/styled'
 import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { StyledFooter } from './styles'
 
-const StyledFooter = Styled.div`
-
-    background: var(--intense-blue);
-    text-align: center;
-
-    .message {
-        padding: 16px 0;
-        p {
-            margin: 0px;
-            display: inline;
-        }
-        .react-icon {
-            color: #00d8ff;
-        }
-        .bootstrap-icon {
-            color: #593377;
-        }
-        .heart-icon {
-            color: var(--green-blue);
-        }
-        .copyright {
-            color: var(--green-blue);
-
-        }
-    }
-    
-`
-
-const Footer = () => {
+export const Footer = () => {
   const date = new Date().getFullYear()
   const { t } = useTranslation()
 
@@ -61,10 +32,7 @@ const Footer = () => {
           <span className='copyright' id='year'>{date}</span>
           <p> <span className='copyright'>joelesdar.com</span> - {t('rights')}</p>
         </div>
-
       </div>
     </StyledFooter>
   )
 }
-
-export default Footer

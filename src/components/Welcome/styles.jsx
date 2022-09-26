@@ -1,8 +1,6 @@
-import React from 'react'
-import Name from './Name'
 import Styled from '@emotion/styled'
 
-const StyledWelcome = Styled.div`
+export const StyledWelcome = Styled.div`
 .stars-container {
   margin-top: -5rem;
   min-height: 100vh;
@@ -99,20 +97,3 @@ const StyledWelcome = Styled.div`
 }
 
 `
-
-const Welcome = () => {
-  return (
-    <StyledWelcome>
-      <div className='stars-container'>
-        <div id='stars' />
-        <div id='stars2' />
-        <div id='stars3' />
-        <div id='title'>
-          <Name />
-        </div>
-      </div>
-    </StyledWelcome>
-  )
-}
-
-export default Welcome
