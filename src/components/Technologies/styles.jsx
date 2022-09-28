@@ -64,24 +64,21 @@ ul[class^=ring] li {
 }
 
 .ring-1 > *:nth-of-type(1) {
-  transform: rotate(72deg) translate(9.5em) rotate(-72deg);
+  transform: rotate(90deg) translate(9.5em) rotate(-90deg);
 }
 
 .ring-1 > *:nth-of-type(2) {
-  transform: rotate(144deg) translate(9.5em) rotate(-144deg);
+  transform: rotate(180deg) translate(9.5em) rotate(-180deg);
 }
 
 .ring-1 > *:nth-of-type(3) {
-  transform: rotate(216deg) translate(9.5em) rotate(-216deg);
+  transform: rotate(270deg) translate(9.5em) rotate(-270deg);
 }
 
 .ring-1 > *:nth-of-type(4) {
-  transform: rotate(288deg) translate(9.5em) rotate(-288deg);
-}
-
-.ring-1 > *:nth-of-type(5) {
   transform: rotate(360deg) translate(9.5em) rotate(-360deg);
 }
+
 .ring-2 {
   width: 13em;
   height: 13em;
@@ -274,9 +271,9 @@ ul[class^=ring] li {
   color: black;
 }
 
-.java-icon {
-  background: #ED1A20;
-  color: white;
+.ethereum-icon {
+  background: #c6c5d4;
+  color: #14044d;
 }
 
 .git-icon {

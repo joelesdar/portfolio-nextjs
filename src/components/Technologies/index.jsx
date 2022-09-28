@@ -40,14 +40,6 @@ export const Technologies = () => {
                         </i>
                       </li>
                       <li>
-                        <i class='orbit-icon dialogflow-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'bots']}
-                            size='lg'
-                          />
-                        </i>
-                      </li>
-                      <li>
                         <i class='orbit-icon figma-icon'>
                           <img src='https://img.icons8.com/color/48/000000/figma--v1.png' />
                         </i>
@@ -78,9 +70,9 @@ export const Technologies = () => {
                         </i>
                       </li>
                       <li>
-                        <i class='orbit-icon java-icon'>
+                        <i class='orbit-icon ethereum-icon'>
                           <FontAwesomeIcon
-                            icon={['fab', 'java']}
+                            icon={['fab', 'ethereum']}
                             size='lg'
                           />
                         </i>
@@ -162,7 +154,7 @@ export const Technologies = () => {
                     <li>JavaScript</li>
                     <li>React.js</li>
                     <li>Solidity</li>
-                    <li>Smart Contracts</li>
+                    <li>Blockchain</li>
                   </ul>
                 </div>
                 <div className='col-5'>
