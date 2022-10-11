@@ -20,7 +20,7 @@
       "description" : "I'm a passionate and creative Web developer and Computer Engineering student. I love creating products with a focus on the human experience and attention to detail.✨",
       "title-technologies" : "Technologies",
       "description-technologies" : "Throughout my career as a developer, I've worked with different technologies, in which:",
-      "description-specialized-technologies" : "I've specialized in::",
+      "description-specialized-technologies" : "I've specialized in:",
       "description-more-technologies" : "And I've also worked with:",
       "title-blog" : "Blog",
       "title-softskills" : "About Me",
@@ -31,7 +31,9 @@
       "title-career" : "Computer Engineering",
       "title-career-platzi" : "Complementary Education",
       "description-university" : "I am currently in the eighth semester at one of the top Universities in Latin America.",
-      "description-platzi" : "I am a student in the best online education platform in Latin America, expanding my knowledge in databases and soft skills.",
+      "description-platzi" : "I am a student in the best online education platform in Latin America, expanding my knowledge in blockchain and soft skills.",
+      "title-blockchain" : "Blockchain Development",
+      "description-blockchain" : "he EthDevProgram was an intensive 3-month program carried out by the Ethereum and Platzi foundation, where I trained as a Junior Blockchain Developer together with a community of peers and leading mentors in Latin America in the Blockchain ecosystem, and in where I stood out as one of the best students, in addition to dynamizing and leading several student sessions.",
       "title-experience" : "Experience",
       "experiencies" : {
         "experience1": {
@@ -115,6 +117,14 @@
         "project10" : {
           "title": "Invie",
           "description" : "Find your Invie-sible guitar."
+        },
+        "project11" : {
+          "title": "Petgram",
+          "description" : "With Petgram you can find and like the photos of your favorite pets."
+        },
+        "project12" : {
+          "title": "Rick and Morty character generator",
+          "description" : "With this app you can generate ramdon Rick and Morty characters, read their info, and also, see the history of queried characters."
         }
       },
       "title-contact" : "Find me at:",
@@ -159,6 +169,8 @@
         "title-career-platzi" : "Éducation complémentaire",
         "description-platzi" : "Je suis un étudiant de la meilleure plateforme d'éducation en ligne d'Amérique latine, élargissant mes connaissances dans les bases de données et les compétences générales.",
         "description-university" : "Je suis actuellement au huitième semestre dans l'une des meilleures universités d'Amérique latine.",
+        "title-blockchain" : "Blockchain Development",
+        "description-blockchain" : "Hice parte del Ethereum Developer Program, un programa intensivo de 3 meses apoyado por la fundación Ethereum y Platzi para formarnos como Desarrolladores Blockchain Junior",
         "title-experience" : "Expérience",
         "experiencies" : {
           "experience1": {
@@ -242,6 +254,14 @@
           "project10" : {
             "title": "Invie",
             "description" : "Trouvez votre guitare Invie-sible"
+          },
+          "project11" : {
+            "title": "Petgram",
+            "description" : "Avec Petgram, vous pouvez trouver et aimer les photos de vos animaux de compagnie préférés"
+          },
+          "project12" : {
+            "title": "Générateur de personnages Rick et Morty",
+            "description" : "Avec cette application, vous pouvez générer des personnages ramdon Rick et Morty, lire leurs informations et également consulter l'historique des personnages interrogés."
           }
         },
         "title-contact" : "Trouvez-moi à:",
@@ -286,6 +306,8 @@
         "title-career-platzi" : "Educación Complementaria",
         "description-platzi" : "Soy estudiante de la mejor plataforma de educación online en Latinoamérica, expandiendo mis conocimientos en bases de datos y habilidades blandas.",
         "description-university" : "Actualmente me encuentro cursando octavo semestre en una de las mejores universidades de Latinoamérica.",
+        "title-blockchain" : "Desarrollo Blockchain",
+        "description-blockchain" : "El EthDevProgram fue un programa intensivo de 3 meses realizado por la fundación Ethereum y Platzi, en donde me forme como Desarrollador Blockchain Junior junto con una comunidad de compañeros y mentores lideres en Latinoamérica en el ecosistema Blockchain, y en donde destaqué como uno de los mejores estudiantes, además de dinamizar y liderar varias sesiones de estudiantes.",
         "title-experience" : "Experiencia",
         "experiencies" : {
           "experience1": {
@@ -369,6 +391,14 @@
           "project10" : {
             "title": "Invie",
             "description" : "Encuentra tu guitarra Invie-sible."
+          },
+          "project11" : {
+            "title": "Petgram",
+            "description" : "Con Petgram puedes interactuar con las fotos de tus mascotas favoritas."
+          },
+          "project12" : {
+            "title": "Generador de personajes de Rick y Morty",
+            "description" : "Con esta aplicación puedes generar personajes aleatorios de Rick y Morty, leer su información y revisar el historial de personajes consultados."
           }
         },
         "title-contact" : "Encuentrame como:",

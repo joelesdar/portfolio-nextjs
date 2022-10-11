@@ -9,11 +9,13 @@ import cover2 from '../../assets/project2.png'
 import cover3 from '../../assets/project3.png'
 import cover4 from '../../assets/project4.png'
 import cover5 from '../../assets/project5.png'
-import cover6 from '../../assets/project6.jpg'
+// import cover6 from '../../assets/project6.jpg'
 import cover7 from '../../assets/project7.png'
 import cover8 from '../../assets/project8.png'
-import cover9 from '../../assets/project9.jpg'
+// import cover9 from '../../assets/project9.jpg'
 import cover10 from '../../assets/project10.png'
+import cover11 from '../../assets/project11.jpg'
+import cover12 from '../../assets/project12.jpg'
 import { NavLink } from 'react-router-dom'
 
 export const Projects = ({ numProjects }) => {
@@ -41,11 +43,12 @@ export const Projects = ({ numProjects }) => {
               <div className='col-12 col-md-6'>
                 <Fade bottom duration='2000'>
                   <Project
-                    title={t('projects.project6.title')}
-                    description={t('projects.project6.description')}
-                    cover={cover6}
-                    libraries='WordPress'
-                    link='https://redhus.org/'
+                    title='Petgram'
+                    description={t('projects.project11.description')}
+                    cover={cover11}
+                    libraries='React GraphQL'
+                    github='https://github.com/joelesdar/petgram'
+                    link='https://petgram-mu-five.vercel.app/'
                   />
                 </Fade>
               </div>
@@ -64,6 +67,18 @@ export const Projects = ({ numProjects }) => {
               <div className='col-12 col-md-6'>
                 <Fade bottom duration='2000'>
                   <Project
+                    title={t('projects.project12.title')}
+                    description={t('projects.project12.description')}
+                    cover={cover12}
+                    libraries='React GraphQL API'
+                    github='https://github.com/joelesdar/Rick-and-Morty-Generator'
+                    link='https://rick-and-morty-generator-9hdb.vercel.app/'
+                  />
+                </Fade>
+              </div>
+              {/* <div className='col-12 col-md-6'>
+                <Fade bottom duration='2000'>
+                  <Project
                     title={t('projects.project9.title')}
                     description={t('projects.project9.description')}
                     cover={cover9}
@@ -72,7 +87,7 @@ export const Projects = ({ numProjects }) => {
                     link='https://www.behance.net/gallery/138661033/Proyecto-Gokubos'
                   />
                 </Fade>
-              </div>
+              </div> */}
               <div className='col-12 col-md-6'>
                 <Fade bottom duration='2000'>
                   <Project

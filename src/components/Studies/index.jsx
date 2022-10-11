@@ -42,13 +42,14 @@ export const Studies = () => {
             </div>
             <Fade duration='1500'>
               <div className='col-12'>
-                <h2>Blockchain Development</h2>
+                <h2>{t('title-blockchain')}</h2>
               </div>
             </Fade>
             <div className='container'>
               <div className='row align-items-center justify-content-center study-block'>
                 <div className='col-12 col-md-5'>
-                  <h5>Hice parte del Ethereum Developer program donde estuve reloco papi reloco</h5>
+                  <h4 className='career-title'>Ethereum Developer Program</h4>
+                  <p>{t('description-blockchain')}</p>
                 </div>
                 <Fade>
                   <div className='col-10 col-md-7 image'>
