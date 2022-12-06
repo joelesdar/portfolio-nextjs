@@ -7,14 +7,14 @@ import { Languages } from '../components/Languages'
 import { Studies } from '../components/Studies'
 import { Experience } from '../components/Experience'
 import { Projects } from '../components/Projects'
-// import { BlogBanner } from './BlogBanner'
+import { BlogBanner } from '../components/BlogBanner'
 
 const Home = () => {
   return (
     <>
       <Welcome />
       <Description />
-      {/* <BlogBanner /> */}
+      <BlogBanner />
       <Technologies />
       <SoftSkills />
       <Languages />
