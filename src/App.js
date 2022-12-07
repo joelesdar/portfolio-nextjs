@@ -12,6 +12,7 @@ import Helmet from 'react-helmet'
 import { ProjectsPage } from './pages/ProjectsPage'
 import { NotFound } from './pages/NotFound'
 import { Blog } from './pages/Blog'
+import { BlogPost } from './components/BlogPost'
 
 function App () {
   const cookies = new Cookies()
@@ -40,6 +41,7 @@ function App () {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/projects' element={<ProjectsPage />} />
           <Route exact path='/blog' element={<Blog />} />
+          <Route exact path='/blog/:slug' element={<BlogPost />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
         <SocialBar />

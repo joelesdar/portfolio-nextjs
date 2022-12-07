@@ -1,10 +1,10 @@
-import { Card } from './styles'
+import { StyledCard } from './styles'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { NavLink } from 'react-router-dom'
 
 export const BlogCard = ({ post }) => {
   return (
-    <Card>
+    <StyledCard>
       <NavLink to={`/blog/${post.slug}`}>
         <div className='card'>
           <img src={post.cover} className='card-img-top' alt='...' />
@@ -14,6 +14,6 @@ export const BlogCard = ({ post }) => {
           </div>
         </div>
       </NavLink>
-    </Card>
+    </StyledCard>
   )
 }

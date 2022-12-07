@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Card = styled.div`
+export const StyledCard = styled.div`
   
   .card {
     background-color: var(--main-blue);
