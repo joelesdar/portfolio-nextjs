@@ -48,7 +48,6 @@ function App () {
         <Contact />
         <Footer />
       </HashRouter>
-
     </div>
   )
 }

@@ -1,19 +1,16 @@
 import { BlogCard } from '../components/BlogCard'
 import Fade from 'react-reveal/Fade'
-import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import blogdata from '../posts.json'
 
 export const Blog = () => {
-  const { t } = useTranslation()
   return (
     <>
       <div className='container'>
-        <h1>Blog</h1>
         <div className='row align-items-center justify-content-around'>
           <div className='col-10'>
             <Fade duration='1500'>
-              <h2 className='title'>{t('title-blog')}</h2>
+              <h1>Blog</h1>
             </Fade>
             <div className='row justify-content-around'>
               {blogdata.map(post => (
