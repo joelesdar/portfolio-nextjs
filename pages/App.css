@@ -1,0 +1,66 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+:root {
+    --main-blue: #1c82f6;
+    --dark-blue: #061C36;
+    --green-blue: #0FF3F5;
+    --intense-blue: #0C0936;
+    --black: #121212;
+    --yellow: #F5CE02;
+}
+
+df-messenger {
+    --df-messenger-button-titlebar-color: #1c82f6;
+    --df-messenger-user-message: #0FF3F5;
+}
+
+.flag-container {
+    width: max-content;
+    max-width: 64px;
+    border-radius: 100%;
+    border: white 1px solid;
+}
+
+.es-yellow {
+    fill:#FFDA44;
+}
+
+.es-red {
+    fill:#D80027;
+}
+
+.es-blue {
+    fill:#0052B4;
+}
+
+.en-white {
+    fill:#F0F0F0;
+}
+
+.en-red {
+    fill:#D80027;
+}
+
+.en-blue {
+    fill:#0052B4;
+}
+
+.fr-white {
+    fill:#F0F0F0;
+}
+
+.fr-red {
+    fill:#D80027;
+}
+
+.fr-blue {
+    fill:#0052B4;
+}

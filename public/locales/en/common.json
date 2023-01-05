@@ -1,0 +1,139 @@
+{
+  "selectLanguage": "Language",
+  "language-en" : "English",
+  "language-fr" : "French",
+  "language-es" : "Spanish",
+  "home" : "Home",
+  "about-me" : "Information",
+  "technologies" : "Technologies",
+  "skills" : "Skills",
+  "languages" : "Languages",
+  "studies" : "Education",
+  "experience" : "Experience",
+  "personal-projects" : "Projects",
+  "contact" : "Contact",
+  "subtitle" : "Blockchain and Frontend Developer",
+  "title-hello" : "Hi!",
+  "title-name" : " I'm Joel",
+  "description" : "I'm a passionate and creative Web developer and Computer Engineering student. I love creating products with a focus on the human experience and attention to detail.✨",
+  "title-technologies" : "Technologies",
+  "description-technologies" : "Throughout my career as a developer, I've worked with different technologies, in which:",
+  "description-specialized-technologies" : "I've specialized in:",
+  "description-more-technologies" : "And I've also worked with:",
+  "title-blog" : "Blog",
+  "title-softskills" : "About Me",
+  "description-softskills" : "Hello, my name is Joel. I am a martial artist, educator, dancer and passionate about science, technology and education. I deeply believe in never stopping learning and growing, finding new ways to meet new challenges.",
+  "title-language" : "Languages",
+  "title-studies" : "Education",
+  "title-university" : "National University of Colombia",
+  "title-career" : "Computer Engineering",
+  "title-career-platzi" : "Complementary Education",
+  "description-university" : "I am currently in the eighth semester at one of the top Universities in Latin America.",
+  "description-platzi" : "I am a student in the best online education platform in Latin America, expanding my knowledge in blockchain and soft skills.",
+  "title-blockchain" : "Blockchain Development",
+  "description-blockchain" : "The EthDevProgram was an intensive 3-month program carried out by the Ethereum foundation and Platzi, where I trained as a Junior Blockchain Developer together with a community of peers and leading mentors in Latin America in the Blockchain ecosystem, and where I stood out as one of the best students, in addition to dynamizing and leading several student sessions.",
+  "title-experience" : "Experience",
+  "experiencies" : {
+    "experience1": {
+      "position" : "Lead developer",
+      "description" : "Led the product development and support team of the company.",
+      "date" : "August 2021 - February 2022",
+      "responsability1" : "Led and co-ordinated teams to developed Web site graphics, content, capacity and interactivity.",
+      "responsability2" : "Consulted with clients to develop and document Web site requirements.",
+      "responsability3" : "Prepared and design mock-ups and prototypes.",
+      "responsability4" : "Planned, designed, wrote, modified, integrated and tested Web site related code.",
+      "responsability5" : "Created and optimized content for the Web site."
+    },
+    "experience2": {
+      "position" : "Freelance Web Developer",
+      "description" : "I have worked as a freelance developer creating and developing websites.",
+      "date" : "date",
+      "responsability1" : "Consulted with clients to develop and document Web site requirements.",
+      "responsability2" : "Prepared mock-ups and prototypes.",
+      "responsability3" : "Planned, designed, wrote, modified, integrated and tested Web site related code.",
+      "responsability4" : "Create and optimize content for the Web site."
+    },
+    "experience3": {
+      "position" : "Volunteer community physics educator",
+      "description" : "I had the opportunity to participate as an educator in the area of ​​physics in the Sotavento popular education group, giving and supporting classes for young people and adults who aspired to access higher education.",
+      "date" : "March - August 2021",
+      "responsability1" : "Prepared subject material for presentation to students.",
+      "responsability2" : "Taught and support classes to large groups of students.",
+      "responsability3" : "Proposed and carried out scientific experiments and interactive activities for students."
+    },
+    "experience4": {
+      "position" : "Chatbot Developer",
+      "description" : "I worked on the design and development of cross-platform Chatbots with Dialogflow from Google Cloud.",
+      "date" : "July - November 2017",
+      "responsability1" : "Prepared an designed mock-ups and prototypes.",
+      "responsability2" : "Planned, designed, wrote, modified and integrated code for the development of Chatbots.",
+      "responsability3" : "Conducted tests and perform security, usability and quality controls."
+    }
+  },
+  "title-projects" : "Some of my projects",
+  "subtitle-projects" : "Featured projects",
+  "subtitle-more-projects" : "Other projects",
+  "show-more-projects" : "Show More",
+  "show-less-projects" : "Show Less",
+  "projects" : {
+    "project1" : {
+      "title": "Breaking Bad quote generator",
+      "description" : "Random generator of famous quotes from Breaking Bad using an API."
+    },
+    "project2" : {
+      "title": "Insurance app",
+      "description" : "Car insurance calculator simulator."
+    },
+    "project3" : {
+      "title": "Budget App",
+      "description" : "Administration and management personal budget app."
+    },
+    "project4" : {
+      "title": "Pets App",
+      "description" : "Vet appointment manager for your beloved pets."
+    },
+    "project5" : {
+      "title": "Business card",
+      "description" : "Animated business card with sliders."
+    },
+    "project6" : {
+      "title": "Redhus.org",
+      "description" : "Official site of the popular human rights network of Bogotá Redhus"
+    },
+    "project7" : {
+      "title": "Portfolio website",
+      "description" : "Website with a portfolio design for developpers and designers."
+    },
+    "project8" : {
+      "title": "Xylophone JS",
+      "description" : "Interactive xylophone made with JS."
+    },
+    "project9" : {
+      "title": "Gokubos",
+      "description" : "Windows app developed in Visual Studio, with a Dragon Ball design, that teaches users to learn how to solve the Rubik's cube."
+    },
+    "project10" : {
+      "title": "Invie",
+      "description" : "Find your Invie-sible guitar."
+    },
+    "project11" : {
+      "title": "Petgram",
+      "description" : "With Petgram you can find and like the photos of your favorite pets."
+    },
+    "project12" : {
+      "title": "Rick and Morty character generator",
+      "description" : "With this app you can generate ramdon Rick and Morty characters, read their info, and also, see the history of queried characters."
+    },
+    "project13" : {
+      "title": "Voting Decentralized App",
+      "description" : "This Dapp is a voting system that allows an Ethereum address to vote only once on a binary proposal."
+    }
+  },
+  "title-contact" : "Find me at:",
+  "link-contact" : "Contact",
+  "message-footer" : {
+    "first-part" : "Made with ",
+    "second-part" : " using "
+  },
+  "rights" : "All rights reserved."
+}

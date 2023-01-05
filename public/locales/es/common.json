@@ -1,0 +1,139 @@
+{
+  "selectLanguage" : "Idioma",
+  "language-en" : "Inglés",
+  "language-fr" : "Francés",
+  "language-es" : "Español",
+  "home" : "Inicio",
+  "about-me" : "Información",
+  "technologies" : "Tecnologías",
+  "skills" : "Habilidades",
+  "languages" : "Idiomas",
+  "studies" : "Estudios",
+  "experience" : "Experiencia",
+  "personal-projects" : "Proyectos",
+  "contact" : "Contacto",
+  "subtitle" : "Desarrollador Blockchain y Frontend",
+  "title-hello" : "!Hola!",
+  "title-name" : "  Soy Joel",
+  "description" : "Soy un desarrollador web y estudiante de Ingeniería de Sistemas y Computación apasionado y creativo. Me encanta crear productos centrados en la experiencia humana y en la atención al detalle.✨",
+  "title-technologies" : "Tecnologías",
+  "description-technologies" : "A lo largo de mi carrera como desarrollador he podido aprender y trabajar con distintas tecnologías. De las cuales:",
+  "description-specialized-technologies" : "Me he especializado en:",
+  "description-more-technologies" : "Y también he trabajado con:",
+  "title-blog" : "Blog",
+  "title-softskills" : "Sobre Mí",
+  "description-softskills" : "Hola, mi nombre es Joel. Soy artista marcial, educador, bailarín y apasionado por la ciencia, la tecnología y la educación. Creo profundamente en nunca parar de aprender y crecer, encontrando nuevas maneras para enfrentarnos a nuevos desafios.",
+  "title-language" : "Idiomas",
+  "title-studies" : "Estudios",
+  "title-university" : "Universidad Nacional de Colombia",
+  "title-career" : "Ingeniería de Sistemas y Computación",
+  "title-career-platzi" : "Educación Complementaria",
+  "description-platzi" : "Soy estudiante de la mejor plataforma de educación online en Latinoamérica, expandiendo mis conocimientos en bases de datos y habilidades blandas.",
+  "description-university" : "Actualmente me encuentro cursando octavo semestre en una de las mejores universidades de Latinoamérica.",
+  "title-blockchain" : "Desarrollo Blockchain",
+  "description-blockchain" : "El EthDevProgram fue un programa intensivo de 3 meses realizado por la fundación Ethereum y Platzi, en donde me forme como Desarrollador Blockchain Junior junto con una comunidad de compañeros y mentores lideres en Latinoamérica en el ecosistema Blockchain, y en donde destaqué como uno de los mejores estudiantes, además de dinamizar y liderar varias sesiones de estudiantes.",
+  "title-experience" : "Experiencia",
+  "experiencies" : {
+    "experience1": {
+      "position" : "Lider de desarrollo",
+      "description" : "Lideré el equipo de desarrollo de producto y soporte de la empresa.",
+      "date" : "Agosto 2021 - Febrero 2022",
+      "responsability1" : "Liderar y coordinar equipos para el desarrollo de sitios web.",
+      "responsability2" : "Consultar con clientes para desarrollar y documentar los requerimientos de cada proyecto.",
+      "responsability3" : "Preparar y diseñar mock-ups y prototipos de producto.",
+      "responsability4" : "Planear, diseñar, escribir, integrar y testear el código para cada sitio web.",
+      "responsability5" : "Crear y optimizar el contenido para el sitio web."
+    },
+    "experience2": {
+      "position" : "Desarrollador Web Freelance",
+      "description" : "He trabajado como desarrollador independiente en la creación y desarrollo de sitios web.",
+      "date" : "date",
+      "responsability1" : "Consultar con clientes para desarrollar y documentar los requerimientos de cada proyecto.",
+      "responsability2" : "Preparar y diseñar mock-ups y prototipos de producto.",
+      "responsability3" : "Planear, diseñar, escribir, integrar y testear el código para cada sitio web.",
+      "responsability4" : "Crear y optimizar el contenido para el sitio web."
+    },
+    "experience3": {
+      "position" : "Educador popular voluntario de física",
+      "description" : "Tuve la oportunidad de participar como educador en el área de física en el colectivo de educación popular Sotavento,  dando y apoyando clases para jóvenes y adultos que aspiraban a acceder a la educación superior.",
+      "date" : "Marzo - Agosto 2021",
+      "responsability1" : "Preparar y diseñar material de estudio para los estudiantes.",
+      "responsability2" : "Dictar y apoyar clases a grupos grandes de estudiantes, de acuerdo a sus necesidades.",
+      "responsability3" : "Proponer y realizar experimentos científicos y actividades interactivas para los estudiantes."
+    },
+    "experience4": {
+      "position" : "Desarrollador de Chatbots",
+      "description" : "Trabajé en el diseño y desarrollo de Chatbots multiplataforma con Dialogflow de Google Cloud.",
+      "date" : "Julio - Noviembre 2017",
+      "responsability1" : "Preparar y diseñar mock-ups y prototipos de producto.",
+      "responsability2" : "Planear, diseñar, escribir, integrar y testear el código para el desarrollo de Chatbots.",
+      "responsability3" : "Llevar a cabo test de calidad, seguridad y usabilidad."
+    }
+  },
+  "title-projects" : "Mis Proyectos",
+  "subtitle-projects" : "Proyectos destacados",
+  "subtitle-more-projects" : "Otros proyectos",
+  "show-more-projects" : "Ver Más",
+  "show-less-projects" : "Ver Menos",
+  "projects": {
+    "project1" : {
+      "title": "Generador de frases celebres de Breaking Bad",
+      "description" : "Generador aleatorio de frases celebres de la serie Breaking Bad usando un API."
+    },
+    "project2" : {
+      "title": "CotizApp",
+      "description" : "Simulador de calculadora de seguros para autos."
+    },
+    "project3" : {
+      "title": "App de Presupuesto",
+      "description" : "Aplicación para administrar y gestionar tu presupuesto personal."
+    },
+    "project4" : {
+      "title": "Mascotas App",
+      "description" : "Gestor de citas de veterinaria para tus queridas mascotas."
+    },
+    "project5" : {
+      "title": "Tarjeta de presentación",
+      "description" : "Tarjeta tipo portafolio de presentación con controles deslizantes."
+    },
+    "project6" : {
+      "title": "Redhus.org",
+      "description" : "Sitio oficial de La red popular de derechos humanos de Bogotá Redhus."
+    },
+    "project7" : {
+      "title": "Web portafolio de presentación",
+      "description" : "Web con diseño de portafolio para desarrolladores y diseñadores."
+    },
+    "project8" : {
+      "title": "Xilófono JS",
+      "description" : "Xilófono interactivo hecho en JS."
+    },
+    "project9" : {
+      "title": "Proyecto Gokubos",
+      "description" : "Aplicación para Windows desarrollada en Visual Studio, con diseño de Dragon Ball, que enseña al usuario a aprender a armar el cubo de Rubik"
+    },
+    "project10" : {
+      "title": "Invie",
+      "description" : "Encuentra tu guitarra Invie-sible."
+    },
+    "project11" : {
+      "title": "Petgram",
+      "description" : "Con Petgram puedes interactuar con las fotos de tus mascotas favoritas."
+    },
+    "project12" : {
+      "title": "Generador de personajes de Rick y Morty",
+      "description" : "Con esta aplicación puedes generar personajes aleatorios de Rick y Morty, leer su información y revisar el historial de personajes consultados."
+    },
+    "project13" : {
+      "title": "Aplicación descentralizada de Votación",
+      "description" : "Esta DApp es un sistema de votación que permite a una dirección Ethereum votar una única vez entre dos opciones."
+    }
+  },
+  "title-contact" : "Encuentrame como:",
+  "link-contact" : "Contactar",
+  "message-footer" : {
+    "first-part" : "Hecho con ",
+    "second-part" : " usando "
+  },
+  "rights" : "Todos los derechos reservados."
+}
