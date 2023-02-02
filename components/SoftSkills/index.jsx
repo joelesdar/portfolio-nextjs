@@ -13,7 +13,7 @@ export const SoftSkills = () => {
       <div className='container' id='skills'>
         <div className='row justify-content-around'>
           <div className='col-10'>
-            <Fade duration='1500'>
+            <Fade duration={1500}>
               <h2>{t('title-softskills')}</h2>
             </Fade>
             <div className='row justify-content-around align-items-center'>

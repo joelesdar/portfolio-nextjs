@@ -16,10 +16,14 @@ import { SocialBar } from '../components/SocialBar'
 import { Contact } from '../components/Contact'
 import { Footer } from '../components/Footer'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { getAllFilesMetadata } from '../lib/mdx'
 
 export async function getStaticProps({ locale }) {
+  const posts = await getAllFilesMetadata();
+  // console.log(posts);
   return {
     props: {
+      posts,
       ...(await serverSideTranslations(locale, [
         'common',
       ])),
@@ -52,7 +56,12 @@ export default function Home(props) {
       <Header language={language} setLanguage={setLanguage} />
       <Welcome />
       <Description />
-      {/* <BlogBanner /> */}
+      {/* <div>
+        {props.posts.map(post => (
+          <h2>{post.title}</h2>
+        ))}
+      </div> */}
+      <BlogBanner posts={props.posts} />
       <Technologies />
       <SoftSkills />
       <Languages />
@@ -71,3 +80,11 @@ export default function Home(props) {
     </div>
   )
 }
+
+// export async function getStaticProps() {
+
+
+//   return {
+//     props: posts
+//   }
+// }

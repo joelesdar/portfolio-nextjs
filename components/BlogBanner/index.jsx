@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import blogdata from '../../posts.json'
 import { BlogCard } from '../BlogCard'
 
-export const BlogBanner = () => {
+export const BlogBanner = ({ posts }) => {
   const { t } = useTranslation()
 
   return (
@@ -13,11 +13,11 @@ export const BlogBanner = () => {
       <div className='container'>
         <div className='row align-items-center justify-content-around'>
           <div className='col-10'>
-            <Fade duration='1500'>
+            <Fade duration={1500}>
               <h2 className='title'>{t('title-blog')}</h2>
             </Fade>
             <div className='row justify-content-around'>
-              {blogdata.map(post => (
+              {posts.map(post => (
                 <div key={post.id} className='col-12 col-md-4'>
                   <Fade>
                     <BlogCard key={post.id} post={post} />

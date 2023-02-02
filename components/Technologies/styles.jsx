@@ -4,6 +4,7 @@ export const StyledTechnologies = Styled.div`
 
 background: #0E141B;
 padding: 48px 0;
+overflow: hidden;
 
 .orbit {
   float: left;

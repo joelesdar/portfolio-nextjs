@@ -15,7 +15,7 @@ export const Studies = () => {
       <div className='container' id='studies'>
         <div className='row align-items-center justify-content-around'>
           <div className='col-10'>
-            <Fade duration='1500'>
+            <Fade duration={1500}>
               <h2>{t('title-studies')}</h2>
             </Fade>
             <div className='row'>
@@ -40,7 +40,7 @@ export const Studies = () => {
                 </div>
               </Fade>
             </div>
-            <Fade duration='1500'>
+            <Fade duration={1500}>
               <div className='col-12'>
                 <h2>{t('title-blockchain')}</h2>
               </div>

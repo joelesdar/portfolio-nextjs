@@ -17,7 +17,6 @@ import cover8 from '../../assets/project8.png'
 import cover11 from '../../assets/project11.jpg'
 import cover12 from '../../assets/project12.jpg'
 import cover13 from '../../assets/project13.png'
-// import { NavLink } from 'react-router-dom'
 
 export const Projects = ({ numProjects }) => {
   const { t } = useTranslation()
@@ -34,15 +33,15 @@ export const Projects = ({ numProjects }) => {
       <div className='container' id='projects'>
         <div className='row align-items-center justify-content-around'>
           <div className='col-10'>
-            <Fade duration='1500'>
+            <Fade duration={1500}>
               <h2 className='title'>{t('title-projects')}</h2>
             </Fade>
-            <Fade duration='1500'>
+            <Fade duration={1500}>
               <h3>{t('subtitle-projects')}</h3>
             </Fade>
             <div className='row justify-content-around'>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title='Petgram'
                     description={t('projects.project11.description')}
@@ -54,7 +53,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project1.title')}
                     description={t('projects.project1.description')}
@@ -66,7 +65,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project12.title')}
                     description={t('projects.project12.description')}
@@ -90,7 +89,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div> */}
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project13.title')}
                     description={t('projects.project13.description')}
@@ -113,18 +112,17 @@ export const Projects = ({ numProjects }) => {
             >
               {showMessage}
             </a>
-            {/* <NavLink to='/projects'><p>Hola</p></NavLink> */}
             <div
               className='collapse row justify-content-around'
               id='collapseExample'
             >
               <div className='col-12'>
-                <Fade duration='1500'>
+                <Fade duration={1500}>
                   <h3>{t('subtitle-more-projects')}</h3>
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project4.title')}
                     description={t('projects.project4.description')}
@@ -136,7 +134,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project2.title')}
                     description={t('projects.project2.description')}
@@ -148,7 +146,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project5.title')}
                     description={t('projects.project5.description')}
@@ -160,7 +158,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project8.title')}
                     description={t('projects.project8.description')}
@@ -172,7 +170,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project3.title')}
                     description={t('projects.project3.description')}
@@ -184,7 +182,7 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div>
               <div className='col-12 col-md-6'>
-                <Fade bottom duration='2000'>
+                <Fade bottom duration={2000}>
                   <Project
                     title={t('projects.project7.title')}
                     description={t('projects.project7.description')}

@@ -79,7 +79,7 @@ export const Contact = () => {
                   icon={['fas', 'envelope']}
                   className='social-icon'
                   color='var(--green-blue)'
-                  size='md'
+                  size='1x'
                   title='mail'
                                     /> Jodiazare@gmail.com
                 </p>
@@ -87,7 +87,7 @@ export const Contact = () => {
                   icon={['fas', 'phone']}
                   className='social-icon'
                   color='var(--green-blue)'
-                  size='md'
+                  size='1x'
                   title='mail'
                                     /> +57 3225504022
                 </p>

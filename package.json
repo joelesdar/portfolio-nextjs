@@ -23,6 +23,7 @@
     "jquery": "^3.6.0",
     "next": "^13.0.7",
     "next-i18next": "^13.0.2",
+    "next-mdx-remote": "^4.2.1",
     "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
@@ -62,7 +63,6 @@
     ]
   },
   "devDependencies": {
-    "@svgr/webpack": "^6.5.1",
     "json-loader": "^0.5.7",
     "standard": "^17.0.0"
   }

@@ -5,6 +5,7 @@ export const DescriptionContainer = Styled.div`
   padding: 48px 0;
   background-color: var(--dark-blue);
   font-family: 'Rubik', sans-serif;
+  overflow: hidden;
 
 .image {
     margin-top: 2em;

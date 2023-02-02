@@ -4,6 +4,7 @@ export const StyledStudies = Styled.div`
 
 padding: 48px 0;
 background: var(--dark-blue);
+overflow: hidden;
 
 .study-block {
   padding-top: 16px;
