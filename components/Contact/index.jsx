@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
 import social from '../../assets/constants'
 import { ContactContainer } from './styles'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -20,7 +21,7 @@ export const Contact = () => {
               <div className='col-2'>
                 <a href={social.github} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
-                    icon={['fab', 'github']}
+                    icon={faGithub}
                     className='social-icon'
                     color='var(--green-blue)'
                     size='2xl'
@@ -31,7 +32,7 @@ export const Contact = () => {
               <div className='col-2'>
                 <a href={social.linkedin} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
-                    icon={['fab', 'linkedin-in']}
+                    icon={faLinkedinIn}
                     className='social-icon'
                     color='var(--green-blue)'
                     size='2xl'
@@ -42,18 +43,18 @@ export const Contact = () => {
               <div className='col-2'>
                 <a href={social.twitter} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
-                    icon={['fab', 'twitter']}
+                    icon={faXTwitter}
                     className='social-icon'
                     color='var(--green-blue)'
                     size='2xl'
-                    title='Twitter'
+                    title='X'
                   />
                 </a>
               </div>
               <div className='col-2'>
                 <a href={social.instagram} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
-                    icon={['fab', 'instagram']}
+                    icon={faInstagram}
                     className='social-icon'
                     color='var(--green-blue)'
                     size='2xl'
@@ -64,11 +65,22 @@ export const Contact = () => {
               <div className='col-2'>
                 <a href={social.behance} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
-                    icon={['fab', 'behance']}
+                    icon={faBehance}
                     className='social-icon'
                     color='var(--green-blue)'
                     size='2xl'
                     title='Behance'
+                  />
+                </a>
+              </div>
+              <div className='col-2'>
+                <a href={social.medium} target='_blank' rel='noreferrer'>
+                  <FontAwesomeIcon
+                    icon={faMedium}
+                    className='social-icon'
+                    color='var(--green-blue)'
+                    size='2xl'
+                    title='Medium'
                   />
                 </a>
               </div>
@@ -81,7 +93,7 @@ export const Contact = () => {
                   color='var(--green-blue)'
                   size='1x'
                   title='mail'
-                                    /> Jodiazare@gmail.com
+                /> Jodiazare@gmail.com
                 </p>
                 <p className='mail'><FontAwesomeIcon
                   icon={['fas', 'phone']}
@@ -89,7 +101,7 @@ export const Contact = () => {
                   color='var(--green-blue)'
                   size='1x'
                   title='mail'
-                                    /> +57 3225504022
+                /> +57 3225504022
                 </p>
               </div>
             </div>

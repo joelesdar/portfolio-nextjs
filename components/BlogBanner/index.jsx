@@ -2,10 +2,10 @@ import { Banner } from './styles'
 import Fade from 'react-reveal/Fade'
 import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import blogdata from '../../posts.json'
+import posts from '../../posts.json'
 import { BlogCard } from '../BlogCard'
 
-export const BlogBanner = ({ posts }) => {
+export const BlogBanner = () => {
   const { t } = useTranslation()
 
   return (
@@ -24,21 +24,6 @@ export const BlogBanner = ({ posts }) => {
                   </Fade>
                 </div>
               ))}
-              {/* <div className='col-12 col-md-4'>
-                <Fade>
-                  <BlogCard title='Empieza el Ethereum Developer Program' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' cover={preview1} />
-                </Fade>
-              </div>
-              <div className='col-12 col-md-4'>
-                <Fade>
-                  <BlogCard title='Empieza el Ethereum Developer Program' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' cover={preview1} />
-                </Fade>
-              </div>
-              <div className='col-12 col-md-4'>
-                <Fade>
-                  <BlogCard title='Empieza el Ethereum Developer Program' description='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' cover={preview1} />
-                </Fade>
-              </div> */}
             </div>
           </div>
         </div>

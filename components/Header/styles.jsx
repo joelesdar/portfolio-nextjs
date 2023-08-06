@@ -20,6 +20,7 @@ export const StyledHeader = Styled.div`
       .navbar-nav {
         a {
           color: white;
+          text-decoration: none;
           &:hover {
             color: var(--main-blue);
           }

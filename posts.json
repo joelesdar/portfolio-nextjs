@@ -1,28 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Comienza el Ethereum Developer Program",
-    "slug": "ethereum",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Buena la rata",
-    "cover": "https://raw.githubusercontent.com/joelesdar/Portfolio/master/src/assets/postcover1.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Blockchain y Web 3.0. Latinoamérica transformando el mundo",
-    "slug": "charla-blockchain",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "cover": "https://raw.githubusercontent.com/joelesdar/Portfolio/master/src/assets/postcover2.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Educación: una utopia necesaria",
-    "slug": "educación",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "cover": "https://raw.githubusercontent.com/joelesdar/Portfolio/master/src/assets/postcover3.jpg",
-    "blocks":
-      {
-        "subtitle": "¿De qué trato el Ethereum Developer Program exactamente?",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-      }
+    "title": "La capa de Notificaciones y Comunicaciones en Web3: ¿Qué es Push Protocol?",
+    "link": "https://medium.com/@joelesdar/la-capa-de-notificaciones-y-comunicaciones-en-web3-qu%C3%A9-es-push-protocol-710dd5dd313c",
+    "description": "En web3 como usuarios hemos tenido el gran problema de que al usar Dapps y servicios descentralizados, en general, no disponíamos de una forma de ser notificados de información de nuestro interés de los servicios que usamos. A menos de que dieras tu correo, twitter, o usaras alguna otra opción centralizada, no eras notificado.",
+    "cover": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*YK1UAdiTG7pmFrMIRn5zGw.png"
   }
 ]

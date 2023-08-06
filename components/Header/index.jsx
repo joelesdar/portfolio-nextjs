@@ -1,5 +1,6 @@
 import Headroom from 'react-headroom'
 // import HamburguerMenu from '../HamburguerMenu'
+import { Suspense } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'react-i18next'
 import Image from 'next/image'
@@ -7,6 +8,7 @@ import img from '../../assets/logo.png'
 import Es from '../../assets/Es'
 import En from '../../assets/En'
 import Fr from '../../assets/Fr'
+import EnSVG from '../../assets/en.svg';
 import Cookies from 'universal-cookie'
 import { StyledHeader } from './styles'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
@@ -15,20 +17,20 @@ import { useRouter } from 'next/router'
 
 export const Header = ({ language, setLanguage }) => {
 
-  const { locale, locales, push } = useRouter();
-  const cookies = new Cookies()
+  // const { locale, locales, push } = useRouter();
+  // const cookies = new Cookies()
 
-  const { t } = useTranslation('common')
+  const { t, i18n } = useTranslation()
 
-  const ChangeLanguage = (lang) => {
-    // setLanguage(lang);
-    cookies.set('cookieLang', lang, { path: '/' })
-    window.location.reload()
-  }
+  // const ChangeLanguage = (lang) => {
+  //   // setLanguage(lang);
+  //   cookies.set('cookieLang', lang, { path: '/' })
+  //   window.location.reload()
+  // }
 
-  const handleClick = () => l => {
-    push('/', undefined, { locale: l });
-  }
+  // const handleClick = () => l => {
+  //   push('/', undefined, { locale: l });
+  // }
 
   return (
     <Headroom>
@@ -54,17 +56,17 @@ export const Header = ({ language, setLanguage }) => {
                 <Nav.Link href='#contact'>{t('contact')}</Nav.Link>
                 <NavDropdown title={t('selectLanguage')} id="basic-nav-dropdown">
                   <NavDropdown.Item>
-                    <Link href={'/'} locale={'es'}>
+                    <Link href={'/'} onClick={() => i18n.changeLanguage('es')}>
                       <Es /> Español
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link href={'/'} locale={'en'}>
+                    <Link href={'/'} onClick={() => i18n.changeLanguage('en')}>
                       <En /> English
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link href={'/'} locale={'fr'}>
+                    <Link href={'/'} onClick={() => i18n.changeLanguage('fr')}>
                       <Fr /> Français
                     </Link>
                   </NavDropdown.Item>
@@ -73,106 +75,6 @@ export const Header = ({ language, setLanguage }) => {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        {/* <nav className='navbar navbar-expand-md navbar-dark'>
-          <HamburguerMenu /> 
-          <div className='container-fluid' />
-          <div className='collapse navbar-collapse' id='navbarTogglerDemo02'>
-            <div className='navbar-nav'>
-              <a className='nav-link active' href=''>
-                {t('home')}
-                <span className='sr-only'>(current)</span>
-              </a>
-              <div className='nav-item dropdown'>
-                <Link
-                  className='nav-link dropdown-toggle'
-                  href='#!'
-                  id='navbarDropdown'
-                  role='button'
-                  data-toggle='dropdown'
-                  aria-haspopup='true'
-                  aria-expanded='false'
-                >
-                  {t('about-me')}
-                </Link>
-                <div className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                  <Link
-                    className='dropdown-item'
-                    href='#technologies'
-                  >
-                    {t('technologies')}
-                  </Link>
-                  <Link href='/blog'>Blog</Link>
-                  <a
-                    className='dropdown-item'
-                    href='#skills'
-                  >
-                    {t('skills')}
-                  </a>
-                  <a
-                    className='dropdown-item'
-                    href='#languages'
-                  >
-                    {t('languages')}
-                  </a>
-                  <a
-                    className='dropdown-item'
-                    href='#studies'
-                  >
-                    {t('studies')}
-                  </a>
-                  <a
-                    className='dropdown-item'
-                    href='#experience'
-                  >
-                    {t('experience')}
-                  </a>
-                </div>
-              </div>
-              <a className='nav-link' href='#projects'>
-                {t('personal-projects')}
-              </a>
-              <a className='nav-link' href='#contact'>
-                {t('contact')}
-              </a>
-              <div className='nav-item dropdown'>
-                <a
-                  className='nav-link dropdown-toggle'
-                  href='#!'
-                  id='navbarDropdown'
-                  role='button'
-                  data-toggle='dropdown'
-                  aria-haspopup='true'
-                  aria-expanded='false'
-                >
-                  {t('selectLanguage')}
-                </a>
-                <div className='dropdown-menu' aria-labelledby='navbarDropdown'>
-                  <a
-                    className='dropdown-item'
-                    href=''
-                    onClick={() => ChangeLanguage('es')}
-                  >
-                    <Es /> Español
-                  </a>
-                  <a
-                    className='dropdown-item'
-                    href=''
-                    onClick={() => ChangeLanguage('en')}
-                  >
-                    <En /> English
-                  </a>
-                  <a
-                    className='dropdown-item'
-                    href=''
-                    onClick={() => ChangeLanguage('fr')}
-                  >
-                    <Fr /> Français
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </nav> */}
       </StyledHeader>
     </Headroom>
   )

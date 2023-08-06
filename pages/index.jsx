@@ -15,22 +15,22 @@ import { BlogBanner } from '../components/BlogBanner'
 import { SocialBar } from '../components/SocialBar'
 import { Contact } from '../components/Contact'
 import { Footer } from '../components/Footer'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
-import { getAllFilesMetadata } from '../lib/mdx'
+// import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+// import { getAllFilesMetadata } from '../lib/mdx'
 
-export async function getStaticProps({ locale }) {
-  const posts = await getAllFilesMetadata();
-  // console.log(posts);
-  return {
-    props: {
-      posts,
-      ...(await serverSideTranslations(locale, [
-        'common',
-      ])),
-      // Will be passed to the page component as props
-    },
-  }
-}
+// export async function getStaticProps({ locale }) {
+//   const posts = await getAllFilesMetadata();
+//   // console.log(posts);
+//   return {
+//     props: {
+//       posts,
+//       ...(await serverSideTranslations(locale, [
+//         'common',
+//       ])),
+//       // Will be passed to the page component as props
+//     },
+//   }
+// }
 
 export default function Home(props) {
   const cookies = new Cookies()

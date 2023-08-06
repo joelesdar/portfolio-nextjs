@@ -2,6 +2,8 @@ import { useTranslation } from 'react-i18next'
 import { Rotate, Fade } from 'react-reveal'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareJs,faGitAlt, faWindows, faReact, faCss3, faHtml5, faEthereum, faWordpress, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import Image from 'next/image'
 import logo from '../../assets/logo.png'
 import { StyledTechnologies } from './styles'
@@ -26,18 +28,12 @@ export const Technologies = () => {
                     <ul className='ring-1'>
                       <li>
                         <i className='orbit-icon cloud-icon'>
-                          <FontAwesomeIcon
-                            icon={['fas', 'cloud']}
-                            size='lg'
-                          />
+                        <FontAwesomeIcon icon={faCloud} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon windows-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'windows']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faWindows} size='lg' />
                         </i>
                       </li>
                       <li>
@@ -56,50 +52,27 @@ export const Technologies = () => {
                     <ul className='ring-2'>
                       <li>
                         <i className='orbit-icon react-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'react']}
-                            size='lg'
-                          />
+                          	<FontAwesomeIcon icon={faReact} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon js-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'js-square']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faSquareJs} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon ethereum-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'ethereum']}
-                            size='lg'
-                          />
+                        <FontAwesomeIcon icon={faEthereum} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon git-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'git-alt']}
-                            size='lg'
-                          />
-                        </i>
-                      </li>
-                      <li>
-                        <i className='orbit-icon database-icon'>
-                          <FontAwesomeIcon
-                            icon={['fas', 'database']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faGitAlt} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon wordpress-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'wordpress']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faWordpress} size='lg' />
                         </i>
                       </li>
                     </ul>
@@ -108,26 +81,17 @@ export const Technologies = () => {
                     <ul className='ring-3'>
                       <li>
                         <i className='orbit-icon css-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'css3']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faCss3} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon html-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'html5']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faHtml5} size='lg' />
                         </i>
                       </li>
                       <li>
                         <i className='orbit-icon bootstrap-icon'>
-                          <FontAwesomeIcon
-                            icon={['fab', 'bootstrap']}
-                            size='lg'
-                          />
+                          <FontAwesomeIcon icon={faBootstrap} size='lg' />
                         </i>
                       </li>
                     </ul>
@@ -155,7 +119,6 @@ export const Technologies = () => {
                     <li>JavaScript</li>
                     <li>React.js</li>
                     <li>Solidity</li>
-                    <li>Blockchain</li>
                   </ul>
                 </div>
                 <div className='col-5'>

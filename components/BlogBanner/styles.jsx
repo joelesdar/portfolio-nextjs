@@ -6,5 +6,6 @@ export const Banner = styled.div`
 
   .title {
     text-align: center;
+    color: var(--main-blue);
   }
 `

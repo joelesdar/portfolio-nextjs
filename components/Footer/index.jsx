@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import { StyledFooter } from './styles'
 
 export const Footer = () => {
@@ -12,18 +14,18 @@ export const Footer = () => {
       <div className='message'>
         <p>{t('message-footer.first-part')}</p>
         <FontAwesomeIcon
-          icon={['fas', 'heart']}
+          icon={faHeart}
           className='heart-icon'
           size='lg'
         />
         <p>{t('message-footer.second-part')}</p>
         <FontAwesomeIcon
-          icon={['fab', 'react']}
+          icon={faReact}
           className='react-icon'
           size='lg'
         />
         <FontAwesomeIcon
-          icon={['fab', 'bootstrap']}
+          icon={faBootstrap}
           className='bootstrap-icon'
           size='lg'
         />
