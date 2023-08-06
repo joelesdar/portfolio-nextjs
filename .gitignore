@@ -1,25 +1,31 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Carpeta de dependencias
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-/.next
+# Carpeta de compilación
+.next/
 
-# testing
-/coverage
+# Archivos de registro
+*.log
 
-# production
-/build
+# Archivos temporales
+*.tmp
 
-# misc
-.DS_Store
+# Archivos de caché
+.cache/
+
+# Archivos de compilación de TypeScript
+*.tsbuildinfo
+
+# Archivos de configuración
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.next
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Archivos de IDE (puedes agregar más si usas otro IDE)
+.vscode/
+.idea/
+
+# Archivos generados por herramientas de desarrollo (pueden variar según tus herramientas)
+yarn-error.log
+npm-debug.log
