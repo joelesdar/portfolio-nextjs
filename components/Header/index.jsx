@@ -8,7 +8,6 @@ import img from '../../assets/logo.png'
 import Es from '../../assets/Es'
 import En from '../../assets/En'
 import Fr from '../../assets/Fr'
-import EnSVG from '../../assets/en.svg';
 import Cookies from 'universal-cookie'
 import { StyledHeader } from './styles'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
