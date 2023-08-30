@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import Fade from 'react-reveal/Fade'
+// import Fade from 'react-reveal/Fade'
 import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { StyledName } from './styles'
@@ -22,12 +22,12 @@ export const Name = () => {
     <StyledName>
       <div className='styled-name-container'>
         <div className='name-container'>
-          <Fade top duration={2000}>
+          {/* <Fade top duration={2000}> */}
             <div className='title'>Joel Diaz Arévalo</div>
-          </Fade>
-          <Fade bottom duration={2000}>
+          {/* </Fade> */}
+          {/* <Fade bottom duration={2000}> */}
             <div className='subtitle'>{t('subtitle')}</div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </StyledName>

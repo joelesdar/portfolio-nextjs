@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Rotate, Fade } from 'react-reveal'
+// import { Rotate, Fade } from 'react-reveal'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareJs,faGitAlt, faWindows, faReact, faCss3, faHtml5, faEthereum, faWordpress, faBootstrap } from '@fortawesome/free-brands-svg-icons'
@@ -15,7 +15,7 @@ export const Technologies = () => {
     <StyledTechnologies>
       <div className='container-fluid' id='technologies'>
         <div className='row justify-content-around align-items-center'>
-          <Rotate duration={2000}>
+          {/* <Rotate duration={2000}> */}
             <div className='col-12 col-md-7 col-lg-6'>
               <div className='orbit'>
                 <ul className='orbit-wrap'>
@@ -99,8 +99,8 @@ export const Technologies = () => {
                 </ul>
               </div>
             </div>
-          </Rotate>
-          <Fade right duration={2000}>
+          {/* </Rotate> */}
+          {/* <Fade right duration={2000}> */}
             <div className='col-12 col-md-5 col-lg-6'>
               <div className='row justify-content-center'>
                 <div className='col-10'>
@@ -132,7 +132,7 @@ export const Technologies = () => {
                 </div>
               </div>
             </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
     </StyledTechnologies>

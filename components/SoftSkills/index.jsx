@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import Fade from 'react-reveal/Fade'
+// import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from '../../assets/logo.png'
 import { StyledSoftSkills } from './styles'
@@ -13,9 +13,9 @@ export const SoftSkills = () => {
       <div className='container' id='skills'>
         <div className='row justify-content-around'>
           <div className='col-10'>
-            <Fade duration={1500}>
+            {/* <Fade duration={1500}> */}
               <h2>{t('title-softskills')}</h2>
-            </Fade>
+            {/* </Fade> */}
             <div className='row justify-content-around align-items-center'>
               <div className='description col-12 col-md-9 col-lg-10'>
                 <p>{t('description-softskills')}</p>

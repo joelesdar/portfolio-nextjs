@@ -28,7 +28,7 @@ function App () {
   }
 
   return (
-    <Suspense fallback={<h1>loading</h1>}>
+    // <Suspense fallback={<h1>loading</h1>}>
       <div className='App'>
         <HashRouter>
           <Helmet>
@@ -48,7 +48,7 @@ function App () {
           <Footer />
         </HashRouter>
       </div>
-    </Suspense>
+    {/* </Suspense> */}
   )
 }
 
