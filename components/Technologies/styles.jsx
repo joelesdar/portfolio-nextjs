@@ -7,7 +7,7 @@ padding: 48px 0;
 overflow: hidden;
 
 .orbit {
-  float: left;
+  position: relative;
   width: 100%;
 }
 

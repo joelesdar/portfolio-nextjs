@@ -19,7 +19,6 @@ function App () {
   const cookies = new Cookies()
   const [language, setLanguage] = useState(cookies.get('cookieLang'))
   const { i18n } = useTranslation()
-  console.log("El lenguaje es " + i18n.language)
 
   if (language === '') {
     i18n.changeLanguage('en')

@@ -34,7 +34,7 @@ export const Header = ({ language, setLanguage }) => {
   return (
     <Headroom>
       <StyledHeader>
-        <Navbar className='navbar' expand="md">
+        <Navbar className='' expand="md">
           <div className='container-logo'>
             <Image src={img} alt='Logo' />
           </div>
