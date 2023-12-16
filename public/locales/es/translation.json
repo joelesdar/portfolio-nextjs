@@ -1,4 +1,12 @@
 {
+  "title": "Creando el futuro en",
+  "title-spans": {
+    "word1": "Web3",
+    "word2": "Tecnología",
+    "word3": "Educación",
+    "word4": "Comunidad"
+  },
+  "download-cv": "Descargar CV",
   "selectLanguage" : "Idioma",
   "language-en" : "Inglés",
   "language-fr" : "Francés",
@@ -21,6 +29,7 @@
   "description-specialized-technologies" : "Me he especializado en:",
   "description-more-technologies" : "Y también he trabajado con:",
   "title-blog" : "Blog",
+  "title-events" : "Construyendo Comunidad🚀",
   "title-softskills" : "Sobre Mí",
   "description-softskills" : "Hola, mi nombre es Joel. Soy artista marcial, educador, bailarín y apasionado por la ciencia, la tecnología y la educación. Creo profundamente en nunca parar de aprender y crecer, encontrando nuevas maneras para enfrentarnos a nuevos desafios.",
   "title-language" : "Idiomas",

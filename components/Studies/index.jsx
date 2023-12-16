@@ -1,6 +1,5 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
-// import Fade from 'react-reveal/Fade'
+import { useTranslation } from 'next-i18next'
 import unal from '../../assets/unal.png'
 import platzi from '../../assets/platzi.png'
 import Certificate from '../../assets/certificate.jpg'

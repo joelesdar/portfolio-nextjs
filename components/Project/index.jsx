@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import { StyledProject } from './styles'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
 export const Project = ({ title, description, cover, libraries, github, link }) => {
   return (
@@ -16,10 +18,22 @@ export const Project = ({ title, description, cover, libraries, github, link }) 
             </div>
             <div className='col-auto'>
               <a href={github} target='_blank' rel='noreferrer'>
-                <FontAwesomeIcon className='icon' icon={['fab', 'github']} color='var(--green-blue)' size='xl' />
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className='icon'
+                  color='var(--green-blue)'
+                  size='xl'
+                  title='GitHub'
+                />
               </a>
               <a href={link} target='_blank' rel='noreferrer'>
-                <FontAwesomeIcon className='icon' icon={['fas', 'arrow-up-right-from-square']} color='var(--green-blue)' size='xl' />
+                <FontAwesomeIcon
+                  icon={faArrowUpRightFromSquare}
+                  className='icon'
+                  color='var(--green-blue)'
+                  size='xl'
+                  title='Link'
+                />
               </a>
             </div>
           </div>

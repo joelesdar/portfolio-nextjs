@@ -1,16 +1,13 @@
-import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config, library } from '@fortawesome/fontawesome-svg-core'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import { I18nextProvider } from 'react-i18next'
-import i18n from '../src/i18n'
+import { appWithTranslation } from 'next-i18next'
 
 config.autoAddCss = false
 
 const MyApp = ({ Component, pageProps }) => (
-  <I18nextProvider i18n={i18n}>
-    <Component {...pageProps} />
-  </I18nextProvider>
+  <Component {...pageProps} />
 )
 
-export default MyApp
+export default appWithTranslation(MyApp)

@@ -2,25 +2,27 @@ import Styled from '@emotion/styled'
 
 export const DescriptionContainer = Styled.div`
 
-  padding: 48px 0;
-  background-color: var(--dark-blue);
+  padding: 80px 0;
+  background-color: var(--dark);
   font-family: 'Rubik', sans-serif;
   overflow: hidden;
+  border-top: 3px solid var(--white);
 
 .image {
     margin-top: 2em;
     margin-bottom: 2em;
     position: relative;
     max-width: 400px;
-    background: var(--main-blue);
+    background: var(--black);
     overflow: hidden;
     padding: 0;
-    border: 3px solid var(--main-blue);
+    border: 3px solid var(--white);
     border-radius: 20px;
     img {
         width: 100%;
-        object-fit: cover;
-        opacity: 0.6;
+        height: 100%;
+        object-fit: contain;
+        opacity: .9;
     }
 
     img:hover {
@@ -29,8 +31,8 @@ export const DescriptionContainer = Styled.div`
     }
 }
 
-.personal-description {
-    border: 3px solid var(--main-blue);
+.full-description {
+    border: 3px solid var(--white);
     border-radius: 20px;
 }
 
@@ -38,7 +40,7 @@ export const DescriptionContainer = Styled.div`
   padding: 8px 0px 0px 8px;
 }
 .title-hello {
-  color: var(--yellow);
+  color: var(--main-blue);
 }
 
 .description {

@@ -1,6 +1,4 @@
-import { useTranslation } from 'react-i18next'
-// import Fade from 'react-reveal/Fade'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useTranslation } from 'next-i18next'
 import logo from '../../assets/logo.png'
 import { StyledSoftSkills } from './styles'
 import Image from 'next/image'

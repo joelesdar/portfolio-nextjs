@@ -1,5 +1,4 @@
-import { useTranslation } from 'react-i18next'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useTranslation } from 'next-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'

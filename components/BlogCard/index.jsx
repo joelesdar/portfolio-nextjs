@@ -1,5 +1,4 @@
 import { StyledCard } from './styles'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Link from 'next/link'
 
 export const BlogCard = ({ post }) => {
@@ -9,8 +8,8 @@ export const BlogCard = ({ post }) => {
         <div className='card'>
           <img src={post.cover} className='card-img-top' alt='...' />
           <div className='card-body'>
-            <h5 className='card-title'>{post.title}</h5>
-            <p className='card-text'>{post.description}</p>
+            <h6 className='card-title'>{post.title}</h6>
+            <p className='card-text'>{post.description.substring(0, 120)}...</p>
           </div>
         </div>
       </Link>

@@ -1,6 +1,7 @@
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import social from '../../assets/constants'
 import { ContactContainer } from './styles'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -88,7 +89,7 @@ export const Contact = () => {
                 <a className='btn btn-primary' href='mailto:jodiazare@gmail.com'>{t('link-contact')}</a>
 
                 <p className='mail'><FontAwesomeIcon
-                  icon={['fas', 'envelope']}
+                  icon={faEnvelope}
                   className='social-icon'
                   color='var(--green-blue)'
                   size='1x'
@@ -96,7 +97,7 @@ export const Contact = () => {
                 /> Jodiazare@gmail.com
                 </p>
                 <p className='mail'><FontAwesomeIcon
-                  icon={['fas', 'phone']}
+                  icon={faPhone}
                   className='social-icon'
                   color='var(--green-blue)'
                   size='1x'

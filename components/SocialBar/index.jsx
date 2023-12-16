@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
 import social from '../../assets/constants'
@@ -11,7 +10,7 @@ export const SocialBar = () => {
         <FontAwesomeIcon
           icon={faGithub}
           className='social-icon'
-          color='var(--green-blue)'
+          color='var(--main-blue)'
           size='lg'
           title='GitHub'
         />
@@ -20,7 +19,7 @@ export const SocialBar = () => {
         <FontAwesomeIcon
           icon={faLinkedinIn}
           className='social-icon'
-          color='var(--green-blue)'
+          color='var(--main-blue)'
           size='lg'
           title='LinkedIn'
         />
@@ -29,7 +28,7 @@ export const SocialBar = () => {
         <FontAwesomeIcon
           icon={faXTwitter}
           className='social-icon'
-          color='var(--green-blue)'
+          color='var(--main-blue)'
           size='lg'
           title='X'
         />
@@ -38,7 +37,7 @@ export const SocialBar = () => {
         <FontAwesomeIcon
           icon={faInstagram}
           className='social-icon'
-          color='var(--green-blue)'
+          color='var(--main-blue)'
           size='lg'
           title='Instagram'
         />
@@ -47,7 +46,7 @@ export const SocialBar = () => {
         <FontAwesomeIcon
           icon={faBehance}
           className='social-icon'
-          color='var(--green-blue)'
+          color='var(--main-blue)'
           size='lg'
           title='Behance'
         />
@@ -56,7 +55,7 @@ export const SocialBar = () => {
         <FontAwesomeIcon
           icon={faMedium}
           className='social-icon'
-          color='var(--green-blue)'
+          color='var(--main-blue)'
           size='lg'
           title='Medium'
         />

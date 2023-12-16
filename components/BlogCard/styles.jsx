@@ -3,10 +3,10 @@ import styled from '@emotion/styled'
 export const StyledCard = styled.div`
   
   .card {
-    background-color: var(--dark-blue);
+    background-color: var(--intense-blue);
     border-radius: 20px;
     margin-top: 24px;
-    border: 1px solid var(--white);
+    border: 2px solid var(--white);
   }
 
   .card-body {

@@ -4,8 +4,49 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
 h2 {
-    font-size: 2.4rem;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+span {
+    text-decoration: none;
 }
 
 :root {
@@ -16,11 +57,7 @@ h2 {
     --black: #121212;
     --yellow: #F5CE02;
     --white: #fff;
-}
-
-df-messenger {
-    --df-messenger-button-titlebar-color: #1c82f6;
-    --df-messenger-user-message: #0FF3F5;
+    --dark: #000;
 }
 
 .flag-container {

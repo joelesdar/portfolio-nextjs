@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
-// import Fade from 'react-reveal/Fade'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useTranslation } from 'next-i18next'
 import { Project } from '../Project'
 import { StyledProjects } from './styles'
 import cover1 from '../../assets/project1.png'

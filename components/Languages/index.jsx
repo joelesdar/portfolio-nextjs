@@ -1,7 +1,5 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
-// import { Fade, Bounce } from 'react-reveal'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useTranslation } from 'next-i18next'
 import Es from '../../assets/Es'
 import En from '../../assets/En'
 import Fr from '../../assets/Fr'

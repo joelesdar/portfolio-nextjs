@@ -1,7 +1,5 @@
 import { Banner } from './styles'
-// import Fade from 'react-reveal/Fade'
-import { useTranslation } from 'react-i18next'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useTranslation } from 'next-i18next'
 import posts from '../../posts.json'
 import { BlogCard } from '../BlogCard'
 
@@ -17,7 +15,7 @@ export const BlogBanner = () => {
               <h2 className='title'>{t('title-blog')}</h2>
             {/* </Fade> */}
             <div className='row justify-content-around'>
-              {posts.map(post => (
+              {posts[0].BlogPost.map(post => (
                 <div key={post.id} className='col-12 col-md-4'>
                   {/* <Fade> */}
                     <BlogCard key={post.id} post={post} />

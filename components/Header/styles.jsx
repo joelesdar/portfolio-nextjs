@@ -7,8 +7,9 @@ export const StyledHeader = Styled.div`
   fill: red;
   min-height: 5rem;
   color: white;
-
+  
   .navbar {
+      text-align: center;
       padding: 1rem;
       margin: 0 3rem;
       a {
@@ -16,9 +17,10 @@ export const StyledHeader = Styled.div`
           &:after {
             margin-bottom: -3px;
           }
-      }
-      .navbar-nav {
-        a {
+        }
+        .navbar-nav {
+          a {
+          font-weight: 500;
           color: white;
           text-decoration: none;
           &:hover {
@@ -36,13 +38,22 @@ export const StyledHeader = Styled.div`
           color: var(--main-blue);
         }
         .dropdown-menu {
+          text-align: center;
             left: -25%;
             background: rgba(18, 18, 18, 0.75);
           }
           .nav-link.show {
             color: var(--main-blue);
           }
-      }  
+        }  
+      .navbar-toggler {
+        border: none;
+        padding: 0;
+        :focus {
+          /* border: none;
+          background: red; */
+        }
+      }
   }
 
   .container-logo {

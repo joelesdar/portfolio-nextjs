@@ -2,7 +2,7 @@ import Styled from '@emotion/styled'
 
 export const StyledFooter = Styled.div`
 
-background: var(--intense-blue);
+background: var(--dark);
 text-align: center;
 
 .message {

@@ -1,5 +1,5 @@
 import { StyledWelcome } from './styles'
-import { Name } from '../Name'
+import { Title } from '../Title'
 
 export const Welcome = () => {
   return (
@@ -8,9 +8,7 @@ export const Welcome = () => {
         <div id='stars' />
         <div id='stars2' />
         <div id='stars3' />
-        <div id='title'>
-          <Name />
-        </div>
+        <Title />
       </div>
     </StyledWelcome>
   )

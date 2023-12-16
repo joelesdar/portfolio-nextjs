@@ -13,7 +13,7 @@ export const StyledSocialBar = Styled.div`
   z-index: 1;
   padding: 4px 0px;
   background: var(--black);
-  opacity: .75;
+  opacity: .9;
   backdrop-filter: blur(4px);
   overflow-x: hidden;
   border-radius: 8px 0px 0px 8px;

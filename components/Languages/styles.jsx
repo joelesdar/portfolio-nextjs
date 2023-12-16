@@ -3,7 +3,7 @@ import Styled from '@emotion/styled'
 export const StyledLanguages = Styled.div`
 
 padding: 48px 0;
-background: var(--black);
+background: var(--intense-blue);
 
 .title {
   color: var(--main-blue);

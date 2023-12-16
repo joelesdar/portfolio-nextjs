@@ -1,6 +1,4 @@
-import { useTranslation } from 'react-i18next'
-// import { Rotate, Fade } from 'react-reveal'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useTranslation } from 'next-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareJs,faGitAlt, faWindows, faReact, faCss3, faHtml5, faEthereum, faWordpress, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
