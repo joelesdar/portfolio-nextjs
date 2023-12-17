@@ -13,23 +13,11 @@ export const ExperienceBanner = () => {
 
   return (
     <StyledBanner>
-      <div className='container'>
-        <div className='row align-items-center justify-content-around'>
-            <h2 className='title'>What I do</h2>
-            <div className='main-description col-10 col-md-6 col-lg-4'>
-              <h2 className='title-description'>
-                Buenas👀
-              </h2>
-              <p className='description'>{t('description')}</p>
-            </div>
-            <div className='image second-image col-10 col-md-6 col-lg-6'>
-              <Image src={photo1} alt='Foto Joel' />
-            </div>
-        </div>
-      </div>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-11">
+          <div className="col-10">
+            <h2 className='title'>What I do</h2>
+            <h6 className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
             {posts[2].ExperiencePosts.map(post => (
               <ExperienceCard post={post} key={post.id} />
             ))}

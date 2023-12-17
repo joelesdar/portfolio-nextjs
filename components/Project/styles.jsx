@@ -2,11 +2,11 @@ import Styled from '@emotion/styled'
 
 export const StyledProject = Styled.div`
 
-padding: 16px 0;
+margin-bottom: 32px;
 
 .card {
-    background: #0C0936;
-    color: white;
+    background: var(--black);
+    color: var(--white);
     padding: 0;
     border-radius: 20px;
     img {

@@ -2,10 +2,17 @@ import styled from '@emotion/styled'
 
 export const StyledBanner = styled.div`
 
+  background: var(--dark);
+  padding: 80px 0 48px 0;
+
   .title {
-    margin-top: 160px;
-    margin-bottom: 56px;
     text-align: center;
+    margin: 0;
+    color: var(--main-blue);
+  }
+
+  .description {
+    margin: 32px 0 48px 0;
   }
 
   .image {
@@ -30,16 +37,6 @@ export const StyledBanner = styled.div`
         transition: opacity 0.5s ease-in-out;
     }
   }
-
-  .second-image {
-    max-width: 600px;
-  }
-
-  .main-description {
-    border: 3px solid var(--white);
-    border-radius: 20px;
-}
-
 `
 
 

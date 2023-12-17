@@ -33,7 +33,7 @@ export const TextContainer = styled.div`
   }
 
   .card-title {
-    color: var(--white);
+    color: var(--yellow);
     margin-bottom: 8px;
   }
 

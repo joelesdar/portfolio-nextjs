@@ -1,11 +1,12 @@
 import styled from '@emotion/styled'
 
 export const StyledCard = styled.div`
+
+  margin-bottom: 32px;
   
   .card {
-    background-color: var(--intense-blue);
+    background-color: var(--black);
     border-radius: 20px;
-    margin-top: 24px;
     border: 2px solid var(--white);
   }
 

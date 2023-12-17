@@ -2,12 +2,8 @@ import Styled from '@emotion/styled'
 
 export const StyledTechnologies = Styled.div`
 
-/* background: #0E141B; */
-background: rgb(18,18,18);
-background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(12,9,54,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(12,9,54,1) 100%);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(12,9,54,1) 100%);
-padding: 48px 0;
+background: var(--dark);
+padding: 80px 0;
 overflow: hidden;
 
 .orbit {

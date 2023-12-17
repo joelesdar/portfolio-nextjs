@@ -4,7 +4,22 @@ export const StyledCard = styled.div`
 
   background: var(--black);
   border-radius: 20px;
-  margin-bottom: 40px;
+  margin: 0;
+  margin-bottom: 32px;
+
+  h5 {
+    text-align: center;
+    padding: 16px;
+    color: var(--yellow);
+  }
+
+  .text-container {
+    padding: 0px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .image-container {
     position: relative;
@@ -16,22 +31,33 @@ export const StyledCard = styled.div`
     background: var(--intense-blue);
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 992px) {
+    .title-container {
+      max-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .image-container {
       position: relative;
       max-width: 240px;
       width: 100%;
-      height: 240px;
+      height: 200px;
       margin: 0;
     }
+    .text-container {
+      display: inline-flex;
+      flex-direction: row;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+    }
   }
-  
 `
 
 export const ImageContainer = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   width: 100%;
   height: 100%;
   background-image: url(${(props) => props.image});
@@ -48,7 +74,7 @@ export const ImageContainer = styled.div`
     border-radius: 0 20px 20px 0;
   }
 
-  @media (min-width: 1280px) {
+  @media (min-width: 1200px) {
     border-radius: 0 20px 20px 0;
   }
 

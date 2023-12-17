@@ -7,13 +7,19 @@ export const ExperienceCard = ({ post }) => {
   const imageSrc = require(`../../assets/work/${cover}`).default
 
   return (
-    <StyledCard className="row align-items-center justify-content-between">
-      <div className="col-12 col-xl-9">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
-      <div className="col-12 col-xl-2 image-container">
-        <ImageContainer image={imageSrc.src} />
+    <StyledCard>
+      <div className="row justify-content-center">
+        <div className="col-12 col-lg-3 title-container">
+          <h5>{title}</h5>
+        </div>
+        <div className="col-12 col-lg">
+          <div className="text-container">
+              <p>{description}</p>
+          </div>
+        </div>
+        <div className="col-12 col-lg-auto image-container">
+          <ImageContainer image={imageSrc.src} />
+        </div>
       </div>
     </StyledCard>
   );

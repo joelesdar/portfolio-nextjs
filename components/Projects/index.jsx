@@ -31,15 +31,9 @@ export const Projects = ({ numProjects }) => {
       <div className='container' id='projects'>
         <div className='row align-items-center justify-content-around'>
           <div className='col-10'>
-            {/* <Fade duration={1500}> */}
               <h2 className='title'>{t('title-projects')}</h2>
-            {/* </Fade> */}
-            {/* <Fade duration={1500}> */}
-              <h3>{t('subtitle-projects')}</h3>
-            {/* </Fade> */}
             <div className='row justify-content-around'>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title='Petgram'
                     description={t('projects.project11.description')}
@@ -48,10 +42,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/petgram'
                     link='https://petgram-mu-five.vercel.app/'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project1.title')}
                     description={t('projects.project1.description')}
@@ -60,10 +52,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/BreakingBadQuotes'
                     link='https://epic-austin-92bc71.netlify.app'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project12.title')}
                     description={t('projects.project12.description')}
@@ -87,7 +77,6 @@ export const Projects = ({ numProjects }) => {
                 </Fade>
               </div> */}
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project13.title')}
                     description={t('projects.project13.description')}
@@ -96,7 +85,6 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/platzi-web3-libs'
                     link='https://platzi-web3-libs-roan.vercel.app/'
                   />
-                {/* </Fade> */}
               </div>
             </div>
             <a
@@ -115,12 +103,10 @@ export const Projects = ({ numProjects }) => {
               id='collapseExample'
             >
               <div className='col-12'>
-                {/* <Fade duration={1500}> */}
                   <h3>{t('subtitle-more-projects')}</h3>
                 {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project4.title')}
                     description={t('projects.project4.description')}
@@ -129,10 +115,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/citas-veterinaria'
                     link='https://naughty-meitner-fb09b8.netlify.app/'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project2.title')}
                     description={t('projects.project2.description')}
@@ -141,10 +125,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/Cotizador'
                     link='https://practical-turing-dd2d5e.netlify.app/'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project5.title')}
                     description={t('projects.project5.description')}
@@ -153,10 +135,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/Tarjeta-Portafolio'
                     link='https://joelesdar.github.io/Tarjeta-Portafolio/'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project8.title')}
                     description={t('projects.project8.description')}
@@ -165,10 +145,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/Xilofono-JavaScript'
                     link='https://joelesdar.github.io/Xilofono-JavaScript/'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project3.title')}
                     description={t('projects.project3.description')}
@@ -177,10 +155,8 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/presupuesto'
                     link='https://epic-wright-64d8a7.netlify.app/'
                   />
-                {/* </Fade> */}
               </div>
               <div className='col-12 col-md-6'>
-                {/* <Fade bottom duration={2000}> */}
                   <Project
                     title={t('projects.project7.title')}
                     description={t('projects.project7.description')}
@@ -189,7 +165,6 @@ export const Projects = ({ numProjects }) => {
                     github='https://github.com/joelesdar/Portafolio'
                     link='https://joelesdar.github.io/Portafolio/'
                   />
-                {/* </Fade> */}
               </div>
               {/* <div className='col-12 col-md-6'>
                 <Fade bottom duration='2000'>

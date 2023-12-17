@@ -2,8 +2,8 @@ import Styled from '@emotion/styled'
 
 export const StyledStudies = Styled.div`
 
-padding: 48px 0;
-background: var(--dark-blue);
+padding: 80px 0;
+background: var(--dark);
 overflow: hidden;
 
 .study-block {

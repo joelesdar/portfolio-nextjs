@@ -2,15 +2,12 @@ import Styled from '@emotion/styled'
 
 export const DescriptionContainer = Styled.div`
 
-  padding: 80px 0;
+  padding: 160px 0 80px 0;
   background-color: var(--dark);
-  font-family: 'Rubik', sans-serif;
   overflow: hidden;
   border-top: 3px solid var(--white);
 
 .image {
-    margin-top: 2em;
-    margin-bottom: 2em;
     position: relative;
     max-width: 400px;
     background: var(--black);
@@ -21,7 +18,8 @@ export const DescriptionContainer = Styled.div`
     img {
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
+        background-position: center;
         opacity: .9;
     }
 
@@ -31,9 +29,15 @@ export const DescriptionContainer = Styled.div`
     }
 }
 
+.second-image {
+  max-width: 600px;
+}
+
+
 .full-description {
-    border: 3px solid var(--white);
-    border-radius: 20px;
+  margin-top: 40px;
+  border: 3px solid var(--white);
+  border-radius: 20px;
 }
 
 .title-description {

@@ -1,14 +1,17 @@
 import styled from '@emotion/styled'
 
 export const Banner = styled.div`
-  background: rgb(12,9,54);
-  background: radial-gradient(circle, rgba(12,9,54,1) 0%, rgba(0,0,0,1) 40%);
-  background: -moz-radial-gradient(circle, rgba(12,9,54,1) 0%, rgba(0,0,0,1) 40%);
-  background: -webkit-radial-gradient(circle, rgba(12,9,54,1) 0%, rgba(0,0,0,1) 40%);
-  padding: 80px 0;
+  background: var(--dark);
+  padding: 80px 0 48px 0;
 
   .title {
     text-align: center;
-    color: var(--white);
+    color: var(--main-blue);
+    margin: 0;
+  }
+
+  .description {
+    padding: 32px 0 48px 0;
+    margin: 0;
   }
 `

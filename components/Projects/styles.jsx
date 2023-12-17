@@ -2,8 +2,8 @@ import Styled from '@emotion/styled'
 
 export const StyledProjects = Styled.div`
 
-padding: 48px 0;
-background: var(--dark-blue);
+padding: 80px 0;
+background: var(--dark);
 
 .title {
     text-align: center;

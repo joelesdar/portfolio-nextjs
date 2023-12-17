@@ -5,9 +5,6 @@ import { Welcome } from '../components/Welcome'
 import { Description } from '../components/Description'
 import { ExperienceBanner } from '../components/ExperienceBanner'
 import { Technologies } from '../components/Technologies'
-import { Languages } from '../components/Languages'
-import { Studies } from '../components/Studies'
-import { Experience } from '../components/Experience'
 import { Projects } from '../components/Projects'
 import { EventsBanner } from '../components/EventsBanner'
 import { BlogBanner } from '../components/BlogBanner'
@@ -31,13 +28,10 @@ export default function Home(props) {
       <Header />
       <Welcome />
       <Description />
-      <ExperienceBanner />
       <EventsBanner posts={props.posts} />
+      <ExperienceBanner />
       <BlogBanner posts={props.posts} />
       <Technologies />
-      <Languages />
-      <Studies />
-      <Experience />
       <Projects numProjects={0} />
       <SocialBar />
       <Contact />
