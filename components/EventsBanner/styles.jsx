@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const StyledBanner = styled.div`
-  background: var(--dark);
+  background: var(--black);
   padding: 80px 0;
 
   .title {
@@ -11,7 +11,7 @@ export const StyledBanner = styled.div`
   }
 
   .description {
-    margin: 32px 0 48px 0;
+    margin: 32px 0 64px 0;
   }
 
   .cards-container {
@@ -19,4 +19,9 @@ export const StyledBanner = styled.div`
 
   .carrousel-container {
   }
+
+  @media (min-width: 768px) {
+    padding: 120px 0;
+  }
+
 `

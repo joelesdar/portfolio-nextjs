@@ -6,14 +6,14 @@ export const StyledSocialBar = Styled.div`
   float: right;
   top: 50%;
   right: 0;
-  max-width: 80px;
+  max-width: 64px;
   -webkit-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
   transform: translate(0, -50%);
   z-index: 1;
   padding: 4px 0px;
-  background: var(--black);
-  opacity: .9;
+  background: var(--dark);
+  opacity: .75;
   backdrop-filter: blur(4px);
   overflow-x: hidden;
   border-radius: 8px 0px 0px 8px;
@@ -22,10 +22,11 @@ export const StyledSocialBar = Styled.div`
     display: inline-block;
     width: 100%;
     padding: 8px 0px;
+    color: var(--white);
   }
   
   .social-icon:hover {
-    color: white;
+    color: var(--main-blue);
   }
   
 `

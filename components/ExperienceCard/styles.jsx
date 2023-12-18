@@ -70,11 +70,14 @@ export const ImageContainer = styled.div`
     display: block;
     width: 100%;
     height: 100%;
-    background-color: rgba(12, 9, 54, .45);
-    border-radius: 0 20px 20px 0;
+    background-color: rgba(12, 9, 54, .4);
+    border-radius: 0 0 20px 20px;
+    @media (min-width: 992px) {
+      border-radius: 0 20px 20px 0;
+    }
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     border-radius: 0 20px 20px 0;
   }
 

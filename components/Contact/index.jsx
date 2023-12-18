@@ -16,15 +16,15 @@ export const Contact = () => {
           <div className='col-10'>
             <div className='social row justify-content-center'>
               <div className='find-me col-12'>
-                <p className='title'>{t('title-contact')}</p>
-                <p className='at'>✨@Joelesdar</p>
+                <h5 className='title'>{t('title-contact')}</h5>
+                <h4 className='at'>✨@Joelesdar</h4>
               </div>
               <div className='col-2'>
                 <a href={social.github} target='_blank' rel='noreferrer'>
                   <FontAwesomeIcon
                     icon={faGithub}
                     className='social-icon'
-                    color='var(--green-blue)'
+                    color='var(--main-blue)'
                     size='2xl'
                     title='GitHub'
                   />
@@ -35,7 +35,7 @@ export const Contact = () => {
                   <FontAwesomeIcon
                     icon={faLinkedinIn}
                     className='social-icon'
-                    color='var(--green-blue)'
+                    color='var(--main-blue)'
                     size='2xl'
                     title='LinkedIn'
                   />
@@ -46,9 +46,20 @@ export const Contact = () => {
                   <FontAwesomeIcon
                     icon={faXTwitter}
                     className='social-icon'
-                    color='var(--green-blue)'
+                    color='var(--main-blue)'
                     size='2xl'
                     title='X'
+                  />
+                </a>
+              </div>
+              <div className='col-2'>
+                <a href={social.medium} target='_blank' rel='noreferrer'>
+                  <FontAwesomeIcon
+                    icon={faMedium}
+                    className='social-icon'
+                    color='var(--main-blue)'
+                    size='2xl'
+                    title='Medium'
                   />
                 </a>
               </div>
@@ -57,7 +68,7 @@ export const Contact = () => {
                   <FontAwesomeIcon
                     icon={faInstagram}
                     className='social-icon'
-                    color='var(--green-blue)'
+                    color='var(--main-blue)'
                     size='2xl'
                     title='Instagram'
                   />
@@ -68,20 +79,9 @@ export const Contact = () => {
                   <FontAwesomeIcon
                     icon={faBehance}
                     className='social-icon'
-                    color='var(--green-blue)'
+                    color='var(--main-blue)'
                     size='2xl'
                     title='Behance'
-                  />
-                </a>
-              </div>
-              <div className='col-2'>
-                <a href={social.medium} target='_blank' rel='noreferrer'>
-                  <FontAwesomeIcon
-                    icon={faMedium}
-                    className='social-icon'
-                    color='var(--green-blue)'
-                    size='2xl'
-                    title='Medium'
                   />
                 </a>
               </div>
@@ -91,7 +91,7 @@ export const Contact = () => {
                 <p className='mail'><FontAwesomeIcon
                   icon={faEnvelope}
                   className='social-icon'
-                  color='var(--green-blue)'
+                  color='var(--main-blue)'
                   size='1x'
                   title='mail'
                 /> Jodiazare@gmail.com
@@ -99,7 +99,7 @@ export const Contact = () => {
                 <p className='mail'><FontAwesomeIcon
                   icon={faPhone}
                   className='social-icon'
-                  color='var(--green-blue)'
+                  color='var(--main-blue)'
                   size='1x'
                   title='mail'
                 /> +57 3225504022

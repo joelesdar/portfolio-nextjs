@@ -1,6 +1,6 @@
 {
   "name": "sitiopersonal",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Personal Portfolio",
   "private": true,
   "engines": {
@@ -61,6 +61,7 @@
     ]
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.11.0",
     "json-loader": "^0.5.7",
     "standard": "^17.1.0"
   }

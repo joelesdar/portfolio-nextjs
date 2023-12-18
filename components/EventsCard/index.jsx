@@ -1,5 +1,6 @@
 import { CardContainer, ImageContainer, TextContainer } from './styles'
 import Link from 'next/link'
+import Image from 'next/image';
 
 export const EventsCard = ({ post }) => {
 
@@ -9,6 +10,11 @@ export const EventsCard = ({ post }) => {
 
   return (
     <CardContainer>
+        <ImageContainer image={imageSrc.src}>
+          <div className="image-overlay">
+            <Image className="image" src={imageSrc} alt={title} layout="fill" />
+          </div>
+        </ImageContainer>
         <TextContainer>
           <div className="description-container">
             <h5 className='card-title'>{title}</h5>
@@ -20,17 +26,6 @@ export const EventsCard = ({ post }) => {
                 </Link>
           </div>
         </TextContainer>
-        <ImageContainer image={imageSrc.src} />
     </CardContainer>
   )
 }
-
-{/* <div className='card'>
-  <div className='card-body'>
-    <h6 className='card-title'>{post.title}</h6>
-    <p className='card-text'>{post.description.substring(0, 120)}...</p>
-  </div>
-  <div className="card-img">
-    <img src={post.cover} className='card-img-top' alt='...' />
-  </div>
-</div> */}

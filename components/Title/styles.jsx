@@ -10,8 +10,8 @@ export const StyledTitle = Styled.div`
   text-align: center;
 
   h2 {
-    font-size: 32px;
-    padding: 0 20px;
+    font-size: 40px;
+    padding: 0 32px;
     margin: 0px;
   }
 
@@ -42,7 +42,7 @@ export const StyledTitle = Styled.div`
 
   @media(min-width: 518px) {
     h2 {
-        font-size: 40px;
+        font-size: 44px;
     }
   }
 

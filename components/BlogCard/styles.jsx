@@ -8,6 +8,11 @@ export const StyledCard = styled.div`
     background-color: var(--black);
     border-radius: 20px;
     border: 2px solid var(--white);
+
+    :hover {
+      background: var(--intense-blue);
+    }
+
   }
 
   .card-body {
@@ -32,8 +37,5 @@ export const StyledCard = styled.div`
     overflow: hidden;
     border-radius: 20px 20px 0 0;
   }
-  
-  a {
-    text-decoration: none;
-  }
+
 `

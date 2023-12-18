@@ -12,7 +12,7 @@ export const StyledBanner = styled.div`
   }
 
   .description {
-    margin: 32px 0 48px 0;
+    margin: 32px 0 64px 0;
   }
 
   .image {
@@ -37,6 +37,11 @@ export const StyledBanner = styled.div`
         transition: opacity 0.5s ease-in-out;
     }
   }
+
+  @media (min-width: 768px) {
+    padding: 120px 0 88px 0;
+  }
+
 `
 
 

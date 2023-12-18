@@ -33,6 +33,15 @@ export const SocialBar = () => {
           title='X'
         />
       </a>
+      <a href={social.medium} target='_blank' rel='noreferrer'>
+        <FontAwesomeIcon
+          icon={faMedium}
+          className='social-icon'
+          color='var(--main-blue)'
+          size='lg'
+          title='Medium'
+        />
+      </a>
       <a href={social.instagram} target='_blank' rel='noreferrer'>
         <FontAwesomeIcon
           icon={faInstagram}
@@ -49,15 +58,6 @@ export const SocialBar = () => {
           color='var(--main-blue)'
           size='lg'
           title='Behance'
-        />
-      </a>
-      <a href={social.medium} target='_blank' rel='noreferrer'>
-        <FontAwesomeIcon
-          icon={faMedium}
-          className='social-icon'
-          color='var(--main-blue)'
-          size='lg'
-          title='Medium'
         />
       </a>
     </StyledSocialBar>

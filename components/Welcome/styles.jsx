@@ -7,6 +7,10 @@ export const StyledWelcome = Styled.div`
   display: grid;
   /* place-items: center; */
 
+  h1 {
+    display: none;
+  }
+
   .stars-container {
     margin-top: -92px;
     min-height: 100vh;

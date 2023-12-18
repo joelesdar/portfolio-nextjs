@@ -5,22 +5,22 @@ body {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 48px;
-    font-weight: 600;
-}
-
-h3 {
     font-size: 40px;
     font-weight: 600;
 }
 
-h4 {
+h3 {
     font-size: 32px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 28px;
     font-weight: 500;
 }
 
@@ -48,6 +48,16 @@ a {
 span {
     text-decoration: none;
 }
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 56px;
+    }
+    h3 {
+        font-size: 40px;
+    }
+}
+
 
 :root {
     --main-blue: #1c82f6;

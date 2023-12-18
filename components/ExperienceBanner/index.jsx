@@ -16,7 +16,7 @@ export const ExperienceBanner = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-10">
-            <h2 className='title'>What I do</h2>
+            <h2 className='title'>🔭What I do</h2>
             <h6 className='description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
             {posts[2].ExperiencePosts.map(post => (
               <ExperienceCard post={post} key={post.id} />

@@ -4,6 +4,7 @@ export const StyledFooter = Styled.div`
 
 background: var(--dark);
 text-align: center;
+font-weight: 500;
 
 .message {
     padding: 16px 0;
@@ -18,11 +19,10 @@ text-align: center;
         color: #593377;
     }
     .heart-icon {
-        color: var(--green-blue);
+        color: var(--main-blue);
     }
     .copyright {
-        color: var(--green-blue);
-
+        color: var(--main-blue);
     }
 }
 

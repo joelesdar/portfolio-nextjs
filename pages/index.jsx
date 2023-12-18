@@ -27,12 +27,13 @@ export default function Home(props) {
       </Head>
       <Header />
       <Welcome />
-      <Description />
+      <Description firstBlock />
       <EventsBanner posts={props.posts} />
       <ExperienceBanner />
       <BlogBanner posts={props.posts} />
-      <Technologies />
-      <Projects numProjects={0} />
+      <Description secondBlock />
+      {/* <Technologies />
+      <Projects numProjects={0} /> */}
       <SocialBar />
       <Contact />
       <Footer />

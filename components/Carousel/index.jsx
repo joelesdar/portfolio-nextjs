@@ -15,7 +15,7 @@ export const Carousel = ({ posts }) => {
     swipeToSlide: true,
     responsive: [
         {
-          breakpoint: 1200,
+          breakpoint: 1199,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -25,7 +25,7 @@ export const Carousel = ({ posts }) => {
           }
         },
         {
-          breakpoint: 768,
+          breakpoint: 767,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -35,7 +35,7 @@ export const Carousel = ({ posts }) => {
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 599,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -43,7 +43,7 @@ export const Carousel = ({ posts }) => {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 479,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1

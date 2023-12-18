@@ -10,6 +10,7 @@ export const Welcome = () => {
         <div id='stars3' />
         <Title />
       </div>
+      <h1>Joel Esteban Diaz Arévalo</h1>
     </StyledWelcome>
   )
 }
