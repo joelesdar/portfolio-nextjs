@@ -1,5 +1,5 @@
 import Headroom from 'react-headroom'
-import { HamburguerMenu } from '../HamburguerMenu'
+import { useState } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
@@ -10,12 +10,18 @@ import En from '../../assets/En'
 import Fr from '../../assets/Fr'
 import { StyledHeader } from './styles'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import HamburguerIcon from '../../assets/HamburguerIcon'
 
 
 export const Header = () => {
 
   const { t } = useTranslation()
   const router = useRouter()
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <Headroom>
@@ -27,8 +33,8 @@ export const Header = () => {
                 <Image src={img} alt='Logo' />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" >
-              <HamburguerMenu />
+            <Navbar.Toggle className={`menu ${menuOpen ? 'opened' : ''}`} onClick={handleMenuClick} aria-controls="basic-navbar-nav" >
+              <HamburguerIcon />
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
               <Nav className="navbar-nav">
