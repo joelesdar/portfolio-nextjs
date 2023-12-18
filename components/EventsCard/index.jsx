@@ -4,15 +4,14 @@ import Image from 'next/image';
 
 export const EventsCard = ({ post }) => {
 
-  const { id, title, description, cover, link } = post;
-
-  const imageSrc = require(`../../assets/events/${cover}`).default;
+  const { id, title, description, cover, link } = post
+  const imageSrc = require(`../../assets/events/${cover}`).default
 
   return (
     <CardContainer>
         <ImageContainer image={imageSrc.src}>
           <div className="image-overlay">
-            <Image className="image" src={imageSrc} alt={title} layout="fill" />
+            <Image className="image" src={imageSrc} alt={title} />
           </div>
         </ImageContainer>
         <TextContainer>

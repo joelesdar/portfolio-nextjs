@@ -49,10 +49,6 @@ export const StyledHeader = Styled.div`
       .navbar-toggler {
         border: none;
         padding: 0;
-        :focus {
-          /* border: none;
-          background: red; */
-        }
       }
   }
 

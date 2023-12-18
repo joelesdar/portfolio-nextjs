@@ -27,7 +27,9 @@ export const Header = () => {
                 <Image src={img} alt='Logo' />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" children={<HamburguerMenu />}/>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" >
+              <HamburguerMenu />
+            </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
               <Nav className="navbar-nav">
                 <Nav.Link className='active' href='/'>{t('download-cv')}</Nav.Link>
