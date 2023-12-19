@@ -2,7 +2,6 @@ import Headroom from 'react-headroom'
 import { useState } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'next-i18next'
-import { useRouter } from 'next/router'
 import Image from 'next/image'
 import img from '../../assets/logo.png'
 import Es from '../../assets/Es'
@@ -16,7 +15,6 @@ import HamburguerIcon from '../../assets/HamburguerIcon'
 export const Header = () => {
 
   const { t } = useTranslation()
-  const router = useRouter()
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
@@ -38,7 +36,7 @@ export const Header = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
               <Nav className="navbar-nav">
-                <Nav.Link className='active' href='../../assets/Profile.pdf' download="Profile.pdf">{t('download-cv')}</Nav.Link>
+                <Nav.Link className='active' href='Profile.pdf' download="Profile.pdf">{t('download-cv')}</Nav.Link>
                 <NavDropdown title={t('selectLanguage')} id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link href={'/'} locale={'es'}>
