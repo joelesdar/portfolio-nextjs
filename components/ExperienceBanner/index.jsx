@@ -4,6 +4,7 @@ import Image from 'next/image'
 import posts from '../../posts.json'
 import photo1 from '../../assets/profile2.jpg'
 import { ExperienceCard } from '../ExperienceCard'
+import { motion } from 'framer-motion'
 
 export const ExperienceBanner = () => {
 
@@ -16,8 +17,22 @@ export const ExperienceBanner = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-10">
-            <h2 className='title'>🔭{t('title-experiences')}</h2>
-            <h6 className='description'>{t('description-experiences')}</h6>
+            <motion.h2 
+              className='title'
+              initial={{ opacity: 0}}
+              whileInView={{ opacity: 100}}
+              viewport={{ once: true }}
+              transition={{duration: 1}}>
+              🔭{t('title-experiences')}
+            </motion.h2>
+            <motion.h6 
+              className='description'
+              initial={{ opacity: 0}}
+              whileInView={{ opacity: 100}}
+              viewport={{ once: true }}
+              transition={{duration: 1}}>
+              {t('description-experiences')}
+            </motion.h6>
             {posts[2].ExperiencePosts.map(post => (
               <ExperienceCard post={post} key={post.id} />
             ))}

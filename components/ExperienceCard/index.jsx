@@ -1,5 +1,6 @@
 import { useTranslation } from 'next-i18next'
 import { StyledCard, ImageContainer } from './styles'
+import { motion } from 'framer-motion'
 
 export const ExperienceCard = ({ post }) => {
 
@@ -22,8 +23,14 @@ export const ExperienceCard = ({ post }) => {
   }
 
   return (
-    <StyledCard>
-      <div className="row justify-content-center">
+    <StyledCard 
+      as={motion.div} 
+      initial={{y: "100%", opacity: 0}}
+      whileInView={{y: 0, opacity: 100}}
+      viewport={{ once: true }}
+      transition={{duration: 1}}>
+      <div 
+        className="row justify-content-center">
         <div className="col-12 col-lg-3 title-container">
           <h5>{title}</h5>
         </div>

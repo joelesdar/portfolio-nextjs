@@ -1,6 +1,7 @@
 import styled from "@emotion/styled"
+import { motion } from "framer-motion";
 
-export const StyledCard = styled.div`
+export const StyledCard = styled(motion.div)`
 
   background: var(--black);
   border-radius: 20px;

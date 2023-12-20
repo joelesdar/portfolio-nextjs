@@ -1,6 +1,7 @@
 import styled from '@emotion/styled'
+import { motion } from 'framer-motion'
 
-export const StyledCard = styled.div`
+export const StyledCard = styled(motion.div)`
 
   margin-bottom: 32px;
   
@@ -27,6 +28,7 @@ export const StyledCard = styled.div`
   
   .card-text {
     color: var(--white);
+    margin-top: 15px;
   }
   
   img {
