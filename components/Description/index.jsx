@@ -34,6 +34,12 @@ export const Description = ({ firstBlock, secondBlock}) => {
                     {t('title-name-1')} 👋🏽
                   </h3>
                   <p className='description'>{t('description-hello-1')}</p>
+                  <div className="tags">
+                    <p>{t('description-tag-1')}</p>
+                    <p>{t('description-tag-2')}</p>
+                    <p>{t('description-tag-3')}</p>
+                    <p>{t('description-tag-4')}</p>
+                  </div>
                 </motion.div>
               </div>
             )}
@@ -45,7 +51,10 @@ export const Description = ({ firstBlock, secondBlock}) => {
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}
                   transition={{duration: 1}}>
-                  <h3 className='title-description'>{t('title-hello-2')}</h3>
+                  <h3 className='title-description'>
+                    {t('title-hello-2')}
+                    <span className='title-hello'>{t('title-name-2')}💪</span>
+                  </h3>
                   <p className='description'>{t('description-hello-2')}</p>
                 </motion.div>
                 <motion.div 

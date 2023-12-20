@@ -50,6 +50,20 @@ export const DescriptionContainer = Styled.div`
     padding: 8px;
   }
 
+  .tags {
+    display: flex;
+    flex-direction: row;
+    p {
+      background: var(--dark);
+      color: var(--yellow);
+      border-radius: 8px;
+      border: 2px solid var(--yellow);
+      padding: 4px;
+      font-size: 12px;
+      margin-left: 8px; 
+    }
+  }
+
   @media (min-width: 768px) {
     padding: 120px 0;
   }

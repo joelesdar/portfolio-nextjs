@@ -71,10 +71,10 @@ export const TextContainer = styled.div`
 
     :hover {
       background: none;
-      border: 2px solid var(--white);
-
+      border: 2px solid var(--yellow);
+      
       span {
-        color: var(--white);
+        color: var(--yellow);
       }
     }
   }
