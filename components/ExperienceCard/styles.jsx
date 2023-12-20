@@ -52,6 +52,9 @@ export const StyledCard = styled.div`
       justify-content: center;
       align-items: center;
       padding: 0px;
+      p {
+        margin: 0;
+      }
     }
   }
 `

@@ -19,21 +19,21 @@ export const Description = ({ firstBlock, secondBlock}) => {
                 </div>
                 <div className='full-description col-10 col-lg-6 mt-4 mt-lg-0'>
                   <h3 className='title-description'>
-                    <span className='title-hello'>{t('title-hello')}</span>
-                    {t('title-name')} 👋🏽
+                    <span className='title-hello'>{t('title-hello-1')}</span>
+                    {t('title-name-1')} 👋🏽
                   </h3>
-                  <p className='description'>{t('description')}</p>
+                  <p className='description'>{t('description-hello-1')}</p>
                 </div>
               </div>
             )}
             {secondBlock && (
               <div className="row justify-content-around align-items-center second-block">
                 <div className='full-description col-10 col-lg-5 col-xl-4'>
-                  <h3 className='title-description'>Buenas👀</h3>
-                  <p className='description'>{t('description')}</p>
+                  <h3 className='title-description'>{t('title-hello-2')}</h3>
+                  <p className='description'>{t('description-hello-2')}</p>
                 </div>
                 <div className='image second-image col-10 col-lg-6 col-xl-8 mt-4 mt-lg-0'>
-                  <Image src={photo2} alt='Foto Joel' />
+                  <Image src={photo2} alt='Foto Joel y Angela Ocando' />
                 </div>
               </div>
             )}

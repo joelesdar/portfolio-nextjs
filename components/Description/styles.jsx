@@ -43,7 +43,7 @@ export const DescriptionContainer = Styled.div`
   }
 
   .title-hello {
-    color: var(--main-blue);
+    color: var(--yellow);
   }
 
   .description {

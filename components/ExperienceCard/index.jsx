@@ -3,8 +3,23 @@ import { StyledCard, ImageContainer } from './styles'
 
 export const ExperienceCard = ({ post }) => {
 
-  const { title, description, link, cover } = post
+  const { titleEn, titleEs, titleFr, descriptionEn, descriptionEs, descriptionFr, cover } = post
   const imageSrc = require(`../../assets/work/${cover}`).default
+  const { i18n } = useTranslation()
+  const currentLanguage = i18n.language
+  let title = ''
+  let description = ''
+
+  if(currentLanguage === 'en') {
+    title = titleEn
+    description = descriptionEn
+  } else if (currentLanguage === 'es') {
+    title = titleEs
+    description = descriptionEs
+  } else if (currentLanguage === 'fr') {
+      title = titleFr
+      description = descriptionFr
+  }
 
   return (
     <StyledCard>

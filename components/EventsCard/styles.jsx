@@ -46,6 +46,17 @@ export const TextContainer = styled.div`
     line-height: 1.2;
   }
 
+  .card-buttons {
+    display: flex;
+    justify-content: space-between;
+    a {
+      width: 100%;
+    }
+    .two-buttons {
+        width: 49%;
+    }
+  }
+
   .card-link {
     background: var(--white);
     border: 2px solid var(--black);
