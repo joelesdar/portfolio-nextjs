@@ -51,8 +51,7 @@ export const DescriptionContainer = Styled.div`
   }
 
   .tags {
-    display: flex;
-    flex-direction: row;
+    margin: 0;
     p {
       background: var(--dark);
       color: var(--yellow);

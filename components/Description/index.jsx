@@ -34,11 +34,11 @@ export const Description = ({ firstBlock, secondBlock}) => {
                     {t('title-name-1')} 👋🏽
                   </h3>
                   <p className='description'>{t('description-hello-1')}</p>
-                  <div className="tags">
-                    <p>{t('description-tag-1')}</p>
-                    <p>{t('description-tag-2')}</p>
-                    <p>{t('description-tag-3')}</p>
-                    <p>{t('description-tag-4')}</p>
+                  <div className="tags row">
+                    <p className='col-auto'>{t('description-tag-1')}</p>
+                    <p className='col-auto'>{t('description-tag-2')}</p>
+                    <p className='col-auto'>{t('description-tag-3')}</p>
+                    <p className='col-auto'>{t('description-tag-4')}</p>
                   </div>
                 </motion.div>
               </div>
