@@ -2,10 +2,10 @@ import { useTranslation } from 'next-i18next'
 import { StyledCard, ImageContainer } from './styles'
 import { motion } from 'framer-motion'
 
-export const ExperienceCard = ({ post }) => {
+export const ExperienceCard = ({ post, folder }) => {
 
   const { titleEn, titleEs, titleFr, descriptionEn, descriptionEs, descriptionFr, cover } = post
-  const imageSrc = require(`../../assets/work/${cover}`).default
+  const imageSrc = require(`../../assets/${folder}/${cover}`).default
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language
   let title = ''

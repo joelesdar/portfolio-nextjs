@@ -6,6 +6,7 @@
     "word3": "Education",
     "word4": "Community"
   },
+  "link-profile": "Technical Profile",
   "download-cv": "Download CV",
   "selectLanguage": "Language",
   "language-en" : "English",
@@ -99,7 +100,7 @@
   "show-less-projects" : "Show Less",
   "projects" : {
     "project1" : {
-      "title": "Breaking Bad quote generator",
+      "title": "Breaking Bad App",
       "description" : "Random generator of famous quotes from Breaking Bad using an API."
     },
     "project2" : {
@@ -118,36 +119,20 @@
       "title": "Business card",
       "description" : "Animated business card with sliders."
     },
-    "project6" : {
-      "title": "Redhus.org",
-      "description" : "Official site of the popular human rights network of Bogotá Redhus"
-    },
-    "project7" : {
-      "title": "Portfolio website",
-      "description" : "Website with a portfolio design for developpers and designers."
-    },
     "project8" : {
       "title": "Xylophone JS",
       "description" : "Interactive xylophone made with JS."
-    },
-    "project9" : {
-      "title": "Gokubos",
-      "description" : "Windows app developed in Visual Studio, with a Dragon Ball design, that teaches users to learn how to solve the Rubik's cube."
-    },
-    "project10" : {
-      "title": "Invie",
-      "description" : "Find your Invie-sible guitar."
     },
     "project11" : {
       "title": "Petgram",
       "description" : "With Petgram you can find and like the photos of your favorite pets."
     },
     "project12" : {
-      "title": "Rick and Morty character generator",
-      "description" : "With this app you can generate ramdon Rick and Morty characters, read their info, and also, see the history of queried characters."
+      "title": "Rick and Morty App",
+      "description" : "With this app you can generate ramdon Rick and Morty characters and read their info."
     },
     "project13" : {
-      "title": "Voting Decentralized App",
+      "title": "Voting Dapp",
       "description" : "This Dapp is a voting system that allows an Ethereum address to vote only once on a binary proposal."
     }
   },

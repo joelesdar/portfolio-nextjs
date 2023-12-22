@@ -37,12 +37,12 @@ export const Technologies = () => {
                         </li>
                         <li>
                           <i className='orbit-icon figma-icon'>
-                            <Image src='https://img.icons8.com/color/48/000000/figma--v1.png' alt='figma icon'/>
+                            <Image src='https://img.icons8.com/color/48/000000/figma--v1.png' fill alt='figma icon'/>
                           </i>
                         </li>
                         <li>
                           <i className='orbit-icon photoshop-icon'>
-                            <Image src='https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png' alt='windows icon'/>
+                            <Image src='https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png' fill alt='windows icon'/>
                           </i>
                         </li>
                       </ul>
@@ -127,6 +127,7 @@ export const Technologies = () => {
                       <li>Microsoft Office</li>
                       <li>Photoshop</li>
                       <li>Figma</li>
+                      <li>Premiere Pro</li>
                     </ul>
                   </div>
                 </div>

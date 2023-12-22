@@ -48,7 +48,7 @@
         "titleEn": "Google I/O Extended🧡",
         "titleEs": "Google I/O Extended🧡",
         "titleFr": "Google I/O Extended🧡",
-        "link1": "https://www.linkedin.com/posts/joelesdar_el-google-io-extended-bogot%C3%A1-nunca-activity-7103206333847322624-CsMV?utm_source=share&utm_medium=member_desktop",
+        "link1": "https://gdg.community.dev/events/details/google-gdg-cloud-bogota-presents-google-io-extended-2023/cohost-gdg-cloud-bogota",
         "link2": "",
         "descriptionEn": "The largest event of Google communities is back after many years to showcase the latest developments in technology.",
         "descriptionEs": "El evento más grande de las comunidades de Google vuelve después de muchos años para dar a conocer las últimas novedades en tecnología.",
@@ -170,6 +170,50 @@
         "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
         "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
         "cover": "4.jpg"
+      }
+    ]
+  },
+  {
+    "JobsPosts": [
+      {
+        "id": 1,
+        "titleEn": "Push Protocol",
+        "titleEs": "Push Protocol",
+        "titleFr": "Push Protocol",
+        "descriptionEn": "In TuringBox, Google Developer Student Club, I lead the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
+        "descriptionEs": "En TuringBox, Google Developer Student Club, lidero el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
+        "descriptionFr": "À TuringBox, Google Developer Student Club, je dirige le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
+        "cover": "1.jpg"
+      },
+      {
+        "id": 2,
+        "titleEn": "Manstery",
+        "titleEs": "Manstery",
+        "titleFr": "Manstery",
+        "descriptionEn": "As an ambassador for the Ethereum Developer Program, I mentored and supported students in their journey to become Web3 developers in the program, and led the ambassador group. Additionally, I represented Platzi and the School of Blockchain and Web3 in various spaces, building community.",
+        "descriptionEs": "Como embajador del Ethereum Developer Program, mentoricé y apoyé el proceso educativo de los estudiantes en su camino para ser desarrolladores Web3 en el programa, y lideré el grupo de embajadores. También, representé a Platzi y a la Escuela de Blockchain y Web3 en varios espacios, creando comunidad.",
+        "descriptionFr": "En tant qu'ambassadeur du Ethereum Developer Program, j'ai mentoré et soutenu les étudiants dans leur parcours pour devenir des développeurs Web3 dans le programme, et j'ai dirigé le groupe d'ambassadeurs. De plus, j'ai représenté Platzi et l'École de Blockchain et Web3 dans divers espaces, créant ainsi une communauté.",
+        "cover": "2.png"
+      },
+      {
+        "id": 3,
+        "titleEn": "Jenial Software",
+        "titleEs": "Jenial Software",
+        "titleFr": "Jenial Software",
+        "descriptionEn": "I was part of the Push Protocol ambassador team for Latin America, tasked with spreading the protocol in the region. I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects.",
+        "descriptionEs": "Hice parte del equipo de embajadores de Push Protocol para Latinoamérica, con la misión de difundir el protocolo en la región. Me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos.",
+        "descriptionFr": "J'ai fait partie de l'équipe des ambassadeurs de Push Protocol pour l'Amérique latine, diffusant le protocole dans la région. En tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe.",
+        "cover": "3.png"
+      },
+      {
+        "id": 4,
+        "titleEn": "L'avenir",
+        "titleEs": "L'avenir",
+        "titleFr": "L'avenir",
+        "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
+        "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
+        "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
+        "cover": "4.png"
       }
     ]
   }

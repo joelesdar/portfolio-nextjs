@@ -1,16 +1,11 @@
 import { useTranslation } from 'next-i18next'
 import { StyledBanner } from "./styles"
-import Image from 'next/image'
-import posts from '../../posts.json'
-import photo1 from '../../assets/profile2.jpg'
 import { ExperienceCard } from '../ExperienceCard'
 import { motion } from 'framer-motion'
 
-export const ExperienceBanner = () => {
+export const ExperienceBanner = ({ posts, titleText, descriptionText, folder }) => {
 
   const { t } = useTranslation()
-  // const { id, title, description, link, cover } = posts
-  // const imageSrc
 
   return (
     <StyledBanner>
@@ -23,7 +18,7 @@ export const ExperienceBanner = () => {
               whileInView={{ opacity: 100}}
               viewport={{ once: true }}
               transition={{duration: 1}}>
-              🔭{t('title-experiences')}
+              🔭{titleText}
             </motion.h2>
             <motion.h6 
               className='description'
@@ -31,10 +26,10 @@ export const ExperienceBanner = () => {
               whileInView={{ opacity: 100}}
               viewport={{ once: true }}
               transition={{duration: 1}}>
-              {t('description-experiences')}
+              {descriptionText}
             </motion.h6>
-            {posts[2].ExperiencePosts.map(post => (
-              <ExperienceCard post={post} key={post.id} />
+            {posts.map(post => (
+              <ExperienceCard post={post} folder={folder} key={post.id} />
             ))}
           </div>
         </div>

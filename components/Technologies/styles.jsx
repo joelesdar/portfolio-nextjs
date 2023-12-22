@@ -2,7 +2,7 @@ import Styled from '@emotion/styled'
 
 export const StyledTechnologies = Styled.div`
 
-background: var(--dark);
+background: var(--black);
 padding: 80px 0;
 overflow: hidden;
 

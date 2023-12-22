@@ -7,23 +7,19 @@ background: var(--dark);
 
 .title {
     text-align: center;
+    margin-bottom: 32px;
+    color: var(--main-blue);
 }
 
-.btn-primary {
-  background-color: var(--intense-blue);
-  /* padding: 8px; */
-  border-radius: 8px;
-  color: var(--green-blue);
-  margin: 24px 8px;
-  border: 1px solid var(--green-blue);
+.button-projects {
+  background-color: transparent;
+  border: none;
+  color: var(--main-blue);
+  margin: 0;
+  :hover {
+    color: var(--white);
+  }
 }
 
-.btn-primary:hover {
-  background-color: var(--green-blue);
-  border-radius: 8px;
-  border: 1px solid var(--main-blue);
-  color: var(--intense-blue);
-  margin: 24px 8px;
-}
 
 `

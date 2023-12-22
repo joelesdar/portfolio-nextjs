@@ -37,19 +37,20 @@ export const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
               <Nav className="navbar-nav">
                 <Nav.Link className='active' href='Profile.pdf' download="Profile.pdf">{t('download-cv')}</Nav.Link>
+                <Nav.Link className='active' href='Profile'>{t('link-profile')}</Nav.Link>
                 <NavDropdown title={t('selectLanguage')} id="basic-nav-dropdown">
                   <NavDropdown.Item>
-                    <Link href={'/'} locale={'es'}>
+                    <Link href={''} locale={'es'}>
                       <Es /> Español
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link href={'/'} locale={'en'}>
+                    <Link href={''} locale={'en'}>
                       <En /> English
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link href={'/'} locale={'fr'}>
+                    <Link href={''} locale={'fr'}>
                       <Fr /> Français
                     </Link>
                   </NavDropdown.Item>

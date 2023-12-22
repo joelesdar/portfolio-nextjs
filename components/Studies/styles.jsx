@@ -3,7 +3,7 @@ import Styled from '@emotion/styled'
 export const StyledStudies = Styled.div`
 
 padding: 80px 0;
-background: var(--dark);
+background: var(--black);
 overflow: hidden;
 
 .study-block {
@@ -11,8 +11,12 @@ overflow: hidden;
   padding-bottom: 16px;
 }
 
-.career-title {
+h2 {
   color: var(--main-blue);
+}
+
+.career-title {
+  color: var(--yellow);
 }
 
 .institution {

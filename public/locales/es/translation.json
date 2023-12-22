@@ -6,6 +6,7 @@
     "word3": "Educación",
     "word4": "Comunidad"
   },
+  "link-profile": "Perfil Técnico",
   "download-cv": "Descargar CV",
   "selectLanguage" : "Idioma",
   "language-en" : "Inglés",
@@ -99,7 +100,7 @@
   "show-less-projects" : "Ver Menos",
   "projects": {
     "project1" : {
-      "title": "Generador de frases celebres de Breaking Bad",
+      "title": "App de Breaking Bad",
       "description" : "Generador aleatorio de frases celebres de la serie Breaking Bad usando un API."
     },
     "project2" : {
@@ -115,39 +116,23 @@
       "description" : "Gestor de citas de veterinaria para tus queridas mascotas."
     },
     "project5" : {
-      "title": "Tarjeta de presentación",
+      "title": "Tarjeta de muestra",
       "description" : "Tarjeta tipo portafolio de presentación con controles deslizantes."
-    },
-    "project6" : {
-      "title": "Redhus.org",
-      "description" : "Sitio oficial de La red popular de derechos humanos de Bogotá Redhus."
-    },
-    "project7" : {
-      "title": "Web portafolio de presentación",
-      "description" : "Web con diseño de portafolio para desarrolladores y diseñadores."
     },
     "project8" : {
       "title": "Xilófono JS",
       "description" : "Xilófono interactivo hecho en JS."
-    },
-    "project9" : {
-      "title": "Proyecto Gokubos",
-      "description" : "Aplicación para Windows desarrollada en Visual Studio, con diseño de Dragon Ball, que enseña al usuario a aprender a armar el cubo de Rubik"
-    },
-    "project10" : {
-      "title": "Invie",
-      "description" : "Encuentra tu guitarra Invie-sible."
     },
     "project11" : {
       "title": "Petgram",
       "description" : "Con Petgram puedes interactuar con las fotos de tus mascotas favoritas."
     },
     "project12" : {
-      "title": "Generador de personajes de Rick y Morty",
+      "title": "App de Rick y Morty",
       "description" : "Con esta aplicación puedes generar personajes aleatorios de Rick y Morty, leer su información y revisar el historial de personajes consultados."
     },
     "project13" : {
-      "title": "Aplicación descentralizada de Votación",
+      "title": "Dapp de Votación",
       "description" : "Esta DApp es un sistema de votación que permite a una dirección Ethereum votar una única vez entre dos opciones."
     }
   },

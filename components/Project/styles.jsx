@@ -9,6 +9,7 @@ margin-bottom: 32px;
     color: var(--white);
     padding: 0;
     border-radius: 20px;
+    border: 2px solid var(--white);
     img {
         border-radius: 20px 20px 0 0;
         margin: 0 auto;
@@ -23,16 +24,16 @@ margin-bottom: 32px;
     }
 }
 
-.card-body {
-  border-top: 3px solid var(--green-blue);
-}
-
 .card-title {
-    color: var(--green-blue);
+    color: var(--yellow);
 }
 
 .libraries {
-  color: var(--main-blue);
+  /* margin: 0; */
+  p {
+    color: var(--white);
+    font-size: 12px;
+  }
 }
 
 .icon {
