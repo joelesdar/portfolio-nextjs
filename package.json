@@ -4,7 +4,7 @@
   "description": "Personal Portfolio",
   "private": true,
   "engines": {
-    "node": "20.10.0",
+    "node": "18.14.1",
     "npm": "9.4.1"
   },
   "dependencies": {
@@ -30,7 +30,6 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-ga": "^3.3.1",
     "react-headroom": "^3.2.1",
     "react-helmet": "^6.1.0",
     "react-i18next": "^13.0.3",
