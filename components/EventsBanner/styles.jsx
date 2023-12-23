@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 
 export const StyledBanner = styled.div`
   background: var(--black);
-  padding: 80px 0;
+  padding: 160px 0;
 
   .title {
     text-align: center;
@@ -18,10 +18,6 @@ export const StyledBanner = styled.div`
   }
 
   .carrousel-container {
-  }
-
-  @media (min-width: 768px) {
-    padding: 120px 0;
   }
 
 `

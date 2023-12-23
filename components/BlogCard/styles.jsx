@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 import { motion } from 'framer-motion'
 
-export const StyledCard = styled(motion.div)`
+export const StyledCard = styled.div`
 
   margin-bottom: 32px;
   

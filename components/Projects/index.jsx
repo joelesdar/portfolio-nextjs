@@ -13,6 +13,7 @@ import cover8 from '../../assets/project8.png'
 import cover11 from '../../assets/project11.jpg'
 import cover12 from '../../assets/project12.jpg'
 import cover13 from '../../assets/project13.png'
+import { motion } from 'framer-motion'
 
 export const Projects = () => {
   const { t } = useTranslation()
@@ -35,8 +36,20 @@ export const Projects = () => {
       <div className='container'>
         <div className='row align-items-center justify-content-around'>
           <div className='col-10'>
-              <h2 className='title'>{t('title-projects')}</h2>
-            <div className='row justify-content-around '>
+              <motion.h2 
+                className='title'
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 100 }}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
+                {t('title-projects')}
+              </motion.h2>
+            <motion.div 
+              className='row justify-content-around '
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 100 }}
+              viewport={{ once: true }}
+              transition={{duration: 1}}>
               <div className='col-12 col-md-6 col-lg-4'>
                   <Project
                     title='Petgram'
@@ -64,7 +77,7 @@ export const Projects = () => {
                     link='https://rick-and-morty-generator-9hdb.vercel.app/'
                   />
               </div>
-            </div>
+            </motion.div>
             {showMoreProjects && (
               <div
                 className='row justify-content-around'
@@ -135,7 +148,12 @@ export const Projects = () => {
               </div>
             )
           }
-          <div className="row justify-content-center">
+          <motion.div 
+            className="row justify-content-center"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 100 }}
+            viewport={{ once: true }}
+            transition={{duration: 1}}>
             <button
                 className='button-projects'
                 onClick={toggleProjectsVisibility}
@@ -156,7 +174,7 @@ export const Projects = () => {
                   />
                 }
               </button>
-          </div>
+            </motion.div>
           </div>
         </div>
       </div>

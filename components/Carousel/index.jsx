@@ -13,6 +13,7 @@ export const Carousel = ({ posts }) => {
     centerPadding: 0,
     lazyLoad: false,
     swipeToSlide: true,
+    accessibility: true,
     responsive: [
         {
           breakpoint: 1199,

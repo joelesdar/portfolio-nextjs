@@ -2,9 +2,10 @@ import Head from "next/head"
 import { Header } from '../Header'
 import { Contact } from '../Contact'
 import { Footer } from '../Footer'
-import photo1 from '../../assets/profile.jpg'
-
-const Layout = ({ children }) => {
+import photo1 from '../../assets/profile1.jpg'
+import { Analytics } from '@vercel/analytics/react';
+ 
+export default function RootLayout({ children }) {
   return (
     <>
       <Head>
@@ -17,11 +18,12 @@ const Layout = ({ children }) => {
         <meta property='og:image' content={photo1} />
       </Head>
       <Header />
-      <main>{ children }</main>
+      <body>
+        { children }
+        <Analytics />
+      </body>
       <Contact />
       <Footer />
     </>
   )
 }
- 
-export default Layout

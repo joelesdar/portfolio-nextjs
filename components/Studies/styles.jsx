@@ -2,13 +2,16 @@ import Styled from '@emotion/styled'
 
 export const StyledStudies = Styled.div`
 
-padding: 80px 0;
+padding: 160px 0;
 background: var(--black);
 overflow: hidden;
 
 .study-block {
   padding-top: 16px;
   padding-bottom: 16px;
+  p {
+    margin: 0;
+  }
 }
 
 h2 {
@@ -21,6 +24,11 @@ h2 {
 
 .institution {
   /* color: var(--main-blue); */
+}
+
+.description-university {
+  margin: 0;
+  padding: 0;
 }
 
 .logo {

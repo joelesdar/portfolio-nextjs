@@ -9,9 +9,13 @@ export const StyledCard = styled(motion.div)`
   margin-bottom: 32px;
 
   h5 {
-    text-align: center;
-    padding: 16px;
-    color: var(--yellow);
+    a, span {
+      text-align: center;
+      font-size: 24px;
+      padding: 16px;
+      color: var(--yellow);
+      display: block;
+    }
   }
 
   .text-container {

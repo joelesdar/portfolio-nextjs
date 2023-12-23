@@ -1,10 +1,12 @@
 import { useTranslation } from 'next-i18next'
 import { StyledCard, ImageContainer } from './styles'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export const ExperienceCard = ({ post, folder }) => {
 
-  const { titleEn, titleEs, titleFr, descriptionEn, descriptionEs, descriptionFr, cover } = post
+  
+  const { titleEn, titleEs, titleFr, descriptionEn, descriptionEs, descriptionFr, cover, link } = post
   const imageSrc = require(`../../assets/${folder}/${cover}`).default
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language
@@ -32,7 +34,13 @@ export const ExperienceCard = ({ post, folder }) => {
       <div 
         className="row justify-content-center">
         <div className="col-12 col-lg-3 title-container">
-          <h5>{title}</h5>
+          <h5>
+            {link ? (
+              <Link href={link} target='_blank'>{title}</Link>
+            ) : (
+              <span>{title}</span>
+            )}
+          </h5>
         </div>
         <div className="col-12 col-lg">
           <div className="text-container">

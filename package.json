@@ -1,10 +1,10 @@
 {
   "name": "sitiopersonal",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Personal Portfolio",
   "private": true,
   "engines": {
-    "node": "18.14.1",
+    "node": "20.10.0",
     "npm": "9.4.1"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@vercel/analytics": "^1.1.1",
     "bootstrap": "^5.3.1",
     "eslint": "^8.56.0",
     "express": "^4.18.2",

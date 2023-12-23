@@ -139,7 +139,8 @@
         "descriptionEn": "In TuringBox, Google Developer Student Club, I lead the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
         "descriptionEs": "En TuringBox, Google Developer Student Club, lidero el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
         "descriptionFr": "À TuringBox, Google Developer Student Club, je dirige le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
-        "cover": "1.jpg"
+        "cover": "1.jpg",
+        "link": "https://www.instagram.com/turingbox/"
       },
       {
         "id": 2,
@@ -149,7 +150,8 @@
         "descriptionEn": "As an ambassador for the Ethereum Developer Program, I mentored and supported students in their journey to become Web3 developers in the program, and led the ambassador group. Additionally, I represented Platzi and the School of Blockchain and Web3 in various spaces, building community.",
         "descriptionEs": "Como embajador del Ethereum Developer Program, mentoricé y apoyé el proceso educativo de los estudiantes en su camino para ser desarrolladores Web3 en el programa, y lideré el grupo de embajadores. También, representé a Platzi y a la Escuela de Blockchain y Web3 en varios espacios, creando comunidad.",
         "descriptionFr": "En tant qu'ambassadeur du Ethereum Developer Program, j'ai mentoré et soutenu les étudiants dans leur parcours pour devenir des développeurs Web3 dans le programme, et j'ai dirigé le groupe d'ambassadeurs. De plus, j'ai représenté Platzi et l'École de Blockchain et Web3 dans divers espaces, créant ainsi une communauté.",
-        "cover": "2.jpg"
+        "cover": "2.jpg",
+        "link": "https://platzi.com/cursos/ethereum-developer-program/"
       },
       {
         "id": 3,
@@ -159,7 +161,8 @@
         "descriptionEn": "I was part of the Push Protocol ambassador team for Latin America, tasked with spreading the protocol in the region. I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects.",
         "descriptionEs": "Hice parte del equipo de embajadores de Push Protocol para Latinoamérica, con la misión de difundir el protocolo en la región. Me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos.",
         "descriptionFr": "J'ai fait partie de l'équipe des ambassadeurs de Push Protocol pour l'Amérique latine, diffusant le protocole dans la région. En tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe.",
-        "cover": "3.jpg"
+        "cover": "3.jpg",
+        "link": "https://push.org/"
       },
       {
         "id": 4,
@@ -169,7 +172,8 @@
         "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
         "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
         "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
-        "cover": "4.jpg"
+        "cover": "4.jpg",
+        "link": "https://www.blockchainacceleration.org/"
       }
     ]
   },
@@ -177,43 +181,47 @@
     "JobsPosts": [
       {
         "id": 1,
-        "titleEn": "Push Protocol",
-        "titleEs": "Push Protocol",
-        "titleFr": "Push Protocol",
-        "descriptionEn": "In TuringBox, Google Developer Student Club, I lead the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
-        "descriptionEs": "En TuringBox, Google Developer Student Club, lidero el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
-        "descriptionFr": "À TuringBox, Google Developer Student Club, je dirige le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
-        "cover": "1.jpg"
+        "titleEn": "🔔 Push Protocol",
+        "titleEs": "🔔 Push Protocol",
+        "titleFr": "🔔 Push Protocol",
+        "descriptionEn": "At Push Protocol, I was responsible for the development to make their official site a multi-language application. Additionally, I wrote the texts to enable the site to be in Spanish and supported the implementation for the Hindi language.",
+        "descriptionEs": "En Push Protocol, me encargué del desarrollo para que su sitio oficial fuera una aplicación multi-idioma. Además, redacté los textos para que el sitio pudiera estar en español y apoyé la implementación para el idioma hindi.",
+        "descriptionFr": "Dans Push Protocol, j'ai été chargé du développement pour que leur site officiel soit une application multilingue. De plus, j'ai rédigé les textes pour que le site puisse être en espagnol et j'ai soutenu la mise en œuvre pour la langue hindi.",
+        "cover": "1.jpg",
+        "link": "https://push.org/"
       },
       {
         "id": 2,
-        "titleEn": "Manstery",
-        "titleEs": "Manstery",
-        "titleFr": "Manstery",
-        "descriptionEn": "As an ambassador for the Ethereum Developer Program, I mentored and supported students in their journey to become Web3 developers in the program, and led the ambassador group. Additionally, I represented Platzi and the School of Blockchain and Web3 in various spaces, building community.",
-        "descriptionEs": "Como embajador del Ethereum Developer Program, mentoricé y apoyé el proceso educativo de los estudiantes en su camino para ser desarrolladores Web3 en el programa, y lideré el grupo de embajadores. También, representé a Platzi y a la Escuela de Blockchain y Web3 en varios espacios, creando comunidad.",
-        "descriptionFr": "En tant qu'ambassadeur du Ethereum Developer Program, j'ai mentoré et soutenu les étudiants dans leur parcours pour devenir des développeurs Web3 dans le programme, et j'ai dirigé le groupe d'ambassadeurs. De plus, j'ai représenté Platzi et l'École de Blockchain et Web3 dans divers espaces, créant ainsi une communauté.",
-        "cover": "2.png"
+        "titleEn": "Ⓜ️ Manstery",
+        "titleEs": "Ⓜ️ Manstery",
+        "titleFr": "Ⓜ️ Manstery",
+        "descriptionEn": "As a freelance professional, I worked on updating the official website of Manstery, as well as developing registration and sales pages for various courses and events, among other tasks.",
+        "descriptionEs": "Como profesional independiente, trabajé en la actualización del sitio oficial de Manstery, además de desarrollar páginas de registro y venta para distintos cursos y eventos, entre otras labores.",
+        "descriptionFr": "En tant que professionnel indépendant, j'ai travaillé sur la mise à jour du site officiel de Manstery, ainsi que sur le développement de pages d'inscription et de vente pour divers cours et événements, parmi d'autres tâches.",
+        "cover": "2.png",
+        "link": "https://manstery.com.co/"
       },
       {
         "id": 3,
-        "titleEn": "Jenial Software",
-        "titleEs": "Jenial Software",
-        "titleFr": "Jenial Software",
-        "descriptionEn": "I was part of the Push Protocol ambassador team for Latin America, tasked with spreading the protocol in the region. I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects.",
-        "descriptionEs": "Hice parte del equipo de embajadores de Push Protocol para Latinoamérica, con la misión de difundir el protocolo en la región. Me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos.",
-        "descriptionFr": "J'ai fait partie de l'équipe des ambassadeurs de Push Protocol pour l'Amérique latine, diffusant le protocole dans la région. En tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe.",
-        "cover": "3.png"
+        "titleEn": "⌨️ Jenial Software",
+        "titleEs": "⌨️ Jenial Software",
+        "titleFr": "⌨️ Jenial Software",
+        "descriptionEn": "At Jenial, I led and participated in all areas of the design, development, and implementation team for websites for various clients of the company.",
+        "descriptionEs": "En Jenial lideré y participé en todas las áreas del equipo de diseño, desarrollo e implementación de páginas web para los distintos clientes de la empresa.",
+        "descriptionFr": "Chez Jenial, j'ai dirigé et participé dans tous les domaines de l'équipe de conception, de développement et de mise en œuvre de sites web pour les différents clients de l'entreprise.",
+        "cover": "3.png",
+        "link": ""
       },
       {
         "id": 4,
-        "titleEn": "L'avenir",
-        "titleEs": "L'avenir",
-        "titleFr": "L'avenir",
-        "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
-        "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
-        "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
-        "cover": "4.png"
+        "titleEn": "🤖 L'avenir",
+        "titleEs": "🤖 L'avenir",
+        "titleFr": "🤖 L'avenir",
+        "descriptionEn": "I had the opportunity to work at L'avenir, where I was responsible for the development of a product in which I created chatbots to automate the workflow and tasks for clients.",
+        "descriptionEs": "Tuve la oportunidad de trabajar en L'avenir, donde me encargué del desarrollo de un producto en el que estaba a cargo de crear chatbots que automatizaran el flujo de trabajo y tareas de los clientes.",
+        "descriptionFr": "J'ai eu l'opportunité de travailler chez L'avenir, où j'étais en charge du développement d'un produit dans lequel je créais des chatbots pour automatiser le flux de travail et les tâches des clients.",
+        "cover": "4.png",
+        "link": "https://www.lavenir.com.co/"
       }
     ]
   }

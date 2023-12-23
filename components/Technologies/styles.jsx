@@ -3,8 +3,12 @@ import Styled from '@emotion/styled'
 export const StyledTechnologies = Styled.div`
 
 background: var(--black);
-padding: 80px 0;
+padding: 160px 0 80px 0;
 overflow: hidden;
+
+.galaxy {
+  margin-bottom: 80px;
+}
 
 .orbit {
   position: relative;
@@ -32,7 +36,7 @@ overflow: hidden;
 .orbit-wrap > li {
   position: absolute;
   left: 50%;
-  top: 45%;
+  top: 50%;
   transform: translate(-50%, -50%);
 }
 .orbit-wrap > li:hover ul {
@@ -161,7 +165,7 @@ ul[class^=ring] li {
   center;
 */
 .orbit-center {
-  z-index: 5;
+  z-index: 0;
   font-size: 35px;
   width: 1.8em;
   height: 1.8em;
@@ -335,26 +339,28 @@ ul[class^=ring] li {
 
 .title-technologies {
   color: var(--main-blue);
+  margin-bottom: 32px;
 }
 
 ul.tech-list {
-li {
-  list-style: none;
-  position: relative;
-  padding: 0 0 0 16px;
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 10px;
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-bottom: 6px solid var(--main-blue);
-    transform: rotate(90deg);
+  padding: 0;
+  li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 16px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-bottom: 6px solid var(--main-blue);
+      transform: rotate(90deg);
+    }
   }
-}
 }
 
 `

@@ -4,6 +4,7 @@ import unal from '../../assets/unal.png'
 import platzi from '../../assets/platzi.png'
 import { StyledStudies } from './styles'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export const Studies = () => {
   const { t } = useTranslation()
@@ -11,26 +12,58 @@ export const Studies = () => {
   return (
     <StyledStudies>
       <div className='container' id='studies'>
-        <div className='row align-items-center justify-content-around'>
+        <div className='row justify-content-around'>
           <div className='col-10'>
-              <h2>{t('title-studies')}</h2>
+            <motion.h2
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 100 }}
+              viewport={{ once: true }}
+              transition={{duration: 1}}>
+              {t('title-studies')}
+            </motion.h2>
             <div className='row'>
-                <div className='study-block col-12 col-md-6'>
-                  <h4 className='career-title'>{t('title-career')}</h4>
-                  <p>{t('description-university')}</p>
-                  <h5 className='institution'>{t('title-university')}</h5>
-                  <div className='logo'>
-                    <Image className='logo-university' src={unal} alt='Universidad Nacional de Colombia' title='Universidad Nacional de Colombia' />
-                  </div>
+              <motion.div 
+                className='study-block col-12 col-md-6'
+                initial={{ opacity: 0, x: '-100%'}}
+                whileInView={{ opacity: 100, x: 0 }}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
+                <h4 className='career-title'>{t('title-career')}</h4>
+                <p>{t('description-university')}</p>
+              </motion.div>
+              <motion.div 
+                className='study-block col-12 col-md-6'
+                initial={{ opacity: 0, x: '100%'}}
+                whileInView={{ opacity: 100, x: 0}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
+                <h4 className='career-title'>{t('title-career-platzi')}</h4>
+                <p>{t('description-platzi')}</p>
+              </motion.div>
+            </div>
+            <div className="row">
+              <motion.div
+                className="col-6"
+                initial={{ opacity: 0, x: '-100%'}}
+                whileInView={{ opacity: 100, x: 0}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
+                <h5 className='institution'>{t('title-university')}</h5>
+                <div className='logo'>
+                  <Image className='logo-university' src={unal} alt='Universidad Nacional de Colombia' title='Universidad Nacional de Colombia' />
                 </div>
-                <div className='study-block col-12 col-md-6'>
-                  <h4 className='career-title'>{t('title-career-platzi')}</h4>
-                  <p>{t('description-platzi')}</p>
-                  <h5 className='institution'>Platzi</h5>
-                  <div className='logo'>
-                    <Image className='logo-university' src={platzi} alt='Platzi' title='Platzi' />
-                  </div>
+              </motion.div>
+              <motion.div
+                className="col-6"
+                initial={{ opacity: 0, x: '100%'}}
+                whileInView={{ opacity: 100, x: 0}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
+                <h5 className='institution'>Platzi</h5>
+                <div className='logo'>
+                  <Image className='logo-university' src={platzi} alt='Platzi' title='Platzi' />
                 </div>
+              </motion.div>
             </div>
           </div>
         </div>

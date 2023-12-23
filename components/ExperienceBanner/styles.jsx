@@ -3,7 +3,7 @@ import styled from '@emotion/styled'
 export const StyledBanner = styled.div`
 
   background: var(--dark);
-  padding: 80px 0 48px 0;
+  padding: 160px 0 128px 0;
 
   .title {
     text-align: center;
@@ -36,10 +36,6 @@ export const StyledBanner = styled.div`
         opacity: 1;
         transition: opacity 0.5s ease-in-out;
     }
-  }
-
-  @media (min-width: 768px) {
-    padding: 120px 0 88px 0;
   }
 
 `

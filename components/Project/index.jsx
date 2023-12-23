@@ -22,7 +22,7 @@ export const Project = ({ title, description, cover, libraries, github, link }) 
                   icon={faGithub}
                   className='icon'
                   color='var(--main-blue)'
-                  size='2sm'
+                  size='lg'
                   title='GitHub'
                 />
               </a>
@@ -31,7 +31,7 @@ export const Project = ({ title, description, cover, libraries, github, link }) 
                   icon={faArrowUpRightFromSquare}
                   className='icon'
                   color='var(--main-blue)'
-                  size='2sm'
+                  size='lg'
                   title='Link'
                 />
               </a>

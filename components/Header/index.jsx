@@ -14,7 +14,7 @@ import HamburguerIcon from '../../assets/HamburguerIcon'
 
 export const Header = () => {
 
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuClick = () => {
@@ -36,8 +36,8 @@ export const Header = () => {
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
               <Nav className="navbar-nav">
+                <Nav.Link className='active' href={`${i18n.language}/profile`}>{t('link-profile')}</Nav.Link>
                 <Nav.Link className='active' href='Profile.pdf' download="Profile.pdf">{t('download-cv')}</Nav.Link>
-                <Nav.Link className='active' href='Profile'>{t('link-profile')}</Nav.Link>
                 <NavDropdown title={t('selectLanguage')} id="basic-nav-dropdown">
                   <NavDropdown.Item>
                     <Link href={''} locale={'es'}>

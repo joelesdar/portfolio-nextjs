@@ -8,13 +8,8 @@ export const BlogCard = ({ post }) => {
   const ImageSrc = require(`../../assets/blog/${post.cover}`).default
 
   return (
-    <StyledCard
-      as={motion.div}
-      initial={{y: "100%", opacity: 0}}
-      whileInView={{y: 0, opacity: 100}}
-      viewport={{ once: true }}
-      transition={{duration: 1}}>
-      <Link key={post.link} href={`${post.link}`} target='_blank'>
+    <StyledCard>
+      <Link key={post.link} href={post.link} target='_blank'>
         <div className='card'>
           <Image src={ImageSrc} className='card-img-top' alt='...'/>
           <div className='card-body'>

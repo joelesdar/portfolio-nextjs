@@ -6,13 +6,17 @@ import { Studies } from '../../components/Studies'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import posts from '../../posts.json'
 import Layout from '../../components/Layout'
+import { useTranslation } from 'next-i18next'
 
 const Profile = () => {
+
+  const { t } = useTranslation()
+
   return (
     <Layout>
       <Description thirdBlock />
       <Technologies />
-      <ExperienceBanner posts={posts[3].JobsPosts} titleText={'Jobs'} descriptionText={'description'} folder={'jobs'}/>
+      <ExperienceBanner posts={posts[3].JobsPosts} titleText={t('title-experiences')} descriptionText={t('description-jobs')} folder={'jobs'}/>
       <Studies />
       <Projects />
     </Layout>

@@ -28,13 +28,18 @@ export const BlogBanner = () => {
                 transition={{duration: 1}}>
                 {t('description-blog')}
               </motion.h6>
-              <div className='row justify-content-around'>
+              <motion.div 
+                className='row justify-content-around'
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 100}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
                 {posts[0].BlogPost.map(post => (
                   <div key={post.id} className='col-12 col-md-6 col-lg-4'>
                       <BlogCard key={post.id} post={post} />
                   </div>
                 ))}
-              </div>
+              </motion.div>
           </div>
         </div>
       </div>

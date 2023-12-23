@@ -6,6 +6,7 @@ export const StyledHeader = Styled.div`
   font-size: 1.2rem;
   min-height: 5rem;
   color: white;
+  z-index: 1000;
   
   .navbar {
       text-align: center;

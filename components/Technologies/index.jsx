@@ -2,6 +2,7 @@ import { useTranslation } from 'next-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareJs,faGitAlt, faWindows, faReact, faCss3, faHtml5, faEthereum, faWordpress, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
+import { motion } from 'framer-motion'
 import Image from 'next/image'
 import logo from '../../assets/logo.png'
 import { StyledTechnologies } from './styles'
@@ -14,8 +15,13 @@ export const Technologies = () => {
       <div className='container-fluid' id='technologies'>
         <div className="row justify-content-around">
           <div className="col-10">
-            <div className='row justify-content-around align-items-center'>
-              <div className='col-12 col-md-7 col-lg-6'>
+            <div className='row justify-content-around'>
+              <motion.div 
+                className='col-12 col-md-7 col-lg-6 galaxy'
+                initial={{ opacity: 0, rotate: -180}}
+                whileInView={{ opacity: 100, rotate: 0}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
                 <div className='orbit'>
                   <ul className='orbit-wrap'>
                     <li className='orbit-center'>
@@ -97,10 +103,13 @@ export const Technologies = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-            {/* </Rotate> */}
-            {/* <Fade right duration={2000}> */}
-              <div className='col-12 col-md-5 col-lg-6'>
+              </motion.div>
+              <motion.div
+                className='col-12 col-md-5 col-lg-6'
+                initial={{ opacity: 0, x: '100%'}}
+                whileInView={{ opacity: 100, x: 0}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
                 <div className='row justify-content-center'>
                   <div className='col-10'>
                     <h2 className='title-technologies'>
@@ -116,7 +125,7 @@ export const Technologies = () => {
                       <li>Bootstrap</li>
                       <li>Wordpress</li>
                       <li>JavaScript</li>
-                      <li>React.js</li>
+                      <li>React.js & Next.js</li>
                       <li>Solidity</li>
                     </ul>
                   </div>
@@ -131,9 +140,8 @@ export const Technologies = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
-            {/* </Fade> */}
-          </div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </div>

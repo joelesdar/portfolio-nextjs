@@ -2,7 +2,7 @@ import Styled from '@emotion/styled'
 
 export const DescriptionContainer = Styled.div`
 
-  padding: 80px 0;
+  padding: 160px 0;
   background-color: var(--dark);
   overflow: hidden;
   border-top: ${(props) => props.topBorder ? '3px solid var(--white)' : ''};
@@ -31,6 +31,13 @@ export const DescriptionContainer = Styled.div`
 
   .second-image {
     max-width: 600px;
+  }
+
+  .third-image {
+    background: var(--intense-blue);
+    img {
+      opacity: .7;
+    }
   }
 
   .full-description {
@@ -62,9 +69,4 @@ export const DescriptionContainer = Styled.div`
       margin-left: 8px; 
     }
   }
-
-  @media (min-width: 768px) {
-    padding: 120px 0;
-  }
-
 `

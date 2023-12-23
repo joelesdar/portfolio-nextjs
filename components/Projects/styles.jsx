@@ -2,7 +2,7 @@ import Styled from '@emotion/styled'
 
 export const StyledProjects = Styled.div`
 
-padding: 80px 0;
+padding: 160px 0;
 background: var(--dark);
 
 .title {
