@@ -3,9 +3,10 @@ import { Header } from '../Header'
 import { Contact } from '../Contact'
 import { Footer } from '../Footer'
 import photo1 from '../../assets/profile1.jpg'
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
  
 export default function RootLayout({ children }) {
+  
   return (
     <>
       <Head>
@@ -18,10 +19,8 @@ export default function RootLayout({ children }) {
         <meta property='og:image' content={photo1} />
       </Head>
       <Header />
-      <body>
-        { children }
-        <Analytics />
-      </body>
+      { children }
+      <Analytics />
       <Contact />
       <Footer />
     </>

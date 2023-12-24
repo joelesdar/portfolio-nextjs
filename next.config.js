@@ -1,15 +1,15 @@
-// const { i18n } = require('./next-i18next.config')
-
-// module.exports = {
-//   i18n,
-// }
-
 const { i18n } = require('./next-i18next.config')
 
 module.exports = {
   // reactStrictMode: true,
   images: {
-    domains: ['img.icons8.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        pathname: '**'
+      }
+    ],
   },
   i18n,
   webpack(config) {
@@ -23,3 +23,18 @@ module.exports = {
     return config
   },
 }
+
+// module.exports = {
+//   presets: ['next/babel'],
+//   plugins: [
+//     [
+//       '@emotion/babel-plugin',
+//       {
+//         sourceMap: true,
+//         autoLabel: 'always',
+//         "labelFormat": "[local]",
+//         "cssPropOptimization": true
+//       },
+//     ],
+//   ],
+// };

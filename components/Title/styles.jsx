@@ -63,9 +63,6 @@ export const StyledTitle = Styled.div`
         font-size: 56px;
         padding: 0 96px;
     }
-    .word {
-        /* margin-left: auto; */
-    }
   }
 
   @media (min-width: 1024px) {
@@ -78,7 +75,7 @@ export const StyledTitle = Styled.div`
     .-rb {
         ::before {
         content: "i";
-        color: black;
+        color: transparent;
         }   
     }
   }
