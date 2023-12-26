@@ -8,6 +8,11 @@ module.exports = {
         protocol: 'https',
         hostname: 'img.icons8.com',
         pathname: '**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        pathname: '**'
       }
     ],
   },
@@ -23,18 +28,3 @@ module.exports = {
     return config
   },
 }
-
-// module.exports = {
-//   presets: ['next/babel'],
-//   plugins: [
-//     [
-//       '@emotion/babel-plugin',
-//       {
-//         sourceMap: true,
-//         autoLabel: 'always',
-//         "labelFormat": "[local]",
-//         "cssPropOptimization": true
-//       },
-//     ],
-//   ],
-// };
