@@ -4,27 +4,19 @@ import { Project } from '../Project'
 import { StyledProjects } from './styles'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import cover1 from '../../assets/project1.png'
-import cover2 from '../../assets/project2.png'
-import cover3 from '../../assets/project3.png'
-import cover4 from '../../assets/project4.png'
-import cover5 from '../../assets/project5.png'
-import cover8 from '../../assets/project8.png'
-import cover11 from '../../assets/project11.jpg'
-import cover12 from '../../assets/project12.jpg'
-import cover13 from '../../assets/project13.png'
+import cover1 from '../../public/assets/projects/project1.webp'
+import cover2 from '../../public/assets/projects/project2.webp'
+import cover3 from '../../public/assets/projects/project3.webp'
+import cover4 from '../../public/assets/projects/project4.webp'
+import cover5 from '../../public/assets/projects/project5.webp'
+import cover6 from '../../public/assets/projects/project6.webp'
+import cover7 from '../../public/assets/projects/project7.webp'
+import cover8 from '../../public/assets/projects/project8.webp'
+import cover9 from '../../public/assets/projects/project9.webp'
 import { motion } from 'framer-motion'
 
 export const Projects = () => {
   const { t } = useTranslation()
-  const [showMessage, changeMessage] = useState(t('show-more-projects'))
-
-  const updateMessage = () => {
-    showMessage === t('show-more-projects')
-      ? changeMessage(t('show-less-projects'))
-      : changeMessage(t('show-more-projects'))
-  }
-
   const [showMoreProjects, setShowMoreProjects] = useState(false);
 
   const toggleProjectsVisibility = () => {
@@ -52,8 +44,8 @@ export const Projects = () => {
               transition={{duration: 1}}>
               <div className='col-12 col-md-6 col-lg-4'>
                   <Project
-                    title='Petgram'
-                    cover={cover11}
+                    title={t('projects.project1.title')}
+                    cover={cover1}
                     libraries='React GraphQL'
                     github='https://github.com/joelesdar/petgram'
                     link='https://petgram-mu-five.vercel.app/'
@@ -61,8 +53,8 @@ export const Projects = () => {
               </div>
               <div className='col-12 col-md-6 col-lg-4'>
                   <Project
-                    title={t('projects.project1.title')}
-                    cover={cover1}
+                    title={t('projects.project2.title')}
+                    cover={cover2}
                     libraries='React Bootstrap API'
                     github='https://github.com/joelesdar/BreakingBadQuotes'
                     link='https://epic-austin-92bc71.netlify.app'
@@ -70,8 +62,8 @@ export const Projects = () => {
               </div>
               <div className='col-12 col-md-6 col-lg-4 d-md-none d-lg-block'>
                   <Project
-                    title={t('projects.project12.title')}
-                    cover={cover12}
+                    title={t('projects.project3.title')}
+                    cover={cover3}
                     libraries='React GraphQL API'
                     github='https://github.com/joelesdar/Rick-and-Morty-Generator'
                     link='https://rick-and-morty-generator-9hdb.vercel.app/'
@@ -84,8 +76,8 @@ export const Projects = () => {
               >
                 <div className='col-6 col-md-6 col-lg-4 d-none d-md-block d-lg-none'>
                     <Project
-                      title={t('projects.project12.title')}
-                      cover={cover12}
+                      title={t('projects.project3.title')}
+                      cover={cover3}
                       libraries='React GraphQL API'
                       github='https://github.com/joelesdar/Rick-and-Morty-Generator'
                       link='https://rick-and-morty-generator-9hdb.vercel.app/'
@@ -93,8 +85,8 @@ export const Projects = () => {
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
                     <Project
-                      title={t('projects.project13.title')}
-                      cover={cover13}
+                      title={t('projects.project4.title')}
+                      cover={cover4}
                       libraries='Solidity React web3.js'
                       github='https://github.com/joelesdar/platzi-web3-libs'
                       link='https://platzi-web3-libs-roan.vercel.app/'
@@ -102,8 +94,8 @@ export const Projects = () => {
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
                   <Project
-                    title={t('projects.project4.title')}
-                    cover={cover4}
+                    title={t('projects.project5.title')}
+                    cover={cover5}
                     libraries='React Bootstrap'
                     github='https://github.com/joelesdar/citas-veterinaria'
                     link='https://naughty-meitner-fb09b8.netlify.app/'
@@ -111,8 +103,8 @@ export const Projects = () => {
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
                   <Project
-                    title={t('projects.project2.title')}
-                    cover={cover2}
+                    title={t('projects.project6.title')}
+                    cover={cover6}
                     libraries='React Bootstrap'
                     github='https://github.com/joelesdar/Cotizador'
                     link='https://practical-turing-dd2d5e.netlify.app/'
@@ -120,8 +112,8 @@ export const Projects = () => {
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
                   <Project
-                    title={t('projects.project5.title')}
-                    cover={cover5}
+                    title={t('projects.project7.title')}
+                    cover={cover7}
                     libraries='JavaScript'
                     github='https://github.com/joelesdar/Tarjeta-Portafolio'
                     link='https://joelesdar.github.io/Tarjeta-Portafolio/'
@@ -138,8 +130,8 @@ export const Projects = () => {
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
                     <Project
-                      title={t('projects.project3.title')}
-                      cover={cover3}
+                      title={t('projects.project9.title')}
+                      cover={cover9}
                       libraries='React Bootstrap'
                       github='https://github.com/joelesdar/presupuesto'
                       link='https://epic-wright-64d8a7.netlify.app/'

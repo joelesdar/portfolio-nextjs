@@ -98,46 +98,33 @@
     }
   },
   "title-projects" : "Mes Projets",
-  "subtitle-projects" : "Projets en vedette",
-  "subtitle-more-projects" : "Autres projects",
-  "show-more-projects" : "Montrer Plus",
-  "show-less-projects" : "Montrer Moins",
   "projects" : {
     "project1" : {
-      "title": "App de Breaking Bad",
-      "description" : "Générateur aléatoire de citations célèbres de la série Breaking Bad à l'aide d'une API."
+      "title": "Petgram"
     },
     "project2" : {
-      "title": "App d'assurance",
-      "description" : "Simulateur de calculateur d'assurance automobile."
+      "title": "App de Breaking Bad"
     },
     "project3" : {
-      "title": "App budgétaire",
-      "description" : "Application pour administrer et gérer votre budget personnel."
+      "title": "App de Rick and Morty"
     },
     "project4" : {
-      "title": "Appnimaux",
-      "description" : "Gestionnaire de rendez-vous vétérinaire pour vos animaux de compagnie bien-aimés."
+      "title": "Dapp de vote"
     },
     "project5" : {
-      "title": "Fiche de présentation",
-      "description" : "Fiche de portefeuille de présentation avec curseurs."
+      "title": "Appnimaux"
+    },
+    "project6" : {
+      "title": "App d'assurance"
+    },
+    "project7" : {
+      "title": "Fiche de présentation"
     },
     "project8" : {
-      "title": "Xylophone JS",
-      "description" : "Xylophone interactif en utilisant JS."
+      "title": "Xylophone JS"
     },
-    "project11" : {
-      "title": "Petgram",
-      "description" : "Avec Petgram, vous pouvez trouver et aimer les photos de vos animaux de compagnie préférés"
-    },
-    "project12" : {
-      "title": "App de Rick et Morty",
-      "description" : "Avec cette application, vous pouvez générer des personnages ramdon Rick et Morty, lire leurs informations et également consulter l'historique des personnages interrogés."
-    },
-    "project13" : {
-      "title": "Dapp de vote",
-      "description" : "Ce DApp est un système de vote qui permet à une adresse Ethereum de voter une seule fois entre deux options."
+    "project9" : {
+      "title": "App budgétaire"
     }
   },
   "title-contact" : "Trouvez-moi à:",

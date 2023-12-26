@@ -6,14 +6,14 @@
         "title": "La capa de Notificaciones y Comunicaciones en Web3: ¿Qué es Push Protocol?",
         "link": "https://medium.com/@joelesdar/la-capa-de-notificaciones-y-comunicaciones-en-web3-qu%C3%A9-es-push-protocol-710dd5dd313c",
         "description": "En web3 como usuarios hemos tenido el gran problema de que al usar Dapps y servicios descentralizados, en general, no disponíamos de una forma de ser notificados de información de nuestro interés de los servicios que usamos. A menos de que dieras tu correo, twitter, o usaras alguna otra opción centralizada, no eras notificado.",
-        "cover": "1.jpg"
+        "cover": "1.webp"
       },
       {
         "id": 2,
         "title": "Cómo crecer en web3: Guía espacial✨🔭",
         "link": "https://medium.com/@joelesdar/c%C3%B3mo-crecer-en-web3-gu%C3%ADa-espacial-213fd08422a4",
         "description": "El Universo, en sus etapas iniciales era puro caos, expandiéndose sin parar, enfriándose pero de poco a poco, convirtiendo todas esas nubes de partículas llenas de energía en estructuras cada vez más complejas. Y por fin, después de mucho tiempo, ese caos se fue organizando, la luz fue libre de viajar en el espacio y esas estructuras aparecían como pequeños pero inmensos puntos en la bóveda celeste.",
-        "cover": "2.jpg"
+        "cover": "2.webp"
       }
     ]
   },
@@ -29,7 +29,7 @@
         "descriptionEn": "A grand festival where our students shone while presenting their projects developed in the Introductory Course of Blockchain and Web3, proposing new solutions in the industry.",
         "descriptionEs": "Un gran festival en que nuestros estudiantes brillaron presentando sus proyectos desarrollados en el Curso Introductorio de Blockchain y Web3, proponiendo nuevas soluciones en la industria.",
         "descriptionFr": "Un grand festival où nos étudiants ont brillé en présentant leurs projets développés dans le Cours Introductif sur la Blockchain et Web3, proposant de nouvelles solutions dans l'industrie.",
-        "cover": "1.jpg"
+        "cover": "1.webp"
       },
       {
         "id": 2,
@@ -41,7 +41,7 @@
         "descriptionEn": "We celebrate the first meeting between universities in Colombia to build proposals in Blockchain and Web3 for society, originating from academia and student clubs.",
         "descriptionEs": "Celebramos el primer encuentro entre universidades en Colombia para construir desde la academia y los clubes estudiantiles propuestas en Blockchain y Web3 para la sociedad.",
         "descriptionFr": "Nous célébrons la première rencontre entre les universités en Colombie afin de construire, depuis le milieu académique et les clubs étudiants, des propositions en matière de Blockchain et de Web3 pour la société.",
-        "cover": "2.jpg"
+        "cover": "2.webp"
       },
       {
         "id": 3,
@@ -53,7 +53,7 @@
         "descriptionEn": "The largest event of Google communities is back after many years to showcase the latest developments in technology.",
         "descriptionEs": "El evento más grande de las comunidades de Google vuelve después de muchos años para dar a conocer las últimas novedades en tecnología.",
         "descriptionFr": "Le plus grand événement des communautés Google est de retour après de nombreuses années pour présenter les dernières nouveautés en technologie.",
-        "cover": "3.jpg"
+        "cover": "3.webp"
       },
       {
         "id": 4,
@@ -65,7 +65,7 @@
         "descriptionEn": "Learn Blockchain in Community, the event where different communities come together to integrate new enthusiasts and entrepreneurs into the world of Blockchain, starting from the ABC.",
         "descriptionEs": "Aprende de Blockchain en Comunidad, el espacio donde distintas comunidades nos unimos para integrar a nuevos aficionados y empresarios en el mundo de Blockchain, empezando desde el ABC.",
         "descriptionFr": "Apprends Blockchain en Communauté, l'événement où différentes communautés se réunissent pour intégrer de nouveaux passionnés et entrepreneurs dans le monde de la Blockchain, en commençant par le ABC.",
-        "cover": "4.jpg"
+        "cover": "4.webp"
       },
       {
         "id": 5,
@@ -77,7 +77,7 @@
         "descriptionEn": "In TuringBox, our SheTech node is born, an inclusive space where women can explore, learn, and develop skills in the technological field.",
         "descriptionEs": "En TuringBox nace nuestro nodo SheTech, un espacio inclusivo donde las mujeres puedan explorar, aprender y desarrollar habilidades en el campo tecnológico.",
         "descriptionFr": "Dans TuringBox, notre nœud SheTech voit le jour, un espace inclusif où les femmes peuvent explorer, apprendre et développer des compétences dans le domaine technologique.",
-        "cover": "5.jpg"
+        "cover": "5.webp"
       },
       {
         "id": 6,
@@ -89,7 +89,7 @@
         "descriptionEn": "It's been 8 years since Ethereum was born and revolutionized the world, and from the Platzi studios, we celebrate the success of this project as a community.",
         "descriptionEs": "Han sido ya 8 años desde que Ethereum nació y revoluciono el mundo, y desde los estudios de Platzi celebramos como comunidad el éxito de este proyecto.",
         "descriptionFr": "Il y a déjà 8 ans qu'Ethereum est né et a révolutionné le monde, et depuis les studios de Platzi, nous célébrons en communauté le succès de ce projet.",
-        "cover": "6.jpg"
+        "cover": "6.webp"
       },
       {
         "id": 7,
@@ -101,7 +101,7 @@
         "descriptionEn": "How to grow professionally in Web3? How to invest in cryptocurrencies safely and responsibly? In this event, our guests explain to us how to succeed in this new world.",
         "descriptionEs": "¿Cómo crecer profesionalmente en Web3? ¿Cómo invertir en criptomonedas de manera segura y responsable? En este evento nuestros invitados nos explican cómo triunfar en este nuevo mundo.",
         "descriptionFr": "Comment évoluer dans le Web3 ? Comment investir dans les cryptomonnaies en toute sécurité et de manière responsable ? Nos invités expliqueront comment réussir dans ce nouveau monde.",
-        "cover": "7.jpg"
+        "cover": "7.webp"
       },
       {
         "id": 8,
@@ -113,7 +113,7 @@
         "descriptionEn": "There are already many solutions where Blockchain technology is transforming the landscape in various industries. Algorand shows us several of these use cases in its ecosystem.",
         "descriptionEs": "Existen ya muchas soluciones en las que Blockchain como tecnología está transformando el panorama en muchas industrias. Algorand nos muestra varias de estos casos de uso en su ecositema.",
         "descriptionFr": "De nombreuses solutions existent déjà où la technologie Blockchain transforme le paysage dans diverses industries. Algorand nous présente plusieurs de ces cas d'utilisation dans son écosystème",
-        "cover": "8.jpg"
+        "cover": "8.webp"
       },
       {
         "id": 9,
@@ -125,7 +125,7 @@
         "descriptionEn": "What are these new concepts of Blockchain and Web3, and how is Latin America leading this technological revolution? I'll explain it to you in this talk.",
         "descriptionEs": "¿Qué son estos nuevos conceptos de Blockchain y Web3, y cómo Latinoamérica está liderando esta revolución tecnologica? En esta charla te lo explico.",
         "descriptionFr": "Quels sont les nouveaux concepts de la Blockchain et du Web3, et comment l'Amérique latine guide cette révolution technologique ? Je t'explique tout lors de cette conférence.",
-        "cover": "9.jpg"
+        "cover": "9.webp"
       }
     ]
   }, 
@@ -139,7 +139,7 @@
         "descriptionEn": "In TuringBox, Google Developer Student Club, I lead the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
         "descriptionEs": "En TuringBox, Google Developer Student Club, lidero el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
         "descriptionFr": "À TuringBox, Google Developer Student Club, je dirige le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
-        "cover": "1.jpg",
+        "cover": "1.webp",
         "link": "https://www.instagram.com/turingbox/"
       },
       {
@@ -150,7 +150,7 @@
         "descriptionEn": "As an ambassador for the Ethereum Developer Program, I mentored and supported students in their journey to become Web3 developers in the program, and led the ambassador group. Additionally, I represented Platzi and the School of Blockchain and Web3 in various spaces, building community.",
         "descriptionEs": "Como embajador del Ethereum Developer Program, mentoricé y apoyé el proceso educativo de los estudiantes en su camino para ser desarrolladores Web3 en el programa, y lideré el grupo de embajadores. También, representé a Platzi y a la Escuela de Blockchain y Web3 en varios espacios, creando comunidad.",
         "descriptionFr": "En tant qu'ambassadeur du Ethereum Developer Program, j'ai mentoré et soutenu les étudiants dans leur parcours pour devenir des développeurs Web3 dans le programme, et j'ai dirigé le groupe d'ambassadeurs. De plus, j'ai représenté Platzi et l'École de Blockchain et Web3 dans divers espaces, créant ainsi une communauté.",
-        "cover": "2.jpg",
+        "cover": "2.webp",
         "link": "https://platzi.com/cursos/ethereum-developer-program/"
       },
       {
@@ -161,7 +161,7 @@
         "descriptionEn": "I was part of the Push Protocol ambassador team for Latin America, tasked with spreading the protocol in the region. I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects.",
         "descriptionEs": "Hice parte del equipo de embajadores de Push Protocol para Latinoamérica, con la misión de difundir el protocolo en la región. Me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos.",
         "descriptionFr": "J'ai fait partie de l'équipe des ambassadeurs de Push Protocol pour l'Amérique latine, diffusant le protocole dans la région. En tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe.",
-        "cover": "3.jpg",
+        "cover": "3.webp",
         "link": "https://push.org/"
       },
       {
@@ -172,7 +172,7 @@
         "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
         "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
         "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
-        "cover": "4.jpg",
+        "cover": "4.webp",
         "link": "https://www.blockchainacceleration.org/"
       }
     ]
@@ -187,7 +187,7 @@
         "descriptionEn": "At Push Protocol, I was responsible for the development to make their official site a multi-language application. Additionally, I wrote the texts to enable the site to be in Spanish and supported the implementation for the Hindi language.",
         "descriptionEs": "En Push Protocol, me encargué del desarrollo para que su sitio oficial fuera una aplicación multi-idioma. Además, redacté los textos para que el sitio pudiera estar en español y apoyé la implementación para el idioma hindi.",
         "descriptionFr": "Dans Push Protocol, j'ai été chargé du développement pour que leur site officiel soit une application multilingue. De plus, j'ai rédigé les textes pour que le site puisse être en espagnol et j'ai soutenu la mise en œuvre pour la langue hindi.",
-        "cover": "1.jpg",
+        "cover": "1.webp",
         "link": "https://push.org/"
       },
       {
@@ -198,7 +198,7 @@
         "descriptionEn": "As a freelance professional, I worked on updating the official website of Manstery, as well as developing registration and sales pages for various courses and events, among other tasks.",
         "descriptionEs": "Como profesional independiente, trabajé en la actualización del sitio oficial de Manstery, además de desarrollar páginas de registro y venta para distintos cursos y eventos, entre otras labores.",
         "descriptionFr": "En tant que professionnel indépendant, j'ai travaillé sur la mise à jour du site officiel de Manstery, ainsi que sur le développement de pages d'inscription et de vente pour divers cours et événements, parmi d'autres tâches.",
-        "cover": "2.png",
+        "cover": "2.webp",
         "link": "https://manstery.com.co/"
       },
       {
@@ -209,7 +209,7 @@
         "descriptionEn": "At Jenial, I led and participated in all areas of the design, development, and implementation team for websites for various clients of the company.",
         "descriptionEs": "En Jenial lideré y participé en todas las áreas del equipo de diseño, desarrollo e implementación de páginas web para los distintos clientes de la empresa.",
         "descriptionFr": "Chez Jenial, j'ai dirigé et participé dans tous les domaines de l'équipe de conception, de développement et de mise en œuvre de sites web pour les différents clients de l'entreprise.",
-        "cover": "3.png",
+        "cover": "3.webp",
         "link": ""
       },
       {
@@ -220,7 +220,7 @@
         "descriptionEn": "I had the opportunity to work at L'avenir, where I was responsible for the development of a product in which I created chatbots to automate the workflow and tasks for clients.",
         "descriptionEs": "Tuve la oportunidad de trabajar en L'avenir, donde me encargué del desarrollo de un producto en el que estaba a cargo de crear chatbots que automatizaran el flujo de trabajo y tareas de los clientes.",
         "descriptionFr": "J'ai eu l'opportunité de travailler chez L'avenir, où j'étais en charge du développement d'un produit dans lequel je créais des chatbots pour automatiser le flux de travail et les tâches des clients.",
-        "cover": "4.png",
+        "cover": "4.webp",
         "link": "https://www.lavenir.com.co/"
       }
     ]

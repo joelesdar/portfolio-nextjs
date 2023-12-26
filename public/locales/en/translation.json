@@ -97,47 +97,34 @@
       "responsability3" : "Conducted tests and perform security, usability and quality controls."
     }
   },
-  "title-projects" : "Some of my projects",
-  "subtitle-projects" : "Featured projects",
-  "subtitle-more-projects" : "Other projects",
-  "show-more-projects" : "Show More",
-  "show-less-projects" : "Show Less",
+  "title-projects" : "My projects",
   "projects" : {
     "project1" : {
-      "title": "Breaking Bad App",
-      "description" : "Random generator of famous quotes from Breaking Bad using an API."
+      "title": "Petgram"
     },
     "project2" : {
-      "title": "Insurance app",
-      "description" : "Car insurance calculator simulator."
+      "title": "Breaking Bad App"
     },
     "project3" : {
-      "title": "Budget App",
-      "description" : "Administration and management personal budget app."
+      "title": "Rick and Morty App"
     },
     "project4" : {
-      "title": "Pets App",
-      "description" : "Vet appointment manager for your beloved pets."
+      "title": "Voting Dapp"
     },
     "project5" : {
-      "title": "Business card",
-      "description" : "Animated business card with sliders."
+      "title": "Pets App"
+    },
+    "project6" : {
+      "title": "Insurance app"
+    },
+    "project7" : {
+      "title": "Business card"
     },
     "project8" : {
-      "title": "Xylophone JS",
-      "description" : "Interactive xylophone made with JS."
+      "title": "Xylophone JS"
     },
-    "project11" : {
-      "title": "Petgram",
-      "description" : "With Petgram you can find and like the photos of your favorite pets."
-    },
-    "project12" : {
-      "title": "Rick and Morty App",
-      "description" : "With this app you can generate ramdon Rick and Morty characters and read their info."
-    },
-    "project13" : {
-      "title": "Voting Dapp",
-      "description" : "This Dapp is a voting system that allows an Ethereum address to vote only once on a binary proposal."
+    "project9" : {
+      "title": "Budget App"
     }
   },
   "title-contact" : "Find me at:",

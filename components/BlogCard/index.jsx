@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 export const BlogCard = ({ post }) => {
 
-  const ImageSrc = require(`../../assets/blog/${post.cover}`).default
+  const ImageSrc = require(`../../public/assets/blog/${post.cover}`).default
 
   return (
     <StyledCard>

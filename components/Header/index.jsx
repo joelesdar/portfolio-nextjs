@@ -3,13 +3,13 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useTranslation } from 'next-i18next'
 import Image from 'next/image'
-import img from '../../assets/logo.png'
-import Es from '../../assets/Es'
-import En from '../../assets/En'
-import Fr from '../../assets/Fr'
+import img from '../../public/assets/logos/logo.webp'
+import Es from '../../public/assets/logos/Es'
+import En from '../../public/assets/logos/En'
+import Fr from '../../public/assets/logos/Fr'
 import { StyledHeader } from './styles'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import HamburguerIcon from '../../assets/HamburguerIcon'
+import HamburguerIcon from '../../public/assets/logos/HamburguerIcon'
 
 
 export const Header = () => {

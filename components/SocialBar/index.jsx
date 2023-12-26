@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
-import social from '../../assets/constants'
+import social from '../../public/assets/logos/constants'
 import { StyledSocialBar } from './styles'
 
 export const SocialBar = () => {

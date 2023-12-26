@@ -6,7 +6,7 @@ import { useTranslation } from 'next-i18next';
 export const EventsCard = ({ post }) => {
 
   const { titleEn, titleEs, titleFr, descriptionEn, descriptionEs, descriptionFr, cover, link1, link2 } = post
-  const imageSrc = require(`../../assets/events/${cover}`).default
+  const imageSrc = require(`../../public/assets/events/${cover}`).default
   const { t, i18n } = useTranslation()
   const currentLanguage = i18n.language
   let title = ''

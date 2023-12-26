@@ -7,8 +7,8 @@ import { BlogBanner } from '../components/BlogBanner'
 import { SocialBar } from '../components/SocialBar'
 import posts from '../posts.json'
 import Layout from '../components/Layout'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { useTranslation } from 'next-i18next'
 
 export default function Home(props) {

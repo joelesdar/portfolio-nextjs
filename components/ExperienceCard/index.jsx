@@ -7,7 +7,7 @@ export const ExperienceCard = ({ post, folder }) => {
 
   
   const { titleEn, titleEs, titleFr, descriptionEn, descriptionEs, descriptionFr, cover, link } = post
-  const imageSrc = require(`../../assets/${folder}/${cover}`).default
+  const imageSrc = require(`../../public/assets/${folder}/${cover}`).default
   const { i18n } = useTranslation()
   const currentLanguage = i18n.language
   let title = ''

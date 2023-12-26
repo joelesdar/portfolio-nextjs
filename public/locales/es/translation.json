@@ -98,46 +98,33 @@
     }
   },
   "title-projects" : "Mis Proyectos",
-  "subtitle-projects" : "Proyectos destacados",
-  "subtitle-more-projects" : "Otros proyectos",
-  "show-more-projects" : "Ver Más",
-  "show-less-projects" : "Ver Menos",
-  "projects": {
+  "projects" : {
     "project1" : {
-      "title": "App de Breaking Bad",
-      "description" : "Generador aleatorio de frases celebres de la serie Breaking Bad usando un API."
+      "title": "Petgram"
     },
     "project2" : {
-      "title": "CotizApp",
-      "description" : "Simulador de calculadora de seguros para autos."
+      "title": "App de Breaking Bad"
     },
     "project3" : {
-      "title": "App de Presupuesto",
-      "description" : "Aplicación para administrar y gestionar tu presupuesto personal."
+      "title": "App de Rick and Morty"
     },
     "project4" : {
-      "title": "Mascotas App",
-      "description" : "Gestor de citas de veterinaria para tus queridas mascotas."
+      "title": "Dapp de votación"
     },
     "project5" : {
-      "title": "Tarjeta de muestra",
-      "description" : "Tarjeta tipo portafolio de presentación con controles deslizantes."
+      "title": "Mascotas App"
+    },
+    "project6" : {
+      "title": "CotizApp"
+    },
+    "project7" : {
+      "title": "Tarjeta de muestra"
     },
     "project8" : {
-      "title": "Xilófono JS",
-      "description" : "Xilófono interactivo hecho en JS."
+      "title": "Xilófono JS"
     },
-    "project11" : {
-      "title": "Petgram",
-      "description" : "Con Petgram puedes interactuar con las fotos de tus mascotas favoritas."
-    },
-    "project12" : {
-      "title": "App de Rick y Morty",
-      "description" : "Con esta aplicación puedes generar personajes aleatorios de Rick y Morty, leer su información y revisar el historial de personajes consultados."
-    },
-    "project13" : {
-      "title": "Dapp de Votación",
-      "description" : "Esta DApp es un sistema de votación que permite a una dirección Ethereum votar una única vez entre dos opciones."
+    "project9" : {
+      "title": "App de presupuesto"
     }
   },
   "title-contact" : "Encuentrame como:",

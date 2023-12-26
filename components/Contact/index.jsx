@@ -2,7 +2,7 @@ import { useTranslation } from 'next-i18next'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import social from '../../assets/constants'
+import social from '../../public/assets/logos/constants'
 import { ContactContainer } from './styles'
 import 'bootstrap/dist/css/bootstrap.min.css'
 

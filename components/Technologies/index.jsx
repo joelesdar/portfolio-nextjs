@@ -4,7 +4,7 @@ import { faSquareJs,faGitAlt, faWindows, faReact, faCss3, faHtml5, faEthereum, f
 import { faCloud } from '@fortawesome/free-solid-svg-icons'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import logo from '../../assets/logo.png'
+import logo from '../../public/assets/logos/logo.webp'
 import { StyledTechnologies } from './styles'
 
 export const Technologies = () => {
