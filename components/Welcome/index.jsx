@@ -16,7 +16,7 @@ export const Welcome = () => {
         <div id='stars3' />
         <Title />
       </motion.div>
-      <h1>Joel Esteban Diaz Arévalo</h1>
+      <h1>Joel Esteban Diaz Arévalo @Joelesdar</h1>
     </StyledWelcome>
   )
 }
