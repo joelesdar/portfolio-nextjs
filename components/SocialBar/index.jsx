@@ -6,7 +6,7 @@ import { StyledSocialBar } from './styles'
 export const SocialBar = () => {
   return (
     <StyledSocialBar className='d-none d-sm-block'>
-      <a href={social.github} target='_blank' rel='noreferrer'>
+      <a href={social.github} target='_blank'>
         <FontAwesomeIcon
           icon={faGithub}
           className='social-icon'
@@ -15,7 +15,7 @@ export const SocialBar = () => {
           title='GitHub'
         />
       </a>
-      <a href={social.linkedin} target='_blank' rel='noreferrer'>
+      <a href={social.linkedin} target='_blank'>
         <FontAwesomeIcon
           icon={faLinkedinIn}
           className='social-icon'
@@ -24,7 +24,7 @@ export const SocialBar = () => {
           title='LinkedIn'
         />
       </a>
-      <a href={social.x} target='_blank' rel='noreferrer'>
+      <a href={social.x} target='_blank'>
         <FontAwesomeIcon
           icon={faXTwitter}
           className='social-icon'
@@ -33,7 +33,7 @@ export const SocialBar = () => {
           title='X'
         />
       </a>
-      <a href={social.medium} target='_blank' rel='noreferrer'>
+      <a href={social.medium} target='_blank'>
         <FontAwesomeIcon
           icon={faMedium}
           className='social-icon'
@@ -42,7 +42,7 @@ export const SocialBar = () => {
           title='Medium'
         />
       </a>
-      <a href={social.instagram} target='_blank' rel='noreferrer'>
+      <a href={social.instagram} target='_blank'>
         <FontAwesomeIcon
           icon={faInstagram}
           className='social-icon'
@@ -51,7 +51,7 @@ export const SocialBar = () => {
           title='Instagram'
         />
       </a>
-      <a href={social.behance} target='_blank' rel='noreferrer'>
+      <a href={social.behance} target='_blank'>
         <FontAwesomeIcon
           icon={faBehance}
           className='social-icon'

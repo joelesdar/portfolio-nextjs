@@ -40,7 +40,6 @@ export const ContactContainer = Styled.div`
   }
 
   .btn-primary:hover {
-    background-color: var(--dark);
     border-radius: 8px;
     border: 2px solid var(--white);
     color: var(--white);
