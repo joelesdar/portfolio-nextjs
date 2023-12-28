@@ -1,6 +1,6 @@
 import Styled from '@emotion/styled'
 
-export const StyledTechnologies = Styled.div`
+export const StyledTechnologies = Styled.section`
 
 background: var(--black);
 padding: 160px 0 80px 0;

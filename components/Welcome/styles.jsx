@@ -1,6 +1,6 @@
 import Styled from '@emotion/styled'
 
-export const StyledWelcome = Styled.div`
+export const StyledWelcome = Styled.section`
 
   max-height: 100vh;
   width: 100%;

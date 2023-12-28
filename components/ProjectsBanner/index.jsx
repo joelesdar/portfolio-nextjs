@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'next-i18next'
-import { Project } from '../Project'
+import { ProjectCard } from '../ProjectCard'
 import { StyledProjects } from './styles'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons'
@@ -15,7 +15,7 @@ import cover8 from '../../public/assets/projects/project8.webp'
 import cover9 from '../../public/assets/projects/project9.webp'
 import { motion } from 'framer-motion'
 
-export const Projects = () => {
+export const ProjectsBanner = () => {
   const { t } = useTranslation()
   const [showMoreProjects, setShowMoreProjects] = useState(false);
 
@@ -43,7 +43,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               transition={{duration: 1}}>
               <div className='col-12 col-md-6 col-lg-4'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project1.title')}
                     cover={cover1}
                     libraries='React GraphQL'
@@ -52,7 +52,7 @@ export const Projects = () => {
                   />
               </div>
               <div className='col-12 col-md-6 col-lg-4'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project2.title')}
                     cover={cover2}
                     libraries='React Bootstrap API'
@@ -61,7 +61,7 @@ export const Projects = () => {
                   />
               </div>
               <div className='col-12 col-md-6 col-lg-4 d-md-none d-lg-block'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project3.title')}
                     cover={cover3}
                     libraries='React GraphQL API'
@@ -75,7 +75,7 @@ export const Projects = () => {
                 className='row justify-content-around'
               >
                 <div className='col-6 col-md-6 col-lg-4 d-none d-md-block d-lg-none'>
-                    <Project
+                    <ProjectCard
                       title={t('projects.project3.title')}
                       cover={cover3}
                       libraries='React GraphQL API'
@@ -84,7 +84,7 @@ export const Projects = () => {
                     />
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
-                    <Project
+                    <ProjectCard
                       title={t('projects.project4.title')}
                       cover={cover4}
                       libraries='Solidity React web3.js'
@@ -93,7 +93,7 @@ export const Projects = () => {
                     />
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project5.title')}
                     cover={cover5}
                     libraries='React Bootstrap'
@@ -102,7 +102,7 @@ export const Projects = () => {
                   />
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project6.title')}
                     cover={cover6}
                     libraries='React Bootstrap'
@@ -111,7 +111,7 @@ export const Projects = () => {
                   />
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project7.title')}
                     cover={cover7}
                     libraries='JavaScript'
@@ -120,7 +120,7 @@ export const Projects = () => {
                   />
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
-                  <Project
+                  <ProjectCard
                     title={t('projects.project8.title')}
                     cover={cover8}
                     libraries='JavaScript'
@@ -129,7 +129,7 @@ export const Projects = () => {
                   />
                 </div>
                 <div className='col-12 col-md-6 col-lg-4'>
-                    <Project
+                    <ProjectCard
                       title={t('projects.project9.title')}
                       cover={cover9}
                       libraries='React Bootstrap'

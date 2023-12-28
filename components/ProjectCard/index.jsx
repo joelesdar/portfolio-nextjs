@@ -4,7 +4,7 @@ import { StyledProject } from './styles'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 
-export const Project = ({ title, description, cover, libraries, github, link }) => {
+export const ProjectCard = ({ title, description, cover, libraries, github, link }) => {
   return (
     <StyledProject>
       <div className='card'>

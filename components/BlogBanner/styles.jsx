@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 
-export const Banner = styled.div`
+export const Banner = styled.section`
   background: var(--black);
   padding: 160px 0 128px 0;
 

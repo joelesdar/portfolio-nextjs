@@ -19,11 +19,17 @@ export default function RootLayout({ children }) {
         <meta property='og:image:width' content='750' />
         <meta property='og:image:height' content='750' />
       </Head>
-      <Header />
-      { children }
+      <header>
+        <Header />
+      </header>
       <Analytics />
-      <Contact />
-      <Footer />
+      <main>
+        { children }
+      </main>
+      <footer>
+        <Contact />
+        <Footer />
+      </footer>
     </>
   )
 }
