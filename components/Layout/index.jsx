@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
         <meta name='viewport' content='width-device-width, initial-scale=1' />
         <meta name='description' content={t('meta-description')} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@joelesdar" />
         <meta name="twitter:title" content="Joel Esteban Diaz Arévalo @Joelesdar" />
         <meta name="twitter:description" content={t('meta-description')} />
         <meta name="twitter:image" content='https://raw.githubusercontent.com/joelesdar/portfolio-nextjs/main/public/assets/profile/profile1.webp' />
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <meta property='og:image' content='https://raw.githubusercontent.com/joelesdar/portfolio-nextjs/main/public/assets/profile/profile1.webp' />
         <meta property='og:image:width' content='750' />
         <meta property='og:image:height' content='750' />
+        <meta property="og:site_name" content="Joelesdar.com" />
       </Head>
       <Analytics />
       <SpeedInsights />
