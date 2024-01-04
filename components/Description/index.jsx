@@ -17,7 +17,7 @@ export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
             {firstBlock && (
               <div className="row justify-content-around align-items-center">
                 <motion.div 
-                  className='image col-10 col-lg-5 col-xl-6'
+                  className='image col-12 col-sm-10 col-lg-5 col-xl-6'
                   initial={{x: "-100%", opacity: 0}}
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}
@@ -25,7 +25,7 @@ export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
                   <Image src={photo1} alt='Foto Joel' />
                 </motion.div>
                 <motion.div 
-                  className='full-description col-10 col-lg-6 mt-4 mt-lg-0'
+                  className='full-description col-12 col-sm-10 col-lg-6 mt-4 mt-lg-0'
                   initial={{x: "100%", opacity: 0}}
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}
@@ -47,7 +47,7 @@ export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
             {secondBlock && (
               <div className="row justify-content-around align-items-center second-block">
                 <motion.div 
-                  className='full-description col-10 col-lg-5 col-xl-4'
+                  className='full-description col-12 col-sm-10 col-lg-5 col-xl-4'
                   initial={{x: "-100%", opacity: 0}}
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}
@@ -59,7 +59,7 @@ export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
                   <p className='description'>{t('description-hello-2')}</p>
                 </motion.div>
                 <motion.div 
-                  className='image second-image col-10 col-lg-6 col-xl-8 mt-4 mt-lg-0'
+                  className='image second-image col-12 col-sm-10 col-lg-6 col-xl-8 mt-4 mt-lg-0'
                   initial={{x: "100%", opacity: 0}}
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}
@@ -71,7 +71,7 @@ export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
             {thirdBlock && (
               <div className="row justify-content-around align-items-center">
                 <motion.div 
-                  className='image third-image col-10 col-lg-5 col-xl-6'
+                  className='image third-image col-12 col-sm-10 col-lg-5 col-xl-6'
                   initial={{x: "-100%", opacity: 0}}
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}
@@ -79,7 +79,7 @@ export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
                   <Image src={photo3} alt='Foto Joel' />
                 </motion.div>
                 <motion.div 
-                  className='full-description col-10 col-lg-6 mt-4 mt-lg-0'
+                  className='full-description col-12 col-sm-10 col-lg-6 mt-4 mt-lg-0'
                   initial={{x: "100%", opacity: 0}}
                   whileInView={{x: 0, opacity: 100}}
                   viewport={{ once: true }}

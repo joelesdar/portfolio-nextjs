@@ -111,13 +111,13 @@ export const Technologies = () => {
                 viewport={{ once: true }}
                 transition={{duration: 1}}>
                 <div className='row justify-content-center'>
-                  <div className='col-10'>
+                  <div className='col-12 col-sm-10'>
                     <h2 className='title-technologies'>
                       {t('title-technologies')}
                     </h2>
                     <p>{t('description-technologies')}</p>
                   </div>
-                  <div className='col-5'>
+                  <div className='col-6 col-sm-5'>
                     <p>{t('description-specialized-technologies')}</p>
                     <ul className='tech-list'>
                       <li>Git, Github</li>
@@ -129,7 +129,7 @@ export const Technologies = () => {
                       <li>Solidity</li>
                     </ul>
                   </div>
-                  <div className='col-5'>
+                  <div className='col-6 col-sm-5'>
                     <p>{t('description-more-technologies')}</p>
                     <ul className='tech-list'>
                       <li>Google Cloud</li>
