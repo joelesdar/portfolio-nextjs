@@ -23,7 +23,7 @@
   "personal-projects" : "Proyectos",
   "contact" : "Contacto",
   "subtitle" : "Desarrollador Blockchain y Frontend",
-  "title-hello-1" : "!Hola!",
+  "title-hello-1" : "¡Hola!",
   "title-name-1" : "  Soy Joel",
   "description-hello-1" : "Soy un desarrollador web, conferencista, constructor de comunidades y educador apasionado, propositivo y creativo. Convencido como latinoamericano de que nuestra región será potencia mundial en tecnología, enfoco mi trabajo en crear iniciativas para crecer colectivamente, así como crear productos de software de gran calidad orientados al detalle y al usuario.✨",
   "description-tag-1" : "Blockchain & Web3",
@@ -43,7 +43,7 @@
   "title-blog" : "Blog",
   "description-blog": "Pensando en crecer juntos en este mundo te comparto este espacio, un blog en donde escribo y te comparto varios consejos, investigaciones, artículos, experiencias e ideas con el fin de que se conviertan en pequeñas conversaciónes llenas de valor y aprendizaje.",
   "title-events" : "Construyendo Comunidad",
-  "description-events": "El futuro se construye cada día entre voces diferentes, juntando nuestras mentes y talentos en comunidad para propósitos mayores. Creyendo profundamente en esto, y creando desde distintas comunidades, he tenido la oportunidad y el rol de liderar, organizar, moderar y ser conferencista en varios proyectos y eventos exitosos.",
+  "description-events": "Creo que el futuro se construye cada día entre voces diferentes, juntando nuestras mentes y talentos en comunidad para propósitos mayores. Creando desde distintas comunidades, he tenido la oportunidad y el rol de liderar, organizar, moderar y ser conferencista en varios proyectos y eventos exitosos.",
   "button-event-card-1": "Saber más",
   "button-event-card-2": "Ver evento",
   "title-experiences": "Experiencias",
@@ -126,7 +126,7 @@
       "title": "App de presupuesto"
     }
   },
-  "title-contact" : "Encuentrame como:",
+  "title-contact" : "Encuéntrame como:",
   "link-contact" : "Contactar",
   "message-footer" : {
     "first-part" : "Hecho con ",

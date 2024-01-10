@@ -4,7 +4,6 @@ import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import social from '../../public/assets/logos/constants'
 import { ContactContainer } from './styles'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 export const Contact = () => {
   const { t } = useTranslation()
