@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faMedium, faXTwitter, faLinkedinIn, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import social from '../../public/assets/logos/constants'
-import { ContactContainer } from './styles'
+import { ContactContainer, Button } from './styles'
 
 export const Contact = () => {
   const { t } = useTranslation()
@@ -85,8 +85,7 @@ export const Contact = () => {
                 </a>
               </div>
               <div className='col-12'>
-                <a className='btn btn-primary' href='mailto:jodiazare@gmail.com'>{t('link-contact')}</a>
-
+                <Button className='btn btn-primary' href='mailto:jodiazare@gmail.com'>{t('link-contact')}</Button>
                 <p className='mail'><FontAwesomeIcon
                   icon={faEnvelope}
                   className='social-icon'

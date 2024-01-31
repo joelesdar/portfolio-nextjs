@@ -16,7 +16,7 @@ const Profile = () => {
     <Layout>
       <Description thirdBlock />
       <Technologies />
-      <ExperienceBanner posts={posts[3].JobsPosts} titleText={t('title-experiences')} descriptionText={t('description-jobs')} folder={'jobs'}/>
+      <ExperienceBanner posts={posts[3].JobsPosts} titleText={t('title-experiences')} descriptionText={t('description-jobs')} folder={'jobs'} disabledButton />
       <Studies />
       <ProjectsBanner />
     </Layout>

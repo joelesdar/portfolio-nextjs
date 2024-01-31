@@ -29,24 +29,35 @@ export const ContactContainer = Styled.div`
     font-size: 2rem;
   }
 
-  .btn-primary {
-    background-color: var(--black);
-    padding: 8px 32px;
-    border-radius: 8px;
-    color: var(--yellow);
-    margin: 32px 8px;
-    border: 2px solid var(--yellow);
-    font-weight: 500;
+  .mail {
+    color: var(--white);
+    margin-top: 32px;
   }
 
-  .btn-primary:hover {
+`
+
+export const Button = Styled.a`
+
+  background-color: var(--black);
+  padding: 8px 32px;
+  border-radius: 8px;
+  color: var(--yellow);
+  margin: 32px 0px 0px;
+  border: 2px solid var(--yellow);
+  font-weight: 500;
+
+  :hover {
     border-radius: 8px;
     border: 2px solid var(--white);
     color: var(--white);
+    background-color: transparent;
   }
 
-  .mail {
+  :active {
+    border-radius: 8px;
+    border: 2px solid var(--white);
     color: var(--white);
+    background-color: transparent;
   }
 
 `

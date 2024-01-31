@@ -15,6 +15,10 @@ export const StyledBanner = styled.section`
     margin: 32px 0 64px 0;
   }
 
+  .button {
+    text-align: center;
+  }
+
   .image {
     margin-top: 2em;
     margin-bottom: 2em;
