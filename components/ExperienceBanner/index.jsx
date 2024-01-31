@@ -33,9 +33,14 @@ export const ExperienceBanner = ({ posts, titleText, descriptionText, folder, di
               {posts.map(post => (
                 <ExperienceCard post={post} folder={folder} key={post.id} />
               ))}
-              <div className="col-12 button">
+              <motion.div 
+                className="col-12 button"
+                initial={{ opacity: 0}}
+                whileInView={{ opacity: 100}}
+                viewport={{ once: true }}
+                transition={{duration: 1}}>
                 {!disabledButton && <Button className='btn btn-primary' href={`/${i18n.language}/profile`}>{t('link-profile')}</Button>}
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
