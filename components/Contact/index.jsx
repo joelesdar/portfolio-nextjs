@@ -41,17 +41,6 @@ export const Contact = () => {
                 </a>
               </div>
               <div className='col-2'>
-                <a href={social.x} target='_blank'>
-                  <FontAwesomeIcon
-                    icon={faXTwitter}
-                    className='social-icon'
-                    color='var(--main-blue)'
-                    size='2xl'
-                    title='X'
-                  />
-                </a>
-              </div>
-              <div className='col-2'>
                 <a href={social.medium} target='_blank'>
                   <FontAwesomeIcon
                     icon={faMedium}
@@ -59,17 +48,6 @@ export const Contact = () => {
                     color='var(--main-blue)'
                     size='2xl'
                     title='Medium'
-                  />
-                </a>
-              </div>
-              <div className='col-2'>
-                <a href={social.instagram} target='_blank'>
-                  <FontAwesomeIcon
-                    icon={faInstagram}
-                    className='social-icon'
-                    color='var(--main-blue)'
-                    size='2xl'
-                    title='Instagram'
                   />
                 </a>
               </div>

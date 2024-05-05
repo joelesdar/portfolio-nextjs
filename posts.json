@@ -14,6 +14,13 @@
         "link": "https://medium.com/@joelesdar/c%C3%B3mo-crecer-en-web3-gu%C3%ADa-espacial-213fd08422a4",
         "description": "El Universo, en sus etapas iniciales era puro caos, expandiéndose sin parar, enfriándose pero de poco a poco, convirtiendo todas esas nubes de partículas llenas de energía en estructuras cada vez más complejas. Y por fin, después de mucho tiempo, ese caos se fue organizando, la luz fue libre de viajar en el espacio y esas estructuras aparecían como pequeños pero inmensos puntos en la bóveda celeste.",
         "cover": "2.webp"
+      },
+      {
+        "id": 3,
+        "title": "🚀Guía espacial de Arbitrum: Conociendo el Arbiverso",
+        "link": "https://medium.com/@joelesdar/gu%C3%ADa-espacial-de-arbitrum-conociendo-el-arbiverso-eacbc3159a76",
+        "description": "Antes de dar el siguiente paso en nuestro viaje en este universo de Blockchain y Web3, y conocer qué es Arbitrum y cómo se ha convertido en la principal solución de Capa 2 de Ethereum, es importante que ya tengas conocimientos básicos sobre Blockchain y que ya conozcas qué es Ethereum.",
+        "cover": "3.webp"
       }
     ]
   },

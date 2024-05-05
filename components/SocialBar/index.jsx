@@ -24,15 +24,6 @@ export const SocialBar = () => {
           title='LinkedIn'
         />
       </a>
-      <a href={social.x} target='_blank'>
-        <FontAwesomeIcon
-          icon={faXTwitter}
-          className='social-icon'
-          color='var(--main-blue)'
-          size='lg'
-          title='X'
-        />
-      </a>
       <a href={social.medium} target='_blank'>
         <FontAwesomeIcon
           icon={faMedium}
@@ -40,15 +31,6 @@ export const SocialBar = () => {
           color='var(--main-blue)'
           size='lg'
           title='Medium'
-        />
-      </a>
-      <a href={social.instagram} target='_blank'>
-        <FontAwesomeIcon
-          icon={faInstagram}
-          className='social-icon'
-          color='var(--main-blue)'
-          size='lg'
-          title='Instagram'
         />
       </a>
       <a href={social.behance} target='_blank'>
