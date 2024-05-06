@@ -124,7 +124,7 @@ export const Technologies = () => {
                       <li>HTML5, CSS3</li>
                       <li>Bootstrap</li>
                       <li>Wordpress</li>
-                      <li>JavaScript</li>
+                      <li>JavaScript & TypeScript</li>
                       <li>React.js & Next.js</li>
                       <li>Solidity</li>
                     </ul>

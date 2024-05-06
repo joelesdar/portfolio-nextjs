@@ -140,9 +140,20 @@
     "ExperiencePosts": [
       {
         "id": 1,
+        "titleEn": "💙🧡 Latam Arbitrum Ambassador ",
+        "titleEs": "💙🧡 Embajador de Arbitrum para Latam",
+        "titleFr": "💙🧡 Ambassadeur d'Arbitrum pour Latam",
+        "descriptionEn": "Currently at Arbitrum, I have the responsibility to expand, create content, and teach their ecosystem so that more people in Latin America become aware of and join the most advanced layer 2 solution for Ethereum.",
+        "descriptionEs": "Actualmente en Arbitrum, tengo la responsabilidad de expandir, crear contenido y enseñar su ecosistema para que más personas en Latinoamérica conozcan y se sumen a la solución de capa 2 más avanzada de Ethereum.",
+        "descriptionFr": "Actuellement dans Arbitrum, j'ai la responsabilité d'étendre, de créer du contenu et d'enseigner leur écosystème afin que davantage de personnes en Amérique latine découvrent et rejoignent la solution de couche 2 la plus avancée d'Ethereum.",
+        "cover": "5.webp",
+        "link": "https://arbitrum.foundation/"
+      },
+      {
+        "id": 2,
         "titleEn": "📦 TuringBox: Blockchain & Web3 Leader",
         "titleEs": "📦 TuringBox: Líder Blockchain & Web3",
-        "titleFr": "📦 TuringBox: Blockchain & Web3 Leader",
+        "titleFr": "📦 TuringBox: Leader Blockchain & Web3",
         "descriptionEn": "In TuringBox, Google Developer Student Club, I lead the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
         "descriptionEs": "En TuringBox, Google Developer Student Club, lidero el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
         "descriptionFr": "À TuringBox, Google Developer Student Club, je dirige le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
@@ -150,10 +161,10 @@
         "link": "https://www.instagram.com/turingbox/"
       },
       {
-        "id": 2,
+        "id": 3,
         "titleEn": "💚 Platzi Ambassador",
         "titleEs": "💚 Embajador en Platzi",
-        "titleFr": "💚 Platzi Ambassador",
+        "titleFr": "💚 Ambassadeur de Platzi",
         "descriptionEn": "As an ambassador for the Ethereum Developer Program, I mentored and supported students in their journey to become Web3 developers in the program, and led the ambassador group. Additionally, I represented Platzi and the School of Blockchain and Web3 in various spaces, building community.",
         "descriptionEs": "Como embajador del Ethereum Developer Program, mentoricé y apoyé el proceso educativo de los estudiantes en su camino para ser desarrolladores Web3 en el programa, y lideré el grupo de embajadores. También, representé a Platzi y a la Escuela de Blockchain y Web3 en varios espacios, creando comunidad.",
         "descriptionFr": "En tant qu'ambassadeur du Ethereum Developer Program, j'ai mentoré et soutenu les étudiants dans leur parcours pour devenir des développeurs Web3 dans le programme, et j'ai dirigé le groupe d'ambassadeurs. De plus, j'ai représenté Platzi et l'École de Blockchain et Web3 dans divers espaces, créant ainsi une communauté.",
@@ -161,10 +172,10 @@
         "link": "https://platzi.com/cursos/ethereum-developer-program/"
       },
       {
-        "id": 3,
+        "id": 4,
         "titleEn": "🔔 Latam Push Protocol Ambassador",
         "titleEs": "🔔 Embajador para Latam de Push Protocol",
-        "titleFr": "🔔 Latam Push Protocol Ambassador",
+        "titleFr": "🔔 Ambassadeur pour Latam de Push Protocol",
         "descriptionEn": "I was part of the Push Protocol ambassador team for Latin America, tasked with spreading the protocol in the region. I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects.",
         "descriptionEs": "Hice parte del equipo de embajadores de Push Protocol para Latinoamérica, con la misión de difundir el protocolo en la región. Me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos.",
         "descriptionFr": "J'ai fait partie de l'équipe des ambassadeurs de Push Protocol pour l'Amérique latine, diffusant le protocole dans la région. En tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe.",
@@ -172,10 +183,10 @@
         "link": "https://push.org/"
       },
       {
-        "id": 4,
+        "id": 5,
         "titleEn": "⬆️ BAF Ambassador",
         "titleEs": "⬆️ Embajador de BAF",
-        "titleFr": "⬆️ BAF Ambassador",
+        "titleFr": "⬆️ Ambassadeur de la BAF",
         "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
         "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
         "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",

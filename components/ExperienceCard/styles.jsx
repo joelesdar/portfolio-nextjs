@@ -31,6 +31,7 @@ export const StyledCard = styled(motion.div)`
     width: 100%;
     height: 160px;
     margin: 0;
+    padding: 0;
   }
   :hover {
     background: var(--intense-blue);
