@@ -6,12 +6,12 @@ import { DescriptionContainer } from './styles'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 
-export const Description = ({ firstBlock, secondBlock, thirdBlock}) => {
+export const Description = ({ firstBlock, secondBlock, thirdBlock, secondColor}) => {
   const { t } = useTranslation()
 
   return (
-    <DescriptionContainer topBorder={firstBlock}>
-      <div className='container'>
+    <DescriptionContainer topBorder={firstBlock} backgroundColor={secondColor}>
+      <div className={'container'}>
         <div className='row align-items-center justify-content-center'>
           <div className="col-10">
             {firstBlock && (

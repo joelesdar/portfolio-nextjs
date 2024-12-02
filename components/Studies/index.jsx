@@ -1,10 +1,10 @@
 import React from 'react'
 import { useTranslation } from 'next-i18next'
+import { StyledStudies } from './styles'
+import { motion } from 'framer-motion'
 import unal from '../../public/assets/logos/unal.webp'
 import platzi from '../../public/assets/logos/platzi.webp'
-import { StyledStudies } from './styles'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 
 export const Studies = () => {
   const { t } = useTranslation()

@@ -3,8 +3,8 @@ import Styled from '@emotion/styled'
 export const DescriptionContainer = Styled.section`
 
   padding: 160px 0;
-  background-color: var(--dark);
   overflow: hidden;
+  background: ${(props) => props.backgroundColor ? 'var(--black)' : 'var(--dark)'};
   border-top: ${(props) => props.topBorder ? '3px solid var(--white)' : ''};
 
   .image {

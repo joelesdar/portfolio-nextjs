@@ -110,3 +110,13 @@ span {
 .fr-blue {
     fill:#0052B4;
 }
+
+.button-projects {
+    background-color: transparent;
+    border: none;
+    color: var(--main-blue);
+    margin: 0;
+    :hover {
+      color: var(--white);
+    }
+}

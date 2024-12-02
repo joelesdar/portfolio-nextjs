@@ -155,14 +155,14 @@ export const ProjectsBanner = () => {
                     icon={faChevronUp}
                     className='social-icon'
                     size='3x'
-                    title='Instagram'
+                    title='More'
                   />
                 :
                   <FontAwesomeIcon
                     icon={faChevronDown}
                     className='social-icon'
                     size='3x'
-                    title='Instagram'
+                    title='Less'
                   />
                 }
               </button>

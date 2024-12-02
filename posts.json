@@ -28,6 +28,78 @@
     "EventsPost": [
       {
         "id": 1,
+        "titleEn": "Blockchain Summit Latam🎉",
+        "titleEs": "Blockchain Summit Latam🎉",
+        "titleFr": "Blockchain Summit Latam🎉",
+        "link1": "https://www.linkedin.com/posts/joelesdar_bslcolombia2024-activity-7234395305016786944-Rog-?utm_source=share&utm_medium=member_desktop",
+        "link2": "",
+        "descriptionEn": "BSL is one of the largest and most prestigious Blockchain events in LATAM. I had the honor of being a speaker at this edition, where I shared insights on the latest innovations in Arbitrum.",
+        "descriptionEs": "El BSL es uno de los eventos más grandes y prestigiosos de Blockchain en LATAM. Tuve el honor de ser conferencista en esta edición, donde compartí conocimientos sobre las últimas innovaciones en Arbitrum.",
+        "descriptionFr": "Le BSL est l'un des événements les plus importants et prestigieux sur Blockchain en LATAM. J'ai eu l'honneur d'être conférencier lors de cette édition, où j'ai partagé des connaissances sur les dernières innovations d'Arbitrum.",
+        "cover": "11.jpg"
+      },
+      {
+        "id": 2,
+        "titleEn": "Blockchaincon⛓️",
+        "titleEs": "Blockchaincon⛓️",
+        "titleFr": "Blockchaincon⛓️",
+        "link1": "https://www.linkedin.com/posts/joelesdar_hacer-el-evento-no-es-lo-m%C3%A1s-importante-activity-7260853754088902656-BWJZ?utm_source=share&utm_medium=member_desktop",
+        "link2": "",
+        "descriptionEn": "Blockchaincon, the blockchain and crypto meeting of LATAM, welcomed over 600 attendees and was a total success in its first edition in Colombia.",
+        "descriptionEs": "La Blockchaincon, el encuentro de blockchain y cripto de LATAM, contó con más de 600 asistentes y fue un éxito total en su primera edición en Colombia.",
+        "descriptionFr": "La Blockchaincon, la rencontre blockchain et crypto de LATAM, a rassemblé plus de 600 participants et a été un succès total lors de sa première édition en Colombie.",
+        "cover": "10.jpg"
+      },
+      {
+        "id": 3,
+        "titleEn": "Buildathon Ethereum Bolivia🏗️",
+        "titleEs": "Buildathon Ethereum Bolivia🏗️",
+        "titleFr": "Buildathon Ethereum Bolivia🏗️",
+        "link1": "https://www.linkedin.com/posts/joelesdar_taller-de-arbitrum-junto-con-joel-dia-joelesdar-activity-7228236704954929152-__AC?utm_source=share&utm_medium=member_desktop",
+        "link2": "",
+        "descriptionEn": "The largest Blockchain and Web3 hackathon in Bolivia in 2024, where participants learned to create and launch their ideas on Arbitrum.",
+        "descriptionEs": "La hackathon más grande de Blockchain y Web3 en Bolivia de 2024, donde los participantes aprendieron a crear y lanzar sus ideas en Arbitrum.",
+        "descriptionFr": "La plus grande hackathon de Blockchain et Web3 en Bolivie en 2024, où les participants ont appris à créer et lancer leurs idées sur Arbitrum.",
+        "cover": "12.jpg"
+      },
+      {
+        "id": 4,
+        "titleEn": "Masterclass: Introduction to Arbitrum",
+        "titleEs": "Masterclass Introducción a Arbitrum",
+        "titleFr": "Masterclass : Introduction à Arbitrum",
+        "link1": "https://www.colledge.social/curso/masterclass-introduccion-a-arbitrum",
+        "link2": "",
+        "descriptionEn": "At Colledge, you already have a Masterclass where you can learn about the Arbitrum ecosystem, its impact, and its solutions to create your Web3 project.",
+        "descriptionEs": "En Colledge ya tienes una Masterclass donde podrás conocer el ecosistema de Arbitrum, su impacto y sus soluciones para crear tu proyecto Web3.",
+        "descriptionFr": "Sur Colledge, vous avez déjà une Masterclass où vous pourrez découvrir l'écosystème d'Arbitrum, son impact et ses solutions pour créer votre projet Web3.",
+        "cover": "13.jpg"
+      },
+      {
+        "id": 5,
+        "titleEn": "Blockchain Uncovered Workshops",
+        "titleEs": "Blockchain Uncovered Workshops",
+        "titleFr": "Blockchain Uncovered Workshops",
+        "link1": "https://www.linkedin.com/posts/joelesdar_ethereum-blockchain-web3-activity-7194891735112601600-kz5H?utm_source=share&utm_medium=member_desktop",
+        "link2": "",
+        "descriptionEn": "For the more curious in the ecosystem, we had a space where we delved deeper into the main and diverse layer 2 solutions in the market.",
+        "descriptionEs": "Para los más curiosos en el ecosistema, tuvimos un espacio donde profundizamos en las principales y diversas soluciones de capa 2 del mercado.",
+        "descriptionFr": "Pour les plus curieux de l'écosystème, nous avons créé un espace où nous avons exploré en profondeur les principales et diverses solutions de couche 2 du marché.",
+        "cover": "15.jpg"
+      },
+      {
+        "id": 6,
+        "titleEn": "SENA: Blockchain & IA",
+        "titleEs": "SENA: Blockchain & IA",
+        "titleFr": "SENA: Blockchain & IA",
+        "link1": "https://www.linkedin.com/posts/turingbox_blockchain-web3-ia-activity-7179286599732494337-Xto-?utm_source=share&utm_medium=member_desktop",
+        "link2": "",
+        "descriptionEn": "SENA students had the opportunity to learn about the most important technological trends of today and the future, and their impact on their careers.",
+        "descriptionEs": "Los estudiantes del SENA pudieron aprender sobre las tendencias tecnológicas más importantes de la actualidad y el futuro, y su impacto en sus carreras.",
+        "descriptionFr": "Les étudiants du SENA ont eu l'opportunité d'apprendre les tendances technologiques les plus importantes d'aujourd'hui et du futur, et leur impact sur leurs carrières.",
+        "cover": "14.jpg"
+      },
+      {
+        "id": 7,
         "titleEn": "Talent Fest!⭐",
         "titleEs": "Talent Fest!⭐",
         "titleFr": "Talent Fest!⭐",
@@ -39,7 +111,7 @@
         "cover": "1.webp"
       },
       {
-        "id": 2,
+        "id": 8,
         "titleEn": "University Meetup🎓",
         "titleEs": "Meetup de universidades🎓",
         "titleFr": "Rencontre universitaire🎓",
@@ -51,7 +123,7 @@
         "cover": "2.webp"
       },
       {
-        "id": 3,
+        "id": 9,
         "titleEn": "Google I/O Extended🧡",
         "titleEs": "Google I/O Extended🧡",
         "titleFr": "Google I/O Extended🧡",
@@ -63,7 +135,7 @@
         "cover": "3.webp"
       },
       {
-        "id": 4,
+        "id": 10,
         "titleEn": "ABC✏️",
         "titleEs": "ABC✏️",
         "titleFr": "ABC✏️",
@@ -75,7 +147,7 @@
         "cover": "4.webp"
       },
       {
-        "id": 5,
+        "id": 11,
         "titleEn": "SheTech!👩‍💻",
         "titleEs": "SheTech!👩‍💻",
         "titleFr": "SheTech!👩‍💻",
@@ -87,7 +159,7 @@
         "cover": "5.webp"
       },
       {
-        "id": 6,
+        "id": 12,
         "titleEn": "8 years of Ethereum: Innovation and Success!🧩",
         "titleEs": "¡8 años de Ethereum: Innovación y Éxito!🧩",
         "titleFr": "8 ans d'Ethereum : Innovation et Succès !🧩",
@@ -99,7 +171,7 @@
         "cover": "6.webp"
       },
       {
-        "id": 7,
+        "id": 13,
         "titleEn": "Platzi and Binance💚💛",
         "titleEs": "Platzi y Binance💚💛",
         "titleFr": "Platzi et Binance💚💛",
@@ -111,7 +183,7 @@
         "cover": "7.webp"
       },
       {
-        "id": 8,
+        "id": 14,
         "titleEn": "Develop solutions with Blockchain🔗",
         "titleEs": "Desarrolla soluciones con Blockchain🔗",
         "titleFr": "Développez des solutions avec la Blockchain🔗",
@@ -123,7 +195,7 @@
         "cover": "8.webp"
       },
       {
-        "id": 9,
+        "id": 15,
         "titleEn": "Blockchain and Web 3.0📢",
         "titleEs": "Blockchain y Web 3.0📢",
         "titleFr": "Blockchain et Web 3.0📢",
@@ -140,105 +212,112 @@
     "ExperiencePosts": [
       {
         "id": 1,
-        "titleEn": "💙🧡 Latam Arbitrum Ambassador ",
-        "titleEs": "💙🧡 Embajador de Arbitrum para Latam",
-        "titleFr": "💙🧡 Ambassadeur d'Arbitrum pour Latam",
-        "descriptionEn": "Currently at Arbitrum, I have the responsibility to expand, create content, and teach their ecosystem so that more people in Latin America become aware of and join the most advanced layer 2 solution for Ethereum.",
-        "descriptionEs": "Actualmente en Arbitrum, tengo la responsabilidad de expandir, crear contenido y enseñar su ecosistema para que más personas en Latinoamérica conozcan y se sumen a la solución de capa 2 más avanzada de Ethereum.",
-        "descriptionFr": "Actuellement dans Arbitrum, j'ai la responsabilité d'étendre, de créer du contenu et d'enseigner leur écosystème afin que davantage de personnes en Amérique latine découvrent et rejoignent la solution de couche 2 la plus avancée d'Ethereum.",
-        "cover": "5.webp",
-        "link": "https://arbitrum.foundation/"
+        "titleEn": "💹 KN Agency: Business Developer",
+        "titleEs": "💹 KN Agency: Business Developer",
+        "titleFr": "💹 KN Agency: Business Developer",
+        "descriptionEn": "At KN Agency, I am responsible for business development for crypto and blockchain companies looking to expand in the Latin American market through growth and brand consolidation strategies.",
+        "descriptionEs": "En KN Agency, me encargo del desarrollo de negocio para empresas cripto y blockchain que quieran expandirse en el mercado latinoamericano, a través de estrategias de crecimiento y consolidación para las marcas.",
+        "descriptionFr": "Chez KN Agency, je suis responsable du développement commercial pour les entreprises crypto et blockchain souhaitant s'étendre sur le marché latino-américain, grâce à des stratégies de croissance et de consolidation des marques.",
+        "cover": "1.webp",
+        "link": "https://karennieves.com/"
       },
       {
         "id": 2,
-        "titleEn": "📦 TuringBox: Blockchain & Web3 Leader",
-        "titleEs": "📦 TuringBox: Líder Blockchain & Web3",
-        "titleFr": "📦 TuringBox: Leader Blockchain & Web3",
-        "descriptionEn": "In TuringBox, Google Developer Student Club, I lead the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
-        "descriptionEs": "En TuringBox, Google Developer Student Club, lidero el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
-        "descriptionFr": "À TuringBox, Google Developer Student Club, je dirige le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
-        "cover": "1.webp",
-        "link": "https://www.instagram.com/turingbox/"
+        "titleEn": "💙🧡 Arbitrum: Latam Arbitrum Ambassador ",
+        "titleEs": "💙🧡 Arbitrum: Embajador para Latam",
+        "titleFr": "💙🧡 Arbitrum: Ambassadeur pour Latam",
+        "descriptionEn": "Currently at Arbitrum, I have the responsibility to expand, create content, and teach their ecosystem so that more people in Latin America become aware of and join the most advanced layer 2 solution for Ethereum.",
+        "descriptionEs": "Actualmente en Arbitrum, tengo la responsabilidad de expandir, crear contenido y enseñar su ecosistema para que más personas en Latinoamérica conozcan y se sumen a la solución de capa 2 más avanzada de Ethereum.",
+        "descriptionFr": "Actuellement dans Arbitrum, j'ai la responsabilité d'étendre, de créer du contenu et d'enseigner leur écosystème afin que davantage de personnes en Amérique latine découvrent et rejoignent la solution de couche 2 la plus avancée d'Ethereum.",
+        "cover": "2.webp",
+        "link": "https://arbitrum.foundation/"
       },
       {
         "id": 3,
-        "titleEn": "💚 Platzi Ambassador",
-        "titleEs": "💚 Embajador en Platzi",
-        "titleFr": "💚 Ambassadeur de Platzi",
+        "titleEn": "💚 Platzi: Ambassador",
+        "titleEs": "💚 Platzi: Embajador",
+        "titleFr": "💚 Platzi: Ambassadeur",
         "descriptionEn": "As an ambassador for the Ethereum Developer Program, I mentored and supported students in their journey to become Web3 developers in the program, and led the ambassador group. Additionally, I represented Platzi and the School of Blockchain and Web3 in various spaces, building community.",
         "descriptionEs": "Como embajador del Ethereum Developer Program, mentoricé y apoyé el proceso educativo de los estudiantes en su camino para ser desarrolladores Web3 en el programa, y lideré el grupo de embajadores. También, representé a Platzi y a la Escuela de Blockchain y Web3 en varios espacios, creando comunidad.",
         "descriptionFr": "En tant qu'ambassadeur du Ethereum Developer Program, j'ai mentoré et soutenu les étudiants dans leur parcours pour devenir des développeurs Web3 dans le programme, et j'ai dirigé le groupe d'ambassadeurs. De plus, j'ai représenté Platzi et l'École de Blockchain et Web3 dans divers espaces, créant ainsi une communauté.",
-        "cover": "2.webp",
+        "cover": "3.webp",
         "link": "https://platzi.com/cursos/ethereum-developer-program/"
       },
       {
         "id": 4,
-        "titleEn": "🔔 Latam Push Protocol Ambassador",
-        "titleEs": "🔔 Embajador para Latam de Push Protocol",
-        "titleFr": "🔔 Ambassadeur pour Latam de Push Protocol",
-        "descriptionEn": "I was part of the Push Protocol ambassador team for Latin America, tasked with spreading the protocol in the region. I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects.",
-        "descriptionEs": "Hice parte del equipo de embajadores de Push Protocol para Latinoamérica, con la misión de difundir el protocolo en la región. Me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos.",
-        "descriptionFr": "J'ai fait partie de l'équipe des ambassadeurs de Push Protocol pour l'Amérique latine, diffusant le protocole dans la région. En tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe.",
-        "cover": "3.webp",
-        "link": "https://push.org/"
+        "titleEn": "📦 TuringBox: Blockchain & Web3 Leader",
+        "titleEs": "📦 TuringBox: Líder Blockchain & Web3",
+        "titleFr": "📦 TuringBox: Leader Blockchain & Web3",
+        "descriptionEn": "In TuringBox, Google Developer Student Club, I led the Blockchain and Web3 Node, the most successful student project in Blockchain in the country, where I have organized various events and projects. Additionally, I have directed and taught in the Introductory Course of Blockchain and Web3, a pioneering educational program in the region.",
+        "descriptionEs": "En TuringBox, Google Developer Student Club, lideré el Nodo de Blockchain y Web3, el proyecto estudiantil más exitoso en Blockchain en el país, donde he podido organizar varios eventos y proyectos, así como, dirigir y ser profesor en el Curso Introductorio de Blockchain y Web3, un programa educativo pionero en la región.",
+        "descriptionFr": "À TuringBox, Google Developer Student Club, j'ai dirigé le nœud Blockchain et Web3, le projet étudiant le plus réussi en matière de Blockchain dans le pays, où j'ai pu organiser divers événements et projets, ainsi que diriger et enseigner dans le Cours Introductif de Blockchain et Web3, un programme éducatif novateur dans la région.",
+        "cover": "4.webp",
+        "link": "https://www.instagram.com/turingbox/"
       },
       {
         "id": 5,
-        "titleEn": "⬆️ BAF Ambassador",
-        "titleEs": "⬆️ Embajador de BAF",
-        "titleFr": "⬆️ Ambassadeur de la BAF",
-        "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
-        "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
-        "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
-        "cover": "4.webp",
-        "link": "https://www.blockchainacceleration.org/"
-      }
-    ]
-  },
-  {
-    "JobsPosts": [
+        "titleEn": "👨‍💻 LAB101: Frontend Developer",
+        "titleEs": "👨‍💻 LAB101: Desarrollador Frontend",
+        "titleFr": "👨‍💻 LAB101: Développeur Frontend",
+        "descriptionEn": "As a Frontend at LAB101, I was responsible for the development and integration of components in React.js for the micro-frontend architecture of the Universidad Nacional de Colombia websites.",
+        "descriptionEs": "Como Frontend en LAB101, tuve la responsabilidad del desarrollo e integración de componentes en React.js para la arquitectura micro-frontend de los sitios web de la Universidad Nacional de Colombia.",
+        "descriptionFr": "En tant que Frontend chez LAB101, j'étais responsable du développement et de l'intégration des composants en React.js pour l'architecture micro-frontend des sites web de l'Université Nationale de Colombie.",
+        "cover": "5.webp",
+        "link": "https://sites.google.com/view/lab101unal/inicio"
+      },
       {
-        "id": 1,
-        "titleEn": "🔔 Push Protocol",
-        "titleEs": "🔔 Push Protocol",
-        "titleFr": "🔔 Push Protocol",
-        "descriptionEn": "At Push Protocol, I was responsible for the development to make their official site a multi-language application. Additionally, I wrote the texts to enable the site to be in Spanish and supported the implementation for the Hindi language.",
-        "descriptionEs": "En Push Protocol, me encargué del desarrollo para que su sitio oficial fuera una aplicación multi-idioma. Además, redacté los textos para que el sitio pudiera estar en español y apoyé la implementación para el idioma hindi.",
-        "descriptionFr": "Dans Push Protocol, j'ai été chargé du développement pour que leur site officiel soit une application multilingue. De plus, j'ai rédigé les textes pour que le site puisse être en espagnol et j'ai soutenu la mise en œuvre pour la langue hindi.",
-        "cover": "1.webp",
+        "id": 6,
+        "titleEn": "🔔 Push Protocol: Latam Ambassador & Developer",
+        "titleEs": "🔔 Push Protocol: Embajador para Latam & Desarrollador",
+        "titleFr": "🔔 Push Protocol: Ambassadeur pour Latam & Développeur",
+        "descriptionEn": "With the mission of spreading the protocol in the region, I served as the YouTube channel editor, Web3 developer, organizer, representative, and host for various virtual and in-person events, while also connecting with new opportunities with other projects. I was responsible for the development to make their official site a multi-language application.",
+        "descriptionEs": "Con la misión de difundir el protocolo en la región, me encargué de ser editor del canal de Youtube, desarrollador Web3, organizador, representante y host de varios eventos virtuales y presenciales, y conectar con nuevas oportunidades con otros proyectos. También hice el desarrollo para que su sitio oficial fuera una aplicación multi-idioma.",
+        "descriptionFr": "Avec la mission de diffuser le protocole dans la région, en tant qu'éditeur du canal YouTube, développeur Web3, organisateur et représentant lors d'événements virtuels et présentiels, j'ai également contacté de nouveaux projets pour l'équipe. J'ai été chargé du développement pour que leur site officiel soit une application multilingue.",
+        "cover": "6.webp",
         "link": "https://push.org/"
       },
       {
-        "id": 2,
-        "titleEn": "Ⓜ️ Manstery",
-        "titleEs": "Ⓜ️ Manstery",
-        "titleFr": "Ⓜ️ Manstery",
-        "descriptionEn": "As a freelance professional, I worked on updating the official website of Manstery, as well as developing registration and sales pages for various courses and events, among other tasks.",
-        "descriptionEs": "Como profesional independiente, trabajé en la actualización del sitio oficial de Manstery, además de desarrollar páginas de registro y venta para distintos cursos y eventos, entre otras labores.",
-        "descriptionFr": "En tant que professionnel indépendant, j'ai travaillé sur la mise à jour du site officiel de Manstery, ainsi que sur le développement de pages d'inscription et de vente pour divers cours et événements, parmi d'autres tâches.",
-        "cover": "2.webp",
-        "link": "https://manstery.com.co/"
+        "id": 7,
+        "titleEs": "🎤 Blockchaincon: Business Developer",
+        "titleEn": "🎤 Blockchaincon: Business Developer",
+        "titleFr": "🎤 Blockchaincon: Business Developer",
+        "descriptionEn": "In Blockchaincon, I was responsible as the main organizer and business developer for executing the development and preparation of the event, as well as securing funding and sponsorships.",
+        "descriptionEs": "En la Blockchaincon, me encargué como organizador principal y business developer de ejecutar el desarrollo y la preparación del evento, así como de conseguir financiación y patrocinios.",
+        "descriptionFr": "Dans le cadre de la Blockchaincon, j'étais responsable en tant qu'organisateur principal et business developer de l'exécution du développement et de la préparation de l'événement, ainsi que de l'obtention de financements et de sponsors.",
+        "cover": "7.webp",
+        "link": "https://blockchaincon.la/es/colombia/"
       },
       {
-        "id": 3,
-        "titleEn": "⌨️ Jenial Software",
-        "titleEs": "⌨️ Jenial Software",
-        "titleFr": "⌨️ Jenial Software",
+        "id": 8,
+        "titleEn": "⬆️ BAF: Ambassador",
+        "titleEs": "⬆️ BAF: Embajador",
+        "titleFr": "⬆️ BAF: Ambassadeur",
+        "descriptionEn": "At BAF, the Blockchain Acceleration Foundation, I have served as the ambassador for Colombia, a role in which I have had the responsibility of representing the foundation at in-person events, connecting opportunities with students and various educational projects.",
+        "descriptionEs": "En BAF, la Blockchain Acceleration Foundation, he sido el embajador para Colombia, rol donde he tenido la responsabilidad de representar a la fundación en eventos presenciales, conectando oportunidades con estudiantes y distintos proyectos educativos.",
+        "descriptionFr": "Dans BAF, la Blockchain Acceleration Foundation, j'ai été l'ambassadeur pour la Colombie, un rôle où j'ai eu la responsabilité de représenter la fondation lors d'événements en personne, en connectant des opportunités avec des étudiants et différents projets éducatifs.",
+        "cover": "8.webp",
+        "link": "https://www.blockchainacceleration.org/"
+      },
+      {
+        "id": 9,
+        "titleEn": "⌨️ Jenial Software: Lead Developer",
+        "titleEs": "⌨️ Jenial Software: Lead Developer",
+        "titleFr": "⌨️ Jenial Software: Lead Developer",
         "descriptionEn": "At Jenial, I led and participated in all areas of the design, development, and implementation team for websites for various clients of the company.",
         "descriptionEs": "En Jenial lideré y participé en todas las áreas del equipo de diseño, desarrollo e implementación de páginas web para los distintos clientes de la empresa.",
         "descriptionFr": "Chez Jenial, j'ai dirigé et participé dans tous les domaines de l'équipe de conception, de développement et de mise en œuvre de sites web pour les différents clients de l'entreprise.",
-        "cover": "3.webp",
+        "cover": "9.webp",
         "link": ""
       },
       {
-        "id": 4,
-        "titleEn": "🤖 L'avenir",
-        "titleEs": "🤖 L'avenir",
-        "titleFr": "🤖 L'avenir",
+        "id": 10,
+        "titleEn": "🤖 L'avenir: Chatbot Developer",
+        "titleEs": "🤖 L'avenir: Chatbot Developer",
+        "titleFr": "🤖 L'avenir: Chatbot Developer",
         "descriptionEn": "I had the opportunity to work at L'avenir, where I was responsible for the development of a product in which I created chatbots to automate the workflow and tasks for clients.",
         "descriptionEs": "Tuve la oportunidad de trabajar en L'avenir, donde me encargué del desarrollo de un producto en el que estaba a cargo de crear chatbots que automatizaran el flujo de trabajo y tareas de los clientes.",
         "descriptionFr": "J'ai eu l'opportunité de travailler chez L'avenir, où j'étais en charge du développement d'un produit dans lequel je créais des chatbots pour automatiser le flux de travail et les tâches des clients.",
-        "cover": "4.webp",
+        "cover": "10.webp",
         "link": "https://www.lavenir.com.co/"
       }
     ]

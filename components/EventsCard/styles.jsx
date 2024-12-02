@@ -17,7 +17,7 @@ export const TextContainer = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(12, 9, 54, 0.45);
+  background-color: rgba(12, 9, 54, 0.55);
   box-sizing: border-box;
   color: var(--black);
   z-index: 1;

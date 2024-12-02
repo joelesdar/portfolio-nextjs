@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
 
 export const StyledBanner = styled.section`
-  background: var(--black);
+  background: var(--dark);
   padding: 160px 0;
 
   .title {

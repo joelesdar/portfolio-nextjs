@@ -3,7 +3,7 @@ import Styled from '@emotion/styled'
 export const ContactContainer = Styled.div`
 
   padding: 48px 0;
-  background: var(--black);
+  background: var(--dark);
 
   .title {
     color: var(--white);
@@ -38,7 +38,7 @@ export const ContactContainer = Styled.div`
 
 export const Button = Styled.a`
 
-  background-color: var(--black);
+  background-color: var(--dark);
   padding: 8px 32px;
   border-radius: 8px;
   color: var(--yellow);
